@@ -484,7 +484,7 @@ menu {
 	justify-content: center;
 	box-sizing: border-box;
 	vertical-align: middle;
-	line-height: 1.36;
+	line-height: .5;
 	font-size: normal;
 	z-index: 9999;
 	justify-content: space-around;
@@ -616,21 +616,21 @@ a {
 	margin: 0 auto;
 	margin-top: .5rem;
 	margin-bottom: 0;
-	padding: 1% 35%;
+	padding: 1% 42%;
 	width: 100%;
 	height: auto;
 	display: block;
 	overflow: hidden;
 	position: sticky;
-	align-items: center;
-	align-content: center;
-	text-align: center;
-	justify-content: center;
 	box-sizing: border-box;
 	font-size: .6em;
-	line-height: .25;
+	line-height: .5;
 	z-index: 1;
-	justify-content: space-around;
+	vertical-align: middle;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 
