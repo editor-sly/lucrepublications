@@ -752,6 +752,7 @@ span.logo:hover {
 	vertical-align: middle;
 	margin: auto;
 	margin-top:  1.5em;
+	margin-bottom: 25px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -791,9 +792,10 @@ span.logo:hover {
 	vertical-align: middle;
 	margin: 0 auto;
 	margin-top:  0;
+	margin-bottom: 0;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	max-width: 80%;
 	max-height: auto;
 	display: block;
@@ -817,11 +819,12 @@ span.logo:hover {
 	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
-	margin: auto;
+	margin: 0 auto;
 	margin-top: .25em;
+	margin-bottom: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	max-width: 80%;
 	max-height: auto;
 	display: block;
