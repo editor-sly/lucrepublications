@@ -249,7 +249,7 @@ html {
 	background-color: #000;
 	margin: 0 auto;
 	padding: 1.25%;
-width: 98vw;
+	width: 98vw;
 	scroll-padding-top: 6.2rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
@@ -297,7 +297,7 @@ body {
 	width: 96%;
 	height: auto;
 	max-width: 1200px;
-	font-size:100%;
+	font-size: 100%;
 	color: papayawhip;
 	display: block;
 	text-rendering: optimizeSpeed;
@@ -327,7 +327,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding: 1.2% 1.2% ;
+	padding: 1.2% 1.2%;
 	max-width: 80%;
 	height: auto;
 	display: block;
