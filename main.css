@@ -327,7 +327,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding: 2% 2% ;
+	padding: 1.2% 1.2% ;
 	max-width: 80%;
 	height: auto;
 	display: block;
@@ -822,8 +822,8 @@ span.logo:hover {
 	margin: 0 auto;
 	margin-top: .25em;
 	margin-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 	padding-bottom: 10px;
 	max-width: 80%;
 	max-height: auto;
@@ -925,7 +925,7 @@ span.logo:hover {
 
 
 .form-section {
-	background-image: url("img/LUCRE_logo_2.png");
+	background-image: url("img/Lucre_logo_2.png");
 	background-size: 8%;
 	background-position: 98% 5%;
 	background-repeat: no-repeat;
