@@ -620,7 +620,7 @@ a {
 .nav-ft {
 	font-family: Futura, serif;
 	margin: 0 auto;
-	margin-top: .5rem;
+	margin-top: .25rem;
 	margin-bottom: 0;
 	padding: 1% 42%;
 	width: 100%;
@@ -939,7 +939,7 @@ span.logo:hover {
 .form-section {
 	background-image: url("img/Lucre_logo_2.png");
 	background-size: 8%;
-	background-position: 99% 4%;
+	background-position: 100% 6%;
 	background-repeat: no-repeat;
 	line-height: .2em;
 	display: block;
@@ -1093,19 +1093,19 @@ input:focus-within {
 	background-repeat: no-repeat;
 	background-position: 50% 80%;
 	margin: 0 auto;
-	margin-top: 2rem;
+	margin-top: 0;
 	padding-left: 6%;
 	padding-right: 7.2%;
-	padding-top: 0;
+	padding-top: 0.25em;
 	width: 100%;
-	height: auto;
+	height: 36.5vh;
 
 	left: 0;
 	bottom: 0;
 	position: fixed;
 	bottom: 0;
 	display: block;
-	background-color: #111;
+	background-color: #000;
 
 	border-style: solid;
 	border-bottom: none;
