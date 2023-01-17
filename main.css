@@ -108,9 +108,28 @@ picture {
   padding-bottom: 4px;
   margin-top: -14px;
   margin-bottom: -16px;
-
-  
 }
+
+
+
+
+
+
+img {
+  max-width: 90%;
+  display: block;
+  padding-bottom: 4px;
+  margin-top: -14px;
+  margin-bottom: -16px;
+}
+
+img:hover {
+	transition: 0.3s;
+  transform: scale(1.3);
+}
+
+
+
 
 
 
