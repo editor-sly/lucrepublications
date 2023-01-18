@@ -109,7 +109,7 @@ blockquote,
 	 letter-spacing: .003px;
 	 line-height: 1.36;
 	 font-family: Helvetica, san-serif;
-	 font-size: 1.6vw;
+	 font-size: 1.2vw;
 }
 
 dl,
@@ -271,13 +271,17 @@ align-items: left
 
 
 .sublines {
+display: block;
+position: relative;
 margin: 0 auto;
-margin-top: 0;
-float: right;
+margin-top: -23px;
 margin-bottom: 6px;
+clear: right;
+float: right;
 align-items: center;
 box-sizing: border-box;
 line-height: .5;
+z-index: 9999;
 }
 
 
@@ -303,7 +307,6 @@ html {
  			scroll-behavior: smooth;
 	filter: grayscale(55%);
 	white-space: wrap;
-	box-sizing: border-box;
 }
 
 
@@ -328,7 +331,7 @@ body {
 	line-height: 1.2;
 	font-size: .12em;
 	background-size: static;
-	background-position: 40% 40%;
+	background-position: 40% 60%;
 	background-repeat: no-repeat;
 	background-color: black;
 
@@ -340,7 +343,7 @@ body {
 	padding-bottom: 0;
 
 	width: 92%;
-	max-width: 1920px;
+	max-width: 1280px;
 	min-height: 100vh;
 	display: block;
 	color: lightgoldenrodyellow;
@@ -355,7 +358,7 @@ body {
   align-content: center;
   align-items: center;
 
-  box-sizing: border-box;
+  box-sizing: inherit;
 
 	border-style: none;
  	border-radius: 15px;
@@ -946,14 +949,14 @@ span.logo:hover {
 	display: block;
 	margin: 0 auto;
 	margin-top: 0;
-	margin-bottom: 30vh;
+	margin-bottom: 22.2vh;
 	padding-bottom: 0;
 	width: 100%;
 	height: auto;
 	position: relative;
-	background-color: #111;
+	background-color: #000;
 	border-style: solid;
-	border-width: 16px;
+	border-width: 0;
 	border-color:#000;
 	border-radius: 8px;
 	box-sizing: border-box;
@@ -963,7 +966,6 @@ span.logo:hover {
 	align-items: left;
 	justify-content: left;
 	opacity: .83;
-
 }
 
 
@@ -979,7 +981,7 @@ span.logo:hover {
   right: 0px;
   bottom: 0px;
   left: 0px;
-	opacity: .83;
+	opacity: .43;
 	z-index: -1;
 }
 
@@ -1081,10 +1083,10 @@ input:focus-within {
 	margin: 0 0 0;
 	margin-bottom: 0;
 	padding-left: 6%;
-	padding-right: 6%;
+	padding-right: 8%;
 	padding-top: .25em;
-	width: 100%;
-	height: auto;
+	width: 100vw;
+	max-height: 54vh;
 	left: 0;
 
 	position: fixed;
@@ -1098,11 +1100,11 @@ input:focus-within {
 	border-left: none;
 	border-right: none;
 	border-width: 1px;
-
+	box-sizing: border-box;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	opacity: .99;
+	opacity: .9;
 }
 
 
