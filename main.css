@@ -274,7 +274,7 @@ align-items: left
 display: block;
 position: relative;
 margin: 0 auto;
-margin-top: -23px;
+margin-top: -28px;
 margin-bottom: 6px;
 clear: right;
 float: right;
@@ -305,7 +305,7 @@ html {
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
  			scroll-behavior: smooth;
-	filter: grayscale(55%);
+	filter: grayscale(45%);
 	white-space: wrap;
 }
 
@@ -331,7 +331,7 @@ body {
 	line-height: 1.2;
 	font-size: .12em;
 	background-size: static;
-	background-position: 40% 60%;
+	background-position: 40% 4%;
 	background-repeat: no-repeat;
 	background-color: black;
 
@@ -827,7 +827,7 @@ span.logo:hover {
 .hero-section1 {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/ben-rosett-WdJkXFQ4VHY-unsplash.jpg");
 	background-position: 50% 0%;
-	background-size: 110%;
+	background-size: 121%;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: 0 auto;
@@ -950,7 +950,7 @@ span.logo:hover {
 	margin: 0 auto;
 	margin-top: 0;
 	margin-bottom: 22.2vh;
-	padding-bottom: 0;
+	padding: 25%;
 	width: 100%;
 	height: auto;
 	position: relative;
@@ -965,7 +965,7 @@ span.logo:hover {
 	align-content: left;
 	align-items: left;
 	justify-content: left;
-	opacity: .83;
+	opacity: .93;
 }
 
 
@@ -974,8 +974,8 @@ span.logo:hover {
 	position: absolute;
 	display: block;
 	background-image: url("img/lance-reis-eSfyEmpVy30-unsplash.jpg");
-	background-size: 100%;
-	background-position: 33% 0%;
+	background-size: 92.5%;
+	background-position: 33% 20%;
 	background-repeat: no-repeat;
 	top: 0px;
   right: 0px;
@@ -1104,7 +1104,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	opacity: .9;
+	opacity: .98;
 }
 
 
