@@ -823,7 +823,7 @@ span.logo:hover {
 .hero-section1 {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/ben-rosett-WdJkXFQ4VHY-unsplash.jpg");
 	background-position: 50% 0%;
-	background-size: 121%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: 0 auto;
