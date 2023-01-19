@@ -997,6 +997,8 @@ span.logo:hover {
 	opacity: .43;
 	z-index: -1;
 	margin-bottom: 0;
+	object-fit: contain;
+	object-position: bottom;
 }
 
 
