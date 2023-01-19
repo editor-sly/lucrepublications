@@ -136,7 +136,7 @@ dd, {
 
 img,
 picture {
-  max-width: 90%;
+  max-width: 86%;
   display: block;
   padding-bottom: 4px;
   margin-top: -14px;
@@ -149,7 +149,7 @@ picture {
 
 
 img {
-  max-width: 90%;
+  max-width: 86%;
   display: block;
   padding-bottom: 4px;
   margin-top: -14px;
@@ -158,7 +158,7 @@ img {
 
 img:hover {
 	transition: 0.3s;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 
@@ -1107,7 +1107,7 @@ input:focus-within {
 	position: fixed;
 	bottom: 0;
 	display: block;
-	background-color: #000;
+	background-color: black;
 
 	border-style: solid;
 	border-bottom: none;
@@ -1119,10 +1119,13 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	opacity: .98;
+	opacity: .99;
+	filter: grayscale(0%);
 }
 
-
+U+2022 {
+	margin-top: 3px;
+}
 
 
 
