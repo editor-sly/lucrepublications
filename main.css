@@ -249,6 +249,23 @@ hr {
 }
 
 
+
+
+hr.line2 {
+	margin-top: .5em;
+	margin: 0 auto;
+	width: 71%;
+	size: 1pt;
+	border-style: inset;
+	text-decoration: none;
+	opacity: .1;
+	border-radius: 2px;
+}
+
+
+
+
+
 line-breaks {
 	style-height: .25px;
 }
@@ -276,7 +293,7 @@ position: relative;
 padding-right: 3%;
 
 margin: 0 auto;
-margin-top: -55px;
+margin-top: -8rem;
 margin-bottom: 6px;
 float: right;
 align-items: center;
@@ -326,12 +343,12 @@ html: focus-within {
 
 
 body {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: 1.2;
-	background-size: cover;
-	background-position: 40% 30%;
+	background-size: 25%;
+	background-position: 45% 10%;
 	background-repeat: no-repeat;
 	background-color: black;
 	margin: 0 auto;
@@ -358,7 +375,8 @@ body {
   box-sizing: border-box;
 	border-style: none;
  	border-radius: 15px;
- 	opacity: .83;
+ 	opacity: .96;
+ 	z-index: 9999;
 }
 
 
@@ -400,7 +418,7 @@ body {
 	width: 80%;
 	height: auto;
 	display: block;
-	background-color: #111;
+	background-color: none;
 	border-style: none;
 	border-bottom-left-radius: 0px;
 	border-radius: 8px;
@@ -421,9 +439,8 @@ body {
 	padding: 8px;
 	width: 100%;
 	height: auto;
-	display: flex;
-	flex: auto;
-	background-color: #111;
+	display:block
+	background-color: none;
 	border-style: none;
 	border-bottom-left-radius: 0px;
 	border-radius: 8px;
@@ -507,7 +524,7 @@ menu {
 
 .nav {
 	font-family: Futura, serif;
-	font-size: .7em;
+	font-size: .6em;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	background-size: cover;
@@ -515,7 +532,7 @@ menu {
 	margin-left: -4px;
 	margin-right: -4px;
 	max-width: 100vw;
-	height:11vh;
+	height:10vh;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
@@ -938,8 +955,8 @@ span.logo:hover {
 
 .form-section {
 	background-image: url("img/Lucre_logo_2.png");
-	background-size: 10%;
-	background-position: 100% 2%;
+	background-size: 8%;
+	background-position: 50% 2%;
 	background-repeat: no-repeat;
 	line-height: 1em;
 	display: block;
@@ -1249,7 +1266,7 @@ button:focus {
 
 
 button.form-button {
-	margin-left: .5em;
+	margin-left: 0;
 	max-width: 100%;
 	height: auto;
 	padding: 1;
