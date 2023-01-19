@@ -326,11 +326,11 @@ html: focus-within {
 
 
 body {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/europeana-84R6ipsqaxo-unsplash.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: 1.2;
-	background-size: static;
+	background-size: cover;
 	background-position: 40% 30%;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -997,11 +997,12 @@ input{
 	background-color: #000;
 	line-height: 1;
 	color: #111;
+	font-size: smaller;
 	max-width: 55%;
 	height: auto;
 	opacity: .83;
 	border-style: solid;
-	border-color: honeydew;
+	border-color: lightgoldenrodyellow;
 	border-radius: 0px;
 	border-width: 1px;
 	border-left:  none;
