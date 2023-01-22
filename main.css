@@ -17,20 +17,18 @@ ol[role="list"] {
 
 
 p {
-
 	font-family: 'Poppins', sans-serif;
-
+	padding-top: 1px;
 	font-weight: normal;
 	margin: 0;
 	margin-top: 0;
-	margin-bottom: .2em;
+	margin-bottom: 0em;
 	text-indent: .25em;
-
 	padding-left: 0;
-	word-spacing: 1.25px;
+	word-spacing: 1.24px;
 	letter-spacing: .004px;
-	line-height: 1.25;
-	font-size: 1.5vw;
+	line-height: 1.2;
+	font-size: 1.25vw;
 	display: block;
 
 }
@@ -86,7 +84,7 @@ h2 {
 
 h3 {
 	color: darkgoldenrod;
-	padding-top: 0;
+	padding-top: 6px;
 	padding-bottom: 0px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.8vw;
@@ -102,7 +100,7 @@ h5 {
 	color: darkgoldenrod;
 	line-height: 1.36;
 	padding-top: 6px;
-	padding-bottom: 4px;
+	padding-bottom: 2px;
 	font-family: Times, serif;
 	font-size: 1.6vw;
 }
@@ -1113,11 +1111,11 @@ input:focus-within {
 	margin-bottom: 0;
 	padding-left: 6%;
 	padding-right: 8%;
-	padding-top: .25em;
+	padding-top: 1em;
 	width: 100vw;
-	max-height: 54vh;
+	max-height: 38vh;
+	line-height: .8;
 	left: 0;
-
 	position: fixed;
 	bottom: 0;
 	display: block;
