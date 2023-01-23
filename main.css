@@ -16,15 +16,15 @@ ol[role="list"] {
 }
 
 .links {
-	text-decoration: none;
+	margin: 0;
 	display: block;
 	position: relative;
 	float: right;
 	line-height: 1.25;
-	margin-top: -7%;
-	top: 0;
-	margin-right: 2%;
 	z-index: 9999;
+	margin-top: -25px;
+ font-size: .5em;
+ align-items: right;
 
 }
 
