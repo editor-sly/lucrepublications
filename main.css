@@ -15,18 +15,8 @@ ol[role="list"] {
   text-decoration: none;
 }
 
-.links {
-	margin: 0;
-	display: block;
-	position: relative;
-	float: right;
-	line-height: 1.25;
-	z-index: 9999;
-	margin-top: -25px;
- font-size: .5em;
- align-items: right;
 
-}
+
 
 p {
 	font-family: 'Poppins', sans-serif;
@@ -75,6 +65,7 @@ h1.co {
 
 h1 {
 	padding-top: 0;
+	padding-bottom: 6px;
 	margin-bottom: -8px;
 	font-family: 'Poppins', sans-serif;
 	color: lightgray;
@@ -545,7 +536,7 @@ menu {
 
 .nav {
 	font-family: Futura, serif;
-	font-size: .7em;
+	font-size: 2vw;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	background-size: cover;
@@ -710,7 +701,7 @@ a {
 	overflow: hidden;
 	position: sticky;
 	box-sizing: border-box;
-	font-size: .6em;
+	font-size: 2vw;
 	line-height: .25;
 	z-index: 1;
 	vertical-align: middle;
@@ -980,7 +971,7 @@ span.logo:hover {
 	background-size: 9%;
 	background-position: 50% 2%;
 	background-repeat: no-repeat;
-	line-height: 1em;
+	line-height: .25;
 	display: block;
 	margin: 0 auto;
 	margin-top: 0;
@@ -1001,6 +992,7 @@ span.logo:hover {
 	align-items: left;
 	justify-content: left;
 	opacity: .98;
+	font-size: 2.2vw;
 }
 
 
@@ -1125,12 +1117,12 @@ input:focus-within {
 	padding-right: 8%;
 	padding-top: 1em;
 	width: 100vw;
-	max-height: 40vh;
+	max-height: 42vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
 	bottom: 0;
-	display: block;
+	display: inline-block;
 	background-color: black;
 
 	border-style: solid;
@@ -1163,7 +1155,7 @@ margin: 0;
 margin-top: 6px
 margin-left: 5px;
 margin-bottom: 8px;
-font-size: .6em;
+font-size: 1.8vw;
 padding: .25em;
 align-items: left
 }
@@ -1339,6 +1331,7 @@ ul.fa {
 	text-align: center;     
  list-style: none;
  margin-bottom: -12px;
+ 
 }
 .fa:hover {  
   opacity: 0.7; 
@@ -1349,26 +1342,30 @@ ul.fa {
 
  .fa-twitter {  
   background: none;  
-  color:darkgoldenrod;  
+  color:darkgoldenrod; 
+  font-size: 1.8vw; 
 } 
 
 
 
 
 .fa-linkedin {    
-  color: darkgoldenrod;  
+  color: darkgoldenrod;
+  font-size: 1.8vw;  
 }
 
 
 
 .fa-medium {    
-  color: darkgoldenrod;  
+  color: darkgoldenrod; 
+  font-size: 1.8vw;
 }
 
 
 
 .fa-tumblr {    
-  color: darkgoldenrod;  
+  color: darkgoldenrod;
+  font-size: 1.8vw;
 }
 
 
