@@ -334,7 +334,7 @@ html {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
-	scroll-padding-top: 7rem; 
+	scroll-padding-top: 6rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
