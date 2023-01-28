@@ -57,7 +57,7 @@ h1.co {
 	padding-bottom: 0px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
-	font-size: 5vw;
+	font-size: 4.25vw;
 
 }
 
@@ -334,12 +334,12 @@ html {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
-	scroll-padding-top: 4.5rem; 
+	scroll-padding-top: 7rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
  			scroll-behavior: smooth;
-	filter: grayscale(45%);
+	filter: grayscale(35%);
 	white-space: wrap;
 }
 
@@ -362,7 +362,7 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: 1.2;
+	line-height: 1;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 0px;
@@ -1125,7 +1125,6 @@ input:focus-within {
 	bottom: 0;
 	display: inline-block;
 	background-color: black;
-
 	border-style: solid;
 	border-bottom: none;
 	border-top: 1;
