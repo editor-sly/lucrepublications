@@ -268,6 +268,7 @@ hr {
 
 hr.line2 {
 	margin-top: .5em;
+	padding-top: 3px;
 	margin: 0 auto;
 	width: 71%;
 	size: 1pt;
@@ -536,7 +537,7 @@ menu {
 
 .nav {
 	font-family: Futura, serif;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	background-size: cover;
@@ -561,7 +562,6 @@ menu {
 	box-sizing: border-box;
 	vertical-align: middle;
 	line-height: .5;
-	font-size: normal;
 	z-index: 9999;
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -594,7 +594,7 @@ menu {
 
 .nav-links li:hover {
 	back-ground color: none;
-	font-size: 6pt;
+	font-size: 1.8vw;
 	text-transform: uppercase;
 	padding: .2rem;
 	display: block;
@@ -613,8 +613,8 @@ menu {
 .nav ul {
 	margin: 0;
 	margin-bottom: 0px;
-	padding: 1%;
-	padding-bottom: 6px;
+	padding: .8%;
+	padding-bottom: 4px;
 	display: flex;
 	text-decoration: none;
 	border-style: none;
@@ -627,7 +627,7 @@ menu {
 	padding: 0;
 	display: flex;
 	margin-bottom: 0;
-	padding: 8% 4%;
+	padding: 6% 6%;
 	list-style: none;
 	flex: auto;
 	
@@ -649,8 +649,8 @@ menu {
 	float: left;
 	left: 1%;
 	padding-right: 0;
-	padding-top: 6px;
-	padding-bottom: 3.2px;
+	padding-top: 5px;
+	padding-bottom: 3px;
 	margin: 0;
 }
 
@@ -681,6 +681,7 @@ a {
 	text-decoration: none;
 	color: lightgoldenrodyellow;
 	padding: 0;
+	margin-bottom: -4px;
 	background-color: none;
 	display: inline-block;
 
@@ -701,7 +702,7 @@ a {
 	overflow: hidden;
 	position: sticky;
 	box-sizing: border-box;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	line-height: .25;
 	z-index: 1;
 	vertical-align: middle;
@@ -1115,7 +1116,7 @@ input:focus-within {
 	margin-bottom: 0;
 	padding-left: 6%;
 	padding-right: 8%;
-	padding-top: 1em;
+	padding-top: .6em;
 	width: 100vw;
 	max-height: 42vh;
 	line-height: 1;
