@@ -76,8 +76,8 @@ h1 {
 
 h2 {
 	color: darkgoldenrod;
-	line-height: 1;
-	padding-top: 0;
+	line-height: 1.1;
+	padding-top: 4px;
 	padding-bottom: 2px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.6vw;
@@ -334,12 +334,12 @@ html {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
-	scroll-padding-top: 6rem; 
+	scroll-padding-top: 5.8rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
  			scroll-behavior: smooth;
-	filter: grayscale(35%);
+	filter: grayscale(32%);
 	white-space: wrap;
 }
 
@@ -362,7 +362,7 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: 1;
+	line-height: 1.1;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 0px;
