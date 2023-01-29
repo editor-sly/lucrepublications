@@ -361,7 +361,7 @@ html: focus-within {
 
 
 body {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: 1.5;
@@ -370,7 +370,7 @@ body {
 	margin-top: 0px;
 	margin-bottom: 50vh;
 	font-size: 1.8vw;
-	padding: .2em;
+	padding: .28em;
 	width: 86%;
 	max-width: 1280px;
 	height: auto;
@@ -651,7 +651,7 @@ menu {
 	position: absolute;
 	display: block;
 	float: left;
-	left: .5%;
+	left: .25%;
 	padding-right: 0;
 	padding-top: 4.25px;
 	padding-bottom: 2.25px;
