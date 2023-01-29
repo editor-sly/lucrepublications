@@ -28,9 +28,9 @@ p {
 	color: wheat;
 	text-indent: .25em;
 	padding-left: 0;
-	word-spacing: 1.24px;
+	word-spacing: 1.2px;
 	letter-spacing: .004px;
-	line-height: 1.2;
+	line-height: 1;
 	font-size: 1.8vw;
 	display: block;
 
@@ -57,7 +57,7 @@ h1.co {
 	padding-bottom: 0px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
-	font-size: 3.8vw;
+	font-size: 3vw;
 
 }
 
@@ -70,17 +70,17 @@ h1 {
 	font-family: 'Poppins', sans-serif;
 	color: lightgray;
 	font-weight: 800;
-	font-size: 3.8vw;
+	font-size: 3vw;
 
 }
 
 h2 {
 	color: darkgoldenrod;
-	line-height: 1.1;
-	padding-top: 4px;
+	line-height: 1.25;
+	padding-top: 2px;
 	padding-bottom: 2px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.6vw;
+	font-size: 2.4vw;
 	font-weight: bolder;
 
 }
@@ -94,7 +94,7 @@ h3 {
 	padding-top: 6px;
 	padding-bottom: 0px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.8vw;
+	font-size: 2.2vw;
 
 }
 
@@ -105,11 +105,11 @@ h3 {
 h4,
 h5 {
 	color: darkgoldenrod;
-	line-height: 1.36;
+	line-height: 1;
 	padding-top: 6px;
 	padding-bottom: 2px;
 	font-family: Times, serif;
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 }
 
 
@@ -120,11 +120,11 @@ blockquote,
 	 margin: 0;
 	 padding: 0;
 	 padding-left: 0px;
-	 word-spacing: 1.25px;
+	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
 	 line-height: 1.36;
 	 font-family: Helvetica, san-serif;
-	 font-size: 1.2vw;
+	 font-size: 1.8vw;
 }
 
 dl,
@@ -132,9 +132,9 @@ dt {
 	 margin: 0;
 	 padding: 0;
 	 padding-left: 0px;
-	 word-spacing: 1.25px;
+	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 1.36;
+	 line-height: 1;
 
 }
 
@@ -142,9 +142,9 @@ dd, {
 	 margin: 0 auto;
 	 padding: 0;
 	 padding-left: 15px;
-	 word-spacing: 1.25px;
+	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 1.36;
+	 line-height: 1;
 
 }
 
@@ -196,17 +196,17 @@ textarea,
 select {
 		margin: 0;
 		font: relative;
-		line-height: 1.36em;
-		padding: 1%;
+		line-height: 1;
+		padding: 1.25%;
 }
 
 
 
 
 data {
-	font-size: smaller;
+	font-size: 1.8vw;
 	font-weight: lighter;
-	color: lightsalmon;
+	color: whitesmoke;
 	text-shadow: 0px 0px 3px #333;
 	text-transform: uppercase;
 }
@@ -222,14 +222,14 @@ figcaption {
 	align-items: left;
 	text-align: left;
 	font-family: Helvetica, Verdana, san-serif;
-	font-size: 1.2vw;
+	font-size: 1.8vw;
 }
 
 
 
 div {
 	margin: 0 auto;
-	margin-bottom: .2em;
+	margin-bottom: .1em;
 	padding-left: 0px;
 	justify-content: center;
 }
@@ -245,7 +245,7 @@ div {
 
 
 section {
-	padding: 1.25em 1.25em;
+	padding: .25em .25em;
 }
 
 
@@ -253,13 +253,13 @@ section {
 
 
 hr {
-	margin-top: .5em;
+	margin-top: .75em;
 	margin: 0 auto;
 	width: 90%;
 	size: 1pt;
 	border-style: inset;
 	text-decoration: none;
-	opacity: .1;
+	opacity: .3;
 	border-radius: 2px;
 }
 
@@ -267,14 +267,14 @@ hr {
 
 
 hr.line2 {
-	margin-top: .5em;
-	padding-top: 3px;
+	margin-top: .75em;
+	padding-top: 4px;
 	margin: 0 auto;
 	width: 71%;
 	size: 1pt;
 	border-style: inset;
 	text-decoration: none;
-	opacity: .1;
+	opacity: .3;
 	border-radius: 2px;
 }
 
@@ -294,10 +294,10 @@ line-breaks {
 .ticker {
 margin: 0;
 left: 10px;
-margin-top: 25px;
-margin-bottom: 30px;
-font-size: .5em;
-padding: 1.25%;
+margin-top: .25em;
+margin-bottom: .5em;
+font-size: 1.8vw;
+padding: 1%;
 align-items: left
 }
 
@@ -307,9 +307,8 @@ align-items: left
 display: block;
 position: relative;
 padding-right: 3%;
-
-margin: 0 auto;
-margin-top: -11rem;
+margin: 0;
+margin-top: -12rem;
 margin-bottom: 6px;
 float: right;
 align-items: center;
@@ -327,7 +326,7 @@ z-index: 9999;
 
 html {
 	margin: 0 auto;
-	padding: 1.25%;
+	padding: 1.2%;
 	background-image: url("img/europeana-5TK1F5VfdIk-unsplash.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
@@ -344,11 +343,6 @@ html {
 }
 
 
-
-
-
-
-
 html: focus-within {
 	 scroll-behavior: smooth;
 }
@@ -362,15 +356,14 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: 1.1;
+	line-height: 1;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 0px;
-	margin-bottom: 55vh;
-	font-size: .7em;
-	padding-bottom: 0;
+	margin-bottom: 50vh;
+	font-size: 1.8vw;
 	padding: .2em;
-	width: 84%;
+	width: 86%;
 	max-width: 1280px;
 	height: auto;
 	display: block;
@@ -693,17 +686,17 @@ a {
 	font-family: Futura, serif;
 	margin: 0 auto;
 	margin-top: 2px;
-	margin-bottom: -16px;
+	margin-bottom: 2px;
 	padding: 1% 1.25%;
 	bottom: 0;
-	width: 90%;
+	width: 100%;
 	height: auto;
 	display: flex;
 	overflow: hidden;
 	position: sticky;
 	box-sizing: border-box;
 	font-size: 1.2vw;
-	line-height: .25;
+	line-height: .5;
 	z-index: 1;
 	vertical-align: middle;
 	justify-content: space-around;
@@ -736,7 +729,7 @@ span.logo {
 	display: block;
 	justify-content: left;
 	font-size: 12pt;
-	max-width: 86px;
+	max-width: 84px;
 	margin-top: .25em;
 	padding-top: 2px;
 	padding-left: 1em;
@@ -1112,13 +1105,13 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 80%;
-	margin: 0 0 0;
+	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 6%;
 	padding-right: 8%;
-	padding-top: .6em;
+	padding-top: .4em;
 	width: 100vw;
-	max-height: 41.7vh;
+	max-height: 45.25vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
@@ -1207,7 +1200,7 @@ align-items: left
 
 
 .footer-links {
-	margin: 0;
+	margin: 0 auto;
 	padding: 8% 3%;
 	max-width: 8%;
 	display: flex;
@@ -1287,7 +1280,7 @@ button.form-button {
 	margin-left: 0;
 	max-width: 100%;
 	height: auto;
-	padding: 1;
+	padding: 1em;
 	color: whitesmoke;
 	text-transform: uppercase;
 	background-color: darkgoldenrod;
@@ -1320,24 +1313,23 @@ button.signup {
 
 ul.fa {
 	display: block;
-	text-indent: -6px;
-	justify-content: left;
-	align-items: left;
-	align-content: left;
+	margin: 0 auto;
+	padding-bottom: 1%;
+	text-indent: 0px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	box-sizing: border-box;
 }
 
 .fa {
  padding: 4px;  
 	text-align: center;     
  list-style: none;
- margin-bottom: 4px;
+ margin-bottom: 1%;
  
 }
-.fa:hover {  
-  opacity: 0.5; 
-		cursor: pointer; 
-} 
- 
+
 
 
  .fa-twitter {  
@@ -1351,7 +1343,7 @@ ul.fa {
 
 .fa-linkedin {    
   color: darkgoldenrod;
-  font-size: 1.8vw;  
+  font-size: 1.8vw;
 }
 
 
@@ -1371,3 +1363,8 @@ ul.fa {
 
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
 
+.fa:hover {  
+  opacity: 0.5; 
+		cursor: pointer; 
+} 
+ 
