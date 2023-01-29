@@ -187,6 +187,7 @@ textarea {
   outline: none;
   resize: none;
   overflow: auto;
+  font-size: 1.8vw;
 } 
 
 
@@ -529,7 +530,7 @@ menu {
 
 
 .nav {
-	font-family: Futura, serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1.8vw;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
@@ -674,7 +675,7 @@ a {
 	text-decoration: none;
 	color: lightgoldenrodyellow;
 	padding: 0;
-	margin-bottom: -4px;
+	margin-bottom: -8px;
 	background-color: none;
 	display: inline-block;
 
@@ -683,11 +684,11 @@ a {
 
 
 .nav-ft {
-	font-family: Futura, serif;
+	font-family: 'Poppins', sans-serif;
 	margin: 0 auto;
-	margin-top: 2px;
+	margin-top: 1px;
 	margin-bottom: 2px;
-	padding: 1% 1.25%;
+	padding: .25% .5%;
 	bottom: 0;
 	width: 100%;
 	height: auto;
@@ -695,8 +696,8 @@ a {
 	overflow: hidden;
 	position: sticky;
 	box-sizing: border-box;
-	font-size: 1.2vw;
-	line-height: .5;
+	font-size: 1.4vw;
+	line-height: .4;
 	z-index: 1;
 	vertical-align: middle;
 	justify-content: space-around;
@@ -1111,7 +1112,7 @@ input:focus-within {
 	padding-right: 8%;
 	padding-top: .4em;
 	width: 100vw;
-	max-height: 45.25vh;
+	max-height: 40vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
@@ -1331,6 +1332,14 @@ ul.fa {
 }
 
 
+.fa:hover {  
+  opacity: 0.5; 
+		cursor: pointer; 
+} 
+ 
+
+
+
 
  .fa-twitter {  
   background: none;  
@@ -1361,10 +1370,4 @@ ul.fa {
 }
 
 
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-
-.fa:hover {  
-  opacity: 0.5; 
-		cursor: pointer; 
-} 
- 
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
