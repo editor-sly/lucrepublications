@@ -46,7 +46,7 @@ span.thick {
 	color: silver;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 800;
-	font-size:8vw;
+	font-size: 11vw;
 }
 
 
@@ -67,7 +67,7 @@ h1 {
 	padding-bottom: 2px;
 	margin-bottom: -8px;
 	font-family: 'Poppins', sans-serif;
-	color: wheat;
+	color: silver;
 	font-weight: 800;
 	font-size: 3vw;
 
@@ -94,6 +94,7 @@ h3 {
 	padding-bottom: 0px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.2vw;
+	line-height: 1;
 
 }
 
@@ -121,7 +122,7 @@ blockquote,
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 1.36;
+	 line-height: 1.25;
 	 font-family: Helvetica, san-serif;
 	 font-size: 1.8vw;
 }
@@ -156,7 +157,7 @@ picture {
   padding-bottom: 4px;
   margin-top: -14px;
   margin-bottom: -18px;
-  opacity: .63;
+  opacity: .76;
 }
 
 
@@ -171,7 +172,7 @@ img {
   padding-bottom: 4px;
   margin-top: -14px;
   margin-bottom: -18px;
-  opacity: .63;
+  opacity: .76;
 }
 
 img:hover {
@@ -363,7 +364,7 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: 1.24;
+	line-height: 1.5;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 0px;
