@@ -316,7 +316,7 @@ align-items: left
 .sublines {
 display: block;
 position: relative;
-padding-right: 3%;
+padding-right: 8%;
 margin: 0;
 margin-top: -11rem;
 margin-bottom: 6px;
@@ -325,6 +325,7 @@ align-items: center;
 box-sizing: border-box;
 line-height: .5;
 z-index: 9999;
+text-shadow: 0px 0px 3px #111;
 }
 
 
@@ -373,7 +374,7 @@ body {
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 0px;
-	margin-bottom: 41.5vh;
+	margin-bottom: 38.5vh;
 	font-size: 1.8vw;
 	padding: .28em;
 	width: 86%;
@@ -989,12 +990,12 @@ span.logo:hover {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 25%;
-	width: 100%;
+	width: 86%;
 	height: auto;
 	position: relative;
 	background-color: #000;
 	border-style: solid;
-	border-width: 0;
+	border-width: 2.5px;
 	border-color:#000;
 	border-radius: 8px;
 	box-sizing: border-box;
@@ -1017,12 +1018,12 @@ span.logo:hover {
 	background-position: 33% 18%;
 	background-repeat: no-repeat;
 	top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-	opacity: .43;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+	opacity: .94;
 	z-index: -1;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 	object-fit: contain;
 	object-position: bottom;
 }
@@ -1115,7 +1116,7 @@ input:focus-within {
 
 .carpe {
 	margin: 0 auto;
-	padding-top: 1em;
+	padding-top: .25em;
 	margin-bottom: 2em;
 	display: block;
 	position: absolute;
