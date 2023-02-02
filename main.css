@@ -318,7 +318,7 @@ align-items: left
 .sublines {
 display: block;
 position: relative;
-padding-right: 8%;
+padding-right: 11%;
 margin: 0;
 margin-top: -11rem;
 margin-bottom: 6px;
@@ -339,14 +339,14 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	padding: 1.5%;
+	padding: 1.25%;
 	background-image: url("img/europeana-5TK1F5VfdIk-unsplash.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
-	scroll-padding-top: 5.7rem; 
+	scroll-padding-top: 5.64rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
@@ -372,16 +372,18 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: 1;
+	line-height: 1.2;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 0px;
-	margin-bottom: 38.5vh;
-	font-size: 1.4vw;
+	font-size: 1.6vw;
 	padding: .2em;
-	width: 86%;
+	margin-bottom: 32vh;
+	padding-bottom: 2.25m;
 	max-width: 1280px;
+	min-width: 80vw;
 	height: auto;
+	
 	display: block;
 	color: wheat;
 	text-rendering: optimizeSpeed;
@@ -397,7 +399,7 @@ body {
   box-sizing: border-box;
 	border-style: none;
  	border-radius: 15px;
- 	opacity: .87;
+ 	opacity: .95;
  	z-index: 9999;
  	border-width: .5px;
  	border-color: brown;
@@ -430,7 +432,7 @@ body {
 
 
 .container2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/brandi-redd-aJTiW00qqtI-unsplash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 20% 0%;
@@ -440,7 +442,7 @@ body {
 	width: 80%;
 	height: auto;
 	display: block;
-	background-color: none;
+	background-color: ;
 	border-style: none;
 	border-bottom-left-radius: 0px;
 	border-radius: 8px;
@@ -827,7 +829,7 @@ span.logo:hover {
 
 
 .hero-section4 {
-	background-image: url();
+	background-image: url(img/andrey-stakhovskiy-MgES-cgCNgs-unsplash.jpg);
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -866,8 +868,8 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/ben-rosett-WdJkXFQ4VHY-unsplash.jpg");
-	background-position: 50% 0%;
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/reza-shayestehpour-H3AfgZyjNaI-unsplash.jpg");
+	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -988,11 +990,11 @@ span.logo:hover {
 	background-repeat: no-repeat;
 	line-height: .25;
 	display: block;
-	margin: 0 auto;
+	margin: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 25%;
-	width: 86%;
+	width: 80%;
 	height: auto;
 	position: relative;
 	background-color: #000;
@@ -1119,21 +1121,19 @@ input:focus-within {
 .carpe {
 	margin: 0 auto;
 	padding-top: .25em;
-	margin-bottom: 2em;
+	margin-bottom: .5em;
 	display: block;
-	position: absolute;
+	position: relative;
 	background-color: none;
 	width: 100%;
 	left: 0;
 	right: 0;
-	color: silver;!important
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	box-sizing: border-box;
 	vertical-align: middle;
-	opacity: .9;
-
+	opacity: .98;
 	text-shadow: 0px 0px 3px #111;
 }
 
@@ -1141,26 +1141,24 @@ input:focus-within {
 
 
 .footer {
-/* 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/patrick-fore-59lC6TgZAbQ-unsplash.jpg"); */
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/pereanu-sebastian-qFH7-yKoxik-unsplash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 80%;
+	background-position: 49% 84%;
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 3.2%;
 	padding-right: 8%;
 	padding-top: .4em;
 	width: 100vw;
-	max-height: 38vh;
+	max-height: 36.25vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
 	bottom: 0;
 	display: inline-block;
 	background-color: black;
-	border-color: brown;
+	border-color: silver;
 	border-style: solid;
 	border-bottom: none;
 	border-top: 1;
@@ -1171,6 +1169,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	opacity: .86;
 
 }
 
