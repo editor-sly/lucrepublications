@@ -58,11 +58,12 @@ span.thick {
 span.thick2 {
 	margin-top: -4px;
 	padding-top: -8px;
-	color: #111;
+	color: darkgoldenrod;
 	line-height: .85;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-size: 6.4vw;
+	opacity: .69;
 }
 
 
@@ -335,7 +336,7 @@ display: block;
 position: relative;
 padding-right: 11%;
 margin: 0;
-margin-top: -11rem;
+margin-top: -13rem;
 margin-bottom: 6px;
 float: right;
 align-items: center;
@@ -447,7 +448,7 @@ body {
 
 
 .container2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/brandi-redd-aJTiW00qqtI-unsplash.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/jj-jordan-ZtDBdBr-MrQ-unsplash.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 20% 0%;
@@ -456,6 +457,7 @@ body {
 	padding-right: 30px;
 	width: 80%;
 	height: auto;
+	filter: saturate(50%);
 	display: block;
 	background-color: ;
 	border-style: none;
@@ -859,6 +861,7 @@ span.logo:hover {
 	width: 80%;
 	height: auto;
 	display: block;
+	filter: saturate(50%);
 	background-color: #111;
 	border-style: none;
 	border-radius: 8px;
@@ -897,12 +900,13 @@ span.logo:hover {
 	width: 80%;
 	height: auto;
 	display: block;
-	background-color: #111;
+	background-color: black;
 	border-style: none;
 	border-radius: 8px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	box-sizing: border-box;
+	filter: saturate(50%);
 	text-shadow: 0px 0px 3px #333;
 	
 }
@@ -1032,9 +1036,9 @@ span.logo:hover {
 	content:"";
 	position: absolute;
 	display: block;
-	background-image: url("img/lance-reis-eSfyEmpVy30-unsplash.jpg");
-	background-size: 100%;
-	background-position: 33% 18%;
+	background-image: url("img/jj-jordan-WR0npmNdnOo-unsplash.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	top: 0px;
  right: 0px;
@@ -1045,6 +1049,7 @@ span.logo:hover {
 	margin-bottom: 0px;
 	border-radius: 8px;
 	object-fit: contain;
+	filter: saturate(50%);
 	object-position: bottom;
 }
 
@@ -1157,14 +1162,14 @@ input:focus-within {
 
 
 .footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/pereanu-sebastian-qFH7-yKoxik-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/adrien-olichon-_kNEgjza0t8-unsplash.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0% 80%;
 	margin: 0 auto;
 	margin-bottom: 0;
-	padding-left: 3%;
-	padding-right: 8%;
+	padding-left: 0%;
+	padding-right: 0%;
 	padding-top: .4em;
 	width: 100vw;
 	max-height: 36.24vh;
@@ -1265,6 +1270,9 @@ align-items: left
 	box-sizing: border-box;
 	color: wheat;
 	font-weight: bolder;
+	justify-content: center;
+	text-align: center;
+	box-sizing: border-box;
 
 }
 
@@ -1279,15 +1287,13 @@ align-items: left
 .copyright {
 	margin: 0 auto;
 	position: relative;
-	background-color: lightyellow;
-	width: 100%;
+	background-color: black;
+	width: 27%;
 	display: block;
 	color: sandybrown;
-	align-items: center;
-	justify-content: center;
 	text-align: center;
-	font-size: .6em;
-	font-weight: lighter;
+	font-size: .7em;
+	font-weight: normal;
 }
 
 
@@ -1297,7 +1303,7 @@ button {
 	margin-left: 4px;
 	margin-top: .25em;
 	margin-bottom: .5em;
-	padding:  .5em;
+	padding: .5em;
 	border-style: none;
 	border-radius: 5px;
 	display: block;
