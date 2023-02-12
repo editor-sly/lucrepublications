@@ -448,7 +448,7 @@ body {
 
 
 .container2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/jj-jordan-ZtDBdBr-MrQ-unsplash.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/jj-jordan-ZtDBdBr-MrQ-unsplash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 20% 0%;
@@ -1036,7 +1036,7 @@ span.logo:hover {
 	content:"";
 	position: absolute;
 	display: block;
-	background-image: url("img/jj-jordan-WR0npmNdnOo-unsplash.png");
+	background-image: url("img/jj-jordan-WR0npmNdnOo-unsplash.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -1190,7 +1190,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	opacity: .94;
+	opacity: .97;
 
 }
 
