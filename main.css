@@ -44,11 +44,12 @@ p {
 span.thick {
 	margin-top: -4px;
 	padding-top: -8px;
-	color: brown;
+	color: hsl(0, 0%, 95%);
 	line-height: .85;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-size: 9vw;
+	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
 }
 
@@ -366,8 +367,8 @@ html {
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
- 			scroll-behavior: smooth;
-filter: saturate(75%);
+ 	scroll-behavior: smooth;
+	filter: saturate(72%);
 	white-space: wrap;
 }
 
@@ -397,7 +398,7 @@ body {
 	margin-bottom: 32vh;
 	padding-bottom: 2.25m;
 	max-width: 1280px;
-	min-width: 80vw;
+	min-width: 72vw;
 	height: auto;
 	
 	display: block;
@@ -1165,7 +1166,7 @@ input:focus-within {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/adrien-olichon-_kNEgjza0t8-unsplash.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: 0% 80%;
+	background-position: 80% 70%;
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 0%;
@@ -1190,7 +1191,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	opacity: .97;
+	opacity: .96;
 
 }
 
@@ -1308,24 +1309,24 @@ button {
 	border-radius: 5px;
 	display: block;
 	height: auto;
-	max-width: 100%;
+	max-width: 100vw;
 	background-color: darkgoldenrod;
-	font-family: Helvetica, Arial, san-serif;
-	color: gainsboro;
+	font-family: 'Poppins', sans-serif;
+	color: whitesmoke;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-shadow: 0px 0px 3px #333;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: normal;
 	transition: 200ms ease-in-out;
 	border-style: solid;
 	border-width: 1pt;
 	border-color: silver;
+	opacity: .8;
+
 }
 
 button:hover {
-	background-color: black;
 	font-weight: bold;
-	color: whitesmoke;
 	transform: scale(1.2);
 	cursor: pointer;
 }
@@ -1343,7 +1344,7 @@ button:focus {
 
 button.form-button {
 	margin-left: 0;
-	max-width: 100%;
+	max-width: 100vw;
 	height: auto;
 	padding: 1em;
 	color: whitesmoke;
@@ -1351,23 +1352,6 @@ button.form-button {
 	background-color: darkgoldenrod;
 }
 
-
-button.signup {
-	position: absolute;
-	margin: 0 auto;
-	margin-right: 3%;
-	min-width: 10%;
-	float: right;
-	top: 10px;
-	right: 0;
-	padding: 1em;
-	text-transform: uppercase;
-	color: whitesmoke;
-	background-color: darkgoldenrod;
-	text-align: center;
-	align-items: center;
-	box-sizing: border-box;
-}
 
 
 
