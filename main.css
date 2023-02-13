@@ -98,8 +98,8 @@ h2 {
 	padding-top: 2px;
 	padding-bottom: 2px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.4vw;
-	font-weight: bolder;
+	font-size: 2.0vw;
+	font-weight: normal;
 
 }
 
@@ -392,13 +392,13 @@ body {
 	line-height: 1.2;
 	background-color: black;
 	margin: 0 auto;
-	margin-top: 0px;
-	font-size: 1.6vw;
+	margin-top: 24px;
+	font-size: 1.46vw;
 	padding: .2em;
-	margin-bottom: 32vh;
+	margin-bottom: 38vh;
 	padding-bottom: 2.25m;
 	max-width: 1280px;
-	min-width: 72vw;
+	min-width: 70vw;
 	height: auto;
 	
 	display: block;
@@ -472,14 +472,14 @@ body {
 
 
 .container-quote {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/nicola-nuttall-ObTfaF2hngw-unsplash.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	margin: 0 auto;
 	margin-bottom: 4px;
 	padding: 8px;
-	width: 100%;
+	width: 80%;
 	height: auto;
 	display:block
 	background-color: none;
@@ -895,6 +895,7 @@ span.logo:hover {
 	margin: 0 auto;
 	margin-top:  0;
 	margin-bottom: 0;
+	padding-top: 11px;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 20px;
