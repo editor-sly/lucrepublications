@@ -48,7 +48,7 @@ span.thick {
 	line-height: .85;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
-	font-size: 9vw;
+	font-size: 7.2vw;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
 }
@@ -63,7 +63,7 @@ span.thick2 {
 	line-height: .85;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
-	font-size: 6.4vw;
+	font-size: 4.8vw;
 	opacity: .69;
 }
 
@@ -178,7 +178,7 @@ picture {
   padding-bottom: 4px;
   margin-top: -14px;
   margin-bottom: -18px;
-  opacity: .76;
+  opacity: .69;
 }
 
 
@@ -386,21 +386,20 @@ html: focus-within {
 
 
 body {
+
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: 1.2;
 	background-color: black;
 	margin: 0 auto;
-	margin-top: 24px;
-	font-size: 1.46vw;
+	margin-top: .25em;
+	font-size: 1.42vw;
 	padding: .2em;
 	margin-bottom: 38vh;
 	padding-bottom: 2.25m;
-	max-width: 1280px;
-	min-width: 70vw;
+	max-width: 68vw;
 	height: auto;
-	
 	display: block;
 	color: wheat;
 	text-rendering: optimizeSpeed;
@@ -421,7 +420,6 @@ body {
  	border-width: .5px;
  	border-color: brown;
  	border-style: solid;
-
 }
 
 
