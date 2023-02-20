@@ -42,10 +42,11 @@ p {
   }
 
 span.thick {
-	margin-top: -4px;
-	padding-top: -8px;
+	margin-top: 4px;
+	padding-top: 8px;
+	margin-bottom: 4px;
 	color: hsl(0, 0%, 95%);
-	line-height: .85;
+	line-height: 1;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-size: 7.2vw;
@@ -60,7 +61,7 @@ span.thick2 {
 	margin-top: -4px;
 	padding-top: -8px;
 	color: darkgoldenrod;
-	line-height: .85;
+	line-height: .25;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-size: 4.8vw;
@@ -76,6 +77,7 @@ h1.co {
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
 	font-size: 3vw;
+	line-height: .25;
 
 }
 
@@ -95,7 +97,7 @@ h1 {
 h2 {
 	color: lightgoldenrod;
 	line-height: 1.25;
-	padding-top: 2px;
+	padding-top: 4px;
 	padding-bottom: 3px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.0vw;
@@ -142,7 +144,7 @@ blockquote,
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 1.25;
+	 line-height: .25;
 	 font-family: Helvetica, san-serif;
 	 font-size: 1.8vw;
 	 text-shadow: 0px 0px 3px #111;
@@ -388,14 +390,13 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: 1.2;
+	line-height: 1;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: .25em;
-	font-size: 1.42vw;
+	font-size: 1.4vw;
 	padding: .2em;
-	margin-bottom: 38vh;
-	padding-bottom: 2.25m;
+	margin-bottom: 46vh;
 	max-width: 68vw;
 	height: auto;
 	display: block;
@@ -710,7 +711,7 @@ a {
 	text-decoration: none;
 	color: darkgoldenrod;
 	padding: 0;
-	margin-bottom: -8px;
+	margin-bottom: -11px;
 	background-color: none;
 	display: inline-block;
 
@@ -782,6 +783,45 @@ span.logo:hover {
 	cursor: pointer;
 	opacity: .5;
 }
+
+
+
+
+
+
+
+
+span.logo_ft {
+	margin:  0 auto;
+	display: block;
+	justify-content: left;
+	font-size: 12pt;
+	max-width: 84px;
+	margin-top: .8em;
+	padding-left: 1em;
+	text-align: center;
+	margin-bottom: .25em;
+	color: wheat;
+	transition: 1s;
+	box-sizing: border-box;
+}
+
+span.logo:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1285,12 +1325,14 @@ align-items: left
 .copyright {
 	margin: 0 auto;
 	position: relative;
+	margin-bottom: 8px;
 	background-color: black;
 	width: 27%;
 	display: block;
 	color: sandybrown;
 	text-align: center;
 	font-size: .7em;
+	line-height: 1.2;
 	font-weight: normal;
 }
 
