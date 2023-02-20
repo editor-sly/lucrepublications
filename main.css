@@ -724,7 +724,7 @@ a {
 	margin: 0 auto;
 	margin-top: 1px;
 	margin-bottom: 2px;
-	padding: .25% .5%;
+	padding: 0% .5%;
 	bottom: 0;
 	width: 100%;
 	height: auto;
@@ -733,7 +733,7 @@ a {
 	position: sticky;
 	box-sizing: border-box;
 	font-size: 1.4vw;
-	line-height: .4;
+	line-height: .35;
 	z-index: 1;
 	vertical-align: middle;
 	justify-content: space-around;
@@ -1401,7 +1401,7 @@ button.form-button {
 ul.fa {
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 1%;
+	margin-bottom: .25em;
 	text-indent: 0px;
 	justify-content: center;
 	align-items: center;
@@ -1410,7 +1410,7 @@ ul.fa {
 }
 
 .fa {
- padding: 4px;  
+ padding: 0px;  
  text-align: center;     
  list-style: none;
  margin-bottom: .25px;
