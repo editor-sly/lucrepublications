@@ -76,7 +76,7 @@ h1.co {
 	padding-bottom: 0px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
-	font-size: 3vw;
+	font-size: 2.8vw;
 	line-height: .25;
 
 }
@@ -90,7 +90,7 @@ h1 {
 	font-family: 'Poppins', sans-serif;
 	color: silver;
 	font-weight: 800;
-	font-size: 3vw;
+	font-size: 2.8vw;
 
 }
 
@@ -98,7 +98,7 @@ h2 {
 	color: lightgoldenrod;
 	line-height: 1.25;
 	padding-top: 4px;
-	padding-bottom: 3px;
+	padding-bottom: 2.8px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.0vw;
 	font-weight: normal;
@@ -111,10 +111,10 @@ h2 {
 
 h3 {
 	color: wheat;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-top: 2.8px;
+	padding-bottom: 3.2px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	line-height: .75;
 	margin-top: 3.25px;
 
@@ -175,11 +175,12 @@ dd, {
 img,
 picture {
 	color: wheat;
-  max-width: 86%;
+  max-width: 100vw;
+  height: auto;
   display: block;
-  padding-bottom: 4px;
-  margin-top: -14px;
-  margin-bottom: -18px;
+  padding-bottom: 2.5px;
+  margin-top: 6px;
+  margin-bottom: 8px;
   opacity: .69;
 }
 
@@ -355,7 +356,6 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	padding: 1.25%;
 	background-image: url("img/europeana-5TK1F5VfdIk-unsplash.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
@@ -392,7 +392,7 @@ body {
 	line-height: 1;
 	background-color: black;
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: .5%;
 	font-size: 1.4vw;
 	padding: .25em;
 	margin-bottom: 42vh;
@@ -562,16 +562,18 @@ menu {
 
 .nav {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.8vw;
+	font-size: 1.4vw;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.png");
 	background-size: cover;
 	margin: 0 auto;
 	margin-left: -4.45px;
 	margin-right: -4.45px;
-	margin-bottom: 3px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 2px;
 	max-width: 100vw;
-	min-height: 10vh;
+	min-height: 6.8vh;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
@@ -586,11 +588,11 @@ menu {
 	justify-content: center;
 	box-sizing: border-box;
 	vertical-align: middle;
-	line-height: .5;
+	line-height: .28;
 	z-index: 9999;
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	opacity: .9;
+	opacity: .96;
 	border-style: solid;
 	border-color: brown;
 	border-top: none;
@@ -614,13 +616,13 @@ menu {
 .nav-links li {
 	list-style: none;
 	display: inline-block;
-	padding: 4%;
+	padding: 3.25%;
 
 }
 
 .nav-links li:hover {
 	back-ground color: none;
-	font-size: 1.8vw;
+	font-size: 1.4vw;
 	text-transform: uppercase;
 	padding: .2rem;
 	display: block;
@@ -640,8 +642,8 @@ menu {
 .nav ul {
 	margin: 0;
 	margin-bottom: 0px;
-	padding: .8%;
-	padding-bottom: 4px;
+	padding: .25%;
+	padding-bottom: 3px;
 	display: flex;
 	text-decoration: none;
 	border-style: none;
@@ -677,8 +679,8 @@ menu {
 	float: left;
 	left: .25%;
 	padding-right: 0;
-	padding-top: 4.25px;
-	padding-bottom: 1.6px;
+	padding-top: 4px;
+	padding-bottom: 1.25px;
 }
 
 
@@ -762,18 +764,21 @@ a {
 span.logo {
 	margin:  0 auto;
 	display: block;
-	justify-content: left;
-	font-size: 12pt;
-	max-width: 84px;
-	margin-top: .25em;
-	padding-top: 2px;
-	padding-left: 1em;
+	max-width: 14em;
+	height: auto;
+	margin-top: -2.9em;
+	margin-bottom: -.25em;
+	margin-left: -14px;
+	padding-top: 4px;
 	text-align: center;
-	margin-bottom: .5em;
-	font-weight: lighter;
-	color: wheat;
-	transition: 1s;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 	box-sizing: border-box;
+	opacity: .25;
+	transition: 1s;
+	transform: rotate(30deg);
 }
 
 span.logo:hover {
@@ -793,15 +798,16 @@ span.logo_ft {
 	margin:  0 auto;
 	display: block;
 	justify-content: left;
-	font-size: 12pt;
-	max-width: 84px;
-	margin-top: .8em;
+	max-width: 4.8em;
+	height: auto;
+	margin-top: 16px;
 	padding-left: 1em;
 	text-align: center;
 	margin-bottom: .25em;
 	color: wheat;
 	transition: 1s;
 	box-sizing: border-box;
+	transform: rotate(360deg);
 }
 
 span.logo:hover {
@@ -822,13 +828,6 @@ span.logo:hover {
 
 
 
-
-
-
-
-.price {
-	color: whitesmoke;
-}
 
 
 
@@ -971,8 +970,6 @@ span.logo:hover {
 	border-bottom-right-radius: 8px;
 	box-sizing: border-box;
 	text-shadow: 0px 0px 3px #333;
-
-	
 }
 
 
@@ -988,7 +985,7 @@ span.logo:hover {
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding: 0px;
-	padding-top: 2px;
+	padding-top: 1px;
 	padding-bottom: 0px;
 	bottom: 0;
 	max-width: 98%;
@@ -1207,7 +1204,7 @@ input:focus-within {
 	padding-right: 0%;
 	padding-top: .4em;
 	width: 100vw;
-	max-height: 36.24vh;
+	max-height: 34.8vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
@@ -1353,6 +1350,7 @@ button {
 	text-shadow: 0px 0px 3px #333;
 	cursor: pointer;
 	font-weight: normal;
+	font-size: 1.2vw;
 	transition: 200ms ease-in-out;
 	border-style: solid;
 	border-width: 1pt;
@@ -1382,6 +1380,7 @@ button.form-button {
 	margin-left: 0;
 	max-width: 100vw;
 	height: auto;
+	font-size: 1.2vw;
 	padding: 1em;
 	color: whitesmoke;
 	text-transform: uppercase;
@@ -1408,7 +1407,7 @@ ul.fa {
 }
 
 .fa {
- padding: 4px;  
+ padding: 3px;  
  text-align: center;     
  list-style: none;
  margin-bottom: .25px;
