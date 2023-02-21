@@ -115,7 +115,7 @@ h3 {
 	padding-bottom: 4px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2vw;
-	line-height: 1;
+	line-height: .75;
 	margin-top: 3.25px;
 
 }
@@ -335,15 +335,14 @@ align-items: left
 
 
 .sublines {
-display: flex;
+display: block;
 position: relative;
 margin: 0;
 margin-top: 0;
 margin-bottom: 2.5rem;
 align-items: center;
 box-sizing: border-box;
-line-height: .5;
-z-index: 9999;
+line-height: 1;
 text-shadow: 0px 0px 3px #111;
 }
 
@@ -837,7 +836,7 @@ span.logo:hover {
 	
 	padding: 0px;
 	text-indent: 0;
-	padding-left: 8.24px;
+	padding-left: 11.23px;
 	margin: 0;
 	height: auto;
 	border-style: solid;
@@ -1005,24 +1004,23 @@ span.logo:hover {
   display: block;
 }
 
+
+
+
+
+
 .screen2 {
 	height: auto;
 	margin: 0 auto;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	padding: 0px;
 	padding-left: 0;
-	padding-top: 2px;
-	padding-bottom: 0px;
 	max-width: 98%;
 	border-style: none;
-	border-radius: 8px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	background-color: floralwhite;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-  background-color: rgba(98, 98, 98, 9%);
+  background-color: rgba(90, 60, 30, 35%);
   display: block;
 }
 
