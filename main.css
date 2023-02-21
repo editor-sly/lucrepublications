@@ -655,7 +655,7 @@ menu {
 	padding: 0;
 	display: flex;
 	margin-bottom: 0;
-	padding: 6% 6%;
+	padding: 4% 4%;
 	list-style: none;
 	flex: auto;
 
@@ -679,8 +679,7 @@ menu {
 	left: .25%;
 	padding-right: 0;
 	padding-top: 4.25px;
-	padding-bottom: 2.25px;
-	margin: 0;
+	padding-bottom: 1.6px;
 }
 
 
@@ -710,7 +709,7 @@ a {
 .footer-links li a {
 	text-decoration: none;
 	color: darkgoldenrod;
-	padding: 0;
+	padding: 1px;
 	margin-bottom: -11px;
 	background-color: none;
 	display: inline-block;
@@ -721,10 +720,10 @@ a {
 
 .nav-ft {
 	font-family: 'Poppins', sans-serif;
-	margin: 0 auto;
+	margin: 0;
 	margin-top: 1px;
 	margin-bottom: 2px;
-	padding: 0% .5%;
+	padding: .2% .2%;
 	bottom: 0;
 	width: 100%;
 	height: auto;
@@ -732,7 +731,7 @@ a {
 	overflow: hidden;
 	position: sticky;
 	box-sizing: border-box;
-	font-size: 1.4vw;
+	font-size: 1.2vw;
 	line-height: .35;
 	z-index: 1;
 	vertical-align: middle;
@@ -843,7 +842,7 @@ span.logo:hover {
 	height: auto;
 	border-style: solid;
 	border-color: brown;
-	border-width: 4.5px;
+	border-width: 5.3px;
 	border-radius: 0;
 	border-top: none;
 	border-bottom: none;
@@ -1400,9 +1399,10 @@ button.form-button {
 
 ul.fa {
 	display: block;
-	margin: 0 auto;
-	margin-bottom: .25em;
-	text-indent: 0px;
+	margin: 0;
+	margin-bottom: .2em;
+	text-indent: 0;
+	position: relative;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -1410,7 +1410,7 @@ ul.fa {
 }
 
 .fa {
- padding: 0px;  
+ padding: 4px;  
  text-align: center;     
  list-style: none;
  margin-bottom: .25px;
@@ -1438,21 +1438,21 @@ ul.fa {
 
 .fa-linkedin {    
   color: silver;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 
 
 .fa-medium {    
   color: silver; 
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 
 
 .fa-tumblr {    
   color: silver;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 
