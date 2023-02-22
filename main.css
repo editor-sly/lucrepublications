@@ -819,13 +819,13 @@ span.logo:hover {
 .border-left2 {
 	
 	padding: 0px;
-	text-indent: 10px;
+	text-indent: 11px;
 	padding-left: 11.23px;
 	margin: 0;
 	height: auto;
-	border-style: none;
+	border-style: solid;
 	border-color: none;
-	border-width: 5.3px;
+	border-width: 0;
 	border-radius: 0;
 	border-top: none;
 	border-bottom: none;
