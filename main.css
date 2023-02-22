@@ -517,29 +517,6 @@ body {
 
 
 
-.betray {
-font-family: Verdana, san-serif;
-font-size: .9em;
-position: relative;
-margin: 0 auto;
-margin-top: -4em;
-font-weight: bold;
-left: 0%;
-padding: 4px;
-margin-left: 2%;
-letter-spacing: -2.4px;
-margin-right: 0%;
-padding-top: .25em;
-margin-bottom: .25;
-line-height: 1;
-vertical-align: middle;
-box-sizing: border-box;
-align-items: center;
-align-content: center;
-z-index: 1;
-
-}
-
 
 
 
@@ -660,8 +637,6 @@ menu {
 	padding: 4% 4%;
 	list-style: none;
 	flex: auto;
-
-	
 }
 
 
@@ -677,12 +652,21 @@ menu {
 	margin: 0;
 	position: absolute;
 	display: block;
-	float: left;
-	left: .25%;
-	padding-right: 0;
+	left: 3%;
+	align-items: center;
+	align-content: center;
+	box-sizing: border-box;
+	justify-content: center;
 	padding-top: 4px;
 	padding-bottom: 1.25px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -765,7 +749,6 @@ a {
 span.logo {
 	margin:  0 auto;
 	display: block;
-	position: relative;
 	max-width: 20em;
 	height: auto;
 	margin-top: -2.9em;
@@ -780,40 +763,7 @@ span.logo {
 	box-sizing: border-box;
 	opacity: .25;
 	transition: 1s;
-	transform: rotate(0deg);
 }
-
-span.logo:hover {
-	transform: scale(1.5);
-	cursor: pointer;
-	opacity: .5;
-}
-
-
-
-
-.logo-footer {
-	margin:  0;
-	display: block;
-	position: fixed;
-	max-width: 85em;
-	height: auto;
-	margin-top: -9em;
-	margin-left: -9rem;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	box-sizing: border-box;
-	opacity: .25;
-	transition: 1s;
-	transform: rotate(-45deg);
-	z-index: -999;
-}
-
-
-
-
 
 
 
@@ -840,11 +790,6 @@ span.logo:hover {
 	cursor: pointer;
 	opacity: .5;
 }
-
-
-
-
-
 
 
 
