@@ -650,7 +650,7 @@ menu {
 
 .logobar {
 	margin: 0;
-	width: 50%;
+	width: 30%;
 	position: absolute;
 	display: block;
 	left: 0;
@@ -746,7 +746,7 @@ a {
 span.logo {
 	margin:  0 auto;
 	display: block;
-	max-width: 16em;
+	max-width: 14em;
 	height: auto;
 	margin-top: -2.9em;
 	margin-bottom: -.25em;
