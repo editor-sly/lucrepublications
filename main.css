@@ -1243,7 +1243,7 @@ footer:before {
 
 
 
-html:before {
+body:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1253,7 +1253,8 @@ html:before {
 	background: linear-gradient(-180deg, #111, #000);
 	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
 	transform: scaleX(1.5);
-	opacity: .9;
+	opacity: .6;
+	z-index: -999;
 }
 
 
