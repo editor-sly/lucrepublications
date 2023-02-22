@@ -1194,7 +1194,7 @@ input:focus-within {
 
 
 .footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/adrien-olichon-_kNEgjza0t8-unsplash.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/valentin-salja-CLvkkjb-i3g-unsplash.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 80% 50%;
@@ -1320,7 +1320,7 @@ align-items: left
 	margin: 0 auto;
 	position: relative;
 	margin-bottom: 8px;
-	background-color: black;
+	background-color: none;
 	width: 27%;
 	display: block;
 	color: sandybrown;
