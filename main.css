@@ -765,12 +765,13 @@ a {
 span.logo {
 	margin:  0 auto;
 	display: block;
-	max-width: 14em;
+	position: relative;
+	max-width: 20em;
 	height: auto;
 	margin-top: -2.9em;
 	margin-bottom: -.25em;
-	margin-left: -14px;
-	padding-top: 4px;
+	margin-left: -52px;
+	padding-top: 0px;
 	text-align: center;
 	color: black;
 	justify-content: center;
@@ -779,14 +780,37 @@ span.logo {
 	box-sizing: border-box;
 	opacity: .25;
 	transition: 1s;
-	transform: rotate(30deg);
+	transform: rotate(0deg);
 }
 
 span.logo:hover {
-	transform: scale(1.1);
+	transform: scale(1.5);
 	cursor: pointer;
 	opacity: .5;
 }
+
+
+
+
+.logo-footer {
+	margin:  0;
+	display: block;
+	position: fixed;
+	max-width: 85em;
+	height: auto;
+	margin-top: -9em;
+	margin-left: -9rem;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	box-sizing: border-box;
+	opacity: .25;
+	transition: 1s;
+	transform: rotate(-45deg);
+	z-index: -999;
+}
+
 
 
 
@@ -808,11 +832,11 @@ span.logo_ft {
 	color: wheat;
 	transition: 1s;
 	box-sizing: border-box;
-	transform: rotate(360deg);
+	transform: rotate(0deg);
 }
 
 span.logo:hover {
-	transform: scale(1.1);
+	transform: scale(1.5);
 	cursor: pointer;
 	opacity: .5;
 }
