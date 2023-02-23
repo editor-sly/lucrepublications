@@ -30,8 +30,8 @@ p {
 	padding-left: 0;
 	word-spacing: 1.2px;
 	letter-spacing: .004px;
-	line-height: 1.2;
-	font-size: 1.8vw;
+	line-height: 1.34;
+	font-size: 1.6vw;
 	display: block;
 
 }
@@ -97,11 +97,11 @@ h1 {
 h2 {
 	color: lightgoldenrod;
 	line-height: 1.25;
-	padding-top: 4px;
-	padding-bottom: 2.8px;
+	padding-top: 3.5px;
+	padding-bottom: 2.6px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.0vw;
-	font-weight: normal;
+	font-size: 1.6vw;
+	font-weight: lighter;
 
 }
 
@@ -201,11 +201,21 @@ img {
 
 img:hover {
 	transition: 0.3s;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 
-
+span.move {
+	margin 0 auto;
+	margin-top: 6px;
+	margin-bottom: 8px;
+	position: relative;
+	width: 12%;
+	height: auto;
+	display: block;
+	margin-left: 45.25%;
+	box-sizing: border-box;
+}
 
 
 
@@ -447,9 +457,9 @@ body {
 
 .container2 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/jj-jordan-ZtDBdBr-MrQ-unsplash.jpg");
-	background-size: cover;
+	background-size: 130%;
 	background-repeat: no-repeat;
-	background-position: 20% 0%;
+	background-position: 30% 14%;
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -868,8 +878,8 @@ span.logo:hover {
 
 .hero-section4 {
 	background-image: url(img/andrey-stakhovskiy-MgES-cgCNgs-unsplash.jpg);
-	background-position: 50% 50%;
-	background-size: cover;
+	background-position: 78% 50%;
+	background-size: 100hw;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: auto;
@@ -908,8 +918,8 @@ span.logo:hover {
 
 .hero-section1 {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/reza-shayestehpour-H3AfgZyjNaI-unsplash.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
+	background-position: 43% 50%;
+	background-size: 200%;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: 0 auto;
@@ -1033,7 +1043,7 @@ span.logo:hover {
 	margin-bottom: 0;
 	padding: 10%;
 	width: 80%;
-	min-height: 4vh;
+	height: auto;
 	position: relative;
 	background-color: #000;
 	border-style: solid;
@@ -1057,12 +1067,12 @@ span.logo:hover {
 	display: block;
 	background-image: url("img/jj-jordan-WR0npmNdnOo-unsplash.jpg");
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: 50% 0%;
 	background-repeat: no-repeat;
 	top: 0px;
- right: 0px;
- bottom: 0px;
- left: 0px;
+ 	right: 0px;
+ 	bottom: 0px;
+ 	left: 0px;
 	opacity: .5;
 	z-index: -1;
 	margin-bottom: 0px;
