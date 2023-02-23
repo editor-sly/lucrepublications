@@ -125,7 +125,7 @@ h2 {
 	padding-top: 3.5px;
 	padding-bottom: 2.6px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.6vw;
+	font-size: 1.4vw;
 	font-weight: lighter;
 
 }
@@ -257,10 +257,10 @@ span.move {
 
 span.move2 {
 	margin: 0 auto;
-	margin-top: 2em;
+	margin-top: 1.25em;
 	margin-bottom: -4.2rem;
 	position: relative;
-	width: 24%;
+	width: 22%;
 	top: -2.4rem;
 	height: auto;
 	padding-left: 4%;
