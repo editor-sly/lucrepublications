@@ -42,13 +42,13 @@ p {
   }
 
 span.thick {
-	margin-bottom: 4px;
+	margin-bottom: 2px;
 	margin-top: 2em;
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -8px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1;
+	line-height: 1.25;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 3.9rem;
@@ -94,11 +94,11 @@ span.thick3 {
 
 
 h1.co {
-	padding-top: 2px;
+	padding-top: 0;
 	padding-bottom: 0px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
-	font-size: 2.8vw;
+	font-size: 4.5vw;
 	line-height: .25;
 
 }
@@ -409,7 +409,7 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/europeana-5TK1F5VfdIk-unsplash.jpg");
+	background-image: url("img/europeana-5TK1F5VfdIk-unsplash_blr.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
@@ -598,8 +598,8 @@ menu {
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.png");
 	background-size: cover;
 	margin: 0 auto;
-	margin-left: -4.45px;
-	margin-right: -4.45px;
+	margin-left: -4.4px;
+	margin-right: -4.4px;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	margin-bottom: 2px;
@@ -627,8 +627,8 @@ menu {
 	border-style: solid;
 	border-color: brown;
 	border-top: none;
-	border-left: none;
-	border-right: none;
+	border-left: .5;
+	border-right: .5;
 	border-width: 1.5px;
 }
 
@@ -703,12 +703,12 @@ menu {
 
 .logobar {
 	margin: 0;
-	width: 30%;
+	width: 32%;
 	position: absolute;
 	display: block;
-	left: 0;
-	padding-top: -8px;
-	padding-bottom: 1.5px;
+	left: 2px;
+	padding-top: -5px;
+	padding-bottom: 4px;
 }
 
 
