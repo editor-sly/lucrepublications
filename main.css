@@ -43,7 +43,7 @@ p {
 
 span.thick {
 	margin-bottom: 4px;
-	padding-top: 1.25em;
+	margin-top: 2em;
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -8px;
@@ -244,11 +244,11 @@ span.move {
 
 span.move2 {
 	margin: 0 auto;
-	margin-top: 2px;
-	margin-bottom: -5.2rem;
+	margin-top: 2em;
+	margin-bottom: -4.2rem;
 	position: relative;
-	width: 26%;
-	top: -3.8rem;
+	width: 24%;
+	top: -2.4rem;
 	height: auto;
 	padding-left: 4%;
 	display: block;
@@ -1379,13 +1379,13 @@ align-items: left
 	position: relative;
 	margin-bottom: 8px;
 	background-color: none;
-	width: 27%;
+	width: 50%;
 	display: block;
 	color: #000;
 	text-align: center;
 	font-size: .7em;
 	line-height: 1.2;
-	font-weight: bolder;
+	font-weight: 900;
 }
 
 
