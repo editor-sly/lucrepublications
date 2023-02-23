@@ -42,11 +42,11 @@ p {
   }
 
 span.thick {
-	margin-top: 4px;
-	padding-top: 8px;
+	margin-top: 2px;
+	padding-top: 2px;
 	margin-bottom: 4px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1;
+	line-height: .95;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-size: 7.2vw;
