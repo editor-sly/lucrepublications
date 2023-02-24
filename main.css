@@ -733,11 +733,10 @@ menu {
 
 .logobar {
 	margin: 0;
-	width: 32%;
 	position: absolute;
 	display: block;
-	left: 2px;
-	padding-top: -5px;
+	left: 8px;
+	padding-top: 2px;
 	padding-bottom: 4px;
 }
 
@@ -829,12 +828,12 @@ a {
 span.logo {
 	margin:  0 auto;
 	display: block;
-	max-width: 14em;
+	max-width: 12em;
 	height: auto;
-	margin-top: -2.9em;
-	margin-bottom: -.25em;
-	margin-left: -14%;
-	padding-top: 0px;
+	margin-top: -3.5em;
+	margin-bottom: .25em;
+	margin-left: -10%;
+	padding-top: 0;
 	text-align: center;
 	color: black;
 	justify-content: center;
@@ -843,6 +842,7 @@ span.logo {
 	box-sizing: border-box;
 	opacity: .25;
 	transition: 1s;
+	transform: rotate(45deg);
 }
 
 
