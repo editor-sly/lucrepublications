@@ -52,7 +52,7 @@ span.thick {
 	height: auto;
 	letter-spacing: -8px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1.2;
+	line-height: .98;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 4.25rem;
