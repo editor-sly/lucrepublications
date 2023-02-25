@@ -68,11 +68,11 @@ span.thick2 {
 	padding-top: -8px;
 	color: darkgoldenrod;
 	font-kerning: normal;
-	line-height: .85;
+	line-height: .96;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 4.1vw;
-	opacity: .69;
+	font-size: 4.2vw;
+	opacity: .96;
 }
 
 
@@ -164,8 +164,8 @@ h2.co2 {
 
 h3 {
 	color: wheat;
-	padding-top: 2.8px;
-	padding-bottom: 3.2px;
+	padding-top: 2.3px;
+	padding-bottom: 1px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.8vw;
 	line-height: .75;
@@ -996,8 +996,8 @@ span.logo:hover {
 
 .hero-section1 {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/reza-shayestehpour-H3AfgZyjNaI-unsplash.jpg");
-	background-position: 43% 50%;
-	background-size: 200%;
+	background-position: 40% 50%;
+	background-size: 180%;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: 0 auto;
