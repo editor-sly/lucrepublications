@@ -264,7 +264,7 @@ span.move {
 	width: 12%;
 	height: auto;
 	display: block;
-	margin-left: 45.5%;
+	margin-left: 46.5%;
 	box-sizing: border-box;
 }
 
@@ -786,9 +786,9 @@ a {
 .nav-ft {
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
-	margin-top: 1px;
+	margin-top: 1.5px;
 	margin-bottom: 2px;
-	padding: .2% 0%;
+	padding: .2% .2%;
 	bottom: 0;
 	width: 100%;
 	height: auto;
@@ -796,7 +796,7 @@ a {
 	overflow: hidden;
 	position: sticky;
 	box-sizing: border-box;
-	font-size: 1.3vw;
+	font-size: 1.4vw;
 	line-height: .38;
 	z-index: 1;
 	vertical-align: middle;
@@ -851,12 +851,16 @@ span.logo {
 span.logo_ft {
 	margin:  0 auto;
 	display: block;
-	justify-content: left;
+	justify-content: center;
 	max-width: 4rem;
 	height: auto;
 	margin-top: 16px;
 	padding-left: 1.2em;
 	text-align: center;
+	align-items: center;
+	align-content: center;
+	box-sizing: border-box;
+	justify-content: center;
 	margin-bottom: 4px;
 	color: wheat;
 	transition: 1s;
