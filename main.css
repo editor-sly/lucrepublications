@@ -82,6 +82,7 @@ span.thick2 {
 
 span.thick3 {
 	margin-top: .25em; 
+	padding-top: .25em;
 	margin-bottom: 1.8px;
 	font-kerning: normal;
 	height: auto;
@@ -1411,12 +1412,12 @@ align-items: left
 .copyright {
 	margin: 0 auto;
 	position: relative;
-	margin-bottom: 1%;
+	margin-bottom: 0;
 	background-color: #000;
 	bottom: 0;
 	width: 100%;
-	padding-top: 6px;
-	padding-bottom: 1.5%;
+	padding-top: 1%;
+	padding-bottom: 1.25%;
 	display: block;
 	color: #999;
 	text-align: center;
