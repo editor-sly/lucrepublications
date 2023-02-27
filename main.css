@@ -833,7 +833,7 @@ span.logo {
 	display: block;
 	max-width: 16em;
 	height: auto;
-	margin-top: -6.5em;
+	margin-top: -3.5em;
 	margin-bottom: -4px;
 	margin-left: -6%;
 	padding-top: 1px;
@@ -843,7 +843,7 @@ span.logo {
 	align-items: center;
 	align-content: center;
 	box-sizing: border-box;
-	opacity: .5;
+	opacity: .9;
 	transition: 1s;
 }
 
@@ -1111,7 +1111,7 @@ span.logo:hover {
 
 
 .form-section {
-	background-image: url("img/Lucre_logo_2.png");
+	background-image: url("img/Lucre_logo_n2.png");
 	background-size: 9%;
 	background-position: 96% 2%;
 	background-repeat: no-repeat;
