@@ -635,7 +635,7 @@ menu {
 	margin-left:  -4.5px;
 	margin-right: -5.1px;
 
-	padding-top: 6px;
+	padding-top: 3px;
 	padding-bottom: 3px;
 	left: 0;
 	right: 0;
@@ -833,8 +833,10 @@ span.logo {
 	display: block;
 	max-width: 16em;
 	height: auto;
-	margin-top: 2.5em;
-	margin-bottom: -4px;
+
+	margin-top: 3.25em;
+
+	margin-bottom: 4px;
 	margin-left: -5%;
 	padding-top: 1px;
 	text-align: center;
