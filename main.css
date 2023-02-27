@@ -1274,14 +1274,13 @@ input:focus-within {
 
 
 .editor-pic {
-
 	margin: 0 auto;
-	background-image: url("img/Lucre_logo_N2.png");
-	background-size: 70%;
+	background-image: url("img/Selah_Kesh_c.png");
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	max-width: 8em;
-	height: 8em;
+	max-width: 6em;
+	height: 6em;
 	background-color: black;
 	display:block;
 	position: relative;
@@ -1292,9 +1291,11 @@ input:focus-within {
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: 1;
-	color: #111;
+	border-width: .5pt;
+	color: #999;
 	border-radius: 50%;
+	object-fit: contain;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
