@@ -315,7 +315,7 @@ span.move {
 	display: flex;
 	max-width: 100px;
 	height: 18vh;
-	left: 1%;
+	left: 1.5%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
   margin-bottom: -8%;
