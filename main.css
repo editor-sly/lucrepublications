@@ -675,9 +675,9 @@ menu {
 	font-size: 1.42vw;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.png");
-	background-size: cover;
+	background-size: 150%;
 	background-repeat: no-repeat;
-	background-position: auto auto;
+	background-position: 0% 50%;
 	margin: 0 auto;
 	margin-bottom: 2.4px;
 
