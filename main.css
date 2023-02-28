@@ -921,7 +921,7 @@ span.logo_ft {
 	width: 4.25em;
 	height: auto;
 	margin-top: 16px;
-	margin-left: 48.2%;
+	margin-left: 47.4%;
 	text-align: center;
 	align-items: center;
 	align-content: center;
@@ -1019,8 +1019,8 @@ span.logo:hover {
 
 .hero-section4 {
 	background-image: url(img/andrey-stakhovskiy-MgES-cgCNgs-unsplash.jpg);
-	background-position: 78% 50%;
-	background-size: 100hw;
+	background-position: auto auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: auto;
