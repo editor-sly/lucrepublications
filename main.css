@@ -496,8 +496,9 @@ html {
  			font-family: Merienda, Helvetica, Arial, sans-serif;
 
  	scroll-behavior: smooth;
-	filter: saturate(60%);
+	filter: saturate(80%);
 	white-space: wrap;
+	opacity: .96;
 }
 
 
@@ -1369,7 +1370,7 @@ input:focus-within {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/valentin-salja-CLvkkjb-i3g-unsplash.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: auto auto;
+	background-position: 50% 50%;
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 0%;
