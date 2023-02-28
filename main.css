@@ -496,7 +496,7 @@ html {
  			font-family: Merienda, Helvetica, Arial, sans-serif;
 
  	scroll-behavior: smooth;
-	filter: saturate(70%);
+	filter: saturate(80%);
 	white-space: wrap;
 	opacity: .98;
 }
@@ -516,7 +516,7 @@ html: focus-within {
 
 body {
 
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/valentin-salja-CLvkkjb-i3g-unsplash_c.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: 1;
