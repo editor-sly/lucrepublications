@@ -496,9 +496,9 @@ html {
  			font-family: Merienda, Helvetica, Arial, sans-serif;
 
  	scroll-behavior: smooth;
-	filter: saturate(80%);
+	filter: saturate(70%);
 	white-space: wrap;
-	opacity: .96;
+	opacity: .98;
 }
 
 
@@ -521,7 +521,7 @@ body {
 	letter-spacing: .003px;
 	line-height: 1;
 	background-color: black;
-	background-size: 200vh;
+	background-size: 100vw;
 	margin: 0 auto;
 	margin-top: 1.5%;
 	font-size: 1.4vw;
