@@ -47,15 +47,15 @@ p {
 
 span.thick {
 	margin-bottom: 1px;
-	margin-top: 1.3em;
+	margin-top: .5em;
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -7.8px;
 	color: hsl(0, 0%, 95%);
-	line-height: .99;
+	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 4.24rem;
+	font-size: 4.24em;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
 }
@@ -1378,7 +1378,7 @@ input:focus-within {
 	padding-right: 0%;
 	padding-top: .3em;
 	width: 100vw;
-	max-height: 38vh;
+	max-height: 36vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
