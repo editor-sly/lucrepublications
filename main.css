@@ -307,14 +307,14 @@ span.move {
 
 .floatlogo {
 	background-image: url("img/Lucre_logo_N2.png");
-	background-size: 99%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	position: relative;
   margin: 0 auto;
 	display: flex;
 	max-width: 100px;
-	height: 18vh;
+	height: 21.5vh;
 	left: 1.5%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
@@ -327,7 +327,7 @@ span.move {
 		transform: translateY(0);
 	}
 	50% {
-		transform: translateY(-30px);
+		transform: translateY(-42px);
 	}
 	100% {
 		transform: translateY(0);
@@ -349,7 +349,6 @@ textarea {
 
 input,
 button,
-textarea,
 select {
 		margin: 0;
 		font: relative;
@@ -496,7 +495,7 @@ html {
  			font-family: Merienda, Helvetica, Arial, sans-serif;
 
  	scroll-behavior: smooth;
-	filter: saturate(80%);
+	filter: saturate(72%);
 	white-space: wrap;
 	opacity: .98;
 }
