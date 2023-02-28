@@ -313,8 +313,9 @@ span.move {
 	position: relative;
   margin: 0 auto;
 	display: flex;
-	max-width: 200px;
-	height: 30.5vh;
+	flex-direction: column;
+	max-width: 198px;
+	height: 33.5vh;
 	left: 3%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
