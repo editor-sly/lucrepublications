@@ -1397,8 +1397,8 @@ input:focus-within {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	max-width: 6em;
-	height: 6em;
+	max-width: 12em;
+	height: 12em;
 	background-color: black;
 	display:block;
 	position: relative;
