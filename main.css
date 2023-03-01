@@ -44,6 +44,46 @@ p {
 
 
 
+aside {
+    width: 40%;
+    margin-top: -1%;
+    padding-left: .5rem;
+    padding-right: .5;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    float: right;
+    line-height: .75;
+    box-shadow: inset 5px 0 5px -5px #111;
+    font-style: italic;
+    color: #999;
+    background-color: black;
+}
+
+aside > p {
+    margin: 0.25rem;
+}
+
+
+.fill {
+
+    width: 93%;
+    margin-top: -1%;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 2.8rem;
+    color: #999;
+    font-style: italic;
+    background-color: black;
+}
+
+
+ .fill > p {
+    margin: 0.25rem;
+}
 
 span.thick {
 	margin-bottom: 1px;
