@@ -45,7 +45,12 @@ p {
 
 
 
-
+.details {
+    font-size: 2em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -1031,7 +1036,7 @@ span.logo:hover {
 
 .border-left {
 	
-	padding: 0px;
+	padding: 2px;
 	text-indent: 0;
 	padding-left: 11.23px;
 	margin: 0;
@@ -1227,7 +1232,7 @@ span.logo:hover {
 .screen2 {
 	height: auto;
 	margin: 0 auto;
-	margin-bottom: 2px;
+	margin-bottom: 1px;
 	padding: 0px;
 	padding-left: 0;
 	max-width: 98%;
@@ -1235,7 +1240,6 @@ span.logo:hover {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-  background-color: rgba(90, 60, 30, 35%);
   display: block;
 }
 
