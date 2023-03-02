@@ -62,13 +62,13 @@ aside {
     width: 59.5%;
     margin-top: -1%;
     padding-left: .25rem;
-    padding-right: .5rem;
-    padding-bottom: .25rem;
-    margin-left: .25rem;
-    margin-right: .5rem;
+    padding-right: .25rem;
+    padding-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .25rem;
     float: right;
     font-size: 1.2vw;
-    line-height: .75;
+    line-height: 1;
     box-shadow: inset 5px 0 5px -5px #111;
     font-style: italic;
     color: #999;
@@ -89,12 +89,12 @@ aside > p {
 
     width: 95%;
     margin-top: 1%;
-    padding-top: .5rem;
+    padding-top: .25rem;
     padding-left: 1rem;
-    padding-right: .5rem;
-    padding-bottom: .5rem;
-    margin-left: 0rem;
-    margin-right: 2.8rem;
+    padding-right: .25rem;
+    padding-bottom: 1rem;
+    margin-left: .5rem;
+    margin-right: .25rem;
     color: #999;
     font-style: italic;
     background-color: black;
@@ -608,10 +608,10 @@ body {
 	background-size: 180vw;
 
 	margin: 0 auto;
-	margin-top: 1.5%;
+	margin-top: 1.25%;
 	font-size: 1.4vw;
 	padding: .25em;
-	margin-bottom:40vh;
+	margin-bottom:38vh;
 	width: 84vw;
 	height: auto;
 	display: block;
