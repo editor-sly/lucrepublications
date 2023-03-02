@@ -164,14 +164,14 @@ span.thick2 {
 
 
 span.thick3 {
-	margin-top: .25em; 
-	padding-top: .25em;
-	margin-bottom: 1.8px;
+	margin-top: .5em; 
+	padding-top: 1em;
+	margin-bottom: 1.6px;
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -4.5px;
 	color: hsl(0, 0%, 80%);
-	line-height: .75;
+	line-height: 1;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 	font-size: 2.6rem;
