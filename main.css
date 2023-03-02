@@ -109,17 +109,21 @@ aside > p {
 
 span.thick {
 	margin-bottom: 1px;
-	margin-top: .5em;
+	margin-top: .25em;
 	font-kerning: normal;
 	height: auto;
-	letter-spacing: -10.8px;
+	letter-spacing: -12.8px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1;
+	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 4.5rem;
+	font-size: 5.5rem;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	box-sizing: border-box;
 }
 
 
