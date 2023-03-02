@@ -54,13 +54,13 @@ p {
 
 
 aside {
-    width: 60%;
+    width: 59.5%;
     margin-top: -1%;
     padding-left: .25rem;
     padding-right: .5;
     padding-bottom: .25rem;
-    margin-left: 1.5rem;
-    margin-right: 1rem;
+    margin-left: .25rem;
+    margin-right: .5rem;
     float: right;
     justify-content: right;
     font-size: 1.2;
@@ -102,6 +102,11 @@ aside > p {
     margin: 0.25rem;
 }
 
+
+
+
+
+
 span.thick {
 	margin-bottom: 1px;
 	margin-top: .5em;
@@ -113,6 +118,23 @@ span.thick {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 6.5rem;
+	opacity: .69;
+	text-shadow: 0px 0px 3px #111;
+}
+
+
+span.thick-headline {
+	margin-bottom: 1px;
+	margin-top: .5em;
+	font-kerning: normal;
+	height: auto;
+	letter-spacing: -5.8px;
+	word-spacing: .5rem;
+	color: hsl(0, 0%, 95%);
+	line-height: 1;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	font-size: 2.4em;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
 }
@@ -351,7 +373,6 @@ span.move {
 .float {
 	width: 100%;
   height: 100vw;
-  overflow: hidden;
 	background-image: url("img/Lucre_logo_N2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -370,14 +391,14 @@ span.move {
 	position: relative;
   margin: 0 auto;
 	display: flex;
-	flex-wrap: wrap;
-	max-width: 190px;
-	height: 38vw;
+	flex-direction: column;
+	max-width: 178px;
+	height: 40vw;
 	left: 2%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
-  margin-bottom: -8%;
-  margin-top: -5%;
+  margin-bottom: -18%;
+  margin-top: -15%;
 }
 
 	@keyframes animate {
@@ -385,8 +406,7 @@ span.move {
 		transform: translateY(0);
 	}
 	50% {
-		transform: translateY(-30px);
-	}
+		transform: translateY(-26px); }
 	100% {
 		transform: translateY(0);
 	}
@@ -1397,8 +1417,8 @@ input:focus-within {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	max-width: 12em;
-	height: 12em;
+	max-width: 8em;
+	height: 8em;
 	background-color: black;
 	display:block;
 	position: relative;
