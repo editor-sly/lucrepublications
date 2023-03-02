@@ -398,7 +398,7 @@ span.move {
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
   margin-bottom: -18%;
-  margin-top: -15%;
+  margin-top: -10%;
 }
 
 	@keyframes animate {
@@ -406,7 +406,7 @@ span.move {
 		transform: translateY(0);
 	}
 	50% {
-		transform: translateY(-26px); }
+		transform: translateY(-22px); }
 	100% {
 		transform: translateY(0);
 	}
