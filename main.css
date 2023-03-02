@@ -1408,7 +1408,7 @@ input:focus-within {
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: 2pt;
+	border-width: 1.5pt;
 	color: darkgoldenrod;
 	border-radius: 50%;
 	object-fit: contain;
