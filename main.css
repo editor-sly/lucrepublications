@@ -737,7 +737,7 @@ menu {
 	background-repeat: no-repeat;
 	background-position: 0% 50%;
 	margin: 0 auto;
-	margin-bottom: 2.4px;
+	margin-bottom: .25em;
 
 	margin-left:  -4.8px;
 	margin-right: -5.1px;
@@ -1396,11 +1396,12 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
-	max-width: 8em;
-	height: 8em;
+	max-width: 6.8em;
+	height: 6.8em;
 	background-color: black;
 	display:block;
 	position: relative;
+	margin-top: .25em;
 	margin-bottom: .5em;
 	box-sizing: border-box;
 	vertical-align: middle;
