@@ -363,34 +363,6 @@ span.move {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.float {
-	width: 100%;
-  height: 100vw;
-	background-image: url("img/Lucre_logo_N2.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-}
-
-
-
-
-
 .floatlogo {
 	background-image: url("img/Lucre_logo_N2.png");
 	background-size: 100%;
@@ -398,13 +370,14 @@ span.move {
 	background-position: center center;
 	position: relative;
   margin: 0 auto;
-	display: block;
-	max-width: 148px;
-	height: 40vw;
-	left: 3%;
+	display: flex;
+	flex-direction: column;
+	max-width: 180px;
+	height: 40vh;
+	left: 2.5%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
-  margin-bottom: -18%;
+  margin-bottom: -14%;
   margin-top: -10%;
 }
 
