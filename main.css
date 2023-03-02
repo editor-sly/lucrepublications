@@ -1420,23 +1420,23 @@ input:focus-within {
 .editor-pic {
 	margin: 0 auto;
 	background-image: url("img/Selah_Kesh_c.png");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: auto auto;
 	max-width: 8em;
 	height: 8em;
 	background-color: black;
 	display:block;
 	position: relative;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	box-sizing: border-box;
 	vertical-align: middle;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: .5pt;
-	color: silver;
+	border-width: 2pt;
+	color: darkgoldenrod;
 	border-radius: 50%;
 	object-fit: contain;
 
