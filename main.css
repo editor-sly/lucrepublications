@@ -730,10 +730,10 @@ menu {
 .nav {
 
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.42vw;
+	font-size: 1.2em;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.png");
-	background-size: 150%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0% 50%;
 	margin: 0 auto;
