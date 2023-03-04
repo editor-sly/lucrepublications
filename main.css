@@ -121,7 +121,7 @@ span.thick {
 	height: auto;
 	letter-spacing: -12.8px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1.4;
+	line-height: 1.48;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 5.5rem;
@@ -232,7 +232,7 @@ h2 {
 h2.co {
 	padding-top: 0;
 	padding-bottom: 0;
-	margin-left: 1.8%;
+	margin-left: 1.6%;
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
 	font-size: 1.5rem;
