@@ -373,7 +373,7 @@ span.move {
   margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	max-width: 18rem;
+	max-width: 16rem;
 	min-height: 14rem;
 	left: 1.25%;
 	justify-content: center;
