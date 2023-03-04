@@ -373,7 +373,7 @@ span.move {
 	display: flex;
 	flex-direction: column;
 	max-width: 12rem;
-	height: 14em;
+	min-height: 20em;
 	left: 2.5%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
