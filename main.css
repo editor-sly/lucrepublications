@@ -118,11 +118,12 @@ span.thick {
 	height: auto;
 	letter-spacing: -12.8px;
 	color: hsl(0, 0%, 95%);
-	line-height: .8;
+	line-height: 1;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 5.5rem;
-	opacity: .69;
+	margin-left: -2.5%;
+	font-size: 6rem;
+	opacity: .9;
 	text-shadow: 0px 0px 3px #111;
 	justify-content: center;
 	align-items: center;
@@ -372,9 +373,9 @@ span.move {
   margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	max-width: 12rem;
-	min-height: 20em;
-	left: 2.5%;
+	max-width: 18rem;
+	min-height: 14rem;
+	left: 1.25%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
   margin-bottom: -14%;
@@ -386,7 +387,7 @@ span.move {
 		transform: translateY(0);
 	}
 	50% {
-		transform: translateY(-22px); }
+		transform: translateY(-40px); }
 	100% {
 		transform: translateY(0);
 	}
@@ -1573,8 +1574,8 @@ align-items: left
 	bottom: 0;
 	width: 100%;
 	height: auto;
-	padding-top: .5%;
-	padding-bottom: 1.25%;
+	padding-top: .25%;
+	padding-bottom: 2.25%;
 	display: block;
 	color: #999;
 	text-align: center;
