@@ -116,7 +116,7 @@ aside > p {
 span.thick {
 	margin-bottom: 1px;
 	margin-top: .25em;
-	margin-left: -2%;
+	margin-left: 0%;
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -12.8px;
@@ -232,7 +232,7 @@ h2 {
 h2.co {
 	padding-top: 0;
 	padding-bottom: 0;
-	margin-left: -1%;
+	margin-left: 1.8%;
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
 	font-size: 1.5rem;
@@ -893,8 +893,8 @@ a {
 .footer-links li a {
 	text-decoration: none;
 	color: darkgoldenrod;
-	padding: 1px;
-	margin-bottom: -11px;
+	padding: 0px;
+	margin-bottom: 0px;
 	background-color: none;
 	display: inline-block;
 
@@ -904,10 +904,10 @@ a {
 
 .nav-ft {
 	font-family: 'Poppins', sans-serif;
-	margin: 0 auto;
+	margin: 0;
 	margin-top: 1px;
 	margin-bottom: 1.25px;
-	padding: .2% .2%;
+	padding: 0% 0%;
 	bottom: 0;
 	width: 100vw;
 	height: auto;
@@ -918,7 +918,6 @@ a {
 	font-size: 1.38vw;
 	line-height: .5;
 	z-index: 1;
-	vertical-align: middle;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
