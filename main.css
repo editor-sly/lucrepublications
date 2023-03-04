@@ -365,15 +365,15 @@ span.move {
 
 .floatlogo {
 	background-image: url("img/Lucre_logo_N2.png");
-	background-size: 100%;
+	background-size: 60%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	position: relative;
   margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	max-width: 10rem;
-	height: 25em;
+	max-width: 12rem;
+	height: 14em;
 	left: 2.5%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
