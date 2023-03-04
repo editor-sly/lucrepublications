@@ -1457,6 +1457,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	opacity:.96;
 }
 
 
