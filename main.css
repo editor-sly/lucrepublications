@@ -216,7 +216,7 @@ h1 {
 
 h2 {
 	color: lightgoldenrod;
-	line-height: .25;
+	line-height: 1;
 	padding-top: 3.5px;
 	padding-bottom: 2.6px;
 	font-family: 'Roboto Slab', serif;
