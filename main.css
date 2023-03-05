@@ -380,7 +380,7 @@ span.move {
 	left: 2.3%;
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
-  margin-bottom: -16%;
+  margin-bottom: -14%;
   margin-top: -9.8%;
   z-index: -111;
 }
