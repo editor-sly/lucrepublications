@@ -565,7 +565,7 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/europeana-5TK1F5VfdIk-unsplash_blr.jpg");
+	background-image: url("img/british-library-n4HOiH-lcmA-unsplash.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
@@ -597,12 +597,16 @@ html: focus-within {
 
 body {
 
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/mitchell-luo-LT082heAOgE-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: 1;
+
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-color: black;
-	background-size: 180vw;
 
 	margin: 0 auto;
 	margin-top: 1.25%;
@@ -1449,17 +1453,17 @@ input:focus-within {
 
 
 .footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/valentin-salja-CLvkkjb-i3g-unsplash.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/mareks-steins-ankYj7GOgjw-unsplash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 0% 20%;
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 0%;
 	padding-right: 0%;
 	padding-top: .3em;
 	width: 100vw;
-	max-height: 34/5vh;
+	max-height: 35.5vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
@@ -1477,7 +1481,6 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	opacity:.96;
 }
 
 
