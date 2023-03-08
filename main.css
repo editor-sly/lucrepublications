@@ -129,13 +129,14 @@ span.thick {
 	margin-top: 14px;
 	margin-left: 0%;
 	font-kerning: normal;
+	max-width: 90%;
 	height: auto;
 	letter-spacing: -12.8px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1.25;
+	line-height: 1.23;
 	font-family: 'Poppins', sans-serif;
-	font-weight: bolder;
-	font-size: 5.5rem;
+	font-weight: bold;
+	font-size: 5.1rem;
 	text-shadow: 0px 0px 3px #111;
 	justify-content: center;
 	align-items: center;
