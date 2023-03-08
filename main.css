@@ -1636,7 +1636,7 @@ button {
 	font-size: 1.4vw;
 	transition: 200ms ease-in-out;
 	border-style: solid;
-	border-radius: 8px;
+	border-radius: 5px;
 	border-width: 1pt;
 	border-color: silver;
 	opacity: .8;
