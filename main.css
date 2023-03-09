@@ -30,7 +30,7 @@ p {
 	padding-left: 0;
 	word-spacing: 1.24px;
 	letter-spacing: .004px;
-	line-height: 1.5;
+	line-height: 1.25;
 	font-size: 1.58vw;
 	display: block;
 }
@@ -948,6 +948,7 @@ a {
 	align-content: center;
 	align-items: center;
 	text-align: center;
+	font-weight: normal;
 }
 
 
