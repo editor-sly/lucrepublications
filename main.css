@@ -530,7 +530,9 @@ line-breaks {
 
 
 
-
+.hi-light {
+	background-color: #111;
+}
 
 
 .ticker {
@@ -1244,7 +1246,6 @@ span.logo:hover {
 	align-items: center;
   display: block;
 }
-
 
 
 
