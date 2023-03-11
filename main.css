@@ -150,6 +150,7 @@ span.thick {
 
 span.thick-headline {
 	margin-bottom: 1px;
+	position: block;
 	margin-top: .5em;
 	font-kerning: normal;
 	height: auto;
@@ -162,6 +163,7 @@ span.thick-headline {
 	font-size: 2.22em;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
+	z-index: 999999;
 }
 
 
@@ -615,9 +617,13 @@ body {
 	margin-top: 1.25%;
 	font-size: 1.4vw;
 	padding: .25em;
-	margin-bottom:38vh;
+
+
 	width: 84vw;
-	height: auto;
+	max-height: auto;
+
+	margin-bottom:16rem;
+
 	display: block;
 	color: wheat;
 	text-rendering: optimizeSpeed;
@@ -1512,6 +1518,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
+	z-index: 111;
 }
 
 
@@ -1526,7 +1533,6 @@ footer:before {
 	background: linear-gradient(180deg, #111, #000);
 	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
 	transform: scaleX(1.2);
-	z-index: -111;
 	opacity: .3;
 }
 
@@ -1782,3 +1788,11 @@ ul.fa {
 
 
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+
+
+.cta-bottom {
+	position: relative;
+	z-index: 99999;
+}
