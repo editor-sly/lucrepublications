@@ -1487,7 +1487,7 @@ input:focus-within {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: auto auto;
+	background-position: auto 20%;
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 0%;
