@@ -619,7 +619,7 @@ body {
 	padding: .25em;
 
 
-	width: 84vw;
+	width: 86vw;
 	max-height: auto;
 
 	margin-bottom:14rem;
@@ -908,7 +908,7 @@ menu {
 
 
 ul {
-	font-size: 1.2rem;
+	font-size: 1.2em;
  	line-height: .5;
  }
 
@@ -917,7 +917,7 @@ ul {
 
 
 ul.li {
-	font-size: 1rem;
+	font-size: 1em;
  	line-height: 1.2;
  }
 
