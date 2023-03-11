@@ -531,8 +531,7 @@ line-breaks {
 
 
 .hi-light {
-	background-color: #111;
-	opacity: .69;
+	background-color: black;
 }
 
 
@@ -647,8 +646,10 @@ body {
 
 
 .container {
-	background-image: url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
+	background-image: url("img/jj-jordan-ZtDBdBr-MrQ-unsplash.jpg");
 	background-size: cover;
+	background-position: auto auto;
+	background-repeat: no-repeat;
 	margin: 0 auto;
 	padding: 1.2% 1.2%;
 	max-width: 80%;
@@ -666,11 +667,36 @@ body {
 
 
 
-.container2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/jj-jordan-ZtDBdBr-MrQ-unsplash.jpg");
-	background-size: 120%;
+
+.container-gfx {
+	background-image: url("img/mareks-steins-ankYj7GOgjw-unsplash.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-position: 30% 14%;
+	margin: 0 auto;
+	padding: 1.2% 1.2%;
+	max-width: 80%;
+	height: auto;
+	display: block;
+	background-color: hsl(8, 92%, 20%);
+	border-style: none;
+	border-bottom-left-radius: 0px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+.container2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/steve-harvey-U4wcrDteZ2Y-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1108,8 +1134,8 @@ span.logo:hover {
 
 
 .hero-section4 {
-	background-image: url(img/andrey-stakhovskiy-MgES-cgCNgs-unsplash.jpg);
-	background-position: auto auto;
+	background-image: url(img/mareks-steins-ankYj7GOgjw-unsplash.jpg);
+	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -1148,8 +1174,8 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/reza-shayestehpour-H3AfgZyjNaI-unsplash.jpg");
-	background-position: 40% 50%;
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/mareks-steins-ankYj7GOgjw-unsplash.jpg");
+	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -1285,7 +1311,7 @@ span.logo:hover {
 	align-content: left;
 	align-items: left;
 	justify-content: left;
-	opacity: .98;
+	opacity: .96;
 	font-size: 2.1vw;
 }
 
@@ -1294,9 +1320,9 @@ span.logo:hover {
 	content:"";
 	position: absolute;
 	display: block;
-	background-image: url("img/jj-jordan-WR0npmNdnOo-unsplash.jpg");
+	background-image: url("img/christian-holzinger-kEXMAGTivXA-unsplash.jpg");
 	background-size: cover;
-	background-position: 50% 0%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	top: 0px;
  	right: 0px;
@@ -1458,10 +1484,10 @@ input:focus-within {
 
 
 .footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/mareks-steins-ankYj7GOgjw-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0% 20%;
+	background-position: auto auto;
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 0%;
