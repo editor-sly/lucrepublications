@@ -586,7 +586,7 @@ html {
  			font-family: Merienda, Helvetica, Arial, sans-serif;
 
  	scroll-behavior: smooth;
-	filter: saturate(72%);
+	filter: saturate(50%);
 	white-space: wrap;
 	opacity: .98;
 }
