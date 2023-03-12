@@ -480,6 +480,15 @@ div {
 }
 
 
+
+
+.flush-right {
+	float: right;
+	padding-right: 4px;
+}
+
+
+
 .cover {
   object-fit: cover;
   width: 100%;
