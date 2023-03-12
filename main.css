@@ -395,12 +395,14 @@ span.move {
 	background-repeat: no-repeat;
 	background-position: center center;
 	position: relative;
-  margin: 0 auto;
+  	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	max-width: 16rem;
 	min-height: 12rem;
-	left: 2.3%;
+
+	left: 3.1%;
+
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
   margin-bottom: -14%;
