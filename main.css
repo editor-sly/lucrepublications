@@ -70,7 +70,7 @@ span.cap {
 
 
 aside {
-    width: 59.5%;
+    width: 40%;
     margin-top: -1%;
     padding-left: .25rem;
     padding-right: .25rem;
@@ -602,12 +602,12 @@ html: focus-within {
 
 body {
 
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/mitchell-luo-LT082heAOgE-unsplash.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/zulmaury-saavedra-vh_pAs2FH_8-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: 1;
 
-	background-size: cover;
+	background-size: 108%;
 	background-position: auto auto;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -617,7 +617,6 @@ body {
 	margin-top: 1.25%;
 	font-size: 1.4vw;
 	padding: .25em;
-
 
 	width: 86vw;
 	max-height: auto;
@@ -652,9 +651,9 @@ body {
 
 
 .container {
-	background-image: url("img/jj-jordan-ZtDBdBr-MrQ-unsplash.jpg");
+	background-image: url("img/maksim-istomin-IQ0BVvebfKw-unsplash.jpg");
 	background-size: cover;
-	background-position: auto auto;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	padding: 1.2% 1.2%;
@@ -675,7 +674,7 @@ body {
 
 
 .container-gfx {
-	background-image: url("img/mareks-steins-ankYj7GOgjw-unsplash.jpg");
+	background-image: url("img/hamish-weir-FXnlNflvd_o-unsplash.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -975,9 +974,9 @@ a {
 .nav-ft {
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
-	margin-top: 1px;
-	margin-bottom: 1px;
-	padding: 0% 0%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: .25% .25%;
 	bottom: 0;
 	width: 100vw;
 	height: auto;
@@ -1148,8 +1147,8 @@ span.logo:hover {
 
 
 .hero-section4 {
-	background-image: url(img/mareks-steins-ankYj7GOgjw-unsplash.jpg);
-	background-position: 50% 50%;
+	background-image: url(img/engin-akyurt-0bgCyhlq9oU-unsplash.jpg);
+	background-position: auto auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -1188,7 +1187,7 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/mareks-steins-ankYj7GOgjw-unsplash.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/gijs-coolen-E-l3Tg2Sp-8-unsplash.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1278,7 +1277,8 @@ span.logo:hover {
 	height: auto;
 	margin: 0 auto;
 	margin-bottom: 1px;
-	padding: 0;
+	padding-bottom: 2%;
+	padding-bottom: 2%;
 	padding-left: 0;
 	max-width: 98%;
 	border-style: none;
@@ -1286,10 +1286,12 @@ span.logo:hover {
 	align-content: center;
 	align-items: center;
   display: block;
-  color: black;
-  background-color: white;
-  opacity: .5;
-  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #111;
+  opacity: .69;
+  border-radius: 4px;
+  align-content: center;
+  align-items: center;
 }
 
 
@@ -1329,7 +1331,7 @@ span.logo:hover {
 	align-content: left;
 	align-items: left;
 	justify-content: left;
-	opacity: .96;
+	opacity: .99;
 	font-size: 2.1vw;
 }
 
@@ -1468,7 +1470,7 @@ input:focus-within {
 
 .editor-pic {
 	margin: 0 auto;
-	background-image: url("img/Selah_Kesh_c.png");
+	background-image: url("img/Selah_Kesh_e.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
@@ -1485,8 +1487,8 @@ input:focus-within {
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: 1.5pt;
-	color: darkgoldenrod;
+	border-width: .25em;
+	color: #111;
 	border-radius: 50%;
 	object-fit: contain;
 
@@ -1647,14 +1649,14 @@ align-items: left
 	position: relative;
 	background-color: #000;
 	bottom: 0;
-	width: 100%;
+	width: 100vw;
 	height: auto;
-	padding-top: .25%;
-	padding-bottom: 1%;
+	padding-top: .5%;
+	padding-bottom: 1.25%;
 	display: block;
 	color: #999;
 	text-align: center;
-	font-size: .6em;
+	font-size: .7em;
 	line-height: .25;
 	font-weight: 400;
 }
