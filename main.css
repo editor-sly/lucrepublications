@@ -1280,9 +1280,10 @@ span.logo:hover {
 .screen2 {
 	height: auto;
 	margin: 0 auto;
-	margin-bottom: 1px;
-	padding-bottom: 2%;
-	padding-bottom: 2%;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-top: 2%;
+	padding-bottom: 2.5%;
 	padding-left: 0;
 	max-width: 98%;
 	border-style: none;
@@ -1292,10 +1293,12 @@ span.logo:hover {
   display: block;
   color: whitesmoke;
   background-color: #111;
-  opacity: .69;
+  opacity: .4;
   border-radius: 4px;
+  justify-content: center;
   align-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 
