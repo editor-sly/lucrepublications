@@ -104,13 +104,14 @@ aside > p {
     padding-top: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
-    color: #999;
+    color: #111;
     font-style: italic;
     background-color: black;
     opacity: .9;
+    color: silver;
     
 }
 
@@ -401,7 +402,7 @@ span.move {
 	max-width: 16rem;
 	min-height: 12rem;
 
-	left: 3.1%;
+	left: 1.5%;
 
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
@@ -609,8 +610,8 @@ body {
 	letter-spacing: .003px;
 	line-height: 1;
 
-	background-size: 108%;
-	background-position: auto auto;
+	background-size: 100%;
+	background-position: 50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -1649,13 +1650,13 @@ align-items: left
 	margin: 0 auto;
 	position: relative;
 	background-color: #000;
-	bottom: 0;
+	bottom: 0;fa 
 	width: 100vw;
 	height: auto;
 	padding-top: .5%;
 	padding-bottom: 1.25%;
 	display: block;
-	color: #999;
+	color: mediumturquoise;
 	text-align: center;
 	font-size: .7em;
 	line-height: .25;
@@ -1775,7 +1776,7 @@ ul.fa {
 
  .fa-twitter {  
   background: none;  
-  color: silver; 
+  color: mediumturquoise; 
   font-size: 2vw; 
 } 
 
@@ -1783,21 +1784,21 @@ ul.fa {
 
 
 .fa-linkedin {    
-  color: silver;
+  color: darkturquoise;
   font-size: 2vw;
 }
 
 
 
 .fa-medium {    
-  color: silver; 
+  color: mediumturquoise; 
   font-size: 1.8vw;
 }
 
 
 
 .fa-tumblr {    
-  color: silver;
+  color: mediumturquoise;
   font-size: 2vw;
 }
 
