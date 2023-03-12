@@ -1519,13 +1519,13 @@ input:focus-within {
 	bottom: 0;
 	display: inline-block;
 	background-color: black;
-	border-color: silver;
+	border-color: #111;
 	border-style: solid;
 	border-bottom: none;
 	border-top: 1;
 	border-left: none;
 	border-right: none;
-	border-width: 1px;
+	border-width: 2px;
 	box-sizing: border-box;
 	justify-content: center;
 	align-content: center;
