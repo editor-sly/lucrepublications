@@ -1346,7 +1346,7 @@ span.logo:hover {
 	content:"";
 	position: absolute;
 	display: block;
-	background-image: url("img/christian-holzinger-kEXMAGTivXA-unsplash.jpg");
+	background-image: url("img/lilly-rum-iyKVGRu79G4-unsplash.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -1359,7 +1359,7 @@ span.logo:hover {
 	margin-bottom: 0px;
 	border-radius: 8px;
 	object-fit: contain;
-	filter: saturate(50%);
+	filter: saturate(70%);
 	object-position: bottom;
 }
 
