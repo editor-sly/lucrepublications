@@ -134,10 +134,10 @@ span.thick {
 	height: auto;
 	letter-spacing: -12.8px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1.23;
+	line-height: 1.21;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 5.1rem;
+	font-size: 5.3rem;
 	text-shadow: 0px 0px 3px #111;
 	justify-content: center;
 	align-items: center;
@@ -373,12 +373,12 @@ img:hover {
 }
 
 
-span.move {
+span.movegfx {
 	margin 0 auto;
 	margin-top: 6px;
 	margin-bottom: 8px;
 	position: relative;
-	width: 18%;
+	width: 16%;
 	height: auto;
 	display: block;
 
@@ -403,7 +403,7 @@ span.move {
 	max-width: 16rem;
 	min-height: 12rem;
 
-	left: 1.5%;
+	left: 1.6%;
 
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
