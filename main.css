@@ -1524,9 +1524,9 @@ input:focus-within {
 
 .footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("img/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
-	background-size: 100vw;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: auto auto;
+	background-position: auto 20%;
 	margin: 0 auto;
 	margin-bottom: 0;
 	padding-left: 0%;
@@ -1540,7 +1540,7 @@ input:focus-within {
 	bottom: 0;
 	display: inline-block;
 	background-color: black;
-	border-color: #444;
+	border-color: #222;
 	border-style: solid;
 	border-bottom: none;
 	border-top: 1;
@@ -1552,7 +1552,6 @@ input:focus-within {
 	align-content: center;
 	align-items: center;
 	z-index: 111;
-	filter: saturate(90%);
 }
 
 
@@ -1567,7 +1566,7 @@ footer:before {
 	background: linear-gradient(180deg, #111, #000);
 	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
 	transform: scaleX(1.2);
-	opacity: .4;
+	opacity: .3;
 }
 
 
