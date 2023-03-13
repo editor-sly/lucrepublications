@@ -585,6 +585,7 @@ html {
 	margin: 0 auto;
 	background-image: url("img/engin-akyurt-0bgCyhlq9oU-unsplash.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	background-position: 50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -593,11 +594,9 @@ html {
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
-
  	scroll-behavior: smooth;
-	filter: saturate(50%);
+	filter: saturate(88%);
 	white-space: wrap;
-	opacity: .98;
 }
 
 
@@ -620,7 +619,7 @@ body {
 	letter-spacing: .003px;
 	line-height: 1;
 
-	background-size: 100%;
+	background-size: cover;
 	background-position: 50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -657,7 +656,7 @@ body {
  	border-color: #111;
  	border-right-color: #555;
  	border-style: solid;
- 	opacity: .96;
+ 	opacity: .99;
 }
 
 
@@ -1356,8 +1355,9 @@ span.logo:hover {
 	position: absolute;
 	display: block;
 	background-image: url("img/lilly-rum-iyKVGRu79G4-unsplash.jpg");
-	background-size: cover;
-	background-position: 50% 50%;
+	background-size: 100%;
+	background-attachment: static;
+	background-position: auto auto;
 	background-repeat: no-repeat;
 	top: 0px;
  	right: 0px;
