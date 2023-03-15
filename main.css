@@ -145,25 +145,25 @@ span.thick {
 	align-content: center;
 	box-sizing: border-box;
 	color: red;
-}f
+}
 
 
 
 
 
-span.thick-headline {
-	margin-bottom: 1px;
+span.thick-headline{
+	margin-bottom: .5em;
 	position: block;
 	margin-top: .5em;
 	font-kerning: normal;
 	height: auto;
-	letter-spacing: -1px;
+	letter-spacing: 0;
 	word-spacing: .5rem;
-	color: hsl(0, 0%, 95%);
-	line-height: 1;
+	color: darkgoldenrod;
+	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 2.22em;
+	font-size: 6vmax;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
 	z-index: 999999;
@@ -313,10 +313,13 @@ blockquote,
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 2;
+	 line-height: .5;
 	 font-family: Helvetica, san-serif;
-	 font-size: 1.8vw;
+	 font-size: 1.2rem;
 }
+
+
+
 
 dl,
 dt {
