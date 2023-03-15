@@ -152,6 +152,7 @@ span.thick {
 
 
 span.thick-headline{
+	margin: o auto;
 	margin-bottom: .5em;
 	position: block;
 	margin-top: .5em;
