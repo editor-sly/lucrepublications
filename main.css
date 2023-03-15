@@ -59,6 +59,7 @@ span.cap {
 .details {
     font-size: 2em;
     flex: 1;
+    background-color: black;
     display: flex;
     flex-direction: column;
 }
@@ -144,7 +145,7 @@ span.thick {
 	align-content: center;
 	box-sizing: border-box;
 	color: red;
-}
+}f
 
 
 
@@ -156,7 +157,7 @@ span.thick-headline {
 	margin-top: .5em;
 	font-kerning: normal;
 	height: auto;
-	letter-spacing: -2px;
+	letter-spacing: -1px;
 	word-spacing: .5rem;
 	color: hsl(0, 0%, 95%);
 	line-height: 1;
@@ -271,11 +272,11 @@ h2.co2 {
 
 h3 {
 	color: wheat;
-	padding-top: 2.3px;
+	padding-top: 8px;
 	padding-bottom: 1px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.8vw;
-	line-height: .75;
+	line-height: .8;
 	margin-top: 3.25px;
 
 }
@@ -307,15 +308,14 @@ figure,
 blockquote,
 {
 	 margin: 0;
-	 margin-top: 3px;
-	 margin-bottom: 3.5px;
+	 margin-top: 4px;
+	 margin-bottom: 6px;
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: .3;
+	 line-height: 2;
 	 font-family: Helvetica, san-serif;
 	 font-size: 1.8vw;
-	 text-shadow: 0px 0px 3px #111;
 }
 
 dl,
@@ -629,7 +629,7 @@ body {
 	font-size: 1.4vw;
 	padding: .25em;
 
-	width: 86vw;
+	width: 88vw;
 	max-height: auto;
 
 	margin-bottom:14rem;
@@ -642,11 +642,11 @@ body {
 		    sans-serif;
     -webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-  justify-content: center;
-  vertical-align: middle;
-  align-content: center;
-  align-items: center;
-  box-sizing: border-box;
+    justify-content: center;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
 	border-style: none;
  	border-radius: 15px;
  	
@@ -655,7 +655,7 @@ body {
  	border-color: #111;
  	border-right-color: #555;
  	border-style: solid;
- 	opacity: .99;
+ 	opacity: .96;
 }
 
 
@@ -1099,7 +1099,7 @@ span.logo:hover {
 	margin: 0;
 	height: auto;
 	border-style: solid;
-	border-color: red;
+	border-color: darkred;
 	border-width: 5.2px;
 	border-radius: 0;
 	border-top: none;
@@ -1489,8 +1489,8 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
-	max-width: 6.8em;
-	height: 6.8em;
+	max-width: 7.25em;
+	height: 7.25em;
 	background-color: black;
 	display:block;
 	position: relative;
@@ -1509,8 +1509,6 @@ input:focus-within {
 	border-bottom-color: #111;
 	color: #111;
 	border-radius: 50%;
-	object-fit: contain;
-
 }
 
 
