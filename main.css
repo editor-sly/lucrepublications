@@ -152,19 +152,16 @@ span.thick {
 
 
 span.thick-headline{
-	margin: o auto;
+	margin: 0 auto;
 	margin-bottom: .5em;
 	position: block;
 	margin-top: .5em;
-	font-kerning: normal;
 	height: auto;
-	letter-spacing: 0;
-	word-spacing: .5rem;
 	color: darkgoldenrod;
-	line-height: .8;
+	line-height: .9;
 	font-family: 'Poppins', sans-serif;
-	font-weight: bolder;
-	font-size: 5.5rem;
+	font-weight: bold;
+	font-size: 2.5em;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
 	z-index: 999999;
