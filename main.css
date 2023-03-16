@@ -1773,7 +1773,7 @@ ul.fa {
 }
 
 .fa {
- padding: 3px;  
+ padding: 2.8px;  
  text-align: center;     
  list-style: none;
  margin-bottom: 0;
@@ -1793,7 +1793,7 @@ ul.fa {
  .fa-twitter {  
   background: none;  
   color: mediumturquoise; 
-  font-size: 1.8vw; 
+  font-size: 2.8vmin; 
 } 
 
 
@@ -1801,21 +1801,21 @@ ul.fa {
 
 .fa-linkedin {    
   color: darkturquoise;
-  font-size: 1.8vw;
+  font-size: 2.8vmin;
 }
 
 
 
 .fa-medium {    
   color: mediumturquoise; 
-  font-size: 1.8vw;
+  font-size: 2.8vmin;
 }
 
 
 
 .fa-tumblr {    
   color: mediumturquoise;
-  font-size: 1.8vw;
+  font-size: 2.8vmin;
 }
 
 
