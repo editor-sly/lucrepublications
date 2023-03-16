@@ -31,7 +31,7 @@ p {
 	word-spacing: 1.24px;
 	letter-spacing: .004px;
 	line-height: 1.25;
-	font-size: 2.9vmin;
+	font-size: 2.6vmin;
 	display: block;
 }
 
@@ -233,11 +233,11 @@ h1 {
 
 h2 {
 	color: lightgoldenrod;
-	line-height: .75;
+	line-height: 1;
 	padding-top: 4.25px;
 	padding-bottom: 6px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-weight: lighter;
 
 }
@@ -1490,8 +1490,8 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
-	max-width: 7.25em;
-	height: 7.25em;
+	max-width: 16vmin;
+	height: 16vmin;
 	background-color: black;
 	display:block;
 	position: relative;
