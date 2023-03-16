@@ -550,8 +550,12 @@ line-breaks {
 
 
 .hi-light {
+	padding-left: 3px;
+	padding-right: 3px;
 	background-color: #000;
-	padding: 1px;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
 }
 
 
@@ -1361,9 +1365,8 @@ span.logo:hover {
 	position: absolute;
 	display: block;
 	background-image: url("img/lilly-rum-iyKVGRu79G4-unsplash.jpg");
-	background-size: 100%;
-	background-attachment: static;
-	background-position: auto auto;
+	background-size: cover;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	top: 0px;
  	right: 0px;
@@ -1373,8 +1376,7 @@ span.logo:hover {
 	z-index: -1;
 	margin-bottom: 0px;
 	border-radius: 8px;
-	object-fit: contain;
-	filter: saturate(70%);
+	filter: saturate(50%);
 	object-position: bottom;
 }
 
