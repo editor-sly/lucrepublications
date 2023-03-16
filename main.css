@@ -189,15 +189,15 @@ span.thick2 {
 
 span.thick3 {
 	margin-top: .25em; 
-	padding-top: .5em;
-	margin-bottom: 1px;
+	padding-top: .25em;
+	margin-bottom: 0;
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -5.2px;
 	color: hsl(0, 0%, 80%);
-	line-height: .8;
+	line-height: .75;
 	font-family: 'Poppins', sans-serif;
-	font-weight: 900;
+	font-weight: bolder;
 	font-size: 2.5rem;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
@@ -408,7 +408,7 @@ span.movegfx {
 
 	justify-content: center;
   animation: animate 3s ease-in-out infinite;
-  margin-bottom: -14%;
+  margin-bottom: -12%;
   margin-top: -9.8%;
   z-index: -111;
 }
@@ -617,7 +617,7 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/zulmaury-saavedra-vh_pAs2FH_8-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: 1;
+	line-height: .75;
 
 	background-size: cover;
 	background-position: 50% 50%;
@@ -633,7 +633,7 @@ body {
 	width: 88vw;
 	max-height: auto;
 
-	margin-bottom:14rem;
+	margin-bottom:16rem;
 
 	display: block;
 	color: wheat;
@@ -1533,7 +1533,7 @@ input:focus-within {
 	padding-right: 0%;
 	padding-top: .3em;
 	width: 100vw;
-	max-height: 36.2vh;
+	max-height: 32vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
@@ -1774,10 +1774,10 @@ ul.fa {
 }
 
 .fa {
- padding: 4px;  
+ padding: 3px;  
  text-align: center;     
  list-style: none;
- margin-bottom: .25px;
+ margin-bottom: 0;
  
 }
 
@@ -1794,7 +1794,7 @@ ul.fa {
  .fa-twitter {  
   background: none;  
   color: mediumturquoise; 
-  font-size: 2vw; 
+  font-size: 1.8vw; 
 } 
 
 
@@ -1802,7 +1802,7 @@ ul.fa {
 
 .fa-linkedin {    
   color: darkturquoise;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 
@@ -1816,7 +1816,7 @@ ul.fa {
 
 .fa-tumblr {    
   color: mediumturquoise;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 
