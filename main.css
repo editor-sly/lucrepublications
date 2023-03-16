@@ -57,12 +57,15 @@ span.cap {
 
 
 .details {
+	padding: 4px;
+	width: 100%;
     font-size: 2em;
     flex: 1;
     background-color: black;
     display: flex;
     flex-direction: column;
-}
+
+ }
 
 
 
