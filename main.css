@@ -1356,9 +1356,9 @@ span.logo:hover {
 	position: absolute;
 	display: block;
 	background-image: url("img/lilly-rum-iyKVGRu79G4-unsplash.jpg");
-	background-size: 150%;
+	background-size: 100%;
 	background-attachment: static;
-	background-position: 50% auto;
+	background-position: auto auto;
 	background-repeat: no-repeat;
 	top: 0px;
  	right: 0px;
