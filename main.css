@@ -550,7 +550,8 @@ line-breaks {
 
 
 .hi-light {
-	background-color: black;
+	background-color: #000;
+	padding: 1px;
 }
 
 
