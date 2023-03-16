@@ -190,15 +190,14 @@ span.thick2 {
 span.thick3 {
 	margin-top: .25em; 
 	padding-top: .25em;
-	margin-bottom: 0;
 	font-kerning: normal;
 	height: auto;
-	letter-spacing: -5.2px;
+	letter-spacing: -5px;
 	color: hsl(0, 0%, 80%);
 	line-height: .75;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 2.5rem;
+	font-size: 7.8vmin;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #111;
 }
@@ -1675,9 +1674,9 @@ align-items: left
 	display: block;
 	color: #444;
 	text-align: center;
-	font-size: .6em;
+	font-size: 2vmin;
 	line-height: .25;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 
