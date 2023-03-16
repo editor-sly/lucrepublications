@@ -964,7 +964,8 @@ a {
 	text-decoration: none;
 	background-color: none;
 	color:darkgoldenrod;
-	font-size: 1.6vmax;
+	font-size: 2.5vmin;
+	padding-bottom: 4px;
 }
 
 
