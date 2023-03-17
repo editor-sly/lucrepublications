@@ -1414,7 +1414,7 @@ input{
 	text-decoration: none;
 	border-style: none;
 	border-radius: 2px;
-	background-color: #000;
+	background-color: mediumturquoise;
 	line-height: 1;
 	color: #111;
 	font-size: smaller;
@@ -1423,7 +1423,7 @@ input{
 	opacity: .83;
 	border-style: solid;
 	border-color: lightgoldenrodyellow;
-	border-radius: 0px;
+	border-radius: 5px;
 	border-width: 1px;
 	border-left:  none;
 	border-top: none;
@@ -1443,13 +1443,13 @@ input:focus-within {
 	text-decoration: none;
 	border-style: none;
 	border-radius: 3px;
-	background-color: #000;
+	background-color: mediumturquoise;
 	color: #111;
 	max-width: 55%;
 	height: auto;
 	border-style: solid;
 	border-color: papayawhip;
-	border-radius: 0px;
+	border-radius: 5px;
 	border-width: 1px;
 	border-top: none;
 	border-right: none;
@@ -1486,6 +1486,11 @@ input:focus-within {
 .message:focus-within {
 	background-image: url();
 }
+
+
+
+
+
 
 
 .carpe {
