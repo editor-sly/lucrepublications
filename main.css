@@ -1414,7 +1414,7 @@ input{
 	text-decoration: none;
 	border-style: none;
 	border-radius: 2px;
-	background-color: mediumturquoise;
+	background-color: paleturquoise;
 	line-height: 1;
 	color: #111;
 	font-size: smaller;
@@ -1443,7 +1443,7 @@ input:focus-within {
 	text-decoration: none;
 	border-style: none;
 	border-radius: 3px;
-	background-color: mediumturquoise;
+	background-color: paleturquoise;
 	color: #111;
 	max-width: 55%;
 	height: auto;
