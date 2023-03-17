@@ -30,7 +30,7 @@ p {
 	padding-left: 0;
 	word-spacing: 1.24px;
 	letter-spacing: .004px;
-	line-height: 1.25;
+	line-height: 1.11;
 	font-size: 2.6vmin;
 	display: block;
 }
@@ -134,9 +134,9 @@ span.thick {
 	margin-top: 14px;
 	margin-left: 0%;
 	font-kerning: normal;
-	max-width: 90%;
+	max-width: 80%;
 	height: auto;
-	letter-spacing: -12px;
+	letter-spacing: -11px;
 	color: hsl(0, 0%, 95%);
 	line-height: 1.21;
 	font-family: 'Poppins', sans-serif;
@@ -174,11 +174,11 @@ span.thick-headline{
 
 
 span.thick2 {
-	margin-top: -4px;
-	padding-top: -8px;
+	margin-top: -2px;
+	padding-top: -6px;
 	color: darkgoldenrod;
 	font-kerning: normal;
-	line-height: .96;
+	line-height: 1.25;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 4.2vw;
@@ -277,7 +277,7 @@ h3 {
 	padding-bottom: 1px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 3vmin;
-	line-height: .8;
+	line-height:1;
 	margin-top: 3.25px;
 
 }
@@ -625,7 +625,7 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/zulmaury-saavedra-vh_pAs2FH_8-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: .75;
+	line-height: .74;
 
 	background-size: cover;
 	background-position: 50% 50%;
@@ -637,11 +637,12 @@ body {
 	margin-top: 1.25%;
 	font-size: 1.4vw;
 	padding: .25em;
+	padding-top: .5em;
 
 	width: 88vw;
 	max-height: auto;
 
-	margin-bottom:14.25rem;
+	margin-bottom:14rem;
 
 	display: block;
 	color: wheat;
@@ -966,6 +967,7 @@ a {
 	color:darkgoldenrod;
 	font-size: 2.5vmin;
 	padding-bottom: 4px;
+	line-height: .25;
 }
 
 
@@ -1330,7 +1332,7 @@ span.logo:hover {
 	padding-top: 2%;
 	padding-bottom: 1.25%;
 	padding-left: 0;
-	max-width: 60%;
+	max-width: 52%;
 	border-style: none;
 	justify-content: center;
 	align-content: center;
@@ -1530,18 +1532,14 @@ input:focus-within {
 	display:block;
 	position: relative;
 	margin-top: .25em;
-	margin-bottom: 1em;
+	margin-bottom: .25em;
 	box-sizing: border-box;
 	vertical-align: middle;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: .25em;
-	border-right-color: #222;
-	border-top-color: #222;
-	border-left-color: #111;
-	border-bottom-color: #111;
+	border-width: .28em;
 	color: #111;
 	border-radius: 50%;
 }
