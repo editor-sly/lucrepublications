@@ -1799,7 +1799,8 @@ ul.fa {
 }
 
 .fa {
- padding: 2.8px;  
+ padding: 2.8px;
+ padding-top: 8px;  
  text-align: center;     
  list-style: none;
  margin-bottom: 0;
