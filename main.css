@@ -178,10 +178,10 @@ span.thick2 {
 	padding-top: -6px;
 	color: darkgoldenrod;
 	font-kerning: normal;
-	line-height: 1.25;
+	line-height: 1.1;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 4.2vw;
+	font-size: 3.8vw;
 	opacity: .96;
 }
 
@@ -300,23 +300,34 @@ h5 {
 
 
 
+figure {
+	 margin: 0 auto;
+	 padding-left: 0px;
+	 word-spacing: 1.2px;
+	 letter-spacing: .003px;
+	 line-height: 1.5;
+	 font-weight: lighter;
+	 font-family: Helvetica, san-serif;
+	 font-size: 1.8vmin;
+
+
+
+}
 
 
 
 
 
-figure,
-blockquote,
-{
+blockquote {
 	 margin: 0;
-	 margin-top: 4px;
-	 margin-bottom: 6px;
+	 margin-top: 6px;
+	 margin-bottom: 8px;
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
 	 line-height: .5;
 	 font-family: Helvetica, san-serif;
-	 font-size: 2.8vmin;
+	 font-size: 1.8vmin;
 }
 
 
@@ -1332,7 +1343,7 @@ span.logo:hover {
 	padding-top: 2%;
 	padding-bottom: 1.25%;
 	padding-left: 0;
-	max-width: 55%;
+	max-width: 54%;
 	border-style: none;
 	justify-content: center;
 	align-content: center;
