@@ -57,8 +57,9 @@ span.cap {
 
 
 .details {
+	padding-top: 2px;
 	padding: 4px;
-	width: 100%;
+	width: 98%;
     font-size: 2em;
     flex: 1;
     background-color: black;
@@ -181,7 +182,7 @@ span.thick2 {
 	line-height: 1.1;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 3.8vw;
+	font-size: 3.9vw;
 	opacity: .96;
 }
 
@@ -273,11 +274,11 @@ h2.co2 {
 
 h3 {
 	color: wheat;
-	padding-top: 8px;
-	padding-bottom: 1px;
+	padding-top: 4px;
+	padding-bottom: 8px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 3vmin;
-	line-height:1;
+	line-height:.8;
 	margin-top: 3.25px;
 
 }
@@ -305,7 +306,7 @@ figure {
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 1.5;
+	 line-height: 1.2;
 	 font-weight: lighter;
 	 font-family: Helvetica, san-serif;
 	 font-size: 1.8vmin;
