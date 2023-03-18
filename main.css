@@ -637,7 +637,7 @@ body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/zulmaury-saavedra-vh_pAs2FH_8-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
-	line-height: .74;
+	line-height: .75;
 
 	background-size: cover;
 	background-position: 50% 50%;
@@ -651,7 +651,7 @@ body {
 	padding: .25em;
 	padding-top: .5em;
 
-	width: 88vw;
+	width: 90vw;
 	max-height: auto;
 
 	margin-bottom:14rem;
