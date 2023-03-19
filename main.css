@@ -239,8 +239,8 @@ h1 {
 h2 {
 	color: lightgoldenrod;
 	line-height: 1;
-	padding-top: 4.25px;
-	padding-bottom: 6px;
+	padding-top: 4px;
+	padding-bottom: 5px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.5em;
 	font-weight: lighter;
@@ -289,12 +289,12 @@ h3 {
 
 h4,
 h5 {
-	line-height: 1.5;
+	line-height: 1.1;
 	padding-top: 2px;
 	padding-bottom: 4px;
-	margin-bottom: 1rem;
+	margin-bottom: .75rem;
 	font-family: Georgia, 'Times New Roman', serif;
-	font-size: 1.9vw;
+	font-size: 2.5vmin;
 	font-weight: normal;
 }
 
@@ -652,10 +652,10 @@ body {
 	padding-top: .5em;
 	padding-bottom: .5em;
 
-	width: 90vw;
+	width: 88.5vw;
 	max-height: auto;
 
-	margin-bottom:14rem;
+	margin-bottom:13.25rem;
 
 	display: block;
 	color: wheat;
@@ -1522,13 +1522,13 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
-	max-width: 16.25vmin;
-	height: 16.25vmin;
+	max-width: 15.5vmin;
+	height: 15.5vmin;
 	background-color: black;
 	display:block;
 	position: relative;
-	margin-top: .25em;
-	margin-bottom: .25em;
+	margin-top: 2px;
+	margin-bottom: 4px;
 	box-sizing: border-box;
 	vertical-align: middle;
 	justify-content: center;
@@ -1800,7 +1800,7 @@ ul.fa {
 
 .fa {
  padding: 2.8px;
- padding-top: 8px;  
+ padding-top: 6px;  
  text-align: center;     
  list-style: none;
  margin-bottom: 0;
