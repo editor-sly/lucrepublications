@@ -294,8 +294,9 @@ h5 {
 	padding-bottom: 4px;
 	margin-bottom: .75rem;
 	font-family: Georgia, 'Times New Roman', serif;
-	font-size: 2.6vmin;
+	font-size: 2.7vmin;
 	font-weight: normal;
+	text-justify: auto;
 }
 
 
