@@ -40,7 +40,7 @@ p {
 span.cap {
     float: left;
     font-size: 2.6em;
-    line-height: 1;
+    line-height: .9;
     font-weight: bold;
     margin-right: 4px;
 }
@@ -837,6 +837,7 @@ menu {
 	background-repeat: no-repeat;
 	background-position: auto auto;
 	margin: 0 auto;
+	margin-top: 6px;
 	margin-bottom: .25em;
 
 	margin-left:  -4.8px;
