@@ -139,7 +139,7 @@ span.thick {
 	height: auto;
 	letter-spacing: -11px;
 	color: hsl(0, 0%, 95%);
-	line-height: 1.21;
+	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 18vmin;
@@ -216,7 +216,7 @@ h1.co {
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
 	font-size: 4.6vw;
-	line-height: .24;
+	line-height: .2;
 
 }
 
@@ -255,7 +255,7 @@ h2.co {
 	font-family: 'Poppins', sans-serif;
 	font-weight: lighter;
 	font-size: 1.5rem;
-	line-height: .5;
+	line-height: .25;
 }
 
 
@@ -980,7 +980,7 @@ a {
 	color:darkgoldenrod;
 	font-size: 2.5vmin;
 	padding-bottom: 4px;
-	line-height: .25;
+	line-height: .28;
 }
 
 
