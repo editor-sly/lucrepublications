@@ -58,9 +58,9 @@ span.cap {
 
 .details {
 	padding-top: 2px;
-	padding: 4px;
+	padding: 6px;
 	width: 100%;
-    font-size: 2em;
+    font-size: 3.2vmin;
     flex: 1;
     background-color: black;
     display: flex;
