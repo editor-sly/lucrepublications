@@ -61,7 +61,7 @@ span.cap {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	width: 88%;
-	height: auto;
+	min-height: 2em;
 	border-style: solid;
 	border-color: silver;
 	border-width: 2px;
