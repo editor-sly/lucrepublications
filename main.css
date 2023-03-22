@@ -1203,7 +1203,6 @@ span.logo:hover {
 	width: 80%;
 	height: auto;
 	display: block;
-	filter: saturate(50%);
 	background-color: none;
 	border-style: none;
 	border-radius: 8px;
