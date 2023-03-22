@@ -61,6 +61,10 @@ span.cap {
 	padding-bottom: 0px;
 	width: 100%;
 	height: auto;
+	border-style: solid;
+	border-color: silver;
+	border-width: 2px;
+	border-radius: 15px;
     font-size: 3.2vmin;
     flex: 1;
     font-weight: bolder;
@@ -68,6 +72,10 @@ span.cap {
     display: flex;
     flex-direction: column;
  }
+
+
+
+
 
 
 
@@ -698,6 +706,7 @@ body {
 	background-color: hsl(8, 92%, 20%);
 	border-style: none;
 	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
