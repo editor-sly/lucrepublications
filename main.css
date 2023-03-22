@@ -57,9 +57,10 @@ span.cap {
 
 
 .details {
+	margin: 0 auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	width: 100%;
+	width: 88%;
 	height: auto;
 	border-style: solid;
 	border-color: silver;
@@ -71,6 +72,7 @@ span.cap {
     background-color: black;
     display: flex;
     flex-direction: column;
+    vertical-align: middle;
  }
 
 
