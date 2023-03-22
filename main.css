@@ -837,8 +837,8 @@ menu {
 	background-repeat: no-repeat;
 	background-position: auto auto;
 	margin: 0 auto;
-	margin-top: 6px;
-	margin-bottom: .25em;
+	margin-top: 4.25px;
+	margin-bottom: .5em;
 
 	margin-left:  -4.8px;
 	margin-right: -5.1px;
@@ -848,7 +848,7 @@ menu {
 	left: 0;
 	right: 0;
 	max-width: 100vw;
-	min-height: 5.28vh;
+	min-height: 8vmin;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
