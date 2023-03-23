@@ -59,10 +59,11 @@ span.cap {
 .details {
 	cursor: pointer;
 	margin: 0 auto;
-	padding-top: 4px;
-	padding-bottom: 8px;
-	width: 70hw;
-	height: auto;
+	padding: 6px;
+	padding-top: 12px;
+	padding-bottom: 24px;
+	width: 100%;
+	height:auto;
 	border-style: solid;
 	border-color: silver;
 	border-width: 1pt;
