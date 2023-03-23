@@ -65,7 +65,7 @@ span.cap {
 	width: 100%;
 	height:auto;
 	border-style: solid;
-	border-color: silver;
+	border-color: #222;
 	border-width: 1pt;
 	border-radius: 5px;
     font-size: 3.2vmin;
@@ -1337,7 +1337,7 @@ span.logo:hover {
 	align-items: center;
   display: block;
   color: whitesmoke;
-  background-color: #111;
+  background-color: #222;
   opacity: .4;
   border-radius: 8px;
   justify-content: center;
