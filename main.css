@@ -71,11 +71,11 @@ span.cap {
     font-size: 3.2vmin;
     flex: 1;
     font-weight: bolder;
-    background-color: #111;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
-    opacity: .96;
+    opacity: .69;
  }
 
 
@@ -1325,12 +1325,12 @@ span.logo:hover {
 .screen2 {
 	height: auto;
 	margin: 0 auto;
-	margin-top: 4px;
+	margin-top:2px;
 	margin-bottom: 4px;
-	padding-top: 2%;
-	padding-bottom: 2.5%;
+	padding-top: 1%;
+	padding-bottom: 1.5%;
 	padding-left: 0;
-	max-width: 98%;
+	max-width: 100%;
 	border-style: none;
 	justify-content: center;
 	align-content: center;
@@ -1339,7 +1339,7 @@ span.logo:hover {
   color: whitesmoke;
   background-color: #222;
   opacity: .4;
-  border-radius: 8px;
+  border-radius: 4px;
   justify-content: center;
   align-content: center;
   align-items: center;
