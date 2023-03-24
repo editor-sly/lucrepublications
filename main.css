@@ -287,8 +287,9 @@ h3 {
 	padding-bottom: 8px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 3vmin;
-	line-height:2;
+	line-height:1.25;
 	margin-top: 3.25px;
+	margin-bottom: -6px;
 
 }
 
