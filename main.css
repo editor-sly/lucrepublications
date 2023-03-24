@@ -615,10 +615,10 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/kazuend-aOegahNT5tc-unsplash.jpg");
+	background-image: url("img/randy-tarampi-U2eUlPEKIgU-unsplash.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 50% 50%;
+	background-position: 85% 100%;
 	background-repeat: no-repeat;
 	background-color: #111;
 	scroll-padding-top: 5.64rem; 
@@ -631,10 +631,6 @@ html {
 	padding: auto;
 }
 
-
-
-
-
 html: focus-within {
 	 scroll-behavior: smooth;
 }
@@ -644,15 +640,22 @@ html: focus-within {
 
 
 
-body {
 
+
+
+
+
+
+
+
+
+body {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/zulmaury-saavedra-vh_pAs2FH_8-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
-
 	background-size: cover;
-	background-position: 56% 8%;
+	background-position: 56% 12%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -665,7 +668,7 @@ body {
 	padding-bottom: .5em;
 
 	width: 88.2vw;
-	max-height: auto;
+	height: auto;
 
 	margin-bottom:13.25rem;
 
@@ -690,8 +693,39 @@ body {
  	border-color: #111;
  	border-right-color: #444;
  	border-style: solid;
- 	opacity: .98;
+ 	opacity: .96;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -752,7 +786,7 @@ body {
 	background-size: cover;
 	background-attachment: static;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 50% 24%;
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1611,6 +1645,36 @@ footer:before {
 	transform: scaleX(1.2);
 	opacity: .3;
 }
+
+
+
+
+
+
+
+
+.footer::after {
+	content:"";
+	position: absolute;
+	display: block;
+	background-image: url("img/peter-olexa-Ax6ggq8cSxw-unsplash.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	top: 0px;
+ 	right: 0px;
+ 	bottom: 0px;
+ 	left: 0px;
+	z-index: -1;
+	opacity: .1;
+	margin-bottom: 0px;
+	border-radius: 8px;
+	filter: saturate(80%);
+	object-position: bottom;
+}
+
+
 
 
 
