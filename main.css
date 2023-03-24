@@ -626,7 +626,7 @@ html {
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
  	scroll-behavior: smooth;
-	filter: saturate(90%);
+	filter: grayscale(10%);
 	white-space: wrap;
 	padding: auto;
 }
