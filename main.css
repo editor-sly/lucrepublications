@@ -65,7 +65,7 @@ span.cap {
 	width: 100%;
 	height:auto;
 	border-style: solid;
-	border-color: #000;
+	border-color: #222;
 	border-width: 1pt;
 	border-radius: 5px;
     font-size: 3.2vmin;
@@ -578,6 +578,7 @@ line-breaks {
 	padding-top: 1px;
 	padding-bottom: 3px;
 	margin-bottom: 3px;
+	border-radius: 8px;
 }
 
 
@@ -614,18 +615,18 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/rodion-kutsaiev-tTK9fPoEI-Q-unsplash.jpg");
+	background-image: url("img/kazuend-aOegahNT5tc-unsplash.jpg");
 	background-size: cover;
-	background-attachment: static;
-	background-position: auto auto;
+	background-attachment: fixed;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: #111;
 	scroll-padding-top: 5.64rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
  	scroll-behavior: smooth;
-	filter: saturate(88%);
+	filter: saturate(90%);
 	white-space: wrap;
 	padding: auto;
 }
@@ -689,7 +690,7 @@ body {
  	border-color: #111;
  	border-right-color: #444;
  	border-style: solid;
- 	opacity: .96;
+ 	opacity: .98;
 }
 
 
@@ -721,7 +722,8 @@ body {
 
 
 .container-gfx {
-	background-image: url("img/hamish-weir-FXnlNflvd_o-unsplash.jpg");
+	background-image: url("img/.jpg");
+	background-color: #000;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -730,12 +732,13 @@ body {
 	max-width: 80%;
 	height: auto;
 	display: block;
-	background-color: hsl(8, 92%, 20%);
 	border-style: none;
-	border-bottom-left-radius: 0px;
-	border-radius: 8px;
+	border-width: 1px;
+	border-radius: 15px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: .69;
+
 }
 
 
@@ -1237,7 +1240,7 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/gijs-coolen-E-l3Tg2Sp-8-unsplash.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/lilly-rum-iyKVGRu79G4-unsplash.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1413,9 +1416,10 @@ span.logo:hover {
 	content:"";
 	position: absolute;
 	display: block;
-	background-image: url("img/lilly-rum-iyKVGRu79G4-unsplash.jpg");
-	background-size: cover;
-	background-position: 50% 50%;
+	background-image: url("img/thought-catalog-IcUbKfIuQ70-unsplash.jpg");
+	background-size: 330%;
+	background-attachment: static;
+	background-position: 62% 57%;
 	background-repeat: no-repeat;
 	top: 0px;
  	right: 0px;
@@ -1425,7 +1429,7 @@ span.logo:hover {
 	z-index: -1;
 	margin-bottom: 0px;
 	border-radius: 8px;
-	filter: saturate(50%);
+	filter: saturate(80%);
 	object-position: bottom;
 }
 
@@ -1495,7 +1499,7 @@ input:focus-within {
 	background-color:transparent;
 	max-width: 70%;
 	height: auto;
-	color: whitesmoke;
+	color: lightgoldenrodyellow;
 	border-style: solid;
 	border-color: papayawhip;
 	border-radius: none;
@@ -1506,10 +1510,12 @@ input:focus-within {
 }
 
 .message:focus-within {
-	background-image: url("img/zulmaury-saavedra-vh_pAs2FH_8-unsplash.jpg");
+	background-image: url("img/steve-harvey-U4wcrDteZ2Y-unsplash.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 40% 18%;
+	background-position: 50% 30%;
+	opacity: .96;
+	filter: contrast(60%);
 }
 
 
