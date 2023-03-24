@@ -287,7 +287,7 @@ h3 {
 	padding-bottom: 8px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 3vmin;
-	line-height:.8;
+	line-height:2;
 	margin-top: 3.25px;
 
 }
@@ -618,7 +618,7 @@ html {
 	background-image: url("img/randy-tarampi-U2eUlPEKIgU-unsplash.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 85% 100%;
+	background-position: 75% 50%;
 	background-repeat: no-repeat;
 	background-color: #111;
 	scroll-padding-top: 5.64rem; 
@@ -768,10 +768,10 @@ body {
 	display: block;
 	border-style: none;
 	border-width: 1px;
-	border-radius: 15px;
+	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	opacity: .69;
+	opacity: .96;
 
 }
 
@@ -1451,7 +1451,7 @@ span.logo:hover {
 	position: absolute;
 	display: block;
 	background-image: url("img/thought-catalog-IcUbKfIuQ70-unsplash.jpg");
-	background-size: 400%;
+	background-size: cover;
 	background-attachment: static;
 	background-position: 60% 50%;
 	background-repeat: no-repeat;
@@ -1482,7 +1482,7 @@ input{
 	background-color: silver;
 	line-height: 1.2;
 	color: #111;
-	font-size: 3vmin;
+	font-size: 2.8vmin;
 	max-width: 82%;
 	height: auto;
 	opacity: .69;
@@ -1531,7 +1531,7 @@ input:focus-within {
 	text-decoration: none;
 	border-radius: 3px;
 	background-color:transparent;
-	max-width: 70%;
+	max-width: 90%;
 	height: auto;
 	color: lightgoldenrodyellow;
 	border-style: solid;
