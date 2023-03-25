@@ -33,6 +33,7 @@ p {
 	line-height: 1.11;
 	font-size: 2.6vmin;
 	display: block;
+	text-shadow: 0px 0px 3px #222;
 }
 
 
@@ -71,7 +72,7 @@ span.cap {
     font-size: 3.2vmin;
     flex: 1;
     font-weight: bolder;
-    background-color: #111;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
@@ -98,7 +99,7 @@ aside {
     box-shadow: inset 5px 0 5px -5px #111;
     font-style: italic;
     color: #999;
-    background-color: black;
+    background-color: transparent;
     opacity: .69;
 }
 
@@ -153,12 +154,12 @@ span.thick {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 18vmin;
-	text-shadow: 0px 0px 3px #111;
+	text-shadow: 0px 0px 2px #111;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	box-sizing: border-box;
-	color: red;
+	color: darkred;
 }
 
 
@@ -171,12 +172,11 @@ span.thick-headline{
 	position: block;
 	margin-top: .5em;
 	height: auto;
-	color: darkgoldenrod;
+	color: silver;
 	line-height: 1;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	font-size: 7vmin;
-	text-shadow: 0px 0px 3px #111;
 	z-index: 999999;
 }
 
@@ -206,13 +206,13 @@ span.thick3 {
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -5px;
-	color: hsl(0, 0%, 80%);
+	color: darkred;
 	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 7.8vmin;
 	opacity: .69;
-	text-shadow: 0px 0px 3px #111;
+	text-shadow: 0px 0px 3px #000;
 }
 
 
@@ -253,6 +253,7 @@ h2 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.8vmin;
 	font-weight: lighter;
+	text-shadow: 0px 0px 3px #222;
 
 }
 
@@ -265,8 +266,8 @@ h2.co {
 	font-weight: lighter;
 	font-size: 3.8vmin;
 	line-height: 1;
-	color: #000;
-	text-shadow: 0px 0px 3px #333;
+	color: hsl(95, 15%, 2%);
+	text-shadow: 0px 0px 2px lightgoldenrodyellow;
 }
 
 
@@ -309,6 +310,7 @@ h5 {
 	font-size: 2.7vmin;
 	font-weight: normal;
 	text-justify: auto;
+	text-shadow: 0px 0px 3px #222;
 }
 
 
@@ -439,6 +441,7 @@ span.movegfx {
 	margin-bottom: -12%;
 	margin-top: -8.5%;
 	z-index: -111;
+
 }
 
 	@keyframes animate {
@@ -577,11 +580,12 @@ line-breaks {
 .hi-light {
 	padding-left: 3px;
 	padding-right: 3px;
-	background-color: #000;
 	padding-top: 1px;
 	padding-bottom: 3px;
 	margin-bottom: 3px;
 	border-radius: 8px;
+	opacity: .88;
+	background-image: linear-gradient(hsl(95, 15%, 2%), #000);
 }
 
 
@@ -618,21 +622,23 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/randy-tarampi-U2eUlPEKIgU-unsplash.jpg");
+	background-image: url("img/.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 75% 50%;
+	background-position: 42% 50%;
 	background-repeat: no-repeat;
-	background-color: #111;
+	background-color: black;
 	scroll-padding-top: 5.64rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  			font-family: Merienda, Helvetica, Arial, sans-serif;
  	scroll-behavior: smooth;
-	filter: grayscale(10%);
 	white-space: wrap;
 	padding: auto;
 }
+
+
+
 
 html: focus-within {
 	 scroll-behavior: smooth;
@@ -653,12 +659,12 @@ html: focus-within {
 
 
 body {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/zulmaury-saavedra-vh_pAs2FH_8-unsplash.jpg");
+	background-image: url("img/raamin-ka-XZq5UFXCWxU-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
 	background-size: cover;
-	background-position: 56% 12%;
+	background-position: 48% 11%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -671,7 +677,7 @@ body {
 	padding-bottom: .5em;
 
 	width: 88.2vw;
-	height: auto;
+	min-height: auto;
 
 	margin-bottom:13.25rem;
 
@@ -689,7 +695,7 @@ body {
     align-items: center;
     box-sizing: border-box;
 	border-style: none;
- 	border-radius: 15px;
+ 	border-radius: 8px;
  	
  	z-index: 9999;
  	border-width: 2px;
@@ -708,7 +714,27 @@ body {
 
 
 
-
+body::before {
+	visibility: visible;
+	opacity: hidden;
+	content:"";
+	position: fixed;
+	display: block;
+	background-image: url("img/color-crescent-RYfZxZwnPas-unsplash.jpg");
+	background-size: cover;
+	background-position: 50% 42%;
+	background-repeat: no-repeat;
+	top: 0px;
+ 	right: 0px;
+ 	bottom: 0px;
+ 	left: 0px;
+	z-index: -1;
+	opacity: .1;
+	margin-bottom: 0px;
+	border-radius: 8px;
+	filter: saturate(90%);
+	filter: blur(3px);
+}
 
 
 
@@ -759,8 +785,8 @@ body {
 
 
 .container-gfx {
-	background-image: url("img/.jpg");
-	background-color: #000;
+	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
+	background-color: linear-gradient(hsl(95, 15%, 2%), #000);
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -774,7 +800,7 @@ body {
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	opacity: .96;
+	
 
 }
 
@@ -785,7 +811,7 @@ body {
 
 
 .container2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/steve-harvey-U4wcrDteZ2Y-unsplash.jpg");
+	background-image: url("img/steve-harvey-U4wcrDteZ2Y-unsplash.jpg");
 	background-size: cover;
 	background-attachment: static;
 	background-repeat: no-repeat;
@@ -808,7 +834,7 @@ body {
 
 
 .container-quote {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/nicola-nuttall-ObTfaF2hngw-unsplash.jpg");
+	background-image: url("img/nicola-nuttall-ObTfaF2hngw-unsplash.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -915,7 +941,7 @@ menu {
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-style: solid;
-	border-color: #000;
+	border-color: #111;
 	border-top: 3;
 	border-top-color: #222;
 	border-right-color: #555;
@@ -1034,6 +1060,8 @@ a {
 	font-size: 2.5vmin;
 	padding-bottom: 4px;
 	line-height: .28;
+	text-shadow: 0px 0px 3px #111;
+
 }
 
 
@@ -1214,7 +1242,7 @@ span.logo:hover {
 
 
 .hero-section3 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/alexey-malakhov-Mca0cN9cs54-unsplash.jpg");
+	background-image: url("img/alexey-malakhov-Mca0cN9cs54-unsplash.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1277,7 +1305,7 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/lilly-rum-iyKVGRu79G4-unsplash.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/leandra-rieger-gf08gm2quEk-unsplash.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1453,10 +1481,10 @@ span.logo:hover {
 	content:"";
 	position: absolute;
 	display: block;
-	background-image: url("img/thought-catalog-IcUbKfIuQ70-unsplash.jpg");
+	background-image: url("img/masjid-pogung-dalangan-DBsQFuIbXg4-unsplash.jpg");
 	background-size: cover;
 	background-attachment: static;
-	background-position: 60% 50%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	top: 0px;
  	right: 0px;
@@ -1466,7 +1494,7 @@ span.logo:hover {
 	z-index: -1;
 	margin-bottom: 0px;
 	border-radius: 8px;
-	filter: saturate(80%);
+	filter: saturate(90%);
 	object-position: bottom;
 }
 
@@ -1575,8 +1603,8 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
-	max-width: 15.5vmin;
-	height: 15.5vmin;
+	max-width: 15.25vmin;
+	height: 15.25vmin;
 	background-color: black;
 	display:block;
 	position: relative;
@@ -1620,7 +1648,7 @@ input:focus-within {
 	bottom: 0;
 	display: inline-block;
 	background-color: black;
-	border-color: #222;
+	border-color: #111;
 	border-style: solid;
 	border-bottom: none;
 	border-top: 1;
@@ -1636,7 +1664,7 @@ input:focus-within {
 
 
 
-footer:before {
+.footer:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1673,7 +1701,7 @@ footer:before {
 	opacity: .1;
 	margin-bottom: 0px;
 	border-radius: 8px;
-	filter: saturate(80%);
+	filter: saturate(60%);
 	object-position: bottom;
 }
 
