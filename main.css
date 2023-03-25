@@ -153,12 +153,12 @@ span.thick {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 18vmin;
-	text-shadow: 0px 0px 1px darkgoldenrod;
+	text-shadow: 0px 0px 1px black;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	box-sizing: border-box;
-	color: darkred;
+	color: darkgoldenrod;
 }
 
 
@@ -627,7 +627,7 @@ html {
 	background-attachment: fixed;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-color: #222;
+	background-color: black;
 	scroll-padding-top: 5.64rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
@@ -635,7 +635,7 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
-	opacity: .98;
+	
 }
 
 
@@ -665,7 +665,7 @@ body {
 	letter-spacing: .003px;
 	line-height: .75;
 	background-size: cover;
-	background-position: 40% 30%;
+	background-position: 55% 20%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -677,7 +677,7 @@ body {
 	padding-top: .5em;
 	padding-bottom: .5em;
 
-	width: 88.2vw;
+	width: 88.20vw;
 	min-height: auto;
 
 	margin-bottom:13.25rem;
@@ -703,7 +703,7 @@ body {
  	border-color: #111;
  	border-right-color: #444;
  	border-style: solid;
- 	opacity: .98;
+ 	opacity: .96;
 }
 
 
@@ -718,10 +718,11 @@ body {
 body::after {
 	opacity: hidden;
 	content:"";
-	position: absolute;
+	position: fixed;
 	display: block;
+	height: auto;
 	background-image: url("img/color-crescent-RYfZxZwnPas-unsplash.jpg");
-	background-size: 88.2vw;
+	background-size: cover;
 	background-position: 48% 0%;
 	background-repeat: no-repeat;
 	background-color: black;
