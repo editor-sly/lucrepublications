@@ -33,7 +33,7 @@ p {
 	line-height: 1.11;
 	font-size: 2.6vmin;
 	display: block;
-	text-shadow: 0px 0px 3px #222;
+	text-shadow: 0px 0px 1px #222;
 }
 
 
@@ -149,12 +149,11 @@ span.thick {
 	max-width: 80%;
 	height: auto;
 	letter-spacing: -11px;
-	color: hsl(0, 0%, 95%);
 	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 18vmin;
-	text-shadow: 0px 0px 2px #111;
+	text-shadow: 0px 0px 1px darkgoldenrod;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -206,7 +205,7 @@ span.thick3 {
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -5px;
-	color: darkred;
+	color: #222;
 	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
@@ -240,6 +239,7 @@ h1 {
 	font-weight: 900;
 	line-height: 1;
 	font-size: 3.6vmin;
+	text-shadow: 0px 0px 2px #222;
 
 }
 
@@ -252,8 +252,8 @@ h2 {
 	padding-bottom: 5px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.8vmin;
-	font-weight: lighter;
-	text-shadow: 0px 0px 3px #222;
+	font-weight: bolder;
+	
 
 }
 
@@ -267,7 +267,7 @@ h2.co {
 	font-size: 3.8vmin;
 	line-height: 1;
 	color: hsl(95, 15%, 2%);
-	text-shadow: 0px 0px 2px lightgoldenrodyellow;
+	text-shadow: 0px 0px 1px darkgoldenrod;
 }
 
 
@@ -585,7 +585,7 @@ line-breaks {
 	margin-bottom: 3px;
 	border-radius: 8px;
 	opacity: .88;
-	background-image: linear-gradient(hsl(95, 15%, 2%), #000);
+	background-color: linear-gradient(hsl(95, 15%, 2%), #000);
 }
 
 
@@ -622,12 +622,12 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/.jpg");
+	background-image: url("img/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 42% 50%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: #222;
 	scroll-padding-top: 5.64rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
@@ -635,6 +635,7 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
+	opacity: .98;
 }
 
 
@@ -659,12 +660,12 @@ html: focus-within {
 
 
 body {
-	background-image: url("img/raamin-ka-XZq5UFXCWxU-unsplash.jpg");
+	background-image: url("img/alex-mihai-c-T0-wujwQrDw-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
 	background-size: cover;
-	background-position: 48% 11%;
+	background-position: 40% 30%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -702,7 +703,7 @@ body {
  	border-color: #111;
  	border-right-color: #444;
  	border-style: solid;
- 	opacity: .96;
+ 	opacity: .98;
 }
 
 
@@ -714,16 +715,16 @@ body {
 
 
 
-body::before {
-	visibility: visible;
+body::after {
 	opacity: hidden;
 	content:"";
-	position: fixed;
+	position: absolute;
 	display: block;
 	background-image: url("img/color-crescent-RYfZxZwnPas-unsplash.jpg");
-	background-size: cover;
-	background-position: 50% 42%;
+	background-size: 88.2vw;
+	background-position: 48% 0%;
 	background-repeat: no-repeat;
+	background-color: black;
 	top: 0px;
  	right: 0px;
  	bottom: 0px;
@@ -733,7 +734,11 @@ body::before {
 	margin-bottom: 0px;
 	border-radius: 8px;
 	filter: saturate(90%);
-	filter: blur(3px);
+	filter: blur(2px);
+	border-style: none;
+	border-radius: 8px;
+	border-width: 1;
+	opacity: .1;
 }
 
 
@@ -811,11 +816,11 @@ body::before {
 
 
 .container2 {
-	background-image: url("img/steve-harvey-U4wcrDteZ2Y-unsplash.jpg");
+	background-image: url("img/jametlene-reskp-21xmyDjZPck-unsplash.jpg");
 	background-size: cover;
 	background-attachment: static;
 	background-repeat: no-repeat;
-	background-position: 50% 24%;
+	background-position: 50% 10%;
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -823,7 +828,9 @@ body::before {
 	height: auto;
 	display: block;
 	background-color: ;
-	border-style: none;
+	border-style: solid;
+	border-width: 1pt;
+	border-color: #111;
 	border-bottom-left-radius: 0px;
 	border-radius: 8px;
 	box-sizing: border-box;
@@ -1463,8 +1470,8 @@ span.logo:hover {
 	position: relative;
 	background-color: #000;
 	border-style: solid;
-	border-width: 0px;
-	border-color:#000;
+	border-width: 1pt;
+	border-color:#111;
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1876,7 +1883,7 @@ button.form-button {
 	padding: 1em;
 	color: whitesmoke;
 	text-transform: uppercase;
-	background-color: red;
+	background-color: darkred;
 }
 
 
@@ -1887,7 +1894,7 @@ button.cta {
 	font-size: 2.5vmin;
 	margin-top: .25em;
 	padding: 1em;
-	background-color: red;
+	background-color: darkred;
 	color: whitesmoke;
 	text-transform: uppercase;
 }
@@ -1930,7 +1937,7 @@ ul.fa {
 
  .fa-twitter {  
   background: none;  
-  color: mediumturquoise; 
+  color: silver; 
   font-size: 3.2vmin; 
 } 
 
@@ -1938,21 +1945,21 @@ ul.fa {
 
 
 .fa-linkedin {    
-  color: darkturquoise;
+  color: silver;
   font-size: 3.2vmin;
 }
 
 
 
 .fa-medium {    
-  color: mediumturquoise; 
+  color: silver; 
   font-size: 3.2vmin;
 }
 
 
 
 .fa-tumblr {    
-  color: mediumturquoise;
+  color: silver;
   font-size: 3.2vmin;
 }
 
