@@ -149,16 +149,17 @@ span.thick {
 	max-width: 80%;
 	height: auto;
 	letter-spacing: -11px;
-	color:black;
+	color: hsl(0, 0%, 95%);
 	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 16.8vmin;
-	text-shadow: 0px 0px 2px darkturquoise;
+	font-size: 18vmin;
+	text-shadow: 0px 0px 2px #111;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	box-sizing: border-box;
+	color: darkred;
 }
 
 
@@ -175,7 +176,7 @@ span.thick-headline{
 	line-height: 1;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	font-size: 6.8vmin;
+	font-size: 7vmin;
 	z-index: 999999;
 }
 
@@ -239,7 +240,6 @@ h1 {
 	font-weight: 900;
 	line-height: 1;
 	font-size: 3.6vmin;
-	text-shadow: 0px 0px 1px #222;
 
 }
 
@@ -252,7 +252,7 @@ h2 {
 	padding-bottom: 5px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.8vmin;
-	font-weight: bolder;
+	font-weight: lighter;
 	text-shadow: 0px 0px 3px #222;
 
 }
@@ -266,9 +266,8 @@ h2.co {
 	font-weight: lighter;
 	font-size: 3.8vmin;
 	line-height: 1;
-	letter-spacing: -1px;
 	color: hsl(95, 15%, 2%);
-	text-shadow: 0px 0px 1px #333;
+	text-shadow: 0px 0px 2px lightgoldenrodyellow;
 }
 
 
@@ -345,7 +344,6 @@ blockquote {
 	 line-height: .5;
 	 font-family: Helvetica, san-serif;
 	 font-size: 1.8vmin;
-	 text-shadow: 0px 0px 3px #222;
 }
 
 
@@ -580,21 +578,15 @@ line-breaks {
 
 
 .hi-light {
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
 	padding-top: 1px;
 	padding-bottom: 3px;
 	margin-bottom: 3px;
 	border-radius: 8px;
 	opacity: .88;
-	width: 80%;
-	background-color: linear-gradient(hsl(95, 15%, 2%), #000);
+	background-image: linear-gradient(hsl(95, 15%, 2%), #000);
 }
-
-
-
-
-
 
 
 .ticker {
@@ -630,10 +622,10 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg");
+	background-image: url("img/.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position:  50% 50%;
+	background-position: 42% 50%;
 	background-repeat: no-repeat;
 	background-color: black;
 	scroll-padding-top: 5.64rem; 
@@ -667,15 +659,16 @@ html: focus-within {
 
 
 body {
-	background-image: url("img/color-crescent-RYfZxZwnPas-unsplash.jpg");
+	background-image: url("img/raamin-ka-XZq5UFXCWxU-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
-	background-size: 100%;
-	background-position: 49% 3.5%;
-	background-attachment: static;
+	background-size: cover;
+	background-position: 48% 11%;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: black;
+
 	margin: 0 auto;
 	margin-top: 1.25%;
 	font-size: 1.4vw;
@@ -721,16 +714,16 @@ body {
 
 
 
-body::after {
+body::before {
+	visibility: visible;
+	opacity: hidden;
 	content:"";
 	position: fixed;
 	display: block;
-	background-image: url("img/alex-mihai-c-T0-wujwQrDw-unsplash.jpg");
-	background-attachment: fixed;
+	background-image: url("img/color-crescent-RYfZxZwnPas-unsplash.jpg");
 	background-size: cover;
-	background-position: 20% 10%;
+	background-position: 50% 42%;
 	background-repeat: no-repeat;
-	background-color: black;
 	top: 0px;
  	right: 0px;
  	bottom: 0px;
@@ -740,8 +733,7 @@ body::after {
 	margin-bottom: 0px;
 	border-radius: 8px;
 	filter: saturate(90%);
-	filter: blur(0px);
-			background-color: linear-gradient(hsl(95, 15%, 2%), #000);
+	filter: blur(3px);
 }
 
 
@@ -819,11 +811,11 @@ body::after {
 
 
 .container2 {
-	background-image: url("img/jametlene-reskp-21xmyDjZPck-unsplash.jpg");
+	background-image: url("img/steve-harvey-U4wcrDteZ2Y-unsplash.jpg");
 	background-size: cover;
 	background-attachment: static;
 	background-repeat: no-repeat;
-	background-position: 44% 25%;
+	background-position: 50% 24%;
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -836,7 +828,6 @@ body::after {
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	filter: saturate(100%);
 }
 
 
@@ -953,7 +944,7 @@ menu {
 	border-color: #111;
 	border-top: 3;
 	border-top-color: #222;
-	border-right-color: #444;
+	border-right-color: #555;
 	border-left: 1;
 	border-right: 1;
 	border-bottom: 2;
@@ -1315,7 +1306,7 @@ span.logo:hover {
 
 .hero-section1 {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/leandra-rieger-gf08gm2quEk-unsplash.jpg");
-	background-position: 50% 80%;
+	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -1522,7 +1513,7 @@ input{
 	background-color: silver;
 	line-height: 1.2;
 	color: #111;
-	font-size: 2.6vmin;
+	font-size: 2.8vmin;
 	max-width: 82%;
 	height: auto;
 	opacity: .69;
@@ -1571,7 +1562,7 @@ input:focus-within {
 	text-decoration: none;
 	border-radius: 3px;
 	background-color:transparent;
-	max-width: 88%;
+	max-width: 90%;
 	height: auto;
 	color: lightgoldenrodyellow;
 	border-style: solid;
@@ -1581,7 +1572,6 @@ input:focus-within {
 	overflow: hidden;
 	font-weight: normal;
 	background-blend-mode: multiply;
-	font-size: 2.6vmin;
 }
 
 .message:focus-within {
@@ -1613,8 +1603,8 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
-	max-width: 15vmin;
-	height: 15vmin;
+	max-width: 15.25vmin;
+	height: 15.25vmin;
 	background-color: black;
 	display:block;
 	position: relative;
