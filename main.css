@@ -703,7 +703,7 @@ body {
  	border-color: #111;
  	border-right-color: #444;
  	border-style: solid;
- 	opacity: .86;
+ 	opacity: .94;
 }
 
 
@@ -735,7 +735,7 @@ body::after {
 	margin-bottom: 0px;
 	border-radius: 8px;
 	filter: saturate(90%);
-	filter: blur(2px);
+	filter: blur(1px);
 	border-style: none;
 	border-radius: 8px;
 	border-width: 1;
