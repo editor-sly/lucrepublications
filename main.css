@@ -153,12 +153,12 @@ span.thick {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 18vmin;
-	text-shadow: 0px 0px 1px black;
+	text-shadow: 0px 0px 1px darkgoldenrod;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	box-sizing: border-box;
-	color: darkgoldenrod;
+	color: black;
 }
 
 
@@ -205,7 +205,7 @@ span.thick3 {
 	font-kerning: normal;
 	height: auto;
 	letter-spacing: -5px;
-	color: #333;
+	color: #444;
 	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
