@@ -695,10 +695,9 @@ body {
     box-sizing: border-box;
 	border-style: solid;
  	border-radius: 8px;
- 	
  	z-index: 9999;
- 	border-width: 2px;
- 	border-color: #000;
+ 	border-width: 3px;
+ 	border-color: #111;
  	border-right-color: #444;
  	border-left-color: #111;
  	border-top: #111;
