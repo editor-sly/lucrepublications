@@ -774,8 +774,10 @@ body::after {
 	max-width: 80%;
 	height: auto;
 	display: block;
-	background-color: hsl(8, 92%, 20%);
-	border-style: none;
+	background-color: black;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	border-radius: 8px;
@@ -1326,6 +1328,9 @@ span.logo:hover {
 	background-color: black;
 	border-style: none;
 	border-radius: 8px;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	box-sizing: border-box;
@@ -1466,8 +1471,8 @@ span.logo:hover {
 	position: relative;
 	background-color: #000;
 	border-style: solid;
-	border-width: 1pt;
-	border-color:#111;
+	border-width: 2px;
+	border-color:#000;
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
