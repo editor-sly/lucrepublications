@@ -40,8 +40,8 @@ p {
 
 span.cap {
     float: left;
-    font-size: 2.7em;
-    line-height: .9;
+    font-size: 3em;
+    line-height: .8;
     font-weight: bold;
     margin-right: 4px;
 }
@@ -790,8 +790,7 @@ body::after {
 
 
 .container-gfx {
-	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
-	background-color: linear-gradient(hsl(95, 15%, 2%), #000);
+	background-image: url("img/.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -804,9 +803,6 @@ body::after {
 	border-width: 1px;
 	border-radius: 8px;
 	box-sizing: border-box;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
-
 }
 
 
@@ -816,7 +812,7 @@ body::after {
 
 
 .container2 {
-	background-image: url("img/jametlene-reskp-21xmyDjZPck-unsplash.jpg");
+	background-image: url("img/.jpg");
 	background-size: cover;
 	background-attachment: static;
 	background-repeat: no-repeat;
@@ -828,13 +824,12 @@ body::after {
 	height: auto;
 	display: block;
 	background-color: ;
-	border-style: solid;
-	border-width: 1pt;
-	border-color: #111;
+	border-style: none;
+	border-width: 0;
+	border-color: none;
 	border-bottom-left-radius: 0px;
 	border-radius: 8px;
 	box-sizing: border-box;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
