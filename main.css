@@ -783,7 +783,7 @@ body::after {
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	opacity: .96;
+	opacity: .86;
 }
 
 
@@ -946,7 +946,7 @@ menu {
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-style: solid;
-	border-color: #111;
+	border-color: #000;
 	border-top: 3;
 	border-top-color: #222;
 	border-right-color: #555;
@@ -1660,7 +1660,7 @@ input:focus-within {
 	bottom: 0;
 	display: inline-block;
 	background-color: black;
-	border-color: #111;
+	border-color: #000;
 	border-style: solid;
 	border-bottom: none;
 	border-top: 1;
