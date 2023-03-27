@@ -19,7 +19,7 @@ ol[role="list"] {
 
 
 p {
-	font-family: 'Perpetua', 'Baskerville', serif;
+	font-family: Perpetua, Baskerville, "Baskerville Old Face", serif;
 	padding-top: .25px;
 	font-weight: lighter;
 	margin: 0;
@@ -1559,7 +1559,7 @@ input:focus-within {
 
 
 .message {
-	font-family: 'Perpetua', 'Baskerville', serif;
+	font-family: Perpetua, Baskerville, "Baskerville Old Face", serif;
 	margin: 0 auto;
 	padding: 1%;
 	margin-left: 0;
