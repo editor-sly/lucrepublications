@@ -19,7 +19,7 @@ ol[role="list"] {
 
 
 p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Perpetua', san-serif;
 	padding-top: .25px;
 	font-weight: lighter;
 	margin: 0;
@@ -40,7 +40,7 @@ p {
 
 span.cap {
     float: left;
-    font-size: 2.6em;
+    font-size: 2.7em;
     line-height: .9;
     font-weight: bold;
     margin-right: 4px;
@@ -124,7 +124,6 @@ aside > p {
     margin-left: .5rem;
     margin-right: .5rem;
     color: #111;
-    font-style: italic;
     background-color: black;
     opacity: .9;
     color: silver;
@@ -234,7 +233,7 @@ h1 {
 	padding-top: 4px;
 	padding-bottom: 2px;
 	margin-bottom: -6px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Luminari', serif;
 	color: silver;
 	font-weight: 900;
 	line-height: 1;
@@ -253,7 +252,6 @@ h2 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.8vmin;
 	font-weight: bolder;
-	
 
 }
 
@@ -262,12 +260,12 @@ h2.co {
 	padding-top: 0;
 	padding-bottom: 0;
 	margin-left: 1.6%;
-	font-family: 'Poppins', sans-serif;
-	font-weight: lighter;
-	font-size: 3.8vmin;
+	font-family: 'Lucida-Bright', serif;
+	font-weight: bolder;
+	font-size: 3.6vmin;
 	line-height: 1;
-	color: hsl(95, 15%, 2%);
-	text-shadow: 0px 0px 1px darkgoldenrod;
+	color: papayawhip;
+	text-shadow: 0px 0px 2px #222;
 }
 
 
@@ -342,7 +340,7 @@ blockquote {
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
 	 line-height: .5;
-	 font-family: Helvetica, san-serif;
+	 font-family: Poppins, san-serif;
 	 font-size: 1.8vmin;
 }
 
@@ -783,6 +781,7 @@ body::after {
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: .96;
 }
 
 
@@ -821,7 +820,7 @@ body::after {
 	background-size: cover;
 	background-attachment: static;
 	background-repeat: no-repeat;
-	background-position: 50% 10%;
+	background-position: 40% 50%;
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1563,6 +1562,7 @@ input:focus-within {
 
 
 .message {
+	font-family: 'Perpetua'; serif;
 	margin: 0 auto;
 	padding: 1%;
 	margin-left: 0;
@@ -1578,7 +1578,10 @@ input:focus-within {
 	border-radius: none;
 	border-width: 0;
 	overflow: hidden;
-	font-weight: normal;
+	font-weight: lighter;
+	line-height: 1.2;
+	font-size: 2.8vmin;
+
 	background-blend-mode: multiply;
 }
 
