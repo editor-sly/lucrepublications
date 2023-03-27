@@ -633,6 +633,7 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
+	filter: saturate(50%);
 	
 }
 
