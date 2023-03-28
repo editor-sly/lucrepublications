@@ -156,6 +156,8 @@ aside > p {
 	background-size: cover;
 	text-shadow: 0px 0px 1.5px transparent;
 	color: transparent;
+	-webkit-text-stroke:1px;
+	-webkit-text-stroke-color: darkgoldenrod;
 }
 
 
