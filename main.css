@@ -141,8 +141,8 @@ aside > p {
 
 
 .thick {
-	margin-bottom: -14px;
-	margin-top: 2px;
+	margin-bottom: -18px;
+	margin-top: 1px;
 	margin-left: 0%;
 	font-kerning: normal;
 	width: 80dvw;
@@ -793,7 +793,7 @@ body::after {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	padding: 1.2% 1.2%;
+	padding: 1.2% 2.5%;
 	max-width: 80%;
 	height: auto;
 	display: block;
