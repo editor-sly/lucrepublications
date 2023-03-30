@@ -833,6 +833,62 @@ body::after {
 
 
 
+.container-gfx {
+	background-image: url("img/.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 1.2% 2.5%;
+	max-width: 80%;
+	height: auto;
+	display: block;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.container2 {
+	background-image: url("img/.jpg");
+	background-size: cover;
+	background-attachment: static;
+	background-repeat: no-repeat;
+	background-position: 40% 50%;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 96%;
+	height: auto;
+	display: block;
+	background-color: ;
+	border-style: none;
+	border-width: 0;
+	border-color: none;
+	border-bottom-left-radius: 0px;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-quote {
 	background-image: url("img/nicola-nuttall-ObTfaF2hngw-unsplash.jpg");
 	background-size: 100%;
