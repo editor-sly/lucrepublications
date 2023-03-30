@@ -33,7 +33,7 @@ p {
 	line-height: 1.11;
 	font-size: 2.6vmin;
 	display: block;
-	text-shadow: 0px 0px 1px #222;
+	text-shadow: 0px 0px 1px #111;
 }
 
 
@@ -536,7 +536,7 @@ hr {
 	margin-bottom: 1em;
 	padding-top: 0x;
 	margin: 0 auto;
-	width: 90%;
+	width: 65%;
 	size: 1pt;
 	border-style: inset;
 	text-decoration: none;
@@ -552,7 +552,7 @@ hr.line2 {
 	margin-bottom: 1em;
 	padding-top: 0x;
 	margin: 0 auto;
-	width: 71%;
+	width: 100%;
 	size: 1pt;
 	border-style: inset;
 	text-decoration: none;
@@ -621,12 +621,12 @@ html {
 	background-color: black;
 	scroll-padding-top: 3.5rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
- 			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
- 			font-family: Merienda, Helvetica, Arial, sans-serif;
+ 	scrollbar-width: none;  /* Firefox */filter: sepia(.5);
+ 	font-family: Merienda, Helvetica, Arial, sans-serif;
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
-	filter: saturate(50%);
+	filter: saturate(60%);
 	
 }
 
@@ -663,14 +663,14 @@ body {
 	background-color: black;
 
 	margin: 0 auto;
-	margin-top: 1.25%;
+	margin-top: .5%;
 	font-size: 1.4vw;
 	padding: .25em;
-	padding-top: .25em;
-	padding-bottom: .25em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 
-	width: 88.20vw;
-	width: 88.20dvw;
+	width: 88.2vw;
+	width: 88.2dvw;
 	min-height: auto;
 
 	margin-bottom:12.75rem;
@@ -681,13 +681,13 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
 		    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
 		    sans-serif;
-    -webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
-    justify-content: center;
-    vertical-align: middle;
-    align-content: center;
-    align-items: center;
-    box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
 	border-style: solid;
  	border-radius: 8px;
  	z-index: 9999;
@@ -767,7 +767,7 @@ body::after {
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	padding: 1.2% 1.2%;
-	max-width: 80%;
+	max-width: 65%;
 	height: auto;
 	display: block;
 	background-color: black;
@@ -794,7 +794,7 @@ body::after {
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	padding: 1.2% 2.5%;
-	max-width: 85%;
+	max-width: 65%;
 	height: auto;
 	display: block;
 	border-style: none;
@@ -815,7 +815,7 @@ body::after {
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	padding: 1.2% 2.5%;
-	max-width: 88%;
+	max-width: 90%;
 	height: auto;
 	display: block;
 	border-style: none;
@@ -848,7 +848,7 @@ body::after {
 	margin: 0 auto;
 	padding-left: 30px;
 	padding-right: 30px;
-	width: 80%;
+	width: 65%;
 	height: auto;
 	display: block;
 	background-color: ;
@@ -871,7 +871,7 @@ body::after {
 	margin: 0 auto;
 	margin-bottom: 4px;
 	padding: 8px;
-	width: 80%;
+	width: 65%;
 	height: auto;
 	display:block
 	background-color: none;
@@ -1092,7 +1092,7 @@ a {
 	margin-bottom: 1.25px;
 	padding: 2px;
 	bottom: 0;
-	width: 100vw;
+	width: 100dvw;
 	height: auto;
 	display: flex;
 	overflow: hidden;
@@ -1244,7 +1244,7 @@ span.logo:hover {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	width: 80%;
+	width: 65%;
 	height: auto;
 	display: block;
 	background-color: #111;
@@ -1270,7 +1270,7 @@ span.logo:hover {
 	padding-right: 20px;
 	padding-top: 12px;
 	padding-bottom: 30px;
-	width: 80%;
+	width: 65%;
 	height: auto;
 	display: block;
 	background-color: none;
@@ -1309,7 +1309,7 @@ span.logo:hover {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 20px;
-	width: 80%;
+	width: 65%;
 	height: auto;
 	display: block;
 	background-color: black;
@@ -1453,7 +1453,7 @@ span.logo:hover {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 4%;
-	width: 80%;
+	width: 65%;
 	height: auto;
 	position: relative;
 	background-color: #000;
@@ -1640,7 +1640,7 @@ input:focus-within {
 	padding-right: 0%;
 	padding-top: .3em;
 	width: 100vw;
-	max-height: 35.5vh;
+	max-height: 35vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
