@@ -861,10 +861,10 @@ body::after {
 	background-attachment: static;
 	background-repeat: no-repeat;
 	background-position: 40% 50%;
-	margin: 0 auto;
-	padding-left: 30px;
-	padding-right: 30px;
-	width: 96%;
+	margin: 0;
+	padding-left: 20%;
+	padding-right: 10px;
+	width: 84%;
 	height: auto;
 	display: block;
 	background-color: ;
