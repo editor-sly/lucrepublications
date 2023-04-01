@@ -164,7 +164,36 @@ aside > p {
 	background-size: cover;
 	text-shadow: 0px 0px 1.5px transparent;
 	color: transparent;
+	z-index: 1;
+
+
 }
+
+
+
+
+
+
+.thick__stroke {
+	margin-bottom: -18px;
+	margin-top: 1px;
+	margin-left: 0%;
+	font-kerning: normal;
+	width: 80dvw;
+	height: auto;
+	letter-spacing: -11px;
+	line-height: .8;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	font-size: 21vmin;
+	background-size: cover;
+	text-shadow: 0px 0px 2.5px #000;
+	color: #000;
+	
+}
+
+
+
 
 
 
