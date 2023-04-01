@@ -164,7 +164,6 @@ aside > p {
 	background-size: cover;
 	text-shadow: 0px 0px 1.5px transparent;
 	color: transparent;
-	z-index: 1;
 
 
 }
@@ -179,15 +178,15 @@ aside > p {
 	margin-top: 0;
 	margin-left: 0;
 	font-kerning: normal;
-	width: 80svw;
+	width: 80dvw;
 	height: auto;
 	letter-spacing: -11px;
-	line-height: .8;
+	line-height: clamp(.5 .75. .5);
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 21vmin;
 	color: #000;
-	opacity: .5;
+	opacity: .6;
 	
 }
 
@@ -203,7 +202,6 @@ aside > p {
 span.thick-headline{
 	margin: 0 auto;
 	margin-bottom: .5em;
-	position: block;
 	margin-top: .5em;
 	height: auto;
 	color: silver;
