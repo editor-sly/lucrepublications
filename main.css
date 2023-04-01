@@ -179,13 +179,13 @@ aside > p {
 	margin-top: 0;
 	margin-left: 0;
 	font-kerning: normal;
-	width: auto;
+	width: 80svw;
 	height: auto;
 	letter-spacing: -11px;
 	line-height: .8;
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
-	font-size: 21.25vmin;
+	font-size: 21vmin;
 	color: #000;
 	opacity: .5;
 	
