@@ -629,6 +629,7 @@ html {
 	padding: auto;
 	filter: saturate(60%);
 	box-sizing: border-box;
+	 filter: sepia(50%);
 	
 }
 
