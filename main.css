@@ -159,36 +159,22 @@ aside > p {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 21vmin;
+	-webkit-background-clip: text; background-color: transparent;
 	background-image:url(img/peter-olexa-Ax6ggq8cSxw-unsplash.jpg);
-	-webkit-background-clip: text;
+	color: moccasin;
 	background-size: cover;
-	text-shadow: 0px 0px 1.5px transparent;
-	color: transparent;
-
-
 }
 
 
 
 
-
-
-.thick__stroke {
-	margin-bottom: -18px;
-	margin-top: 0;
-	margin-left: 0;
-	font-kerning: normal;
-	width: 80dvw;
-	height: auto;
-	letter-spacing: -11px;
-	line-height: clamp(.5 .75. .5);
-	font-family: 'Poppins', sans-serif;
-	font-weight: bolder;
-	font-size: 21vmin;
-	color: #000;
-	opacity: .6;
-	
+.blackshadow {
+	text-shadow: -4px 6px black;
 }
+
+
+
+
 
 
 
