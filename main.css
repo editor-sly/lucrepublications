@@ -159,17 +159,16 @@ aside > p {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bolder;
 	font-size: 21vmin;
-	-webkit-background-clip: text; background-color: transparent;
+	color: transparent;
 	background-image:url(img/peter-olexa-Ax6ggq8cSxw-unsplash.jpg);
-	color: moccasin;
-	background-size: cover;
+	-webkit-background-clip: text;
+	text-shadow: -4px 6px 8px transparent;
 }
 
 
-
-
 .blackshadow {
-	text-shadow: -4px 6px black;
+	
+
 }
 
 
@@ -649,7 +648,7 @@ html {
 	padding: auto;
 	filter: saturate(60%);
 	box-sizing: border-box;
-	 filter: sepia(50%);
+	filter: sepia(50%);
 	
 }
 
@@ -720,7 +719,7 @@ body {
  	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .94;
+ 	opacity: .99;
 }
 
 
