@@ -523,7 +523,9 @@ div {
 	justify-content: center;
 }
 
-
+div::-webkit-scrollbar {
+  display: none;
+}
 
 
 .flush-right {
