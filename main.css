@@ -162,7 +162,7 @@ aside > p {
 	color: transparent;
 	background-image:url(img/peter-olexa-Ax6ggq8cSxw-unsplash.jpg);
 	-webkit-background-clip: text;
-	text-shadow: -4px 6px 8px transparent;
+	text-shadow: -4px 6px 8px black;
 }
 
 
