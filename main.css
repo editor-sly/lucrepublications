@@ -673,7 +673,7 @@ body {
 	background-color: black;
 
 	margin: 0 auto;
-	margin-top: 1.25%;
+	margin-top: 1%;
 	font-size: 1.4vw;
 	padding: 0;
 	padding-top: .25em;
@@ -688,7 +688,7 @@ body {
 	height: 100vh;
 	height: -webkit-fill-available;
 
-	margin-bottom:11.5rem;
+	margin-bottom: 13.25rem;
 
 	color: wheat;
 	text-rendering: optimizeSpeed;
