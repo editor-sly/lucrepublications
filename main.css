@@ -162,7 +162,7 @@ aside > p {
 	color: transparent;
 	background-image:url(img/peter-olexa-Ax6ggq8cSxw-unsplash.jpg);
 	-webkit-background-clip: text;
-	text-shadow: -4px 6px 8px black;
+	text-shadow: -4px 6px 8px transparent;
 }
 
 
@@ -446,9 +446,9 @@ span.movegfx {
   	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	max-width: 10rem;
+	max-width: 11rem;
 	min-height: 12rem;
-	left: .9%;
+	left: 1.2%;
 	justify-content: center;
 	animation: animate 3.5s ease-in-out infinite;
 	margin-bottom: -12%;
@@ -634,12 +634,12 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg");
+	background-image: url("img/alex-mihai-c-T0-wujwQrDw-unsplash.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 50% 50%;
+	background-position: 30% 50%;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: #111;
 	scroll-padding-top: 3.5rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  	scrollbar-width: none;  /* Firefox */filter: sepia(.5);
@@ -649,9 +649,10 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
-	filter: saturate(60%);
+	filter: saturate(80%);
 	box-sizing: border-box;
-	filter: sepia(50%);
+	filter: sepia(30%);
+
 	
 }
 
@@ -664,7 +665,7 @@ html: focus-within {
 
 
 body {
-	background-image: url("img/alex-mihai-c-T0-wujwQrDw-unsplash.jpg");
+	background-image: url("img/.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
@@ -672,7 +673,7 @@ body {
 	background-position: 52% 20%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-color: black;
+	background-color: #000;
 
 	margin: 0 auto;
 	margin-top: 1%;
@@ -709,11 +710,11 @@ body {
  	z-index: 9999;
  	border-width: 3px;
  	border-color: #111;
- 	border-right-color: #333;
+ 	border-right-color: #111;
  	border-left-color: #000;
- 	border-top: #000;
+ 	border-top: #111;
  	border-style: solid;
- 	opacity: .99;
+ 	opacity: .91;
 }
 
 
@@ -731,9 +732,9 @@ body::after {
 	position: fixed;
 	display: block;
 	height: auto;
-	background-image: url("img/color-crescent-RYfZxZwnPas-unsplash.jpg");
+	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
 	background-size: cover;
-	background-position: 48% 0%;
+	background-position: auto auto;
 	background-repeat: no-repeat;
 	background-color: black;
 	top: 0px;
@@ -1687,6 +1688,9 @@ input:focus-within {
 
 
 .footer:before {
+
+background-image: url("img/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg");
+
 	content: "";
 	position: absolute;
 	top: 0;
@@ -1698,8 +1702,6 @@ input:focus-within {
 	transform: scaleX(1.2);
 	opacity: .3;
 }
-
-
 
 
 
