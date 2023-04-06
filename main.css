@@ -649,9 +649,9 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
-	filter: saturate(80%);
+	filter: saturate(90%);
 	box-sizing: border-box;
-	filter: sepia(30%);
+	filter: sepia(20%);
 
 	
 }
@@ -714,7 +714,7 @@ body {
  	border-left-color: #000;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .89;
+ 	opacity: .83;
 }
 
 
@@ -750,7 +750,7 @@ body::after {
 	border-style: none;
 	border-radius: 8px;
 	border-width: 1;
-	opacity: .1;
+	opacity: .184;
 }
 
 
@@ -1684,7 +1684,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	z-index: 111;
+	z-index: 1;
 }
 
 
