@@ -682,13 +682,13 @@ body {
 	padding-top: .25em;
 	padding-bottom: 0;
 
-	max-width: 1440px;
-	width: 84.2vw;
-	width: 84.2dvw;
+	max-width: 1280px;
+	width: 84.4vw;
+	width: 84.4dvw;
 	display: flex;
 	flex-direction: column;
 
-	height: 100vh;
+	height: auto;
 	height: -webkit-fill-available;
 
 	margin-bottom: 13.25rem;
@@ -943,10 +943,10 @@ menu {
 	padding-bottom: 2.4px;
 	left: 0;
 	right: 0;
-	max-width: 100vw;
+	max-width: 100dvw;
 	min-height: 8vmin;
 	display: flex;
-	flex: auto;
+	flex-direction: row;
 	overflow: hidden;
 	border-radius: 0px;
 	position: sticky;
