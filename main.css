@@ -1224,7 +1224,7 @@ span.logo:hover {
 	margin: 0;
 	height: auto;
 	border-style: solid;
-	border-color: darkred;
+	border-color: crimson;
 	border-width: 5.2px;
 	border-radius: 0;
 	border-top: none;
@@ -1902,7 +1902,7 @@ button.form-button {
 	padding: 1em;
 	color: whitesmoke;
 	text-transform: uppercase;
-	background-color: darkred;
+	background-color: crimson;
 }
 
 
@@ -1913,7 +1913,7 @@ button.cta {
 	font-size: 2.5vmin;
 	margin-top: .25em;
 	padding: 1em;
-	background-color: darkred;
+	background-color: crimson;
 	color: whitesmoke;
 	text-transform: uppercase;
 }
