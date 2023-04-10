@@ -634,7 +634,7 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/jon-tyson-qAZO-wu3tik-unsplash.jpg");
+	background-image: url("img/jon-tyson-qAZO-wu3tik-unsplash_b.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% 50%;
@@ -649,9 +649,9 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
-	filter: saturate(90%);
+	filter: saturate(50%);
 	box-sizing: border-box;
-	filter: sepia(20%);
+	filter: sepia(30%);
 
 	
 }
@@ -665,12 +665,12 @@ html: focus-within {
 
 
 body {
-	background-image: url("img/.jpg");
+	background-image: url("img/jon-tyson-qAZO-wu3tik-unsplash_c.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
 	background-size: cover;
-	background-position: 52% 20%;
+	background-position: 44% 54%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: #000;
@@ -709,9 +709,9 @@ body {
  	border-radius: 8px;
  	z-index: 9999;
  	border-width: 3px;
- 	border-color: #000;
- 	border-right-color: #000;
- 	border-left-color: #000;
+ 	border-color: #111;
+ 	border-right-color: #111;
+ 	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
  	opacity: .96;
