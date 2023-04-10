@@ -156,13 +156,13 @@ aside > p {
 	height: auto;
 	letter-spacing: -11px;
 	line-height: .75;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bolder;
+	font-family: 'Perputua', serif;
+	font-weight: 900;
 	font-size: 21vmin;
-	color: transparent;
+	color: moccasin;
 	background-image:url(img/peter-olexa-Ax6ggq8cSxw-unsplash.jpg);
 	-webkit-background-clip: text;
-	text-shadow: -4px 6px 8px transparent;
+	text-shadow: -4px 6px 8px black;
 }
 
 
@@ -226,8 +226,8 @@ span.thick3 {
 	letter-spacing: -5px;
 	color: #444;
 	line-height: .8;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bolder;
+	font-family: 'Perpetua', serif;
+	font-weight: 900;
 	font-size: 7.8vmin;
 	opacity: .69;
 	text-shadow: 0px 0px 3px #000;
@@ -649,9 +649,9 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
-	filter: saturate(50%);
+	filter: saturate(30%);
 	box-sizing: border-box;
-	filter: sepia(30%);
+	filter: sepia(50%);
 
 	
 }
@@ -665,13 +665,13 @@ html: focus-within {
 
 
 body {
-	background-image: url("img/.jpg");
+	background-image: url("img/ekaterina-kuznetsova-hOAc_zZuNfI-unsplash.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
 	background-size: cover;
-	background-position: auto auto;
-	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-attachment: static;
 	background-repeat: no-repeat;
 	background-color: #000;
 
@@ -714,7 +714,7 @@ body {
  	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .96;
+ 	opacity: .93;
 }
 
 
@@ -787,7 +787,7 @@ main {
 
 
 .container {
-	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
+	background-image: url("img/.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -1323,7 +1323,7 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/ekaterina-kuznetsova-hOAc_zZuNfI-unsplash.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/.jpg");
 	background-position: auto auto;
 	background-size: cover;
 	background-repeat: no-repeat;
