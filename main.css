@@ -634,10 +634,10 @@ text-shadow: 0px 0px 3px #111;
 
 html {
 	margin: 0 auto;
-	background-image: url("img/jon-tyson-qAZO-wu3tik-unsplash_b.jpg");
+	background-image: url("img/diogo-fagundes-K0cW669UQH0-unsplash.jpg");
 	background-size: cover;
-	background-attachment: fixed;
-	background-position: 50% 50%;
+	background-attachment: static;
+	background-position: 10% 30%;
 	background-repeat: no-repeat;
 	background-color: #000;
 	scroll-padding-top: 3.5rem; 
