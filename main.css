@@ -665,12 +665,12 @@ html: focus-within {
 
 
 body {
-	background-image: url("img/jon-tyson-qAZO-wu3tik-unsplash_c.jpg");
+	background-image: url("img/.jpg");
 	word-spacing: 1.2px;
 	letter-spacing: .003px;
 	line-height: .75;
 	background-size: cover;
-	background-position: 44% 54%;
+	background-position: auto auto;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: #000;
@@ -1324,7 +1324,7 @@ span.logo:hover {
 
 .hero-section1 {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/ekaterina-kuznetsova-hOAc_zZuNfI-unsplash.jpg");
-	background-position: 50% 50%;
+	background-position: auto auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
