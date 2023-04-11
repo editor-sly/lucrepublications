@@ -103,7 +103,7 @@ aside {
     margin-right: .25rem;
     float: right;
     font-size: 1.2vw;
-    line-height: 1;
+    line-height: 1.1;
     font-style: italic;
     color: #999;
     background-color: transparent;
@@ -304,13 +304,13 @@ h2.co2 {
 
 h3 {
 	color: wheat;
-	padding-top: 4px;
-	padding-bottom: 8px;
+	padding-top: 2.8px;
+	padding-bottom: 3px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 3vmin;
-	line-height:1.25;
-	margin-top: 3.25px;
-	margin-bottom: -6px;
+	line-height: 1.1;
+	margin-top: 2.8px;
+	margin-bottom: 2.8px;
 
 }
 
@@ -320,7 +320,7 @@ h3 {
 
 h4,
 h5 {
-	line-height: 1.2;
+	line-height: 1.1;
 	padding-top: 2px;
 	padding-bottom: 4px;
 	margin-bottom: .75rem;
@@ -339,7 +339,7 @@ figure {
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 1.2;
+	 line-height: 1.1;
 	 font-weight: lighter;
 	 font-family: Helvetica, san-serif;
 	 font-size: 1.8vmin;
@@ -356,8 +356,8 @@ blockquote {
 	 padding-left: 0px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: .5;
-	 font-family: Poppins, san-serif;
+	 line-height: .75;
+	 font-family: Perpetua, serif;
 	 font-size: 2.2vmin;
 }
 
@@ -381,7 +381,7 @@ dd, {
 	 padding-left: 15px;
 	 word-spacing: 1.2px;
 	 letter-spacing: .003px;
-	 line-height: 1;
+	 line-height: 1.1;
 
 }
 
@@ -1236,10 +1236,9 @@ span.logo:hover {
 
 .border-left2 {
 	
-	padding: 0px;
-	text-indent: 11px;
-	padding-left: 11.23px;
 	margin: 0;
+	text-indent: 4px;
+	padding-left: 8px;
 	height: auto;
 	border-style: solid;
 	border-color: none;
@@ -1416,8 +1415,8 @@ span.logo:hover {
 	margin: 0 auto;
 	margin-top:2px;
 	margin-bottom: 4px;
-	padding-top: 1%;
-	padding-bottom: 1.5%;
+	padding-top: 0%;
+	padding-bottom: 1%;
 	padding-left: 0;
 	max-width: 100%;
 	border-style: none;
@@ -1427,7 +1426,7 @@ span.logo:hover {
   display: block;
   color: whitesmoke;
   background-color: #222;
-  opacity: .4;
+  opacity: .8;
   border-radius: 4px;
   justify-content: center;
   align-content: center;
@@ -1452,7 +1451,7 @@ span.logo:hover {
 	align-content: center;
 	align-items: center;
   display: block;
-  color: wheat;
+  color: moccasin;
   background-color: none;
   border-radius: 8px;
   justify-content: center;
