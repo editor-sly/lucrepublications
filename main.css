@@ -94,12 +94,12 @@ span.cap {
 
 
 aside {
-    width: 44%;
-    margin-top: -1%;
+    width: 38%;
+    margin-top: -2%;
     padding-left: .25rem;
-    padding-right: .25rem;
+    padding-right: .25em;
     padding-bottom: .5rem;
-    margin-left: .5rem;
+    margin-left: .25rem;
     margin-right: .25rem;
     float: right;
     font-size: 1.2vw;
@@ -107,7 +107,7 @@ aside {
     font-style: italic;
     color: #999;
     background-color: transparent;
-    opacity: .69;
+    opacity: .96;
 }
 
 aside > p {
