@@ -935,7 +935,7 @@ menu {
 	background-position: auto auto;
 	margin: 0 auto;
 	margin-top: 4.25px;
-	margin-bottom: .5em;
+	margin-bottom: 2em;
 
 	margin-left:  -4.8px;
 	margin-right: -5.1px;
@@ -945,7 +945,7 @@ menu {
 	left: 0;
 	right: 0;
 	max-width: 100dvw;
-	min-height: 8vmin;
+	min-height: 7vmin;
 	display: flex;
 	flex-direction: row;
 	overflow: hidden;
@@ -1627,12 +1627,12 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
-	max-width: 14vmin;
-	height: 14vmin;
+	max-width: 13vmin;
+	height: 13vmin;
 	background-color:#111;
 	display:block;
 	position: relative;
-	margin-top: 2px;
+	margin-top: 1rem;
 	margin-bottom: 4px;
 	box-sizing: border-box;
 	vertical-align: middle;
@@ -1640,7 +1640,7 @@ input:focus-within {
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: .26em;
+	border-width: 3.5px;
 	color: darkgoldenrod;
 	border-radius: 50%;
 }
