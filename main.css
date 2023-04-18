@@ -559,7 +559,7 @@ hr {
 	padding-top: 0x;
 	margin: 0 auto;
 	width: 65%;
-	size: 1pt;
+	size: 6pt;
 	border-style: inset;
 	text-decoration: none;
 	opacity: .3;
@@ -715,7 +715,7 @@ body {
  	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .93;
+ 	opacity: .92;
 }
 
 
@@ -1534,7 +1534,7 @@ span.logo:hover {
  	right: 0px;
  	bottom: 0px;
  	left: 0px;
-	opacity: .5;
+	opacity: .2;
 	z-index: -1;
 	margin-bottom: 0px;
 	border-radius: 8px;
