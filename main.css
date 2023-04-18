@@ -559,7 +559,7 @@ hr {
 	padding-top: 0x;
 	margin: 0 auto;
 	width: 65%;
-	size: 6pt;
+	size: 1pt;
 	border-style: inset;
 	text-decoration: none;
 	opacity: .3;
@@ -1664,7 +1664,7 @@ input:focus-within {
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: 3px;
+	border-width: 4px;
 	color: darkgoldenrod;
 	border-radius: 50%;
 }
