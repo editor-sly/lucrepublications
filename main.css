@@ -789,7 +789,7 @@ main {
 
 
 .container {
-	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -1403,6 +1403,34 @@ span.logo:hover {
 	text-shadow: 0px 0px 3px #333;
 }
 
+
+
+
+
+
+.hero-section_quote {
+	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin: 0 auto;
+	margin-top: .25em;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	width: 80%;
+	height: auto;
+	display: block;
+	background-color: #222;
+	border-style: none;
+	border-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-sizing: border-box;
+	text-shadow: 0px 0px 3px #333;
+}
 
 
 
