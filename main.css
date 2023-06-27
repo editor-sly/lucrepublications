@@ -32,7 +32,7 @@ p {
 	margin: 0;
 	margin-top: 3.24px;
 	margin-bottom: 0;
-	color: silver;
+	color: wheat;
 	text-indent: .25em;
 	padding-left: 0;
 	word-spacing: 1.24px;
@@ -51,7 +51,6 @@ span.cap {
     line-height: .8;
     font-weight: bold;
     margin-right: 4px;
-    color: moccasin;
 }
 
 
@@ -224,7 +223,7 @@ span.thick3 {
 	padding-top: .5em;
 	font-kerning: normal;
 	height: auto;
-	letter-spacing: -6.25px;
+	letter-spacing: -5px;
 	color: #444;
 	line-height: .8;
 	font-family: 'Perpetua', serif;
@@ -389,7 +388,7 @@ dd, {
 
 img,
 picture {
-	color: wheat;
+  color: wheat;
   max-width: 100vw;
   height: auto;
   display: block;
@@ -400,12 +399,8 @@ picture {
 }
 
 
-
-
-
-
 img {
-	color: wheat;
+  color: wheat;
   max-width: 86%;
   display: block;
   padding-bottom: 4px;
@@ -415,7 +410,7 @@ img {
 }
 
 img:hover {
-	transition: 0.3s;
+  transition: 0.3s;
   transform: scale(1.2);
 }
 
@@ -434,10 +429,6 @@ span.movegfx {
 }
 
 
-
-
-
-
 .floatlogo {
 	background-image: url("img/Lucre_logo_N2.png");
 	background-size: 56%;
@@ -454,7 +445,7 @@ span.movegfx {
 	animation: animate 3.5s ease-in-out infinite;
 	margin-bottom: -12%;
 	margin-top: -8.5%;
-	z-index: -111;
+	z-index: 2;
 }
 
 	@keyframes animate {
@@ -468,6 +459,11 @@ span.movegfx {
 		transform: translateY(0);
 	}
 }
+
+
+
+
+
 
 
 
@@ -584,8 +580,6 @@ hr.line2 {
 
 
 
-
-
 line-breaks {
 	style-height: .25px;
 }
@@ -633,14 +627,19 @@ text-shadow: 0px 0px 3px #111;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 html {
 	margin: 0 auto;
-	background-image: url("img/diogo-fagundes-K0cW669UQH0-unsplash.jpg");
-	background-size: cover;
-	background-attachment: static;
-	background-position: 10% 30%;
-	background-repeat: no-repeat;
-	background-color: #000;
 	scroll-padding-top: 3.5rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
  	scrollbar-width: none;  /* Firefox */filter: sepia(.5);
@@ -650,17 +649,59 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	padding: auto;
-	filter: saturate(30%);
 	box-sizing: border-box;
-	filter: sepia(50%);
-
-	
+	filter: sepia(60%);
 }
 
 
 html: focus-within {
 	 scroll-behavior: smooth;
 }
+
+
+
+html::after {
+  background-color: rgba(5, 5, 5, 3);
+  content: '';
+  position: absolute;
+  filter: blur(23px);
+  inset: 2%;
+  z-index: -1;
+  opacity: .6;
+}
+
+
+.bg-image {
+	background-image: url("img/diogo-fagundes-K0cW669UQH0-unsplash.jpg");
+	background-size: cover;
+	background-attachment: static;
+	background-position: 10% 30%;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+
+.bg-image::before { 
+  background-color: rgba(2, 2, 2, 1);
+  content: '';
+  filter: blur(26px);
+  position: absolute;
+  inset: 12%;
+  z-index: -1;
+  opacity: .3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -715,7 +756,20 @@ body {
  	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .92;
+ 	opacity: .9;
+}
+
+
+
+
+body::before { 
+  background-color: rgba(2, 2, 2, 1);
+  content: '';
+  filter: blur(30px);
+  position: absolute;
+  inset: 16%;
+  z-index: -1;
+  opacity: .83;
 }
 
 
@@ -727,32 +781,6 @@ body {
 
 
 
-body::after {
-	opacity: hidden;
-	content:"";
-	position: fixed;
-	display: block;
-	height: auto;
-	background-image: url("img/jpg");
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-color: black;
-	top: 0px;
- 	right: 0px;
- 	bottom: 0px;
- 	left: 0px;
-	z-index: -1;
-	opacity: .1;
-	margin-bottom: 0px;
-	border-radius: 8px;
-	filter: saturate(90%);
-	filter: blur(1px);
-	border-style: none;
-	border-radius: 8px;
-	border-width: 1;
-	opacity: .184;
-}
 
 
 
@@ -789,7 +817,7 @@ main {
 
 
 .container {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
+	background-image: url("img/.jpg");
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -808,7 +836,6 @@ main {
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .83;
-	filter: grayscale(50%);
 }
 
 
@@ -1325,7 +1352,7 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/.jpg");
 	background-position: auto auto;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1340,10 +1367,12 @@ span.logo:hover {
 	width: 65%;
 	height: auto;
 	display: block;
-	background-color: #444;
+	background-color: #111;
 	border-style: none;
 	border-radius: 8px;
-	border: 2px solid #222;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	box-sizing: border-box;
@@ -1362,9 +1391,9 @@ span.logo:hover {
 	margin: 0 auto;
 	margin-top: .25em;
 	margin-bottom: 10px;
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 2%;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
 	width: 80%;
 	height: auto;
 	display: block;
@@ -1379,58 +1408,6 @@ span.logo:hover {
 
 
 
-.hero-section_drpdwn {
-	background-image: url("img/diogo-fagundes-K0cW669UQH0-unsplash.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	margin: 0 auto;
-	margin-top: .25em;
-	margin-bottom: 10px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	width: 80%;
-	height: auto;
-	display: block;
-	background-color: #222;
-	border-style: none;
-	border-radius: 8px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
-	box-sizing: border-box;
-	text-shadow: 0px 0px 3px #333;
-}
-
-
-
-
-
-
-.hero-section_quote {
-	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	margin: 0 auto;
-	margin-top: .25em;
-	margin-bottom: 10px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-bottom: 10px;
-	width: 80%;
-	height: auto;
-	display: block;
-	background-color: #222;
-	border-style: none;
-	border-radius: 8px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
-	box-sizing: border-box;
-	text-shadow: 0px 0px 3px #333;
-}
 
 
 
@@ -1537,7 +1514,7 @@ span.logo:hover {
 	background-color: #000;
 	border-style: solid;
 	border-width: 2px;
-	border-color:#222;
+	border-color:#000;
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1562,7 +1539,7 @@ span.logo:hover {
  	right: 0px;
  	bottom: 0px;
  	left: 0px;
-	opacity: .2;
+	opacity: .5;
 	z-index: -1;
 	margin-bottom: 0px;
 	border-radius: 8px;
@@ -1684,15 +1661,15 @@ input:focus-within {
 	background-color:#111;
 	display:block;
 	position: relative;
-	margin-top: .5rem;
-	margin-bottom: 3px;
+	margin-top: 1rem;
+	margin-bottom: 4px;
 	box-sizing: border-box;
 	vertical-align: middle;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: 4px;
+	border-width: 3.5px;
 	color: darkgoldenrod;
 	border-radius: 50%;
 }
@@ -1753,7 +1730,7 @@ background-image: url("img/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg");
 	background: linear-gradient(180deg, #111, #000);
 	border-radius: 0 0 50% 50%/ 0 0 100% 100%;
 	transform: scaleX(1.2);
-	opacity: .3;
+	opacity: .4;
 }
 
 
@@ -1775,7 +1752,7 @@ background-image: url("img/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg");
  	bottom: 0px;
  	left: 0px;
 	z-index: -1;
-	opacity: .1;
+	opacity: .5;
 	margin-bottom: 0px;
 	border-radius: 8px;
 	filter: saturate(60%);
