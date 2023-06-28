@@ -720,7 +720,7 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	max-height: 400vmin;
+	max-height: 300vmin;
 	height: -webkit-fill-available;
 
 	margin-bottom: 10.7rem;
@@ -746,7 +746,7 @@ body {
  	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .92;
+ 	opacity: .88;
 }
 
 
