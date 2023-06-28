@@ -446,6 +446,7 @@ span.movegfx {
 	margin-bottom: -12%;
 	margin-top: -8.5%;
 	z-index: 2;
+	filter: drop-shadow(.25px .25px 3px);
 }
 
 	@keyframes animate {
