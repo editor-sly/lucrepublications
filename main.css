@@ -427,8 +427,8 @@ span.movegfx {
   	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	max-width: 10rem;
-	min-height: 11rem;
+	max-width: 9rem;
+	min-height: 10rem;
 	left: 1.2%;
 	justify-content: center;
 	animation: animate 3.5s ease-in-out infinite;
@@ -721,7 +721,7 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	max-height: 300vmin;
+	max-height: 240vmin;
 	height: -webkit-fill-available;
 
 	margin-bottom: 10.7rem;
