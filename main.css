@@ -435,7 +435,7 @@ span.movegfx {
 	margin-bottom: -12%;
 	margin-top: -8.5%;
 	z-index: 2;
-	filter: drop-shadow(.25px .25px 5px);
+	filter: drop-shadow(.25px .25px 3.5px);
 }
 
 	@keyframes animate {
@@ -632,13 +632,13 @@ html {
 	margin: 0 auto;
 	scroll-padding-top: 3.5rem; 
 	-ms-overflow-style: none;  /* IE &amp; Edge */
- 	scrollbar-width: 8px;  /* Firefox */filter: sepia(.5);
+ 	scrollbar-width: thin;  /* Firefox */filter: sepia(.5);
  	font-family: Merienda, Helvetica, Arial, sans-serif;
  	font-size: 100%;
  	height: -webkit-fill-available;
  	scroll-behavior: smooth;
 	white-space: wrap;
-	padding: auto;
+	padding: 8px;
 	box-sizing: border-box;
 	filter: sepia(60%);
 }
@@ -651,13 +651,13 @@ html:focus-within {
 
 
 html::after {
-  background-color: rgba(5, 5, 5, 3);
+  background-color: rgba(3, 3, 3, 6);
   content: '';
   position: absolute;
   filter: blur(23px);
   inset: 2%;
   z-index: -1;
-  opacity: .6;
+  opacity: .7;
 }
 
 
@@ -708,11 +708,11 @@ body {
 	background-color: #000;
 
 	margin: 0 auto;
-	margin-top: .5%;
-	font-size: 1.4vmin;
+	margin-top: .25%;
+	font-size: 1vmin;
 	padding: 0;
 	padding-top: 0;
-	padding-bottom: 0;
+	padding-bottom: 2px;
 
 	max-width: 1440px;
 	width: 84.4vw;
@@ -746,7 +746,7 @@ body {
  	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .9;
+ 	opacity: .88;
 }
 
 
@@ -759,7 +759,7 @@ body::before {
   position: absolute;
   inset: 16%;
   z-index: -1;
-  opacity: .83;
+  opacity: .81;
 }
 
 
@@ -775,16 +775,15 @@ body::before {
 
 
 main {
-	margin: 0 auto;
 	flex:1;
 	overflow: scroll;
 	scrollbar-visibility: none;
-	scrollbar-width: none;
+	scrollbar-width: thin;
 	scroll-margin: 0;
 	margin-top: .5em;
-	margin-bottom: .2em;
-	padding-top: 0;
-	padding-bottom: .25em;
+	margin-bottom: .5em;
+	padding-top: 0px;
+	padding-bottom: 2px;
 }
 
 
@@ -947,7 +946,7 @@ menu {
 
 .nav {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.5vmin;
+	font-size: 1.4vmin;
 	font-weight: 600;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
@@ -955,18 +954,18 @@ menu {
 	background-repeat: no-repeat;
 	background-position: auto auto;
 	margin: 0 auto;
-	margin-top: 4.25px;
-	margin-bottom: .5em;
+	margin-top: 3.25px;
+	margin-bottom: 1em;
 
 	margin-left:  -4.6px;
 	margin-right: -5.1px;
 
-	padding-top: 3.6px;
-	padding-bottom: 2.2px;
+	padding-top: 3.25px;
+	padding-bottom: 4px;
 	left: 0;
 	right: 0;
 	max-width: 100dvw;
-	min-height: 6.5vmin;
+	min-height: 5.5vmin;
 	display: flex;
 	flex-direction: row;
 	overflow: hidden;
@@ -978,7 +977,7 @@ menu {
 	text-align: center;
 	justify-content: center;
 	box-sizing: border-box;
-	line-height: .28;
+	line-height: .5;
 	z-index: 999;
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -987,10 +986,10 @@ menu {
 	border-top: 3;
 	border-top-color: #222;
 	border-right-color: #333;
-	border-left: 1;
+	border-left: 2;
 	border-right: 1;
-	border-bottom: 2;
-	border-width: 1.25;
+	border-bottom: 4;
+	border-width: 1.5;
 }
 
 
@@ -1109,7 +1108,7 @@ a {
 
 
 .nav a {
-	color: silver;
+	color: darkgoldenrod;
 	font-weight: heavy;
 	display: inline-block;
 	text-decoration: none;
