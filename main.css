@@ -713,7 +713,7 @@ body {
 	font-size: 1vmin;
 	padding: 0;
 	padding-top: 0;
-	padding-bottom: 1%;
+	padding-bottom: 8px;
 
 	max-width: 1440px;
 	width: 82.4vw;
@@ -721,7 +721,7 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	max-height: 230vmin;
+	max-height: 215vmin;
 	height: -webkit-fill-available;
 
 	margin-bottom: 10.7rem;
