@@ -756,7 +756,7 @@ body {
 body::before { 
   background-color: rgba(2, 2, 2, 1);
   content: '';
-  filter: blur(30px);
+  filter: blur(28px);
   position: absolute;
   inset: 16%;
   z-index: -1;
