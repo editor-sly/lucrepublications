@@ -510,9 +510,41 @@ div {
 	justify-content: center;
 }
 
-div::-webkit-scrollbar {
-  display: none;
+/* width */
+::-webkit-scrollbar { 
+	overflow: hidden;
+	display: block;
+	background: #111;
+  width:4.5px;
+  height: 0vmin;
 }
+
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: crimson;
+}
+
+::-webkit-scrollbar-button {
+background: #000;
+}
+
+::-webkit-scrollbar-corner {
+	background: #000;
+}
+
+
+
+
+
+
 
 
 .flush-right {
@@ -778,19 +810,12 @@ body::before {
 main {
 	flex:1;
 	overflow: scroll;
-	scrollbar-visibility: none;
-	scrollbar-width: thin;
-	scroll-margin: 0;
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding-top: 0px;
 	padding-bottom: 2px;
 }
 
-
-::-webkit-scrollbar {
-    display: none;
-}
 
 
 
