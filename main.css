@@ -462,7 +462,7 @@ span.movegfx {
 textarea {
   outline: none;
   resize: none;
-  overflow: auto;
+  overflow-y: auto;
   font-size: 1.8vw;
 } 
 
@@ -510,11 +510,15 @@ div {
 	justify-content: center;
 }
 
+
+
+
+
 /* width */
 ::-webkit-scrollbar {
 	display: block;
 	background: #111;
-  width:4.5px;
+  width:6.5px;
   height: 0vmin;
 }
 
@@ -526,8 +530,7 @@ div {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #333;
-  height: 5%vh;
+  background: #444;
 
 }
 
