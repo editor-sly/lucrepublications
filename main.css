@@ -80,11 +80,11 @@ span.cap {
   font-size: 3.2vmin;
   flex: 1;
   font-weight: bolder;
-  background-color: #000;
+  background-color:black;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  opacity: .69;
+  opacity: .83;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
@@ -1371,9 +1371,9 @@ span.logo:hover {
 
 
 .hero-section1 {
-	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/.jpg");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
 	background-position: auto auto;
-	background-size: cover;
+	background-size: static;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: 0 auto;
@@ -1396,7 +1396,7 @@ span.logo:hover {
 	border-bottom-right-radius: 0px;
 	box-sizing: border-box;
 	text-shadow: 0px 0px 3px #333;
-	
+	opacity: .84;
 }
 
 
