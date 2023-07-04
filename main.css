@@ -518,7 +518,7 @@ div {
 ::-webkit-scrollbar {
 	display: block;
 	background: #111;
-  width:6.5px;
+  width: 8px;
   height: 0vmin;
 }
 
