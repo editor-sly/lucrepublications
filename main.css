@@ -1402,7 +1402,7 @@ span.logo:hover {
 
 
 .hero-section2 {
-	background-image: url("");
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/peter-olexa-Ax6ggq8cSxw-unsplashbritish-library-n4HOiH-lcmA-unsplash_e.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
