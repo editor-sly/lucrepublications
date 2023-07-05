@@ -1507,6 +1507,30 @@ span.logo:hover {
 
 
 
+.screen2bonus {
+	height: auto;
+	margin: 0 auto;
+	margin-top:2px;
+	margin-bottom: 4px;
+	padding-top: 0%;
+	padding-bottom: 1%;
+	padding-left: 0;
+	max-width: 100%;
+	border-style: none;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+  display: block;
+  color: whitesmoke;
+  background-color: darkgoldenrod;
+  opacity: .8;
+  border-radius: 4px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 
 .screen3 {
 	height: auto;
