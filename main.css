@@ -742,12 +742,12 @@ body {
 	background-color: #000;
 
 	margin: 0 auto;
-	margin-top: 1.8%;
+	margin-top: .25%;
 
-	font-size: 1vmin;
+	font-size: 1.4vmin;
 	padding: 0;
 	padding-top: 0;
-	padding-bottom: 8px;
+	padding-bottom: 1.5px;
 
 	max-width: 1440px;
 	width: 82.4vw;
@@ -755,10 +755,10 @@ body {
 	display: flex;
 	flex-direction: column;
 
-	max-height: 215vmin;
+	max-height: 400vmin;
 	height: -webkit-fill-available;
 
-	margin-bottom: 10.7rem;
+	margin-bottom: 12.5rem;
 
 	color: wheat;
 	text-rendering: optimizeSpeed;
@@ -781,7 +781,7 @@ body {
  	border-left-color: #111;
  	border-top: #111;
  	border-style: solid;
- 	opacity: .88;
+ 	opacity: .86;
 }
 
 
@@ -1759,7 +1759,7 @@ input:focus-within {
 	padding-right: 0%;
 	padding-top: .3em;
 	width: 100vw;
-	max-height: 35vh;
+	max-height: 33.5vh;
 	line-height: 1;
 	left: 0;
 	position: fixed;
