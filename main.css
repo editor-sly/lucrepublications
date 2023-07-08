@@ -747,15 +747,15 @@ body {
 	font-size: 1.4vmin;
 	padding: 0;
 	padding-top: 0;
-	padding-bottom: 1.5px;
+	padding-bottom: 4px;
 
 	max-width: 1440px;
 	width: 82.4vw;
 	width: 82.4dvw;
+	max-height: 60.25vmin;
+	min-height: 148px;
 	display: flex;
 	flex-direction: column;
-
-	max-height: 400vmin;
 	height: -webkit-fill-available;
 
 	margin-bottom: 12.5rem;
@@ -774,7 +774,7 @@ body {
   box-sizing: border-box;
 	border-style: solid;
  	border-radius: 8px;
- 	z-index: 9999;
+ 	z-index: 8888;
  	border-width: 3px;
  	border-color: #111;
  	border-right-color: #111;
@@ -974,21 +974,19 @@ menu {
 
 .nav {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.4vmin;
-	font-weight: 600;
+	font-size: 1.8vmin;
+	font-weight: 900;
 	background-image: linear-gradient(hsl(4, 18%,10%), #111);
 	background-image: url("img/british-library-n4HOiH-lcmA-unsplash_e.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: auto auto;
 	margin: 0 auto;
-	margin-top: 3.25px;
+	margin-top: 1.25%;
 	margin-bottom: 1em;
-
 	margin-left:  -4.6px;
 	margin-right: -5.1px;
-
-	padding-top: 3.25px;
+	padding-top: 3px;
 	padding-bottom: 4px;
 	left: 0;
 	right: 0;
@@ -1005,19 +1003,20 @@ menu {
 	text-align: center;
 	justify-content: center;
 	box-sizing: border-box;
-	line-height: .5;
+	line-height: .25;
 	z-index: 999;
 	justify-content: space-around;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-style: solid;
 	border-color: #000;
-	border-top: 3;
+	border-top: 1;
 	border-top-color: #222;
 	border-right-color: #333;
 	border-left: 2;
-	border-right: 1;
-	border-bottom: 4;
-	border-width: 1.5;
+	border-right: 2;
+	border-bottom: 2;
+	border-width: 1;
+	opacity: .92;
 }
 
 
@@ -1072,7 +1071,7 @@ menu {
 	display: flex;
 	text-decoration: none;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: 2px;
 	justify-content: space-around;
 }
 
@@ -1081,7 +1080,7 @@ menu {
 	padding: 0;
 	display: flex;
 	margin-bottom: 0;
-	padding: 4% 4%;
+	padding: 3% 3%;
 	list-style: none;
 	flex: auto;
 }
@@ -1090,7 +1089,7 @@ menu {
 
 
 ul {
-	font-size: 1.2em;
+	font-size: 1em;
  	line-height: .5;
  }
 
@@ -1100,7 +1099,7 @@ ul {
 
 ul.li {
 	font-size: 1em;
- 	line-height: 1.2;
+ 	line-height: 1;
  }
 
 
@@ -1131,7 +1130,7 @@ a {
 	font-size: 2.5vmin;
 	padding-bottom: 4px;
 	line-height: .5;
-	text-shadow: 0px 0px 3px #000;
+	text-shadow: 1px 1px 1px #000;
 }
 
 
@@ -1140,7 +1139,7 @@ a {
 	font-weight: heavy;
 	display: inline-block;
 	text-decoration: none;
-  text-shadow: 0px 0px 3px #111;
+  text-shadow: 1px 1px 1px #000;
 }
 
 
@@ -1167,13 +1166,13 @@ a {
 	margin-bottom: 1.25px;
 	padding: 2px;
 	bottom: 0;
-	width: 100dvw;
+	width: 99dvw;
 	height: auto;
 	display: flex;
 	overflow: hidden;
 	position: sticky;
 	box-sizing: border-box;
-	font-size: 1.3vw;
+	font-size: 1.4vw;
 	line-height: .25;
 	z-index: 1;
 	justify-content: center;
@@ -1297,76 +1296,6 @@ span.logo:hover {
 	border-bottom: none;
 	border-right: none;
 }
-
-
-
-
-
-
-
-
-
-
-.hero-section3 {
-	background-image: url("img/alexey-malakhov-Mca0cN9cs54-unsplash.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	vertical-align: middle;
-	margin: auto;
-	margin-top:  1.5em;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	width: 65%;
-	height: auto;
-	display: block;
-	background-color: #111;
-	border-style: none;
-	border-radius: 8px;
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
-	box-sizing: border-box;
-	text-shadow: 0px 0px 3px #333;
-	
-}
-
-
-.hero-section4 {
-	background-image: url(img/.jpg);
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: auto;
-	margin-top: 0;
-	margin-bottom: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 12px;
-	padding-bottom: 30px;
-	width: 65%;
-	height: auto;
-	display: block;
-	background-color: none;
-	border-style: none;
-	border-radius: 8px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
-	box-sizing: border-box;
-	text-shadow: 0px 0px 3px #333;
-	
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1777,7 +1706,7 @@ input:focus-within {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	z-index: 1;
+	z-index: 9999;
 }
 
 
