@@ -752,7 +752,11 @@ body {
 	max-width: 1440px;
 	width: 82.4vw;
 	width: 82.4dvw;
-													max-height: 95dvh;
+	
+
+	height: 88dvh;
+	max-height: 88dvh;
+
 	
 	min-height: 148px;
 	display: flex;
