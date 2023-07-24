@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gu1tarsWEEP App</title>
+</head>
+
+
+
+	<body>
+
+
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fruktur&family=New+Rocker&display=swapfamily=New+Rocker&display=swap&family=Vesper+Libre:wght@700&display=swap&family=Cinzel+Decorative:wght@900&family=Philosopher:wght@700&display=swap');
+
+
+
+
+
+
+
+
+		
+
+
+		html, h1, h2, h3, h4, h5, h6, p, ul {
+			margin: 0;
+		}
+		
+
+
+		a {text-decoration:none;}
+
+
+			/* Hide scrollbar for Chrome, Safari and Opera */
+		.example::-webkit-scrollbar {
+		  display: none;
+		}
+
+		body::-webkit-scrollbar{
+		  display: none;
+		}
+
+		body {
+			-ms-overflow-style: none;  /* IE and Edge */
+ 			scrollbar-width: none;  /* Firefox */
+		 	margin: 0px auto;
+		    padding: 0px;
+		    padding-left: 0px;
+		    padding-top: 0;
+		    padding-bottom: 55.2px;
+			background-image: url('images/sweep_tan_lrg.png');
+			background-attachment: fixed;.
+			background-repeat: no-repeat;
+			background-size: 102%;
+			background-position:flex;
+			background-color: Gainsbourg;
+			font-family:'Vesper Libre', serif;
+			font-size: 10pt;
+			font-color: white;
+			align-items: center;
+		}
+			
+
+
+
+		
+
+		
+
+
+		.header {
+		    margin: 0;
+		    padding-top: 10px;
+		    padding-bottom: 0px;
+		    padding-left: 10px;
+		    background-color: #111;
+		    position: relative;
+		    z-index:1;
+		    height:46px;
+		    top: 0px;
+			left:0;  
+			bottom:0;  
+			right:0; 
+			width: 99.1%;   
+			color:#F4D03F;
+  			border-bottom-left-radius: 30px;
+			border-bottom-right-radius: 30px;
+			text-align: left;
+			box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.15);
+			border-bottom-style: solid;
+			border-bottom-color: white;
+			border-bottom-width: thin;
+			opacity: 1;
+  			background-color: rgba(0,0,0,0.963);
+
+			}
+
+		.container {
+				margin: 0px auto;
+				padding-top: 4.2em;
+				margin-bottom: 11rem;
+				width:60%
+				border-radius:0px;
+				align-items:center;
+				color:black;
+			  	justify-content:center;
+			  	box-sizing: border-box;
+			}
+
+		.container2 {
+				margin: 2px;
+				margin-bottom: 8px;
+				width:100%;
+				position: float;
+				position:center; 
+				border-radius:6px;
+				align-items:center;
+				color: #222;
+			  	justify-content:center;
+			  	box-sizing: border-box;
+			}
+
+		.wrapper {
+  				background-image: url('images/sweep_tan_sm.png');
+  				background-repeat: no-repeat;
+				background-size: 102%;
+				background-color: Gainsbourg;
+				margin:-66px auto;
+				width:68%;
+				height:100%;
+				display:flex;
+				flex-wrap:wrap;
+				align-items:center;
+				justify-content:center;
+				padding-top:8px;
+				padding-bottom:12px;
+				padding-left:34px;
+				padding-right:34px;
+				border-radius:50px;
+				border-top-left-radius: 0px;
+  				border-top-right-radius: 0px;
+  				border-bottom-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				color:white;
+				box-shadow:0 0 12px 0 rgba(50, 50, 20, .5);
+				box-sizing: border-box;
+				border-style: solid;
+				border-color: darkkhaki;
+				border-width: 1pt;
+			}
+
+		.wrapper2 {
+				margin: 0px auto;
+				width:50%;
+				height: 100%;
+				padding-top: 0px;
+				padding-left:0px;
+				padding-right: 0px;
+				padding-bottom:6px;
+				background-color: Gainsbourg;
+				display:flex;
+				flex-wrap:wrap;
+				align-items:center;
+				justify-content:center;
+				border-radius:8px;
+				color:#2C3E50;
+				box-sizing: border-box;
+			}
+
+		.button-swp {
+			    margin: 5px;
+			    margin-top: 0px;
+			    padding: 2px;
+			    padding-bottom: 4px;
+			 	border-style: solid;
+				border-color: darkkhaki;
+				border-width: 1pt;
+			    z-index:0;
+				color: #555;
+				width:154px;
+				height:34px;
+				font-family: 'Philosopher', sans-serif;
+				font-weight: bold;
+				font-size: 11pt;
+				border-radius:22px;
+				border-top-left-radius: 0px;
+  				border-top-right-radius: -25px;
+				text-align:center;
+				transition-duration: 0.4s;
+				text-decoration: none;
+				box-sizing: border-box;
+				box-shadow:0 0 10px 0;
+				align-items: center;
+			    background-color:#111;
+			   	text-shadow: 1px 1px 1px #000;
+			}
+				.button-swp:hover {
+				  background-color: maroon;
+				  color: gold;
+				  text-shadow: 1px 1px 2px #000;
+				}
+
+				a:active {
+					background-color: ;
+					color: white;
+					text-shadow: 1px 1px 2px #000;
+				}
+
+
+
+
+
+
+
+		.button-seq {
+			    margin: 2px auto;
+			    padding: 2px;
+			    margin-bottom: 8px;
+			    background-color: #111;
+			    margin-left: 0px;
+			    margin-top: -4px;
+			    text-align: center;
+			    z-index:0;
+			    border:none;
+				color:#F4D03F;
+				width:31px;
+				height:23px;   
+				border-radius:4px;
+				font-family:'Vesper Libre', serif;
+				font-size: 9pt;
+			  	transition-duration:0.2s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.15);
+			  	align-items: center;
+			}
+				.button-seq:hover {
+					background-color: maroon;
+					color: #F4D03F;
+					text-shadow: 1px 1px 2px #000;
+				}
+
+				a:active {
+					background-color:;
+					color: white;
+					text-shadow: 1px 1px 2px #000;
+					}
+				
+
+
+
+
+
+
+
+
+		.button {
+			    margin: 2px;
+			    padding: 6px;
+			    padding-bottom: 12px;
+			    border: none;
+			    z-index:0;
+				position: sticky;
+				background-color: #111;
+				background-color:rgba(0, 0, 0, 0.4);
+				color:white;
+				width:40px;
+				height:20px; 
+				font-family:'Vesper Libre', serif;
+				font-size:10pt;
+				font-weight: bold;
+				border-radius:20px;
+				text-align:center;
+				transition-duration:0.2s;
+				box-sizing: border-box;
+				box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+				align-items: center;
+				border: none;
+				cursor: pointer;
+				overflow: hidden;
+				outline: none;
+				text-shadow: 1px 1px 1px #000;
+			}
+				.button:hover {
+					background-color: #111;
+					color:white;
+				}
+
+
+
+
+
+
+		.button-shp {
+			    margin: 0px auto;
+			    padding: 0px;
+			    padding-bottom: 0px;
+			    background-color: white;
+			    border: none;
+			    z-index:0;
+				position:sticky;  
+				color: black;
+				width: 62px;
+				height: 28px; 
+				border-radius:2px;
+				text-align:center;
+				font-family:'Vesper Libre', serif;
+				font-size: 14pt;
+				transition-duration: 0.2s;
+				box-sizing: border-box;
+				box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+				border-right-style: solid;
+				border-right-color: maroon;
+				border-right-width: 3pt;
+			}
+				.button-shp:hover {
+					background-color: white;
+					color: #24272A;
+				}
+
+		.button-home {
+			    margin: 12px auto;
+			    padding: 0px;
+			    padding: 0px;
+			    background-color:black;
+			    text-align: center;
+			    z-index:0;
+			    border:none;
+				color:#F4D03F;
+				width:182px;
+				height:44px;   
+				border-radius:6px;
+				font-family:New Rocker, cursive;
+				font-size: 14pt;
+				font-weight: bold;
+			  	transition-duration:0.4s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+			  	text-shadow: 1px 1px 1px #000;
+			}
+				.button-home:hover {
+					background-color:maroon;
+					color:#F4D03F;
+				}
+
+		.button-donate {
+			    margin: 2px auto;
+			    padding: 0px;
+			    background-color: green;
+			    text-align: center;
+			    z-index: 0;
+			    border: none;
+				color: white;
+				width:100px;
+				height:34px;   
+				border-radius: 20px;
+				font-family: Vesper Libre, serif;
+				font-size: 10pt;
+				font-weight: bold;
+			  	transition-duration:0.4s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+			  	text-shadow: 1px 1px 1px #000;
+			}
+				.button-donate:hover {
+					background-color:#000;
+					color: white;
+				}
+
+		.button-website {
+				margin: 5px auto;
+			    margin-bottom: 0;
+			    padding: 0;
+			    background-color:#6F8A9B;
+			    text-align: center;
+			    z-index:0;
+			    border: none;
+				color:slategray;
+				width:200px;
+				height:34px;   
+				border-radius:12px;
+				font-family:'Vesper Libre', serif;
+				font-size: 10pt;
+				font-weight: bold;
+			  	transition-duration:0.4s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+			  	text-shadow: 1px 1px 1px #000;
+			}
+		.button-website:hover {
+					background-color:lightslategray;
+					color:white;
+				}
+
+
+
+
+
+
+
+			footer::before {
+			  content: '';
+			  background: #111;
+			  width: 200%;
+			  position: absolute;
+			  left: 50%; 
+			  top: -50%;
+			  transform: translateX(-50%);
+			  height: 200%;
+			  border-radius: 50% 50% 0 0;
+			  z-index: -1;
+			  box-sizing: border-box;
+			  box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+			  background-color: rgba(0,0,0,0.988);
+			  opacity: 1;
+			}
+
+
+
+
+
+		.footer {
+			    margin:0px;
+			    padding-top: 10px;
+			    padding-bottom:10em;
+			    padding-left:0;
+			    padding-right:0;
+				left:0px;
+				bottom:0px;
+				right:0px;
+				width:100%; 
+				height:50px;  
+				color:#;  
+				text-align:center;
+				position: fixed;
+				font-family: 'Philosopher', sans-serif;
+				font-size: 10pt;
+				box-sizing: border-box;
+				text-shadow: 1px 1px 1px #000;
+				opacity: 1;
+			}
+
+	</style>
+
+
+
+
+				
+		
+	<header id="home" class="header">
+		<p style="font-family: 'Philosopher', sans-serif; font-size: 19pt; color: #555; text-shadow: 1px 1px 1px #000;">
+			<span style="color: #F4D03F; font-size:16pt;">
+			•I•I•
+			</span>
+
+			GUITAR SWEEPS
+		</p>
+	</header>
+		
+
+
+
+
+
+	<div class="container">
+	<div class="container2">
+		<div class="wrapper2">
+			<p style="font-family: 'New Rocker', cursive; font-size:38pt; text-align: center; color: white; text-shadow: 1px 1px 1px #000;">
+				Pick a Sweep
+			</p>
+		</div>
+			
+		
+
+
+
+	<div class="container2">
+		<div class="wrapper2">
+			<div>
+				<div>
+					<a href="#beebop-dom">
+						<button style="background-color: maroon; color: gold;" class="button-swp";>
+							• BeeBop Dominant •
+						</button>
+					
+
+				</div>
+
+				
+
+
+				<div>
+					<a href="http://tee.selahkesh.com/sweepy-tee">
+						<button class="button-swp">
+						• "Sweepy" T~Shirt •
+						</button>
+					</a>
+				</div>
+					
+
+
+
+				<div>
+					<a href="http://tee.selahkesh.com/sweep-pdf">
+						<button class="button-swp">
+							• FREE PDF •
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+	</div>
+
+
+	
+	
+	
+
+	<div class="container2">
+		<div class="wrapper2">
+			
+				<p  id="beebop-dom" style="font-family: 'New Rocker', cursive; font-size: 24pt; text-align: center; color: white; text-shadow: 1px 1px 1px #000;">
+				 Y0U PiCKED
+				
+				<br>
+				<br>
+
+				<span
+				 style="font-family: 'Vesper Libre', serif; font-size: 13pt; text-align: center; text-shadow: 1px 1px 1px #000;">
+					BEEBOP DOMINANT
+				</span>
+				
+				<br>
+
+				<span style="font-family: 'New Rocker', cursive; font-size:26pt; text-align: center; text-shadow: 1px 1px 1px #000;">
+					• SWEEP I •
+				</span>	
+				</p>
+			
+				<br>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="wrapper2">
+		<div class="wrapper2">
+			<button style="background-color:maroon;" class="button-seq">I</button>
+			<button class="button-seq">II</button>
+			<button class="button-seq">III</button>
+			<button class="button-seq">IV</button>
+			<button class="button-seq">V</button>
+			<button class="button-seq">VI</button>
+			<button class="button-seq">VII</button>
+			<button class="button-seq">VIII</button>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div class="container2">
+		<div class="wrapper">
+				
+			<div class="container2">
+				<div>
+					<h5 style="font-family: 'Cinzel Decorative', cursive; color: maroon;">
+						Note:
+					</h5>
+				</div>
+
+
+				<div>
+					<details>
+						<blockquote style="font-family: 'Vesper Libre', serif; font-size:10pt; color:black">
+						<p>
+							Start on the fat string. Work your way down. Keep your fingers relaxed and close to the neck. Let your guitar pick fall over the strings. Don't pick the strings individually. As you advance, combine sweeps I-VIII.
+						</p>
+						</blockquote>
+					</details>
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<div>
+				<div class="button-shp">
+					•| |•|•
+				</div>
+				<blockquote style="font-color: white;">
+					String 6; Fret 2
+				</blockquote>
+				
+				
+			
+
+			
+				<div class="button-shp">
+					•| |•| |•
+				</div>
+				<blockquote style="font-color: white;">
+					String 5
+					Fret 1
+				</blockquote>
+			
+
+
+			
+			
+				<div class="button-shp">
+					•|•|•
+				</div>
+				<blockquote style="font-color: white;">
+					String 4; Fret 2
+				</blockquote>
+
+			
+
+		
+				<div class="button-shp">
+					•|•| |•
+				</div>
+				<blockquote style="font-color: white;">
+				String 3; Fret 1
+				</blockquote>
+
+			
+		
+			
+				<div class="button-shp">
+					•| |•|•
+				</div>
+				<blockquote style="font-color: white;">
+				String 2; Fret 2
+				</blockquote>
+
+			
+
+		
+				<div class="button-shp">
+					•|•| |•
+				</div>
+				<blockquote style="font-color: white;">
+				String 1; Fret 1
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+
+
+	<br>
+
+
+
+
+		<div class="wrapper2">
+			<button class="button-home">
+				<a href="#home" style="color: gold;">
+					H0M3
+				</a>
+			</button>
+		</div>
+	</a>
+
+
+
+
+
+
+
+	<div class="wrapper2">
+		<h4>
+			<div class="wrapper2">
+
+
+				<div>
+					<div class="wrapper2">
+						<p style="text-align:center; font-family:'New Rocker', cursive; font-size:16pt; text-shadow: 1px 1px 1px #000;">
+
+							<small>
+								<a href="https://tee.selahkesh.com/sweepy-tee" style="color: white";>Click here for a <span style="font-size:20pt;">
+									<span style="color:#F4D03F;">
+										"SWEEPY" T~SHIRT
+									</span>
+								</a>
+
+								<br>
+								<br>
+								
+
+								<a style="color:white;" href="https://tee.selahkesh.com/free-sweep-pdf">
+
+									<p style="text-align:center; color: maroon; font-family:'New Rocker', cursive; font-size:16pt; text-shadow: 1px 1px 1px #000;">
+										<span style="color: maroon;">
+										DOWNLOAD:
+
+								<br>
+
+										</span>
+
+
+
+										<span style="font-size: 19pt color:white;">
+										FREE
+										</span>
+
+									<br>
+
+									• PDF •
+									</p>
+								
+								</a>
+
+								
+							</small>
+						
+							
+						</p>
+					</div>
+				</div>
+
+
+				<div>
+					<button class="button-donate">
+						<a href="https://cash.app/$selahkesh" style="text-align:center; color: white;">DONATE
+						</a>
+					</button>
+				</div>						
+			</div>
+		</h4>
+	</div>	
+
+
+
+
+
+			
+
+		
+		
+
+
+
+		<footer class="footer">
+
+			<br>
+			<span style="color:gold; font-size:12pt;">•I•I•</span>
+
+			<div style="color: #F4D03F;">
+					<sup>SWEEPS. ©2021 LUCRE DEV</sup>
+				
+					<div>
+						<sup>
+							#GEEKTHROB
+						</sup>
+					</div>
+
+					<p style="color: #333;">
+							<small>Trademarks and brands are the property of their respective owners. LUCRE DEV is a division of LUCRE Publishing.
+								
+							</small>
+					</p>
+
+			</div>
+
+			<br>
+
+		
+
+			<br>
+
+		</footer>
+
+	
+
+
+
+
+
+
+
+
+
+
+		<script>
+		//Sweep logic by Sylvester C. Richards,III
+		//created 10-26-21
+		//revised 11-4-2021
+
+		let sweep = `name1, name2`;
+			let name1 = `BeeBop Dominant:`;
+			let name2 = `BeeBop Dorian:`;
+
+		let sequence = `seq1, seq2, seq3, seq4, seq5, seq6, seq7, seq8`;
+			let seq1 = `Sweep I`;
+			let seq2 = `Sweep II`;
+			let seq3 = `Sweep III`;
+			let seq4 = `Sweep IV`;
+			let seq5 = `Sweep V`;
+			let seq6 = `Sweep VI`;
+			let seq7 = `Sweep VII`;
+			let seq8 = `Sweep VIII`;
+
+		let string = `s6, s5, s4, s3, s2, s1`;
+			let s6 = `String: 6_`;
+			let s5 = `String: 5_`;
+			let s4 = `String: 4_`;
+			let s3 = `String: 3_`;
+			let s2 = `String: 2_`;
+			let s1 = `String: 1_`;
+
+		let fret = `f1, f2, f3, f4, f5, f6, f7`;
+			let f1 = `Fret: 1_`;
+			let f2 = `Fret: 2_`;
+			let f3 = `Fret: 3_`;
+			let f4 = `Fret: 4_`;
+			let f5 = `Fret: 5_`;
+			let f6 = `Fret: 6_`;
+
+		let shape = `left, right, spread, closed`;
+			let left = `•| |•|•`;
+			let right = `•|•| |•`;
+			let spread = `•| |•| |•`;
+			let closed = `•|•|•`;
+
+		console.log (name1);
+		console.log (seq1);
+		console.log (s6, f2, l);
+		console.log	(s5, f1, s);
+		console.log (s4, f2, c);
+		console.log (s3, f1, r);
+		console.log (s2, f2, l);
+		console.log (s1, f1, r);
+	</script>
+
+	<!--
+
+	SCRIPT RETURNS OUTPUT:
+	BeeBop Dominant:
+	Sweep I
+	String: 6_ Fret: 2_ •| |•|•
+	String: 5_ Fret: 1_ •| |•| |•
+	String: 4_ Fret: 2_ •|•|•
+	String: 3_ Fret: 1_ •|•| |•
+	String: 2_ Fret: 2_ •| |•|•
+	String: 1_ Fret: 1_ •|•| |•
+
+	-->
+	</body>
+</html>
+
+
+
+
+			
+				
+				
+						

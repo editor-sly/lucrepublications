@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SWEEPY APP</title>
+	</head>
+
+	<body>
+
+
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fruktur&family=New+Rocker&display=swapfamily=New+Rocker&display=swap&family=Vesper+Libre:wght@700&display=swap&family=Cinzel+Decorative:wght@900&family=Philosopher:wght@700&display=swap');
+
+						/*Filter styles*/
+			.saturate { filter: saturate(3); }
+			.grayscale { filter: grayscale(100%); }
+			.contrast { filter: contrast(160%); }
+			.brightness { filter: brightness(0.25); }
+			.blur { filter: blur(3px); }
+			.invert { filter: invert(100%); }
+			.sepia { filter: sepia(100%); }
+			.huerotate { filter: hue-rotate(180deg); } 
+			.rss.opacity { filter: opacity(50%); }
+
+
+			.desaturate {
+				filter: saturate(25%);
+			}
+
+				
+			*,
+			*::before,
+			*::after {box-sizing: inherit;
+			}
+
+
+			html {
+				box-sizing: border-box;
+			}
+
+
+
+			p, ul, br {
+				margin: 0;
+			
+			}
+			
+			h1, h2, h3, h4, h5, h6, {
+				font-weight: 600;
+				letter-spacing: .25px;
+				line-height: 23px;
+			}
+
+
+			img{
+				display: block;
+				max-width: 100%;
+			}
+
+
+
+			header, section {
+				padding: 3rem 0;
+			}
+
+
+
+			hr {
+				margin: -0px auto;
+				display: block;
+				width:68%;
+				margin-top: 0.5em;
+				margin-bottom: 0.5em;
+				margin-left: auto;
+				margin-right: auto;
+				border-style: inset;
+				border-width: 1px;
+		     	border: none;
+			    height: 1px;
+			    background: #222;
+			    background-image: linear-gradient(to right, #111, #ccc, #111);
+			}
+
+
+
+			a {text-decoration: none;}
+
+
+
+			input {
+				display: inline-block;
+				background-color: white;
+				font-family: sanserif;
+				color: #111;
+				max-width: 14%;
+				min-width: 10%;
+				margin: 4px auto;
+				padding: 2px;
+				border-radius: 4px;
+				font-size: 9pt;
+				font-weight: 400;
+				border-style: none;
+			}
+
+
+
+			textarea::-webkit-scrollbar{
+			  display: none;
+			}
+
+			textarea {
+				display: inline-block;
+				background-color: #111;
+				font-family: sanserif;
+				color: #555;
+				max-width: 14%;
+				min-width: 10%;
+				margin: 4px auto;
+				padding: 2px;
+				border-radius: 4px;
+				font-size: 9pt;
+				font-weight: 400;
+				border-style: none;
+			}
+
+
+
+			input[type=submit] {
+				-ms-overflow-style: none;  /* IE and Edge */
+	 			scrollbar-width: none;  /* Firefox */
+				display: inline-block;
+				background-color: darkgreen;
+				color: black;
+				text-transform: uppercase;
+				max-width: 18%;
+				min-width: 14%;
+				height: 37px;
+				margin: 2px auto;
+				padding: 2px;
+				border-radius: 4px;
+				font-size: 9pt;
+				font-weight: 900;
+				border-style: none;
+			}
+				input[type=submit]:hover {
+					background-color: forestgreen;
+					color: white;
+				}
+
+
+
+
+			blockquote {
+				margin: 0;
+				margin-top: 4px;
+				margin-bottom: 20px;
+				font-family: 'New Rocker', cursive;
+				text-shadow: 1px 1px 1px #000;
+				font-size: 9pt;
+				letter-spacing: .24px;
+				line-height: 1.5;
+			}
+
+			
+
+			details {
+				margin:0;
+				margin-top: 10px;
+			}
+
+
+		
+			body::-webkit-scrollbar{
+			  display: none;
+			}
+
+
+
+
+
+
+				
+
+
+
+
+			header {
+			    margin: 0;
+			    padding-top: 5px;
+			    padding-bottom: 6px;
+			    padding-left: 14px;
+			    position: fixed;
+			    z-index: 1;
+			    height: 36px;
+			    top: -8px;
+				left:0;  
+				bottom:0;  
+				right:0; 
+				width: 100%;
+				color:#444;
+	  			border-bottom-left-radius: 30px;
+				border-bottom-right-radius: 30px;
+				text-align: left;
+				box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.15);
+				border-bottom-style: solid;
+				border-bottom-color: #111;
+				border-bottom-width: thin;
+				opacity: 1;
+	  			background-color: rgba(100,5,2,0.9);
+			}
+			.header:hover {
+			  background-color: none;
+			  color: gold;
+			  text-shadow: 1px 1px 2px #000;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		body {
+				-ms-overflow-style: none;  /* IE and Edge */
+	 			scrollbar-width: none;  /* Firefox */
+				margin-inline: auto;
+			    padding: 0px;
+			    padding-left: 0;
+			    padding-top: 0;
+			    padding-bottom: 6em;
+			    width: 100%;
+				background-image: url('images/sweep_tan_lrg.png');
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center 2%;
+				background-color: black;
+				font-family: serif;
+				font-size: 9pt;
+				line-height: 1.1;
+				color: white;
+				align-items: center;
+				text-align: justify-all;
+				letter-spacing: 0.05rem;
+				min-height: 100vh;
+
+			}
+
+	
+
+
+
+
+
+
+			.container {
+				margin-inline: auto;
+				width: min(90%, 70.5rem);
+				padding-top: 3.8em;
+				margin-bottom: 20.5rem;
+				border-radius:0px;
+				align-items:center;
+				color: black;
+			  	justify-content:center;
+			  	box-sizing: border-box;
+			}
+
+
+			.container--narrow {
+				margin-inline: auto;
+				width: min(50%, 35rem);
+				padding-top: 3.8em;
+				margin-bottom: 20.5rem;
+				border-radius:0px;
+				align-items:center;
+				color: black;
+			  	justify-content:center;
+			  	box-sizing: border-box;
+			}
+
+
+
+			.container2 {
+				margin: 2px;
+				margin-bottom: 8px;
+				width:100%;
+				position: float;
+				position:center; 
+				border-radius:6px;
+				align-items:center;
+				color: #222;
+			  	justify-content:center;
+			  	box-sizing: border-box;
+			}
+
+
+
+
+					
+
+			.wrapper {
+  				background-image: url('images/sweep_tan_sm.png');
+  				background-repeat: no-repeat;
+				background-size: 100%;
+				background-position: 0% 0%;	
+				background-color: black;
+				margin-top: 100px;
+				margin:-58px auto;
+				width: 100%;
+				height:100%;
+				display:flex;
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				padding-top:2px;
+				padding-bottom: 4px;
+				padding-left:15px;
+				padding-right:15px;
+				border-radius: 50px;
+				border-top-left-radius: 15px;
+  				border-top-right-radius: 15px;
+  				border-bottom-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				color:white;
+				box-shadow:0 0 12px 0 rgba(50, 50, 20, .5);
+				box-sizing: border-box;
+				border-style: solid;
+				border-color: darkkhaki;
+				border-width: 1pt;
+			}
+
+
+
+
+
+			.wrapper2 {
+				margin: 0px auto;
+				width:50%;
+				height: 70%;
+				padding-top: 0px;
+				padding-left:0px; 'Philosopher', sans-serif
+				padding-right: 0px;
+				padding-bottom:2px;
+				background-color: Gainsbourg;
+				display:flex;
+				flex-wrap:wrap;
+				align-items:center;
+				justify-content:center;
+				border-radius:8px;
+				color:#2C3E50;
+				box-sizing: border-box;
+			}
+
+
+
+
+
+			.button-swp {
+			    margin: 6px;
+			    margin-top: 0px;
+			    padding: 2px;
+			    padding-bottom: 4px;
+			    z-index:0;
+			    border: none;
+			    background-color: black;
+				color: white;
+				width: 7.5em;
+				height: 2em;
+				font-family:san serif;
+				font-weight: 600;
+				font-size: 16pt;
+				border-radius: 30px;
+				border-top-left-radius: 0px;
+  				border-top-right-radius: 10px;
+  				border-bottom-right-radius: 10px;
+  				border-bottom-left-radius: 10px;
+				text-align:center;
+				transition-duration: 0.2s ease-in-out;
+				text-decoration: none;
+				box-sizing: border-box;
+				box-shadow: 0 0 100px 0;
+				align-items: center;
+			    
+			   	text-shadow: .1px 1px 1px #000;
+			}
+			.button-swp:hover {
+			  background-color: maroon;
+			  color: gold;
+			  text-shadow: 1px 1px 1px #000;
+			}
+			a:active {
+				background-color: ;
+				color: white;
+				text-shadow: 1px 1px 2px #000;
+			}
+
+
+
+
+
+
+
+			.button-seq {
+			    margin: 2px;
+			    margin-top: 1px;
+			    margin-bottom: 2px;
+			    padding-bottom: 4px;
+			    background-color: black;
+			    margin-left: 0px;
+			    text-align: center;
+			    z-index:0;
+			    border: none;
+				color:#F4D03F;
+				width:32.4px;
+				height:22px;   
+				border-radius:4px;
+				font-family:'Vesper Libre', serif;
+				font-size: 9pt;
+			  	transition-duration:0.2s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.15);
+			  	align-items: center;
+			}
+			.button-seq:hover {
+				background-color: maroon;
+				color: #F4D03F;
+				text-shadow: 1px 1px 2px #000;
+			}
+			a:active {
+				background-color:;
+				color: white;
+				text-shadow: 1px 1px 2px #000;
+			}
+					
+
+
+
+
+
+			.button {
+			    margin: 2px;
+			    padding: 6px;
+			    padding-bottom: 12px;
+			    border: none;
+			    z-index:0;
+				position: sticky;
+				background-color: #111;
+				background-color:rgba(0, 0, 0, 0.4);
+				color:white;
+				width:40px;
+				height:20px; 
+				font-family:'Vesper Libre', serif;
+				font-size:10pt;
+				font-weight: bold;
+				border-radius:20px;
+				text-align:center;
+				transition-duration:0.2s;
+				box-sizing: border-box;
+				box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+				align-items: center;
+				border: none;
+				cursor: pointer;
+				overflow: hidden;
+				outline: none;
+				text-shadow: 1px 1px 1px #000;
+			}
+			.button:hover {
+				background-color: #111;
+				color:white;
+			}
+
+
+
+
+
+
+			.button-shp {
+			    margin: 0px;
+			    padding: 0px;
+			    padding-top: 3px;
+			    padding-bottom: 0px;
+			    background-color: white;
+			    border: none;
+			    z-index:0;
+				position:sticky;  
+				color: #111;
+				width: 68px;
+				height: 24px; 
+				border-radius:3px;
+				text-align:center;
+				font-family:'Vesper Libre', serif;
+				font-size: 14pt;
+				transition-duration: 0.2s;
+				box-sizing: border-box;
+				box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+				border-right-style: solid;
+				border-right-color: maroon;
+				border-right-width: 4pt;
+			}
+			.button-shp:hover {
+				background-color: white;
+				color: #24272A;
+			}
+
+
+
+			.button-home {
+			    margin: 12px;
+			    margin-top: 20px;
+			    padding: 0px;
+			    padding: 0px;
+			    background-color: #111;
+			    text-align: center;
+			    z-index: 1;
+			    border-size: .2pt;
+			    border-color: thick;
+				color:#F4D03F;
+				width: 7.5em;
+				height: 2em;  
+				border-radius:6px;
+				font-family: New Rocker, cursive;
+				font-size: 14pt;
+				font-weight: bold;
+			  	transition-duration:0.4s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+			  	text-shadow: 1px 1px 1px #000;
+			}
+			.button-home:hover {
+				background-color:maroon;
+				color:#F4D03F;
+			}
+
+
+
+
+			.button-donate {
+			    margin: 6px;
+			    padding: 0px auto;
+			    padding-top: 3px;
+			    padding-bottom: 0;
+			    background-color: darkgreen;
+			    text-align: center;
+			    z-index: 0;
+			    border: none;
+				color: white;
+				width:100px;
+				height:30px;   
+				border-radius: 20px;
+				font-family: Vesper Libre, serif;
+				font-size: 11pt;
+				font-weight: 900;
+			  	transition-duration:0.4s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+			  	text-shadow: 1px 1px 1px #000;
+			}
+			.button-donate:hover {
+				background-color: green;
+				color: white;
+			}
+
+
+
+
+			.button-website {
+				margin: 5px auto;
+			    margin-bottom: 0;
+			    padding: 0;
+			    background-color:#6F8A9B;
+			    text-align: center;
+			    z-index:0;
+			    border: none;
+				color:slategray;
+				width:200px;
+				height:34px;   
+				border-radius:12px;
+				font-family:'Vesper Libre', serif;
+				font-size: 10pt;
+				font-weight: bold;
+			  	transition-duration:0.4s;
+			  	box-sizing: border-box;
+			  	box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+			  	text-shadow: 1px 1px 1px #000;
+			}
+			.button-website:hover {
+				background-color:lightslategray;
+				color:white;
+			}
+
+
+
+
+
+
+
+			footer::before {
+				content: '';
+				background: #111;
+				width: 200%;
+				position: absolute;
+				left: 50%; 
+				top: -50%;
+				transform: translateX(-50%);
+				height: 200%;
+				border-radius: 50% 50% 0 0;
+				z-index: -1;
+				box-sizing: border-box;
+				box-shadow:0 0 12px 0 rgba(50, 50, 50, 0.3);
+				background-color: rgba(0,0,0,0.977);
+				opacity: 1;
+			}
+
+
+
+
+
+			.footer {
+			    margin:0px;
+			    padding-top: 0px;
+			    padding-bottom: 18.8em;
+			    padding-left: 32px;
+			    padding-right: 25px;
+				left:0px;
+				bottom:0px;
+				right:0px;
+				width:100%; 
+				height:0px;  
+				color: white;  
+				text-align:center;
+				position: fixed;
+				font-family: 'Philosopher', sans-serif;
+				font-size: 10pt;
+				box-sizing: border-box;
+				text-shadow: 1px 1px 1px #000;
+				opacity: 1;
+			}
+
+		</style>
+
+
+
+
+		<container>
+			<section class="desaturate">
+				<header id="home" class="header">
+					<a href=#top>
+						<p>
+							<span style="font-family:'New Rocker', cursive; font-size: 16pt; color: gold; margin-left: 10px; text-shadow: 1px 1px 1px #000;">
+								SWEEPY.COM
+							</span>
+						</p>
+					</a>
+				</header>
+					
+
+
+
+
+
+				<div class="container--narrow">
+					<div class="container2">
+						<div class="wrapper2">
+							<section>
+								<p style="font-family: 'New Rocker', cursive; font-size: 26pt; margin: -5pX; text-align: center; color: white; text-shadow: 1px 1px 1px #000;">
+									SWEEPY
+
+								<br>
+									
+									ShredQuarters
+								</p>
+							</section>	
+						</div>
+						
+				
+
+						<div class="container2">
+							<div class="wrapper2">
+								<div>
+									<div>
+										<a href="#beebop-dom">
+											<button style="font-family: 'New Rocker', cursive; background-color: maroon; color: gold;" class="button-swp";>
+												<p>
+													BeeBop Sweep
+												</p>
+											</button>
+										</a>
+
+									</div>
+									
+									<div>
+										<a href="http://tee.selahkesh.com/sweepy-tee">
+											<button class="button-swp">
+												<p style="font-size: 9pt;">
+													Tee: 
+													$9.99
+												</p>
+											</button>
+										</a>
+									</div>
+
+									<div>
+										<a href="http://tee.selahkesh.com/sweep-pdf">
+											<button class="button-swp">
+												<p style="font-size: 9pt;">
+													PDF Sheet:
+													$1
+												</p>
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<br>
+							<br>
+							
+						</div>
+				
+						<content id="beebop-dom">
+							<br>
+							<br>
+							<br>
+						</content>
+						
+						<div class="container2">
+							<div class="wrapper2">
+								<div>
+									<p style="font-family: 'New Rocker', cursive; font-size: 22pt; text-align: center; color: white; text-shadow: 1px 1px 1px #000;">
+										BEEBOP
+									</p>
+
+									<p style="font-family: 'Vesper Libre', serif; font-size: 11pt;  color: white; text-align: center; text-shadow: 1px 1px 1px #000;">
+										DOMiNANT
+									</p>
+							
+									<p style="font-family: 'New Rocker', cursive; font-size:16pt;  color: white; text-align: center; text-shadow: 1px 1px 1px #000;">
+										SWEEP I
+
+									<br>
+									<br>
+									
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+
+
+
+						<div class="wrapper2">
+							<div class="wrapper2">
+								<button style="background-color:maroon;" class="button-seq">I</button>
+								<button class="button-seq">II</button>
+								<button class="button-seq">III</button>
+								<button class="button-seq">IV</button>
+								<button class="button-seq">V</button>
+								<button class="button-seq">VI</button>
+								<button class="button-seq">VII</button>
+								<button class="button-seq">VIII</button>
+
+								<br>
+
+							</div>
+						</div>
+
+
+
+
+
+						<div class="container2">
+							<div class="wrapper">
+								<div class="container2">
+									<div>
+
+										<br>
+
+										<p style="font-family: 'Philosopher', sans-serif; font-size: 12pt; color: maroon;">
+											NOTE:
+										</p>
+									</div>
+
+									<div>
+										<details>
+											<blockquote style="font-family: 'Vesper Libre', serif; font-size: 10pt; color: white">
+												<p>
+													Start on the fat string. Finger the fret indicated. Work down. Keep fingers relaxed. Let your pick fall over the strings as you descend. Connect sweeps I-VIII. Support the project when you purchase a tee or lit. Sign-up for new sweep email notifications.
+												</p>
+											</blockquote>
+										</details>
+									</div>
+								</div>
+
+								<div>
+
+									<br>
+
+									<div class="button-shp">
+										•| |•|•
+									</div>
+									<blockquote style="font-color: white;">
+										Str 6 • Fret 2
+									</blockquote>
+									
+									
+								
+								
+									<div class="button-shp">
+										•| |•| |•
+									</div>
+									<blockquote style="font-color: white;">
+										Str 5 • Fret 1
+									</blockquote>
+								
+
+
+								
+									<div class="button-shp">
+										•|•|•
+									</div>
+									<blockquote style="font-color: white;">
+										Str 4 • Fret 2
+									</blockquote>
+
+								
+
+							
+									<div class="button-shp">
+										•|•| |•
+									</div>
+									<blockquote style="font-color: white;">
+										Str 3 • Fret 1
+									</blockquote>
+
+								
+							
+								
+									<div class="button-shp">
+										•| |•|•
+									</div>
+									<blockquote style="font-color: white;">
+										Str 2 • Fret 2
+									</blockquote>
+
+								
+
+							
+									<div class="button-shp">
+										•|•| |•
+									</div>
+									<blockquote style="font-color: white;">
+										Str 1 • Fret 1
+									</blockquote>
+								</div>
+							</div>
+						</div>
+
+						<br>
+
+						<div class="wrapper2">
+						
+							<a href="#top">
+								<button class="button-home" style="color: gold;">
+									T♠P
+								</button>
+							</a>
+						</div>
+
+
+
+
+
+
+
+
+						<div class="wrapper2">
+							<h4>
+								<div class="wrapper2">
+									<div>
+										<div class="wrapper2">
+											<p style="text-align:center; font-family:'New Rocker', cursive; text-shadow: 1px 1px 1px #000;">
+
+												<br>
+												<br>
+
+												<small>
+													<a href="https://tee.selahkesh.com/sweepy-tee">
+														<span style="font-size: 14pt; color: #444;">
+															Merch:
+														</span>
+
+														<span style="font-size:20pt; color: white;">
+															"SWEEPY" T~SHIRT
+														</span>
+													</a>
+
+													<br>
+													<br>
+														
+													<a style="color:white;" href="https://tee.selahkesh.com/free-sweep-pdf">
+														<p style="font-family:'New Rocker', cursive; text-align: center; text-shadow: 1px 1px 1px #000;">
+															<span style="color: #444; font-size: 14pt;">
+															Download: 
+															</span>
+
+															<br>
+
+															<span style="font-size: 12pt; color: white;">
+																PDF SHEET
+															</span>
+
+															<br>
+															<br>
+															<br>
+
+														</p>
+													</a>
+												</small>
+											</p>
+										</div>
+									</div>
+
+
+									<div>
+										<button class="button-donate">
+											<a href="https://cash.app/$selahkesh" style="text-align: center; color: white;">
+												DONATE
+											</a>
+										</button>
+										<p style="text-align:center; color: white;">THNX</p>
+									</div>						
+								</div>
+							</h4>
+						</div>	
+					</section>
+
+
+
+
+
+
+
+		
+
+
+
+					<footer class="footer">
+						<section class="desaturate">
+
+							<span style="color:gold; font-size: 11pt;">
+								eMail List	
+							</span>
+
+							<div>
+								<form method=POST action="mailto:syl.richards@yahoo.com" enctype="text/plain">
+								    
+									<label for="email">
+								    	<input type="text" name="email" id="email" required placeholder="my@email.com" size="27" maxsize="50">
+								    </label>
+								    <br>
+
+								    <textarea name="message" id="message" rows="2" cols="30">
+								    	Sign me up.
+								    </textarea>
+
+								    <br>
+
+									<input type="submit" name="Submit">
+
+									<br>
+
+								</form>
+							</div>
+
+							<br>
+
+							<div style="color: white;">
+								
+								<sup>
+									Digital Marketing. ©2021 Lucre Dev.
+								</sup>
+
+								<hr>
+
+								<small>
+									<p style="color: #333;">
+										Trademarks and brands are the property of their respective owners.
+										<p style="color: #333;">
+											LUCRE Dev is a subsidiary of LUCRE Publishing.
+										</p>
+									</p>
+								</small>
+							</div>
+						</section>	
+					</footer>
+				</div>
+			</section>
+		</container>
+	</body>
+</html>
+
+
+
+
+			
+				
+				
+						

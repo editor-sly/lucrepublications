@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manifest Foo App</title>
+
+</head>
+	
+	<title>Manifest Tool</title>
+
+	<style type="text/css">
+
+		@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+			/* Hide scrollbar for Chrome, Safari and Opera */
+		.example::-webkit-scrollbar {
+		  display: none;
+		}
+
+		body::-webkit-scrollbar{
+		  display: none;
+		}
+
+		.wrapper {
+
+			margin: 0 auto;
+			padding: .4em;
+			max-width: 80%;
+			display: block;
+			flex-wrap: wrap;
+			justify-content: center;
+			box-sizing: border-box;
+		}
+
+		.container {
+			max-width: 30rem;
+			margin: auto;
+			justify-content: center;
+			align-items:center;
+			background-color: none;
+			box-sizing: border-box;
+			padding:-1.2em;
+			display: block;
+			box-sizing: border-box;
+		}
+
+		.container--narrow {
+			min-width: 20rem;
+			margin: auto;
+			justify-content: center;
+			align-items:center;
+			background-color: none;
+			box-sizing: border-box;
+			padding: -1.2em;
+			display: block;
+			box-sizing: border-box;
+		}
+
+		.text-center {
+			text-align: center;
+		}
+
+		html {
+			-ms-overflow-style: none;  /* IE and Edge */
+ 			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
+ 			font-family: Merienda, Helvetica, Arial, sans-serif;
+ 			font-size: 12px;
+			width: 100vw;
+			min-height: 100vh;
+			background-blend-mode: lighten;
+			background-image: url("images/pexels-shardar-tarikul-islam-8886039.jpg");
+			background-size: cover;
+			background-color: black;
+			background-repeat:no-repeat;
+			vertical-align: middle;'
+ 			margin: 0 auto;
+ 			display: block;
+			scroll-behavior: smooth;
+			scroll-padding-top; 5rem;
+		}
+
+		body {
+			max-width: 100%;
+			height: auto;
+			padding: 1%;
+			justify-content: center;
+			box-sizing: border-box;
+			align-items: center;
+			margin; auto;
+			text-align: center;
+			display: block;
+			box-sizing: border-box;
+			line-height: 1.2em;
+			word-spacing: 2px;
+			}
+
+		img {
+			display: block;
+			max-width: 100%;
+			height:auto;
+		}
+
+		hr {
+			text-decoration-line: none;
+			margin-top: 4px;
+			margin-bottom: 2px;
+			max-width: 50%;
+			border-style: inset;
+			display: block;
+			height: .05em;
+ 			border: 0;
+  		box-shadow: 0 5px 5px -5px #8c8c8c inset;
+  		border-radius: 20px;
+		}
+
+		div {
+			display: block;
+			justify-content: center;
+		}
+
+		h2 {
+			max-width: 20rem;
+			justify-content: center;
+			margin: auto;
+			color: DarkGoldenRod;
+			-webkit-font-smoothing: antialiased;
+			line-height: 1.2;
+  		letter-spacing: -.003em;
+  		display: flex;
+  		margin-top: 4px;
+  		margin-bottom: .5px;
+  		font-family: 'Emilys Candy', cursive;
+  		font-size: .8em;
+  		font-weight: 500;
+  		text-shadow: 2px 2px 4px #000000;
+		}
+
+		h3,
+		h5 {
+			text-align: center;
+			min-width: 12rem;
+			margin: 0 auto;
+			padding: .2px;
+			color: wheat;
+			font-size: .4em;
+			-webkit-font-smoothing: antialiased;
+			line-height: 1.2;
+  		letter-spacing: -.001em;
+  		display: block;
+  		text-align: center;
+  		margin-top: 2px;
+  		margin-bottom: 2px;
+  		font-family: 'Emilys Candy', cursive;
+  		font-weight: 400;
+  		text-shadow: 2px 2px 4px #000000;
+  		justify-content: center;
+		}
+
+		.headermain {
+			filter: brightness(.9);
+			background-blend-mode: hard-light;
+			background-image: url("images/pexels-alberto-capparelli-4102994.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: static;
+			margin: 0 auto;
+			padding-bottom: 4px;
+			max-width: 42.5rem;
+			min-width: 20.3rem;
+			min-height: 5em;
+			background-color: black;
+			line-height: 1;
+	  		letter-spacing: -.003em;
+	  		font-size: 23px;
+	  		font-weight: 400;
+	  		text-align:center;
+	  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-style: solid;
+			border-top-right-radius: 15px;
+	  		border-top-left-radius: 15px;
+	  		border-color: DarkGoldenRod;
+	  		border-width: 1.5pt;
+	  		box-sizing: border-box;
+	  		align-content: center;
+	  		justify-content: center;
+		}
+
+		.header {
+			min-width: 15rem;
+			color: wheat;
+			padding-top:16px;
+			padding-bottom: 8px;
+			font-size: 1.5em;
+			line-height: .9;
+	  		letter-spacing: .088em;
+	  		justify-content:center;
+	  		text-align: center;
+	  		margin: 0 auto;
+	  		margin-top: .8px;
+	  		margin-bottom: -18px;
+	  		font-weight: bold;
+	  		font-family: 'Emilys Candy', cursive;
+	  		text-shadow: 2px 2px 4px #000000;
+	  		display: inline-block;
+	  		animation: scale ease-out 16s;
+		}
+			@keyframes scale{
+				0%{
+					transform: scale(1.2);
+				}
+
+				100%{
+					transform: scale(1);
+				}
+			}
+
+		.phf {
+			justify-content: center;
+			margin: auto;
+			margin-top: .2em;
+			background-color: darkred;
+			max-width: 15rem;
+			border-radius: 12px;
+			border-style: solid;
+			letter-spacing: -.009em;
+	  		border-color: DarkGoldenRod;
+	  		border-width: 1pt;
+	  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  		display: block;
+		}
+
+		.package {
+			background-blend-mode: lighten;
+			max-width: 42.5rem;
+			min-width: 20.3rem;
+			padding: 1em;
+			margin: auto;
+			margin-top: -2px;
+			margin-bottom: 6px;
+			background-image: url("images/tut1.png");
+			height: 100%;
+			width: 100;
+			overflow: hidden;
+			background-size: cover;
+			background-position: center;
+			background-color: black;
+			line-height: 1.2;
+	  		letter-spacing: -.003em;
+	  		font-size: 2em;
+	  		font-weight: 400;
+	  		text-align:center;
+	  		border-style: solid;
+	  		border-color: DarkGoldenRod;
+	  		border-width: 1.8pt;
+	  		border-bottom-right-radius: 15px;
+	  		border-bottom-left-radius: 15px;
+	  		box-sizing: border-box;
+	  		opacity: .9;
+	  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.spiritname {
+			color: DarkGoldenRod;
+			font-size: .58em;
+			width; min(90%, 16rem);
+			line-height: 1.2;
+	  		letter-spacing: .009em;
+	  		display: block;
+	  		margin: auto;
+	  		margin-top: -24px;
+	  		margin-bottom: -22px;
+	  		font-weight: lighter;
+	  		font-family: 'Chela One', cursive;
+	  		text-shadow: 2px 2px 4px #000000;
+	  		box-sizing: border-box;
+	  		justify-content: center;
+	 		text-align: center;
+		}
+
+		button.totems {
+			min-width: 3.5em;
+			padding:8px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-top: .4px;
+			margin-bottom: 4px;
+			background-color: DarkGoldenRod;
+			border-radius: 5px;
+			border-style: solid;
+  		border-color: yellow;
+  		border-width: 1pt;
+			color:wheat;
+			font-size: .8em;
+			line-height: 1.2;
+  		letter-spacing: -.003em;
+  		font-weight: 400;
+  		max-width: 90px;
+  		font-family: 'Emilys Candy', cursive;
+		}
+
+		button {
+			outline: none;
+			cursor: pointer;
+			margin:0 auto;
+			margin-bottom: 4px;
+			position: center;
+			padding: 6px;
+			padding-left: 20px;
+			padding-right: 20px;
+			background-color: darkcyan;
+			border-radius: 5px;
+			border-style: solid;
+  		border-color: cyan;
+  		border-width: 1pt;
+			color: wheat;
+			line-height: 1.5;
+  		letter-spacing: -.003em;
+  		font-weight: 200;
+  		max-width: 60em;
+  		font-size: .45em;
+  		font-family: 'Emilys Candy', cursive;
+		}
+			button:hover {
+				color: #fff;
+				border: #fff;
+				border-style: solid;
+  			border-color: #fff;
+  			border-width: 1pt;
+  			font-weight:lighter;
+			}
+
+		form {
+			display: block;
+			box-sizing: border-box;
+			background-image: url("images/pexels-shardar-tarikul-islam-8886039.jpg");
+			opacity:.9;
+			background-repeat: no-repeat;
+			background-size: cover;
+  		max-width: 15rem;
+			margin: auto;
+			margin-top:.9em;
+			margin-bottom: -2px;
+			padding-top: 4px;
+			padding-bottom: 2rem;
+			background-color: black;
+			border-radius: 8px;
+			text-align: center;
+			line-height: 1.2;
+  		letter-spacing: -.003em;
+  		border-style: none;
+  		font-size: 1.8em;
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		border-width: 0pt;
+  		background-color: #111;
+  		border-style: solid;
+  		border-bottom-left-radius: 0;
+  		border-bottom-right-radius: 0;
+  		border-bottom-color: DarkGoldenRod;
+  		border-bottom-width: 3px;
+		}
+
+		input {
+			margin: auto;
+			border-radius: 0px;
+			max-width: 87%;
+			min-height:2em;
+			margin-top: 2px;
+			margin-bottom: 18px;
+			font-size: 14px;
+			color: DarkGoldenRod;
+			background-color: #111;
+			border: 0;
+			border-bottom: 1px solid;
+			text-overflow: ellipsis;
+		}
+
+		input: focus, input:valid {
+			outline: 0;
+		}
+
+		.error: empty {
+			display: none;
+		}
+
+		.msg {
+			padding: 0;
+			margin: auto;
+			color: wheat;
+			width: 100%;
+			margin-bottom: -12px;
+			opacity: 0;
+			transition: 200ms ease-out;
+		}
+
+		input:not(:placeholder-shown) + .msg {
+			opacity: 1;
+		}
+
+		.maat {
+			font-size: 1.4rem;
+			font-weight: lighter;
+		  font-family: 'Chela One', cursive;
+			margin: auto;
+			margin-top: 10px;
+			padding-bottom: 12px;
+			line-height: 1.2;
+			max-width: 22rem;
+			color: wheat;
+			display:block;
+			text-align: center;
+			box-sizing: border-box;
+			text-shadow: 2px 2px 4px #000000;
+		}
+
+	</style>
+
+	<script type="text/javascript" defer>
+
+		//Name Generator
+		const firstName = [' "Sexy ', ' "Amber ',  ' "Big ', ' "Dirty ', ' "Ancient ', ' "Bronze ', ' "Dark ', ' "Mysterious ', ' "Flying ', ' "Burning ', ' "Brown ', ' "Primitive ', ' "Patchouli '];
+
+		const lastName = ['Earthling"' , 'Leaf"', 'Creator"', 'Sky Goose"', 'Avocado"', 'Love Duck"', 'Stone"', 'Ritual Feather"', 'Lizard"', 'Giant Head"', 'Healer"', 'Fire Dagger"'];
+
+		function spiritName() {
+			const randomValue1 = Math.floor(Math.random() * (firstName.length));
+			const randomValue2 = Math.floor(Math.random() * (lastName.length));
+			
+			const spiritName = document.getElementById('spirit-name');
+
+			spiritName.textContent = [firstName[randomValue1]]+ [lastName[randomValue2]];
+		}
+
+		const quote = ['I honor virtue.', 'I benefit with gratitude.', 'I am peaceful.', 'I respect the property of others.', 'I affirm that all life is sacred.', 'I give offerings that are genuine.', 'I live in Truth.', 'I regard all altars with respect.', 'I speak with sincerity.', 'I consume only my fair share.', 'I offer words of good intent.', 'I relate in peace.', 'I honor animals with reverence.', 'I can be trusted.', 'I care for the Earth.', 'I keep my own council.', 'I speak positively of others.', 'I remain in balance with my emotions.', 'I am trustful in my relationships.', 'I hold purity in high esteem.', 'I spread joy.', 'I do the best I can.', 'I communicate with compassion.', 'I listen to opposing opinions.', 'I create harmony.', 'I invoke laughter.', 'I am open to love in various forms.', 'I am forgiving.', 'I am kind.', 'I act respectfully.', 'I am accepting.', 'I follow my inner guidance.', 'I converse with awareness.', 'I do good.', 'I give blessings.', 'I keep the waters pure.', 'I speak with good intent.', 'I praise the Goddess and the God.', 'I am humble.', 'I achieve with integrity.', 'I advance through my own abilities.', 'I embrace the All.'];
+
+		function maat() {
+			const maat = document.getElementById('maat');
+			const myQuote = Math.floor(Math.random() * (quote.length));
+			
+			maat.textContent = [quote[myQuote]];
+		}
+
+	</script>
+
+</head>
+
+<body>
+
+	<div class="wrapper" onmouseover = "maat()">
+
+		<content class="container container--narrow">
+
+
+
+		
+			<div class="headermain">
+
+				<section class="container container--narrow">
+					<div class="header">
+						MaNiF3ST
+				
+						<div class="phf">
+							<h5 class="text-center">Personal, H()me & Finance</h5>
+						</div>
+
+					</div>
+				</section>	
+			</div>
+		
+
+
+
+
+			<div class ="package">
+
+				<br>
+
+				<div>
+					<h2>G3T SPiRiT NAME</h2>
+
+					<hr>
+
+					<h1>
+						<div id="spirit-name" class="spiritname"></div>
+					</h1>	
+
+					<button class="totems" onclick = "spiritName()">Select</button>
+				</div>
+
+
+
+
+
+
+				<div>
+					<form action="index_finished.html" method="GET">
+
+						<label for="goal" required>
+							<div>
+								<h3>MaNiF3ST</h3>
+							</div>
+						</label>
+
+						<h5>
+							<input id="goal" value = "" maxlength = "82" placeholder="I desire to manifest..">
+							<div class="msg">Maat! Intention Set. TYSM</div>
+							<p class="error"></p>
+						</h5>
+
+						<div>
+							<button class="button" type="submit">Enter</button>
+						</div>
+					</form>
+
+
+						<div id="maat" class="maat">MAAT</div>
+
+				</div>
+			</div>	
+		</content>
+
+	</div>	
+</body>
+
+</html>
