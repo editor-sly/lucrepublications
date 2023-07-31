@@ -214,7 +214,16 @@ div {
 
 
 section {
-	padding: .25em .25em;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	max-width: 60vw;
+	display: block;
+	padding: 6em 6em;
+	box-sizing: border-box;
+	text-align: left;
+	align-content: center;
+	justify-content: center;
+
 }
 
 
@@ -307,12 +316,11 @@ html: focus-within {
 
 
 main {
-	flex:1;
 	overflow: hidden;
-	margin-top: .25em;
-	margin-bottom: .5em;
-	padding-top: 0px;
-	padding-bottom: 2px;
+	margin-top: 32px;
+	margin-bottom: .25em;
+	padding-top: 1px;
+	padding-bottom: 3px;
 }
 
 
@@ -332,12 +340,12 @@ body {
 	font-size: 2.6vmin;
 	padding: 0;
 	padding-top: 0;
-	padding-bottom: 4px;
+	padding-bottom: 3px;
 	max-width: 1440px;
-	width: 82.4vw;
-	width: 82.4dvw;
+	width: 100vw;
+	width: 100dvw;
 	height: 100vh;
-	display: block
+	display: block;
 	flex-direction: column;
 	height: -webkit-fill-available;
 	text-rendering: optimizeSpeed;
@@ -605,16 +613,16 @@ a {
 	text-decoration: none;
 	background-color: none;
 	color: moccasin;
-	font-size: 2.5vmin;
+	font-size: 2vmin;
 	padding-bottom: 4px;
-	line-height: .5;
+	line-height: .25;
 	text-shadow: 1px 1px 1px #000;
 }
 
 
 .nav a {
 	color:  moccasin;
-	font-weight: heavy;
+	font-weight: bolder;
 	display: inline-block;
 	text-decoration: none;
   
@@ -624,7 +632,6 @@ a {
 .footer-links li a {
 	text-decoration: none;
 	color: moccasin;
-	padding: 0;
 	background-color: none;
 	display: inline-block;
 
@@ -699,7 +706,7 @@ span.job-title {
 	font-size: 1.32em;
 	font-weight: lighter;
 	color: darkgoldenrod;
-	text-shadow: none;
+	text-shadow: 1px 1px 1px #000;
 }
 
 
@@ -707,7 +714,7 @@ span.job-title {
 span.highlight {
 	margin: 0;
 	background-color: lightyellow;
-	padding: 1px;
+	padding: 4px;
 	height: auto;
 	margin-top: .2px .5px;
 	display: relative;
@@ -743,11 +750,11 @@ span.logo {
 	margin:  0 auto;
 	display: block;
 	justify-content: left;
-	font-size: 3.5vmin;
+	font-size: 3.2vmin;
 	max-width: 86px;
 	margin-top: .25em;
-	padding-top: 2px;
-	padding-left: .5em;
+	padding-top: 4px;
+	padding-left:0px;
 	text-align: center;
 	margin-bottom: .5em;
 	font-weight: normal;
@@ -1057,17 +1064,17 @@ span.scroll-down {
 	display: block;
 	position: relative;
 	vertical-align: middle;
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	padding-left: 22%;
 	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: .1em;
 	font-size: smaller;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	font-size: .68em;
+	font-size: .68vmin;
 	font-weight: bolder;
 	color: papayawhip;
 
@@ -1088,33 +1095,6 @@ span.scroll-down {
 }
 
 
-
-
-
-
-
-
-
-
-
-.portfolio-section {
-	scroll-margin-top: .25em;
-	margin: auto;
-	padding: 0;
-	padding-bottom: 60%;
-	max-width: 60%;
-	display: flex;
-	position: relative;
-	background-color: none;
-	border-style: none;
-	border-radius: 5px;
-	box-sizing: border-box;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-	text-align: left;
-
-}
 
 
 
@@ -1229,6 +1209,74 @@ span.scroll-down {
 	float: right;
 
 }
+
+
+.portfolio-project5 {
+	margin: 0 auto;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	padding: 0;
+	max-width: 60%;
+	min-width: 48%;
+	max-height: 28vh;
+	min-height: 4vh;
+	display: block;
+	position: relative;
+	background-color: black;
+	border-style: none;
+	border-radius: 8px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-content: left;
+	align-items: center;
+	justify-content: space-between;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	float: left;
+
+}
+
+
+
+
+.portfolio-project6 {
+	margin: 0 auto;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	padding: 0;
+	max-width: 60%;
+	min-width: 48%;
+	max-height: 28vh;
+	min-height: 4vh;
+	display: block;
+	position: relative;
+	background-color: black;
+	border-style: none;
+	border-radius: 8px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-content: left;
+	align-items: center;
+	justify-content: space-between;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1350,9 +1398,25 @@ span.scroll-down {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact-section {
 	scroll-margin-top: 2.5em;
 	margin: auto;
+	margin-top: 6rem;
 	padding-top: 4.5rem;
 	width: 100%;
 	height: auto;
@@ -1580,7 +1644,7 @@ input:focus-within {
 	border-style: none;
 	box-sizing: border-box;
 	font-size: smaller;
-	text-shadow: 0px 0px 3px #333333;
+	text-shadow: 1px 1px 1px #000;
 }
 
 
@@ -1591,6 +1655,7 @@ input:focus-within {
 .mail {
 	margin: auto;
 	margin-top: -1.25em;
+	margin-bottom: -5em;
 	transition: 2s;
 }
 
@@ -1631,7 +1696,7 @@ input:focus-within {
 	position: relative;
 	width: 100%;
 	display: block;
-	color: #555;
+	color: #777;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
