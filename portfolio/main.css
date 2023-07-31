@@ -1,9 +1,10 @@
+
 *,
 *::before,
 *::after {
 	padding: 0;
 	margin: 0;
-	box-sizing:border-box;
+	box-sizing:inherit;
 }
 
 strong { font-weight: bold; }
@@ -15,20 +16,39 @@ ol[role="list"] {
   text-decoration: none;
 }
 
-
-p {
-	margin: 0;
-	margin-top: .25em;
-	text-indent: 1em;
-	padding-left: 4px;
-	word-spacing: 1.2px;
-	letter-spacing: .003px;
-	line-height: 1.2;
+a,
+a:visited,
+a:active {
+	text-decoration: none;
 }
 
 
+
+
+
+p {
+	font-family: Perpetua, Baskerville, Baskerville Old Face, serif;
+	padding-top: .25px;
+	font-weight: normal;
+	margin: 0;
+	margin-top: 3.24px;
+	margin-bottom: 0;
+	color: wheat;
+	text-indent: .25em;
+	padding-left: 0;
+	word-spacing: 1.24px;
+	letter-spacing: .004px;
+	line-height: 1.11;
+	font-size: 2.6vmin;
+	display: block;
+	text-shadow: 0px 0px 1px #111;
+}
+
+
+
+
 .adjust {
-   font-size-adjust: 0.78;
+   font-size-adjust: 0.76;
   }
 
 
@@ -44,9 +64,69 @@ dd {
 	 margin: 0;
 	 padding: 0;
 	 padding-left: 0px;
-	 word-spacing: 1.2px;
+	 word-spacing: 1.24px;
 	 letter-spacing: .003px;
-	 line-height: 1.6;
+	 line-height: 1.11;
+}
+
+
+
+
+h1 {
+	padding-top: 4px;
+	padding-bottom: 2px;
+	margin-bottom: -6px;
+	font-family: 'Luminari', serif;
+	color: silver;
+	font-weight: 600;
+	line-height: 1.11;
+	font-size: 2.6vmin;
+	text-shadow: 0px 0px 2px #222;
+
+}
+
+
+
+h2 {
+	color: lightgoldenrod;
+	line-height: 1.11;
+	padding-top: 3.5px;
+	padding-bottom: 4.5px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.6vmin;
+	font-weight: bolder;
+
+}
+
+
+
+h3 {
+	color: wheat;
+	padding-top: 2.8px;
+	padding-bottom: 3px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.6vmin;
+	line-height: 1.11;
+	margin-top: 2.8px;
+	margin-bottom: 2.8px;
+
+}
+
+
+
+
+
+h4,
+h5 {
+	line-height: 1.11;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	margin-bottom: .75rem;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 2.6vmin;
+	font-weight: normal;
+	text-justify: auto;
+	text-shadow: 0px 0px 3px #222;
 }
 
 
@@ -54,38 +134,68 @@ dd {
 
 img,
 picture {
-  max-width: 100%;
+  color: wheat;
+  max-width: 100dvw;
+  max-width: 100vw
+  height: auto;
   display: block;
+  padding-bottom: 2.5px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  opacity: .69;
+}
+
+img {
+  color: wheat;
+  max-width: 86%;
+  display: block;
+  padding-bottom: 4px;
+  margin-top: -14px;
+  margin-bottom: -18px;
+  opacity: .76;
+}
+
+img:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
 }
 
 
+
+textarea {
+  outline: none;
+  resize: none;
+  overflow-y: auto;
+  font-size: 2.6vmin;
+} 
 
 
 input,
 button,
-textarea,
 select {
-	font: inherit;
-	line-height: 1;
-	margin: 0;
-	padding: 0;
+		margin: 0;
+		font: relative;
+		line-height: 1.11;
+		padding: 1.25%;
 }
 
 
 
-
 data {
-	font-size: smaller;
-	font-weight: lighter;
 	color: honeydew;
 	text-shadow: 0px 0px 3px #333333;
+	text-transform: uppercase;
+	font-size: 1.8vw;
+	font-weight: lighter;
+	text-shadow: 0px 0px 3px #333;
 	text-transform: uppercase;
 }
 
 
 
 div {
-	margin: 0;
+	margin: 0 auto;
+	margin-bottom: .1em;
 	padding-left: 0px;
 	justify-content: center;
 }
@@ -101,27 +211,63 @@ div {
 
 
 section {
-	padding: .25em 1.5em;
+	padding: .25em .25em;
 }
 
 
 
 
 
-.hr {
-	margin-top: .25em;
+
+/* width */
+::-webkit-scrollbar {
+	display: block;
+	background: #111;
+  width: 8px;
+  height: 0vmin;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: olive;
+  filter: grayscale(15%);
+
+}
+
+::-webkit-scrollbar-button {
+background: #000;
+}
+
+::-webkit-scrollbar-corner {
+	background: #000;
+}
+
+
+
+
+hr {
+	margin-top: 4px;
+	margin-bottom: .25em;
+	padding-top: 0x;
 	margin: 0 auto;
-	width: 90%;
+	width: 65%;
 	size: 1pt;
 	border-style: inset;
 	text-decoration: none;
-	opacity: .1;
+	opacity: .3;
 	border-radius: 2px;
 }
 
 
+
 line-breaks {
-	style-height: .5px;
+	style-height: .25px;
 }
 
 
@@ -133,25 +279,23 @@ wrapper {
 
 
 
-
 html {
-	background-image: url("img/holly-stratton-tBAzqUdXPno-unsplash.jpg");
-	
-	background-size: cover;
-	background-position: 54% 30%;
-	background-attachment: static;
-	background-repeat: no-repeat;
 	background-color: black;
-	margin: auto;	
+	margin: 0 auto;	
 	height: auto;
 	padding: 0;
+ 	font-size: 100%;
+ 	height: -webkit-fill-available;
+	scroll-padding-top: 2rem; 
 	-ms-overflow-style: none;  /* IE and Edge */
- 			scrollbar-width: none;  /* Firefox */filter: sepia(.5);
- 			font-family: Merienda, Helvetica, Arial, sans-serif;
- 			scroll-behavior: smooth;
+ 	scrollbar-width: none;  /* Firefox */filter: sepia(.5);
+ 	font-family: Merienda, Helvetica, Arial, sans-serif;
+ 	scroll-behavior: smooth;
+	white-space: wrap;
+	box-sizing: border-box;
 	filter: grayscale(55%);
-}
 
+}
 
 
 html: focus-within {
@@ -159,40 +303,54 @@ html: focus-within {
 }
 
 
-
-
+main {
+	flex:1;
+	overflow: hidden;
+	margin-top: .25em;
+	margin-bottom: .5em;
+	padding-top: 0px;
+	padding-bottom: 2px;
+}
 
 
 body {
 	background-image: linear-gradient(hsl(2, 30%,10%), #000);
 	word-spacing: 1.6px;
 	letter-spacing: .003px;
-	line-height: 1.2;
+	line-height: 1.11;
 	background-color: #111;
-	margin: auto;
+	margin: 0 auto;
+	margin-top: -1.2%;
+	padding: 0px;
+	color: papayawhip;
+	text-rendering: optimizeSpeed;
+	border-style: none;
+ 	border-radius: 0px;
+	font-size: 2.6vmin;
 	padding: 0;
-	padding-bottom: 1rem;
-	max-width: 1200px;
-	font-size: 100%;
-	color:  papayawhip;
-	display: block;
+	padding-top: 0;
+	padding-bottom: 4px;
+	max-width: 1440px;
+	width: 82.4vw;
+	width: 82.4dvw;
+	height: 100vh;
+	display: block
+	flex-direction: column;
+	height: -webkit-fill-available;
 	text-rendering: optimizeSpeed;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
 		    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
 		    sans-serif;
-    -webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
   justify-content: center;
   vertical-align: middle;
   align-content: center;
   align-items: center;
   box-sizing: border-box;
-	border-style: none;
- 	border-radius: 0px;
+
+
 }
-
-
-
 
 
 
@@ -219,18 +377,11 @@ body {
 
 
 
-
-
-
-
-
-
-
 .acc-color {
 	color:  papayawhip;
 	padding-left: -8px;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 3vmin;
 }
 
 
@@ -238,6 +389,7 @@ body {
 	color: papayawhip;
 	padding-left: 0;
 	font-weight: bold;
+	font-size: 2.5vmin;
 }
 
 
@@ -249,7 +401,8 @@ body {
 
 .separator {
 	margin: auto;
-	padding-bottom: 2rem;
+	padding-top: .25rem;
+	padding-bottom: .5rem;
 	color: lightyellow;
 	text-align: center;
 	position: block;
@@ -343,10 +496,11 @@ menu {
 	background-image: linear-gradient(hsl(2, 30%,10%), #222);
 	margin: auto;
 	margin-top: 0;
-	margin-bottom: 1em;
-	padding: 0px 4%;
+	margin-bottom: .5em;
+	padding: .25% .25%;
 	width: 100%;
-	min-height: 2.8vh;
+	max-height: 8.5dvh;
+	max-height: 8.5vh;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
@@ -361,10 +515,10 @@ menu {
 	text-align: center;
 	justify-content: space-between;
 	box-sizing: border-box;
-	font-size: .65em;
+	font-size: 3vmin;
 	line-height: 2;
 	z-index: 9999;
-	opacity: .95;
+	opacity: .9;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -380,21 +534,27 @@ menu {
 .nav-links li {
 	list-style: none;
 	display: inline-block;
-	padding: 0 10px;
+	padding: 3%;
 }
 
 .nav-links li:hover {
 	back-ground color: none;
-	font-size: normal;
-	font-weight: bolder;
+	font-size: 3vmin;
+	text-transform: uppercase;
 	padding: .25rem;
 	display: block;
 	opacity: .5;
+	color: moccasin;
 }
 
 
 
 
+
+ul {
+	font-size: 2.6vmin;
+ 	line-height: 1.11;
+ }
 
 
 
@@ -404,8 +564,8 @@ menu {
 .nav ul {
 	margin: 0;
 	margin-bottom: 0px;
-	padding: 8px 32px;
-	padding-bottom: 11px;
+	padding: 3% 3%;
+	padding-bottom: 2.5%;
 	display: flex;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -430,6 +590,10 @@ menu {
 
 
 
+ul {
+	font-size: 2.5vmin;
+ 	line-height: .5;
+ }
 
 
 
@@ -437,22 +601,27 @@ menu {
 a {
 	text-decoration: none;
 	background-color: none;
-	color: none;
+	color: moccasin;
+	font-size: 2.5vmin;
+	padding-bottom: 4px;
+	line-height: .5;
+	text-shadow: 1px 1px 1px #000;
 }
 
 
 .nav a {
-	color:  papayawhip;
-	font-weight: bolder;
+	color:  moccasin;
+	font-weight: heavy;
 	display: inline-block;
 	text-decoration: none;
+  
 }
 
 
 .footer-links li a {
 	text-decoration: none;
-	color: #111;
-	padding: .0rem;
+	color: moccasin;
+	padding: 0;
 	background-color: none;
 	display: inline-block;
 
@@ -515,7 +684,7 @@ span.slogan-name {
 	padding-left: 5px;
 	font-size: 1.5em;
 	font-weight: bolder;
-	color: lightyellow;
+	color: moccasin;
 	text-shadow: 0px 0px 3px #333333;
 }
 
@@ -526,7 +695,7 @@ span.job-title {
 	padding-left: 0px;
 	font-size: 1.32em;
 	font-weight: lighter;
-	color: orangered;
+	color: darkgoldenrod;
 	text-shadow: none;
 }
 
@@ -571,15 +740,15 @@ span.logo {
 	margin:  0 auto;
 	display: block;
 	justify-content: left;
-	font-size: 12pt;
+	font-size: 3.5vmin;
 	max-width: 86px;
 	margin-top: .25em;
 	padding-top: 2px;
-	padding-left: 1em;
+	padding-left: .5em;
 	text-align: center;
 	margin-bottom: .5em;
-	font-weight: lighter;
-	color:  papayawhip;
+	font-weight: normal;
+	color:  olive;
 	transition: 1s;
 	box-sizing: border-box;
 }
@@ -675,7 +844,7 @@ span.scroll-down {
 	padding-left: 14px;
 	height: auto;
 	border-style: solid;
-	border-color: orangered;
+	border-color: darkgoldenrod;
 	border-width: 5px;
 	border-radius: 0;
 	border-top: none;
@@ -770,12 +939,13 @@ span.scroll-down {
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: auto;
-	margin-top:  1.5em;
+	margin-bottom: -1em;
+	margin-top:  .5em;
 	padding-left: 20px;
 	padding-right: 5%;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	width: 100%;
-	max-height: 200vh;
+	max-height: 160vh;
 	display: block;
 	background-color: #111;
 	color: lightyellow;
@@ -1194,12 +1364,15 @@ span.scroll-down {
 
 
 
+
+
+
 .form-section {
 	background-image: url("img/samuel-rios-IXYVzgwr2k0-unsplash.jpg");
 	background-size: cover;
 	background-position: 70% 100%;
 	background-repeat: no-repeat;
-	line-height: .5em;
+	line-height: .25;
 	margin: 0 auto;
 	padding-top: 8px;
 	padding-left: 14px;
@@ -1207,7 +1380,8 @@ span.scroll-down {
 	max-width: 40%;
 	min-width: 50%;
 	max-height: 62vh;
-	margin-bottom: 100px;
+	margin-top: 2.5%;
+	margin-bottom: 5%;
 	display: block;
 	background-color: #222;
 	border-style: none;
@@ -1218,6 +1392,15 @@ span.scroll-down {
 	align-content: center;
 	align-items: center;
 	justify-content: center;
+	background-color: #000;
+	border-style: solid;
+	border-width: 2px;
+	border-color:#222;
+	border-radius: 8px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: .99;
+	font-size: 2.6vmin;
 }
 
 
@@ -1241,7 +1424,7 @@ input{
 	border-style: none;
 	border-radius: 2px;
 	background-color: #222;
-	line-height: 1.5;
+	line-height: 1.2;
 	color: whitesmoke;
 	max-width: 45%;
 	height: auto;
@@ -1257,7 +1440,7 @@ input{
 }
 
 input:focus-within {
-	background-color: lightsalmon;
+	background-color: lightdarkgoldenrod;
 }
 
 
@@ -1283,7 +1466,7 @@ input:focus-within {
 }
 
 input:focus-within {
-	background-color: lightsalmon;
+	background-color: lightdarkgoldenrod;
 	
 }
 
@@ -1294,7 +1477,7 @@ input:focus-within {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	margin-left: .5em;
+	margin-left: 0;
 	margin-bottom: -3px;
 	text-decoration: none;
 	border-radius: 3px;
@@ -1307,7 +1490,7 @@ input:focus-within {
 	border-radius: none;
 	border-width: 1px;
 	text-shadow: 0px 0px 3px #333333;
-	font-weight: lighter;
+	font-weight: normal;
 	background-blend-mode: multiply;
 
 }
@@ -1337,7 +1520,7 @@ input:focus-within {
 	border-style: solid;
 	border-bottom: none;
 	border-top: none;
-	border-color: orangered;
+	border-color: darkgoldenrod;
 	border-right: none;
 	border-width: 5px;
 	justify-content: center;
@@ -1420,7 +1603,7 @@ input:focus-within {
 
 .footer-links {
 	margin: 0;
-	padding: 4% 2%;
+	padding: 6% 2%;
 	max-width: 10%;
 	display: flex;
 	box-sizing: border-box;
@@ -1444,12 +1627,12 @@ input:focus-within {
 	position: relative;
 	width: 100%;
 	display: block;
-	color: #444;
+	color: #555;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	font-size: normal;
-	font-weight: lighter;
+	font-size: 1.6vmin;
+	font-weight: normal;
 }
 
 
@@ -1465,7 +1648,7 @@ button {
 	display: block;
 	height: auto;
 	max-width: 100%;
-	background-color: orangered;
+	background-color: darkgoldenrod;
 	font-family: Helvetica;
 	color: floralwhite;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1501,7 +1684,7 @@ button.resume-btn {
 
 
 button.form-button {
-	margin-left: .5em;
+	margin-left: .0em;
 	max-width: 100%;
 	height: auto;
 	padding: 1.25em 1em;
@@ -1548,7 +1731,7 @@ button.thedemo {
 	align-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	background-color: orangered;
+	background-color: darkgoldenrod;
 }
 
 
@@ -1566,7 +1749,7 @@ button.thecode {
 	align-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	background-color: orangered;
+	background-color: darkgoldenrod;
 }
 
 
