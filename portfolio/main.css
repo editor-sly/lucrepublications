@@ -387,7 +387,7 @@ body {
 
 #about {
 	display: block;
-	padding-top: 2rem;
+	padding-top: .5rem;
 	color: papayawhip;
 	text-shadow: 0px 0px 3px #333333;
 }
@@ -395,7 +395,7 @@ body {
 
 #skills {
 	display: block;
-	padding-top: 2rem;
+	padding-top: .5rem;
 }
 
 
@@ -451,9 +451,9 @@ body {
 
 header {
 	margin: auto;
-	width: 100%;
+	width: 100vw;
 	height: auto;
-	margin: 0;
+	margin: 0 auto;
 	align-content: center;
 	box-sizing: border-box;
 	align-items: center;
@@ -1032,8 +1032,8 @@ span.scroll-down {
 	margin: auto;
 	line-height: 1.11;
 	width: 60%;
-	max-height: 60vh;
-	min-height: 11vh;
+	max-height: 80vh;
+	min-height: auto;
 	display: block;
 	background-color: none;
 	border-style: none;
