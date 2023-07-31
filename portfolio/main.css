@@ -311,9 +311,9 @@ wrapper {
 
 html {
 	background-color: black;
-	margin: 0 auto;	
+	margin: auto;	
 	height: auto;
-	padding: 0;
+	padding: 0px;
  	font-size: 100%;
  	height: -webkit-fill-available;
 	scroll-padding-top: 2rem; 
@@ -335,7 +335,7 @@ html: focus-within {
 
 main {
 	overflow: hidden;
-	margin-top: 32px;
+	margin-top: 11px;
 	margin-bottom: .25em;
 	padding-top: 1px;
 	padding-bottom: 3px;
@@ -349,8 +349,8 @@ body {
 	line-height: 1.11;
 	background-color: #111;
 	margin: 0 auto;
-	margin-top: -1.2%;
-	padding: 0px;
+	margin-top: 3px;
+	padding: 1.2%;
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
 	border-style: none;
@@ -377,6 +377,7 @@ body {
   align-content: center;
   align-items: center;
   box-sizing: border-box;
+  vertical-align: middle;
 
 
 }
@@ -765,14 +766,14 @@ span.talk {
 
 
 span.logo {
-	margin:  0 auto;
+	margin:  auto;
 	display: block;
 	justify-content: left;
 	font-size: 3.2vmin;
-	max-width: 86px;
+	max-width: 100px;
 	margin-top: .25em;
 	padding-top: 4px;
-	padding-left:0px;
+	padding-left: 0px;
 	text-align: center;
 	margin-bottom: .5em;
 	font-weight: normal;
@@ -791,7 +792,7 @@ span.logo:hover {
 
 span.dev {
 	font-weight: bolder;
-	margin:auto;
+	margin: auto;
 
 }
 
@@ -799,12 +800,12 @@ span.dev {
 
 span.corner-text {
 	margin-top: .25em;
-	font-size: 9pt;
+	font-size: 10pt;
 	display:inline-block;
 	float: right;
 	color: #333;
 	font-weight: bolder;
-	margin-right: 15%;
+	margin-right: 12%;
 }
 
 
@@ -967,14 +968,14 @@ span.scroll-down {
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: auto;
-	padding-top: 8px;
+	padding-top: 11px;
 	margin-bottom: -1em;
 	margin-top:  .5em;
-	padding-left: 20px;
-	padding-right: 5%;
+	padding-left: 15%;
+	padding-right: 12%;
 	padding-bottom: 32px;
 	width: 100%;
-	max-height: 155vh;
+	max-height: 160vh;
 	display: block;
 	background-color: #111;
 	color: lightyellow;
@@ -998,17 +999,18 @@ span.scroll-down {
 	position: relative;
 	padding-left: 20px;
 	padding-right: 10%;
-	margin:  auto;
-	margin-top: -10em;
-	padding-bottom: 16rem;
+	line-height: 1.11;
+	margin: auto;
+	margin-top: -9em;
+	padding-bottom: 8rem;
 	width: 60%;
-	max-height: 50vh;
+	max-height: 40vh;
 	min-height: 25vh;
 	display: block;
 	color: darkred;
 	background-color: black;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: 0px;
 	box-sizing: border-box;
 	font-size: smaller;
 	font-weight: lighter;
@@ -1026,16 +1028,16 @@ span.scroll-down {
 	background-repeat: no-repeat;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 1rem;
+	padding-bottom: 8rem;
 	margin: auto;
-	line-height: 1.2;
+	line-height: 1.11;
 	width: 60%;
-	max-height: 55.5vh;
-	min-height: 8vh;
+	max-height: 60vh;
+	min-height: 11vh;
 	display: block;
 	background-color: none;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: 0px;
 	box-sizing: border-box;
 	position: relative;
 	align-content: left;
@@ -1077,15 +1079,14 @@ span.scroll-down {
 
 #portfolio {
 	scroll-margin-top: 1.25em;
-	margin: 0 auto;
+	margin: auto;
 	display: block;
 	position: relative;
-	width: 100vw;
+	width: auto;
 	height: auto;
 	padding-left: 22%;
 	padding-top: 2em;
 	padding-bottom: .1em;
-	font-size: smaller;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1123,7 +1124,7 @@ span.scroll-down {
 	margin: auto;
 	margin-top: 1em;
 	margin-bottom: .25em;
-	padding: 0;
+	padding: 0px;
 	max-width: 50vw;
 	min-width: 48%;
 	max-height: 28vh;
