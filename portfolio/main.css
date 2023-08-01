@@ -346,7 +346,7 @@ body {
 	background-image: linear-gradient(hsl(2, 30%,10%), #000);
 	word-spacing: 1.6px;
 	letter-spacing: .003px;
-	line-height: 1.11;
+	line-height: 2;
 	background-color: #111;
 	margin: 0 auto;
 	margin-top: 3px;
@@ -633,8 +633,8 @@ a {
 	text-decoration: none;
 	background-color: none;
 	color: moccasin;
-	font-size: 2vmin;
-	padding-bottom: 4px;
+	font-size: 1.8vmin;
+	padding-bottom: 3px;
 	line-height: .25;
 	text-shadow: 1px 1px 1px #000;
 }
@@ -677,22 +677,11 @@ span {
 	display: absolute;
 	padding-left: 0px;
 	border-radius: 15px;
-	line-height: 1.2;
+	line-height: 1.11;
 }
 
 
 
-
-span.hello {
-	margin: auto;
-	padding-left: .25em;
-	margin-bottom: 0;
-	font-size: 1.5em;
-	display: block;
-	position: relative;
-	color: papayawhip;
-	text-shadow: none;
-}
 
 
 
@@ -700,7 +689,7 @@ span.first-name {
 	margin: -8px;
 	margin-top: 8px;
 	padding-left: 10px;
-	font-size: 1.5em;
+	font-size: 6vmin;
 	font-weight: bolder;
 	color: lightyellow;
 	text-shadow: 0px 0px 3px #333333;
@@ -736,7 +725,7 @@ span.highlight {
 	background-color: lightyellow;
 	padding: 4px;
 	height: auto;
-	margin-top: .2px .5px;
+	margin-top: .25px .5px;
 	display: relative;
 	border-radius: 0px;
 	box-sizing: border-box;
@@ -817,7 +806,7 @@ span.emoji {
 	color: papayawhip;
 	background-color: none;
 	padding: 0px;
-	text-shadow: 0px 0px 3px #333333;
+	text-shadow: 0px 0px 3px #333;
 	font-size: larger;
 }
 
@@ -840,7 +829,7 @@ span.hire-me {
 	padding-left: 8px;
 	margin-bottom: -30px;
 	font-size: 1em;
-	color: #444;
+	color: #555;
 	font-weight: bolder;
 	text-shadow: none;
 }
@@ -1857,5 +1846,3 @@ button.thecode {
 	margin-left: 0px;
 	font-size: small;
 }
-
-
