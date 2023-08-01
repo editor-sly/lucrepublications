@@ -1113,13 +1113,11 @@ span.scroll-down {
 
 .portfolio-project1 {
 	margin: auto;
-	margin-top: 1em;
+	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0px;
-	max-width: 50vw;
-	min-width: 48%;
-	max-height: 28vh;
-	min-height: 4vh;
+	max-width: 50vmin;
+	height: auto;
 	display: block;
 	position: relative;
 	background-color: black;
@@ -1133,7 +1131,6 @@ span.scroll-down {
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
-	float: left;
 	vertical-align: middle;
 }
 
@@ -1141,13 +1138,12 @@ span.scroll-down {
 
 .portfolio-project2 {
 	margin: auto;
-	margin-top: 1em;
+	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
-	max-width: 50vw;
+	max-width: 50vmin;
 	min-width: 48%;
-	max-height: 28vh;
-	min-height: 4vh;
+  height: auto;
 	display: block;
 	position: relative;
 	background-color: black;
@@ -1161,7 +1157,6 @@ span.scroll-down {
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
-	float: right;
 	vertical-align: middle;
 }
 
@@ -1172,10 +1167,9 @@ span.scroll-down {
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
-	max-width: 50vw;
+	max-width: 50vmin;
 	min-width: 48%;
-	max-height: 28vh;
-	min-height: 4vh;
+	height: auto;
 	display: block;
 	position: relative;
 	background-color: black;
@@ -1189,21 +1183,19 @@ span.scroll-down {
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
-	float: left;
 	vertical-align: middle;
 }
 
 
 
 .portfolio-project4 {
-	margin: 0 auto;
+	margin: auto;
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
-	max-width: 50vw;
+	max-width: 50vmin;
 	min-width: 48%;
-	max-height: 28vh;
-	min-height: 4vh;
+	height: auto;
 	display: block;
 	position: relative;
 	background-color: black;
@@ -1217,21 +1209,19 @@ span.scroll-down {
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
-	float: right;
 	vertical-align: middle;
 
 }
 
 
 .portfolio-project5 {
-	margin: 0 auto;
+	margin:  auto;
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
-	max-width: 100dvw;
+	max-width: 50vmin;
 	min-width: 48%;
-	max-height: 28vh;
-	min-height: 4vh;
+	height: auto;
 	display: block;
 	position: relative;
 	background-color: black;
@@ -1245,7 +1235,6 @@ span.scroll-down {
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
-	float: left;
 	vertical-align: middle;
 
 
@@ -1255,14 +1244,13 @@ span.scroll-down {
 
 
 .portfolio-project6 {
-	margin: 0 auto;
+	margin:  auto;
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
-	max-width: 100dvw;
+	max-width: 50vmin;
 	min-width: 48%;
-	max-height: 28vh;
-	min-height: 4vh;
+	height: auto;
 	display: block;
 	position: relative;
 	background-color: black;
@@ -1276,7 +1264,6 @@ span.scroll-down {
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
-	float: right;
 	vertical-align: middle;
 
 
