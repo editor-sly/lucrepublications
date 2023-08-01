@@ -215,10 +215,10 @@ div {
 
 section {
 	margin: 0 auto;
-	margin-bottom: 25vmin;
+	margin-bottom: 3vmin;
 	max-width: 50vw;
 	display: block;
-	padding: 1em 1em;
+	padding: .5em .5em;
 	box-sizing: border-box;
 	text-align: left;
 	align-content: center;
@@ -282,7 +282,7 @@ background: #000;
 
 
 hr {
-	margin-top: 4px;
+	margin-top: 2px;
 	margin-bottom: .25em;
 	padding-top: 0px;
 	margin: 0 auto;
@@ -432,7 +432,7 @@ body {
 
 .separator {
 	margin: auto;
-	padding-top: .25rem;
+	padding-top: .1rem;
 	padding-bottom: .5rem;
 	color: lightyellow;
 	text-align: center;
@@ -783,17 +783,18 @@ span.logo:hover {
 span.dev {
 	font-weight: bolder;
 	margin: auto;
+	font-size: larger;
 
 }
 
 
 
 span.corner-text {
-	margin-top: .25em;
+	margin-top: .5em;
 	font-size: 10pt;
 	display:inline-block;
 	float: right;
-	color: #333;
+	color: #222;
 	font-weight: bolder;
 	margin-right: 12%;
 }
@@ -1076,7 +1077,7 @@ span.scroll-down {
 	width: auto;
 	height: auto;
 	padding-left: 22%;
-	padding-top: 6em;
+	padding-top: 4em;
 	padding-bottom: .1em;
 	justify-content: center;
 	align-content: center;
@@ -1419,8 +1420,8 @@ span.scroll-down {
 .contact-section {
 	scroll-margin-top: .25em;
 	margin: 0 auto;
-	margin-top: 2rem;
-	padding-top: 1rem;
+	margin-top: .5rem;
+	padding-top: .5rem;
 	max-width: 100%;
 	height: auto;
 	line-height: .9;
@@ -1552,7 +1553,7 @@ input:focus-within {
 	text-decoration: none;
 	border-radius: 3px;
 	background-color: #555;
-	height: 84px;
+	height: 94px;
 	color: gainsboro;
 	max-width: 95%;
 	border-style: solid;
@@ -1577,10 +1578,10 @@ input:focus-within {
 	background-position: 60% 45%;
 	background-size:  cover;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0 auto;
 	margin-top: 32px;
 	padding: 0;
-	width: 100%;
+	width: 73vmax;
 	position: relative;
 	max-height: 36vh;
 	min-height: 6vmin;
@@ -1768,12 +1769,12 @@ button.form-button {
 
 button.top-btn {
 	width: 26px;
-	height: 34px;
+	height: 36px;
 	margin: 0;
 	padding: .5em .5em;
 	display: block;
 	margin-right: .5em;
-	margin-top: -8em;
+	margin-top: -11em;
 	color: honeydew;
 	justify-content: center;
 	box-sizing: border-box;
