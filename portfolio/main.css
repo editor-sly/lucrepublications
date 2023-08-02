@@ -328,7 +328,7 @@ html {
 	background-color: black;
 	margin: auto;	
 	height: auto;
-	padding: 1.2%;
+	padding: 0;
  	font-size: 100%;
  	height: -webkit-fill-available;
 	scroll-padding-top: 2rem; 
@@ -366,14 +366,14 @@ body {
 	background-color: #000;
 	margin: 0 auto;
 	margin-bottom: .25rem;
-	padding: 1.2%;
+	padding: 0;
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
 	border-style: none;
  	border-radius: 0px;
 	font-size: 2.6vmin;
 	max-width: 1440px;
-	width: 98dvw;
+	width: 100dvw;
 	height: 600vh;
 	display: block;
 	flex-direction: column;
@@ -825,10 +825,10 @@ span.emoji {
 span.welcome {
 	margin: 0;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 2.25em;
 	padding-left: 0px;
-	color: #papayawhip;
-	text-shadow: none;
+	color: papayawhip;
+	text-shadow: 0px 0px 3px #333333;
 
 }
 
