@@ -216,16 +216,18 @@ div {
 section {
 	margin: 0 auto;
 	margin-top: .25rem;
-	margin-bottom: 8vmin;
-	max-width:100vmin;
-	min-width: 80vmin;
+	margin-bottom: 5vmin;
+
+	max-width:50vmin;
+	min-width: 70vmin;
+
 	height: 90vh;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
-	gap: 3em;
-	padding: 4em 4em;
+	gap: .5em;
+	padding: 2em 3em;
 	box-sizing: border-box;
 	text-align: left;
 	align-content: center;
@@ -326,7 +328,7 @@ html {
 	background-color: black;
 	margin: auto;	
 	height: auto;
-	padding: 0px;
+	padding: 1.2%;
  	font-size: 100%;
  	height: -webkit-fill-available;
 	scroll-padding-top: 2rem; 
@@ -362,20 +364,16 @@ body {
 	line-height: 2;
 	background-color: #111;
 	margin: 0 auto;
-	margin-top: 2px;
-	padding: auto;
+	margin-bottom: .25rem;
+	padding: 0;
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
 	border-style: none;
  	border-radius: 0px;
 	font-size: 2.6vmin;
-	padding: 0;
-	padding-top: 0;
-	padding-bottom: 3px;
 	max-width: 1440px;
-	width: 100vw;
-	width: 100dvw;
-	height: 100vh;
+	width: 93dvw;
+	height: auto;
 	display: block;
 	flex-direction: column;
 	height: -webkit-fill-available;
@@ -542,7 +540,6 @@ menu {
 	margin-bottom: .5em;
 	padding:2% 9%;
 	width: 100%;
-	max-height: 8dvh;
 	max-height: 8vh;
 	display: flex;
 	flex: auto;
@@ -558,7 +555,7 @@ menu {
 	text-align: center;
 	justify-content: space-between;
 	box-sizing: border-box;
-	font-size: 3vmin;
+	font-size: 2.8vmin;
 	line-height: 1.11;
 	z-index: 9999;
 	opacity: .9;
@@ -1032,13 +1029,12 @@ span.scroll-down {
 	background-repeat: no-repeat;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 8rem;
-	margin: auto;
+	padding-bottom: 6rem;
+	margin: 0 auto;
 	line-height: 1.11;
-	max-width: 80vmin;
-	min-width: 50%;
-	max-height: 70vh;
-	min-height: 125px;
+	max-width: 60vmin;
+	max-height: 60vh;
+	min-height: 118px;
 	display: block;
 	background-color: none;
 	border-style: none;
@@ -1049,7 +1045,7 @@ span.scroll-down {
 	text-align: left;
 	color: black;
 	font-size: smaller;
-	font-weight: lighter;
+	font-weight: normal;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .9;
 }
@@ -1061,7 +1057,7 @@ span.scroll-down {
 	padding-bottom: 10px;
 	padding: 0;
 	display: block;
-	width: 100%;
+	width: 80vmin;
 	height: auto;
 	display: block
 	line-height: .5;
@@ -1642,7 +1638,7 @@ span.scroll-down {
 	padding-top: 2em;
 	padding-left: 12px;
 	padding-bottom: 8px;
-	max-width: 50vw;
+	max-width: 60vmin;
 	min-height: 50vmin;
 	margin-top: .25rem;
 	margin-bottom: 10%;
@@ -1772,12 +1768,12 @@ input:focus-within {
 	background-size:  cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	margin-top: 64px;
+	margin-top: 62px;
 	padding: 0;
 	width: 100hw;
 	position: relative;
 	max-height: 36vh;
-	min-height: 6vmin;
+	min-height: 4.5vmin;
 	display: block;
 	position: relative;
 	background-color: #111;
