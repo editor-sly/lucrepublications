@@ -215,7 +215,7 @@ div {
 
 section {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: 5rem;
 	margin-bottom: 5vmin;
 
 	max-width:50vmin;
@@ -226,7 +226,7 @@ section {
   grid-auto-flow: row;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
-	gap: .5em;
+	gap: 3em;
 	padding: 2em 3em;
 	box-sizing: border-box;
 	text-align: left;
@@ -423,10 +423,11 @@ body {
 
 
 .acc-color {
-	color:  papayawhip;
+	color:  darkgoldenrod;
 	padding-left: -8px;
 	font-weight: bold;
 	font-size: 3vmin;
+	text-shadow: 0px 0px 3px #333333;
 }
 
 
@@ -843,7 +844,7 @@ span.hire-me {
 	padding-left: 8px;
 	margin-bottom: -30px;
 	font-size: 1em;
-	color: #555;
+	color: papayawhip;
 	font-weight: bolder;
 	text-shadow: none;
 }
@@ -883,7 +884,6 @@ span.scroll-down {
 	border-top: none;
 	border-bottom: none;
 	border-right: none;
-	color: papayawhip;
 
 }
 
