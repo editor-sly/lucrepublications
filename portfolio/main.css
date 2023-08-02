@@ -215,7 +215,7 @@ div {
 
 section {
 	margin: 0 auto;
-	margin-top: .25rem;
+	margin-top: .25em;
 	margin-bottom: 5vmin;
 
 	max-width:50vmin;
@@ -360,20 +360,21 @@ main {
 body {
 	background-image: linear-gradient(hsl(2, 30%,10%), #000);
 	word-spacing: 1.24px;
+	left: 0;
 	letter-spacing: .003px;
-	line-height: 2;
-	background-color: #111;
+	line-height: 1.11;
+	background-color: #000;
 	margin: 0 auto;
 	margin-bottom: .25rem;
-	padding: 0;
+	padding: 1.2%;
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
 	border-style: none;
  	border-radius: 0px;
 	font-size: 2.6vmin;
 	max-width: 1440px;
-	width: 93dvw;
-	height: auto;
+	width: 98dvw;
+	height: 600vh;
 	display: block;
 	flex-direction: column;
 	height: -webkit-fill-available;
@@ -536,11 +537,11 @@ menu {
 .nav {
 	background-image: linear-gradient(hsl(2, 30%,10%), #222);
 	margin: auto;
-	margin-top: 0px;
+	margin-top: 2px;
 	margin-bottom: .5em;
 	padding:2% 9%;
 	width: 100%;
-	max-height: 8vh;
+	max-height: 6vh;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
@@ -555,7 +556,7 @@ menu {
 	text-align: center;
 	justify-content: space-between;
 	box-sizing: border-box;
-	font-size: 2.8vmin;
+	font-size: 2.6vmin;
 	line-height: 1.11;
 	z-index: 9999;
 	opacity: .9;
@@ -579,7 +580,7 @@ menu {
 
 .nav-links li:hover {
 	back-ground color: none;
-	font-size: 3vmin;
+	font-size: 2.8vmin;
 	text-transform: uppercase;
 	padding: .25rem;
 	display: block;
@@ -768,7 +769,7 @@ span.logo {
 	margin:  auto;
 	display: block;
 	justify-content: left;
-	font-size: 3.2vmin;
+	font-size: 2.8vmin;
 	max-width: 100px;
 	margin-top: .25em;
 	padding-top: 4px;
@@ -812,12 +813,12 @@ span.corner-text {
 
 
 span.emoji {
-	margin: auto;
+	margin: 0 auto;
 	color: papayawhip;
 	background-color: none;
-	padding: 0px;
+	padding-right: 0px;
 	text-shadow: 0px 0px 3px #333;
-	font-size: larger;
+	font-size: xx-larger;
 }
 
 
@@ -1958,10 +1959,10 @@ button.form-button {
 
 
 button.top-btn {
-	width: 26px;
+	width: 28px;
 	height: 36px;
-	margin: 0;
-	padding: .5em .5em;
+	margin: 0 aotu;
+	padding: 00px;
 	display: block;
 	margin-right: .5em;
 	margin-top: -11em;
@@ -1980,7 +1981,7 @@ button.top-btn {
 
 button.thedemo {
 	margin: auto;
-	margin-top: .25em;
+	margin-top: 1em;
 	margin-bottom: .5em;
 	padding: auto;
 	height: auto;
