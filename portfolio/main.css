@@ -217,13 +217,13 @@ section {
 	margin: 0 auto;
 	margin-top: .25rem;
 	margin-bottom: 8vmin;
-	max-width:80vmin;
+	max-width:100vmin;
 	min-width: 80vmin;
 	height: 90vh;
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
 	gap: 3em;
 	padding: 4em 4em;
 	box-sizing: border-box;
@@ -1035,7 +1035,7 @@ span.scroll-down {
 	padding-bottom: 8rem;
 	margin: auto;
 	line-height: 1.11;
-	width: 80%;
+	max-width: 80vmin;
 	max-height: 70vh;
 	min-height: 125px;
 	display: block;
@@ -1125,11 +1125,12 @@ span.scroll-down {
 
 
 .portfolio-project1 {
-	margin: auto;
+	margin:  auto;
 	margin-top: .25em;
 	margin-bottom: .5em;
-	padding: 0px;
+	padding: 0;
 	max-width: 50vmin;
+	min-width: 48%;
 	height: auto;
 	display: block;
 	position: relative;
@@ -1141,8 +1142,6 @@ span.scroll-down {
 	align-content: left;
 	align-items: center;
 	justify-content: center;
-	border-style: solid;
-	border-width: 1px;
 	border-color: white;
 	vertical-align: middle;
 }
@@ -1150,13 +1149,13 @@ span.scroll-down {
 
 
 .portfolio-project2 {
-	margin: auto;
+	margin:  auto;
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
 	max-width: 50vmin;
 	min-width: 48%;
-  height: auto;
+	height: auto;
 	display: block;
 	position: relative;
 	background-color: black;
@@ -1167,8 +1166,6 @@ span.scroll-down {
 	align-content: left;
 	align-items: center;
 	justify-content: center;
-	border-style: solid;
-	border-width: 1px;
 	border-color: white;
 	vertical-align: middle;
 }
@@ -1176,7 +1173,7 @@ span.scroll-down {
 
 
 .portfolio-project3 {
-	margin: auto;
+	margin:  auto;
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
@@ -1193,8 +1190,6 @@ span.scroll-down {
 	align-content: left;
 	align-items: center;
 	justify-content: center;
-	border-style: solid;
-	border-width: 1px;
 	border-color: white;
 	vertical-align: middle;
 }
@@ -1202,7 +1197,7 @@ span.scroll-down {
 
 
 .portfolio-project4 {
-	margin: auto;
+	margin:  auto;
 	margin-top: .25em;
 	margin-bottom: .5em;
 	padding: 0;
@@ -1219,8 +1214,6 @@ span.scroll-down {
 	align-content: left;
 	align-items: center;
 	justify-content: center;
-	border-style: solid;
-	border-width: 1px;
 	border-color: white;
 	vertical-align: middle;
 
@@ -1245,8 +1238,6 @@ span.scroll-down {
 	align-content: left;
 	align-items: center;
 	justify-content: center;
-	border-style: solid;
-	border-width: 1px;
 	border-color: white;
 	vertical-align: middle;
 
@@ -1274,8 +1265,6 @@ span.scroll-down {
 	align-content: left;
 	align-items: center;
 	justify-content: center;
-	border-style: solid;
-	border-width: 1px;
 	border-color: white;
 	vertical-align: middle;
 
@@ -1305,8 +1294,6 @@ span.scroll-down {
 	align-content: left;
 	align-items: center;
 	justify-content: center;
-	border-style: solid;
-	border-width: 1px;
 	border-color: white;
 	vertical-align: middle;
 
@@ -1314,7 +1301,29 @@ span.scroll-down {
 }
 
 
+.portfolio-project8 {
+	margin:  auto;
+	margin-top: .25em;
+	margin-bottom: .5em;
+	padding: 0;
+	max-width: 50vmin;
+	min-width: 48%;
+	height: auto;
+	display: block;
+	position: relative;
+	background-color: black;
+	border-style: none;
+	border-radius: 8px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-content: left;
+	align-items: center;
+	justify-content: center;
+	border-color: white;
+	vertical-align: middle;
 
+
+}
 
 
 
