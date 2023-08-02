@@ -993,7 +993,7 @@ span.scroll-down {
 }
 
 
-
+/*
 .about-section {
 	scroll-margin-top: 1em;
 	background-image: url("img/vincent-van-zalinge-0UnxFbhVLA4-unsplash.jpg");
@@ -1021,7 +1021,7 @@ span.scroll-down {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+*/
 
 
 .skills-section {
@@ -1036,6 +1036,7 @@ span.scroll-down {
 	margin: auto;
 	line-height: 1.11;
 	max-width: 80vmin;
+	min-width: 50%;
 	max-height: 70vh;
 	min-height: 125px;
 	display: block;
