@@ -322,12 +322,20 @@ wrapper {
 	padding: 0;
 }
 
+.flex-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
 
 
 html {
 	background-color: black;
 	margin: auto;	
-	height: auto;
+	height: fit-content;
 	padding: 0;
  	font-size: 100%;
  	height: -webkit-fill-available;
@@ -339,6 +347,7 @@ html {
 	white-space: wrap;
 	box-sizing: border-box;
 	filter: grayscale(55%);
+	overflow: hidden;
 
 }
 
@@ -361,7 +370,7 @@ body {
 	background-image: linear-gradient(hsl(2, 30%,10%), #000);
 	word-spacing: 1.24px;
 	letter-spacing: .003px;
-	line-height: 1.11;
+	line-height: 1;
 	background-color: #000;
 	margin: 0 auto;
 	margin-bottom: .25rem;
@@ -373,9 +382,8 @@ body {
 	font-size: 2.6vmin;
 	max-width: 1440px;
 	width: 100dvw;
-	height: 600vh;
+	height: fit-content;
 	display: block;
-	flex-direction: column;
 	height: -webkit-fill-available;
 	text-rendering: optimizeSpeed;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -389,6 +397,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   vertical-align: middle;
+  overflow: scroll;
 
 }
 
@@ -467,7 +476,7 @@ body {
 
 header {
 	margin: auto;
-	width: 100vw;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	align-content: center;
@@ -507,15 +516,15 @@ header {
 
 .header-container {
 	background-image: url("img/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg");
-	background-size: 100%;
-	background-position: 64% 60%;
+	background-size: cover;
+	background-position: 64% 58%;
 	background-repeat: no-repeat;
 	margin:0;
 	padding: 0;
-	padding-top: 20px;
-	padding-bottom: 42px;
-	width: 100%;
-	height: auto;
+	padding-top: 3px;
+	padding-bottom: 30px;
+	width: 100vw;
+	height: 5px;
 	display: block;
 	background-color: #111;
 	font-weight: bolder;
@@ -541,11 +550,11 @@ menu {
 .nav {
 	background-image: linear-gradient(hsl(2, 30%,10%), #222);
 	margin: auto;
-	margin-top: 2px;
+	margin-top: 0px;
 	margin-bottom: .5em;
 	padding:2% 9%;
 	width: 100%;
-	max-height: 6vh;
+	max-height: 8vh;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
@@ -554,14 +563,14 @@ menu {
 	border-style: none;
 	border-radius: 0px;
 	position: sticky;
-	top: 0;
+	top: 0px;
 	align-items: center;
 	align-content: center;
 	text-align: center;
 	justify-content: space-between;
 	box-sizing: border-box;
 	font-size: 2.6vmin;
-	line-height: 1.11;
+	line-height: .9;
 	z-index: 9999;
 	opacity: .9;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -775,13 +784,14 @@ span.logo {
 	justify-content: left;
 	font-size: 2.8vmin;
 	max-width: 100px;
-	margin-top: .25em;
+	height: auto;
+	margin-top: 1em;
 	padding-top: 4px;
 	padding-left: 0px;
-	text-align: center;
-	margin-bottom: .5em;
+	text-align: left;
+	margin-bottom: 1.25em;
 	font-weight: normal;
-	color:  olive;
+	color: olive;
 	transition: 1s;
 	box-sizing: border-box;
 }
@@ -805,12 +815,12 @@ span.dev {
 
 span.corner-text {
 	margin-top: .5em;
-	font-size: 10pt;
+	font-size: 9pt;
 	display:inline-block;
 	float: right;
-	color: #222;
+	color: #333;
 	font-weight: bolder;
-	margin-right: 12%;
+	margin-right: 3.8%;
 }
 
 
@@ -990,6 +1000,7 @@ span.scroll-down {
 	box-sizing: border-box;
 	font-size: smaller;
 	text-shadow: 0px 0px 3px #333333;
+	overflow: hidden;
 }
 
 
@@ -1037,8 +1048,8 @@ span.scroll-down {
 	margin: 0 auto;
 	line-height: 1.11;
 	max-width: 60vmin;
-	max-height: 60vh;
-	min-height: 10vh;
+	max-height: 80vh;
+	height: auto;
 	display: block;
 	background-color: none;
 	border-style: none;
@@ -1052,6 +1063,7 @@ span.scroll-down {
 	font-weight: normal;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .9;
+	overflow: hidden;
 }
 
 
@@ -1559,7 +1571,7 @@ span.scroll-down {
 	margin: 0 auto;
 	margin-top: .5rem;
 	padding-top: .5rem;
-	max-width: 60%;
+	max-width: 50%;
 	height: auto;
 	line-height: .9;
 	display: block;
@@ -1930,7 +1942,7 @@ button.thedemo {
 	margin: auto;
 	margin-top: .25em;
 	margin-bottom: .25em;
-	padding: 6%;
+	padding: 4%;
 	height: auto;
 	width: auto;
 	display: block;
@@ -1946,9 +1958,9 @@ button.thedemo {
 
 button.thecode {
 	margin: auto;
-	margin-top: 1em;
+	margin-top: .25em;
 	margin-bottom: 1em;
-	padding: 4.5%;
+	padding: 2.5%;
 	height: auto;
 	width: auto;
 	display: block;
