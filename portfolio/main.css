@@ -76,13 +76,13 @@ dd {
 
 
 h1 {
-	padding-top: 4px;
-	padding-bottom: 2px;
-	margin-bottom: -6px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	margin-bottom: 0px;
 	font-family: 'Luminari', serif;
 	color: silver;
 	font-weight: 600;
-	line-height: 1.2;
+	line-height: 1.11;
 	font-size: 2.6vmin;
 	text-shadow: 0px 0px 2px #222;
 
@@ -229,7 +229,7 @@ section {
   grid-auto-flow: row;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
-	gap: 3em;
+	gap: 1.5em;
 	padding: 2em 3em;
 	box-sizing: border-box;
 	text-align: left;
@@ -339,13 +339,14 @@ line-breaks {
 
 
 html {
+	scroll-padding-top: 6rem;
 	background-color: black;
 	margin: auto;	
 	height: fit-content;
+	top: 6REM;
 	padding: 0;
  	font-size: 100%;
- 	height: -webkit-fill-available;
-	scroll-padding-top: 2rem; 
+ 	height: -webkit-fill-available; 
 	-ms-overflow-style: none;  /* IE and Edge */
  	scrollbar-width: none;  /* Firefox */filter: sepia(.5);
  	font-family: Merienda, Helvetica, Arial, sans-serif;
@@ -411,7 +412,7 @@ body {
 
 
 #about {
-	scroll-margin-top: 1.25em;
+	scroll-margin-top: 12em;
 	display: block;
 	padding-top: .5rem;
 	color: papayawhip;
@@ -420,15 +421,16 @@ body {
 
 
 #skills {
-	scroll-margin-top: 1.25em;
+	scroll-margin-top: 12em;
 	display: block;
 	padding-top: 2px;
 	padding-bottom: 0px;
+	text-shadow: 0px 0px 3px #333333;
 }
 
 
 #contact-me {
-	scroll-margin-top: 1.25em;
+	scroll-margin-top: 12em;
 	color: honeydew;
 	display: block;
 	padding-top: 2rem;
@@ -1039,6 +1041,36 @@ span.scroll-down {
 
 */
 
+.about-section {
+	scroll-margin-top: .25em;
+	
+	background-size: cover;
+	background-position: 10% 50%;
+	background-repeat: no-repeat;
+	padding-left: 11px;
+	padding-right: 20px;
+	padding-top: 4px;
+	padding-bottom: 1rem;
+	margin: 0 auto;
+	line-height: 1.11;
+	max-width: 60vmin;
+	max-height: 80vh;
+	height: auto;
+	display: block;
+	background-color: #000;
+	border-style: none;
+	border-radius: 8px;
+	box-sizing: border-box;
+	position: relative;
+	align-content: left;
+	text-align: left;
+	color: black;
+	font-size: smaller;
+	font-weight: normal;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: .9;
+	overflow: hidden;
+}
 
 .skills-section {
 	scroll-margin-top: .25em;
@@ -1100,7 +1132,7 @@ span.scroll-down {
 
 
 #portfolio {
-	scroll-margin-top: 1.25em;
+	scroll-margin-top: 12em;
 	margin: auto;
 	display: block;
 	position: relative;
@@ -1948,9 +1980,9 @@ button.thedemo {
 	margin: auto;
 	margin-top: .25em;
 	margin-bottom: .25em;
-	padding: 4%;
+	padding: 1%;
 	height: auto;
-	width: auto;
+	width: 90%;
 	display: block;
 	border-style: none;
 	border-radius: 6px;
@@ -1959,6 +1991,7 @@ button.thedemo {
 	align-items: center;
 	box-sizing: border-box;
 	background-color: darkgoldenrod;
+	opacity: .8;
 }
 
 
@@ -1966,9 +1999,9 @@ button.thecode {
 	margin: auto;
 	margin-top: .25em;
 	margin-bottom: 1em;
-	padding: 2.5%;
+	padding: 1%;
 	height: auto;
-	width: auto;
+	width: 90%;
 	display: block;
 	border-style: none;
 	border-radius: 6px;
@@ -1977,6 +2010,7 @@ button.thecode {
 	align-items: center;
 	box-sizing: border-box;
 	background-color: #111;
+	opacity: .8;
 }
 
 
