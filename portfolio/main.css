@@ -448,7 +448,7 @@ body {
 
 .acc-color2 {
 	color: papayawhip;
-	padding-left: 0;
+	padding: 0;
 	font-weight: bold;
 	font-size: 2.5vmin;
 }
@@ -508,8 +508,9 @@ header {
 	width: 80%;
 	height: auto;
 	display: block;
-	background-color: hsl(2, 30%,10%);
-	border-style: none;
+	background-color:rgb(25, 25, 25, 0.3);
+/*	background-color: hsl(2, 30%,10%);
+	*/border-style: none;
 	border-radius: 8px;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
