@@ -378,7 +378,7 @@ body {
 	background-color: #000;
 	margin: 0 auto;
 	margin-top: 0px;
-	margin-bottom: .5rem;
+	margin-bottom: 2rem;
 	padding: 0px;
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
@@ -1120,7 +1120,6 @@ span.scroll-down {
 
 
 #portfolio {
-	scroll-margin-top: 18em;
 	margin: 0 auto;
 	display: block;
 	position: relative;
