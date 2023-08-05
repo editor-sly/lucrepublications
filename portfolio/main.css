@@ -1762,8 +1762,8 @@ input:focus-within {
 
 .footer {
 	background-image: url("https://lumiere-a.akamaihd.net/v1/images/c-3po-main_417a2902.jpeg");
-	background-position: 60% 48%;
-	background-size:  cover;
+	background-position: 40% 48%;
+	background-size:  static;
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	margin-bottom: opx;
