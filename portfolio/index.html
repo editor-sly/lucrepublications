@@ -7,29 +7,33 @@
 	<title>TheDorkSide: Sly</title>
 
 	<link rel="stylesheet" type="text/css" href="main.css">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-
-
-<div id="home"></div>
 <body>
 <wrapper>
 
+
+	<div id="home"></div>
+
+
+
 	<header class="header-container"></header>
 
-<!--NAV section-->
-<nav id="navbar" class="nav">
-	<div>
-		<a href="#home"><span class="logo">sly<span class="dev">Dev {🧠}</span>
-		</span>
-		</a>
-	</div>
+
+
+
+	<!--NAV section-->
+	<nav id="navbar" class="nav">
+		<div>
+			<a href="#home"><span class="logo">sly<span class="dev">Dev {🧠}</span>
+			</span>
+			</a>
+		</div>
 
 
 <br>
-
 
 	<div class="nav-links">
 		<em>
@@ -53,44 +57,29 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 <!--container-->
-<content class="container">
+	<content class="container">
 
-<!--Hero section-->
+	<!--Hero section-->
 	<div class="hero-section">
 
-	<div>
-		<a href="#portfolio">
-			<span class="corner-text">❴Portfolio❵</span>
-		</a>
-	</div>
+		<div>
+			<a href="#portfolio">
+				<span class="corner-text">❴Portfolio❵</span>
+			</a>
+		</div>
 
 <br>	
 
-		<div>
+	<div>
+		<p style="color: silver";>FrontEnd HTML+CSS UI</p>
 
-	<p style="color: silver;";>
-		FrontEnd HTML+CSS UI
-	</p>
+				<h1>
+					<span class="first-name">SYL🖖🏽ESTER</span>
+				</h1>
+			</div>
 
-			<h1>
-				<span class="first-name">SYL🖖🏽ESTER
-			</span>
-			</h1>
-		</div>
-
-		<span class="job-title"><strong>Graphic Artist & FrontEnd_Dev</strong></span>
+			<span class="job-title"><strong>Graphic Artist & FrontEnd_Dev</strong></span>
 
 <br>
 <br>
@@ -98,7 +87,7 @@
 <br>
 
 		<h1>
-			<span class="welcome">Welcome to the DorkSide.</span>
+			<span class="welcome">Welcome to the dorkSide.</span>
 		</h1>
 
 
@@ -124,7 +113,11 @@
 			</p>
 <br>
 		</div>
-</div>
+	</div>
+
+
+
+
 
 <div class="separator">⋯</div>
 
@@ -132,19 +125,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<main>
 <!--About section-->
 <content>
 	<div id="about" class="about-section">
@@ -206,18 +186,21 @@
 
 
 
-<div id="portfolio"></div>
+	<div id="portfolio"></div>
+
 <br>
 
 	<div class="separator">
-		<center>
-			<strong>P⚜RTFOLIO</strong>
-		</center>
+	<center>
+		<strong>P⚜RTFOLIO</strong>
+	</center>
 <br>
 <br>
-	
 </content>
 
+<br>
+<br>	
+<br>	
 
 
 
@@ -229,27 +212,107 @@
 
 
 
-<section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--Portfolio section-->
+<section>
+
 <!--project1-->
-	<div id="project1-sweepy" class="portfolio-project1">
+	
 
-		<div class="mywork1">
-			<div class="screen">
+
+	<!--redo modal html, css, js-->
+<div>
+	<h1>Project 1:
+		<p>Description</p>
+	</h1>
+
+	<button data-open-modal>View</button>
+</div>
+
+	<dialog data-modal class="modal">
+
+		<div id="project1-sweepy" class="portfolio-project1">
+			<div class="mywork1">
+				<br>	
 				<div class="code">
-					<h2>▞ Proj.#1</h2>
-					<h3>▝🎸SWEEPS</h3>
-					<h4>
-						3NPS
-						Js+HTML+CSS
-
-						<button class="thedemo"><h3>DEMO</h3></button>
-						<button class="thecode"><h3>Code</h3></button>
-					</h4>
-				</div>
+					<h1>▞ Proj.#1</h1>
+					<h2>▝🎸SWEEPS</h2>
+					<h4>3NPS</h4>
+					<h6>Js+HTML+CSS</h6>
+				</div>	
 			</div>
-		</div>	
-	</div>
+		<br>
+		<button data-close-modal>Back</button>
+		</div>
+	</dialog>
+
+	<script>
+		const openButton = document.querySelector("[data-open-modal]")
+		const closeButton = document.querySelector("[data-close-modal]")
+		const modal = document.querySelector("[data-modal]")
+		
+		openButton.addEventListener("click", () => {
+			modal.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal.close()
+		})
+	</script>
+
+
+
+
+
+
+
+
 
 
 
@@ -264,15 +327,13 @@
 				<div class="code">
 					<h2>▚ Proj.#2</h2>
 					<h3>▝ Name Gen</h3>
-			
-					<h4>
-						3NPS
-						Js+HTML+CSS
 					
+					<h4>3NPS</h4>
+					<h4>Js+HTML+CSS</h4>
 						
 					<button class="thedemo"><h3>DEMO</h3></button>
 					<button class="thecode"><h3>Code</h3></button>
-					</h4>
+					
 				</div>
 			</div>
 		</div>
@@ -295,19 +356,18 @@
 				<div class="code">
 					<h2>▞ Proj.#3</h2>
 					<h3>▝ MockUp:</h3>
-
-					<h4>
-						3NPS
-						Js+HTML+CSS
 					
+					<h4>3NPS</h4>
+					<h4>Js+HTML+CSS</h4>
 						
 					<button class="thedemo"><h3>DEMO</h3></button>
 					<button class="thecode"><h3>Code</h3></button>
-					</h4>
+				
 				</div>
 			</div>
 		</div>
 	</div>
+
 
 
 
@@ -320,15 +380,13 @@
 				<div class="code">
 					<h2> ▞ Proj.#4</h2>
 					<h3>▝ 2D Ill</h3>
-
-					<h4>
-						3NPS
-						Js+HTML+CSS
 					
+					<h4>3NPS</h4>
+					<h4>Js+HTML+CSS</h4>
 						
 					<button class="thedemo"><h3>DEMO</h3></button>
 					<button class="thecode"><h3>Code</h3></button>
-					</h4>
+					
 				</div>
 			</div>
 		</div>
@@ -350,19 +408,17 @@
 					<h2> ▞ Proj.#5</h2>
 					<h3>▝ 2D Ill</h3>
 
-					<h4>
-						3NPS
-						Js+HTML+CSS
-					
+					<h4>3NPS</h4>
+					<h4>Js+HTML+CSS</h4>
 						
 					<button class="thedemo"><h3>DEMO</h3></button>
 					<button class="thecode"><h3>Code</h3></button>
-					</h4>
+				
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 
 
 
@@ -377,13 +433,12 @@
 					<h2> ▞ Proj.#6</h2>
 					<h3>▝ 2D Ill</h3>
 
-						<h4>
-							3NPS
-							Js+HTML+CSS
+					<h4>3NPS</h4>
+					<h4>Js+HTML+CSS</h4>
 						
-						<button class="thedemo"><h3>DEMO</h3></button>
-						<button class="thecode"><h3>Code</h3></button>
-						</h4>
+					<button class="thedemo"><h3>DEMO</h3></button>
+					<button class="thecode"><h3>Code</h3></button>
+					</h4>
 				</div>
 			</div>
 		</div>
@@ -405,18 +460,17 @@
 					<h2> ▞ Proj.#7</h2>
 					<h3>▝ 2D Ill</h3>
 
-					<h4>
-							3NPS
-							Js+HTML+CSS
+					<h4>3NPS</h4>
+					<h4>Js+HTML+CSS</h4>
 						
-							
-						<button class="thedemo"><h3>DEMO</h3></button>
-						<button class="thecode"><h3>Code</h3></button>
-						</h4>
+					<button class="thedemo"><h3>DEMO</h3></button>
+					<button class="thecode"><h3>Code</h3></button>
+				
 				</div>
 			</div>
 		</div>
 	</div>
+
 
 
 
@@ -433,22 +487,22 @@
 					<h2> ▞ Proj.#8</h2>
 					<h3>▝ 2D Ill</h3>
 
-					<h4>
-							3NPS
-							Js+HTML+CSS
+					<h4>3NPS</h4>
+					<h4>Js+HTML+CSS</h4>
 						
-							
-						<button class="thedemo"><h3>DEMO</h3></button>
-						<button class="thecode"><h3>Code</h3></button>
-						</h4>
+					<button class="thedemo"><h3>DEMO</h3></button>
+					<button class="thecode"><h3>Code</h3></button>
+				
 				</div>
 			</div>
 		</div>
 	</div>
 
+
 </section>
 
-</content>
+
+
 <br>
 <br>
 <br>
@@ -524,8 +578,9 @@
 				</div>
 
 				<div>
+<br>	
 					<button class="reset-btn" type="reset">Reset</button>
-
+<br>	
 					<button class="form-button" type="submit">Let's Chat</button>
 				</div>
 			</form>

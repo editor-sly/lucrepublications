@@ -217,19 +217,18 @@ div {
 
 
 section {
-	margin: auto;
+	margin: 0 auto;
 	margin-top: -20%;
 	margin-bottom: -16%;
-	max-width:70vmin;
+	max-width: 70vmin;
 	min-width: 50%;
 	height: fit-content;
   display: grid;
-
   grid-auto-flow: row;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
 	gap: 2.5em;
-	padding: 2em 4em;
+	padding: 2em 1em;
 	box-sizing: border-box;
 	text-align: left;
 	align-content: center;
@@ -298,6 +297,13 @@ background: #000;
 
 
 
+
+
+
+
+
+
+
 hr {
 	margin-top: 2px;
 	margin-bottom: .25em;
@@ -337,6 +343,40 @@ line-breaks {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html {
 	background-color: black;
 	margin: auto;	
@@ -355,7 +395,7 @@ html {
 }
 
 
-html: focus-within {
+html::focus-within {
 	 scroll-behavior: smooth;
 }
 
@@ -366,6 +406,28 @@ main {
 	margin-bottom: .25em;
 	padding:0px;
 }
+
+
+
+.modal {	
+	z-index: 10;
+	margin: auto auto;
+	border: none;
+	border-radius:.5em;
+	width: 50%;
+	height: 80vmin;
+	padding: 1em;
+	background-color: #000;
+	border-radius: .25em;
+}
+
+dialog::backdrop {
+	background: linear-gradient( #141414, #000);
+	opacity: .5;
+	}
+
+
+
 
 
 body {
@@ -500,7 +562,7 @@ header {
 
 
 .container {
-	margin: 0 auto;
+	margin: auto auto;
 	margin-top: 0px;
 	margin-bottom: .25em;
 	padding: 0;
@@ -1131,7 +1193,7 @@ span.scroll-down {
 
 
 
-
+/*
 #portfolio {
 	margin: 0 auto;
 	display: block;
@@ -1151,17 +1213,21 @@ span.scroll-down {
 	float: left;
 
 }
+*/
+
+
 
 
 .code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  font-size: .85em;
-  width: auto;
+  font-size: 8em;
+  width: 100%;
   margin: 0 auto;
+  padding: .5em;
   word-spacing: .003;
 	letter-spacing: .003px;
-	line-height: 1;
+	line-height: .9;
 	color: papayawhip;
 	font-weight: bolder;
 }
@@ -1174,33 +1240,30 @@ span.scroll-down {
 
 
 
-
 .portfolio-project1 {
-	margin: 0 auto;
-	margin-top: .25em;
-	margin-bottom: 0px;
-	padding: 0;
-	max-width: 50vmin;
-	min-width: 50%;
-	height: auto;
-	display: block;
+	margin: auto auto;
+	padding: 4px;
+	width: 100%;
+	min-width: 90%;
+	height: 90%;
+	display:block;
 	position: relative;
 	background-color: none;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: .25em;
 	box-sizing: border-box;
 	align-content: left;
 	align-items: center;
 	justify-content: center;
 	vertical-align: middle;
+	overflow: hidden;
 
 }
 
 
-
 .portfolio-project2 {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: 0em;
 	margin-bottom: 0px;
 	padding: 0;
 	max-width: 50vmin;
@@ -1223,7 +1286,7 @@ span.scroll-down {
 
 .portfolio-project3 {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: 0em;
 	margin-bottom: 0px;
 	padding: 0;
 	max-width: 50vmin;
@@ -1245,7 +1308,7 @@ span.scroll-down {
 
 .portfolio-project4 {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top:  0em;
 	margin-bottom: 0px;
 	padding: 0;
 	max-width: 50vmin;
@@ -1266,7 +1329,7 @@ span.scroll-down {
 
 .portfolio-project5 {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: 0em;
 	margin-bottom: 0px;
 	padding: 0;
 	max-width: 50vmin;
@@ -1289,7 +1352,7 @@ span.scroll-down {
 
 .portfolio-project6 {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: 0em;
 	margin-bottom: 0px;
 	padding: 0;
 	max-width: 50vmin;
@@ -1315,7 +1378,7 @@ span.scroll-down {
 
 .portfolio-project7 {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: 0em;
 	margin-bottom: 0px;
 	padding: 0;
 	max-width: 50vmin;
@@ -1338,7 +1401,7 @@ span.scroll-down {
 
 .portfolio-project8 {
 	margin: 0 auto;
-	margin-top: .25em;
+	margin-top: 0em;
 	margin-bottom: 0px;
 	padding: 0;
 	max-width: 50vmin;
@@ -1385,14 +1448,12 @@ span.scroll-down {
 .mywork1 {
 	background-image: url("img/digital_ill1.jpg");
 	background-size: cover;
-	background-position: 50% 0%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
-	max-width: 100%;
-	max-height: 28vh;
-	min-height: 4vh;
-	padding: 0px;
-	background-color: wheat;
+	width: 100%;
+	height: 100%;
+	background-color: black;
 	box-sizing: border-box;
 	color: black;
 	justify-content: left;
@@ -1902,9 +1963,9 @@ input:focus-within {
 
 
 button {
-	margin: auto;
+	margin: auto auto;
 	margin-left: 0;
-	margin-top: 1em;
+	margin-top: .5em;
 	margin-bottom: 1.25em;
 	padding: .5em 1.5em;
 	border-style: none;
@@ -1922,7 +1983,7 @@ button {
 	transition: 200ms ease-in-out;
 	border-style: solid;
 	border-width: 1pt;
-	border-color: silver;
+	border-color: #141414;
 }
 
 button:hover {
