@@ -8,8 +8,17 @@
 
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
+
+
+
+
+
+
+
+
+
+
 
 <body>
 <wrapper>
@@ -79,7 +88,7 @@
 				</h1>
 			</div>
 
-			<span class="job-title"><strong>Graphic Artist & FrontEnd_Dev</strong></span>
+			<span class="job-title"><strong>Graphic Designer & FrontEnd_Dev</strong></span>
 
 <br>
 <br>
@@ -87,28 +96,29 @@
 <br>
 
 		<h1>
-			<span class="welcome">Welcome to the dorkSide.</span>
+			<span class="welcome">'welcome' {dorkSiders}</span>
 		</h1>
 
 
 		<div class="border-left">
 			<h1>
-				<em>I code responsive UI's with HTML, CSS, SCSS & JavaScript. I have STRONG design skills & code it all up using SublimeText. Mobile 1st: prototype to device.</em>
+				I code responsive UI's with HTML, CSS & JavaScript. I have STRONG FrontEnd Design skills. Want an attractive squishy modern (mobile 1st) prototype? Expand your brand.
 			</h1>
 		</div>
 	
 	
 			
 <br>
-
+<br>
 		
 		<div>
 			<p>
 				<span id="dl-resume" class="hire-me">Hire SLY 👇
 				</span>
 
-				<button class="resume-btn">RESUME ↬
-					<a href="img src=SR_Resume2022.pdf"></a>
+				<button>
+					<a class="resume-btn" href="img/01_Sylvester_Richards.pdf">RESUME ↬
+					</a>
 				</button>
 			</p>
 <br>
@@ -149,7 +159,7 @@
 		<h5>
 			<span class="acc-color">Mockup</span>
 			<span class="acc-color2">
-				<li> Ai & Ps</li>
+				<li> Adobe: Ai+Ps</li>
 				<li>InkScape</li>
 				<li>Gimp</li>
 			</span>
@@ -165,6 +175,7 @@
 			<span class="acc-color2">
 				<li>HTML</li>
 				<li>CSS</li> 
+				<li>JavaScript</li>
 				<li>jQuery</li>
 			</span>
 		</h5>
@@ -176,9 +187,9 @@
 			</span>
 
 			<span class="acc-color2">
-				<li>JavaScript</li>
 				<li>PHP</li> 
 				<li>SQL</li>
+				<li>JSON</li>
 			</span>
 		</h5>
 	</div>
@@ -186,71 +197,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<div id="portfolio"></div>
 
+<br>
 <br>
 
 	<div class="separator">
 	<center>
-		<strong>P⚜RTFOLIO</strong>
+		<h1>FEATURED P⚜RTFOLIO PROJECTS</h1>
 	</center>
+
+<br>
 <br>
 <br>
 </content>
 
 <br>
-<br>	
-<br>	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 
 
@@ -261,50 +241,44 @@
 
 <!--Portfolio section-->
 <section>
+<thumb-box>
 
 <!--project1-->
-	
-
-
-	<!--redo modal html, css, js-->
 <div>
-	<h1>Project 1:
-		<p>Description</p>
-	</h1>
+	<div>
+		<h1>▞ Proj: #1:</h1>
+		<p>WebDev (PWA): Guitar Sweeps</p>
 
-	<button data-open-modal>View</button>
-</div>
+		<div class="screen mywork1">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>	
+		</div>
 
-	<dialog data-modal class="modal">
+			<!--redo modal html, css, js-->
+		<button data-open-modal1>View</button>
+		
+	</div>
 
-		<div id="project1-sweepy" class="portfolio-project1">
-			<div class="mywork1">
-				<br>	
-				<div class="code">
-					<h1>▞ Proj.#1</h1>
-					<h2>▝🎸SWEEPS</h2>
-					<h4>3NPS</h4>
-					<h6>Js+HTML+CSS</h6>
-				</div>	
-			</div>
-		<br>
-		<button data-close-modal>Back</button>
+	<dialog data-modal1 class="modal1">
+		<div class="portfolio-proj">
+			<div class="mywork1"></div>
+<br>
+				<p>3NPS🎸SWEEPS | Js+HTML+CSS</p>
+				<p><small>Designed frontend & js logic to teach 3NPS BeeBop scales.</small></p>
+			<br>
+			<br>
+			<button><a href="https://editor-sly.github.io/lucrepublications/sweeps3nps/#beebop-dom">Website</a></button>
+			<button data-close-modal1>Esc</button>
+			<br>
+		
 		</div>
 	</dialog>
-
-	<script>
-		const openButton = document.querySelector("[data-open-modal]")
-		const closeButton = document.querySelector("[data-close-modal]")
-		const modal = document.querySelector("[data-modal]")
-		
-		openButton.addEventListener("click", () => {
-			modal.showModal()
-		})
-
-		closeButton.addEventListener("click", () => {
-			modal.close()
-		})
-	</script>
+</div>
 
 
 
@@ -316,28 +290,41 @@
 
 
 
+	<!--project2-->
+<div>
+	<div>
+		<h1>▞ Proj. #2:</h1>
+		<p>WebDev (PWA): NameGen</p>
 
-	
-<!--project2-->
-	<div id="NameGen" class="portfolio-project2">
-
-		<div class="mywork2">
-			<div class="screen">
-
-				<div class="code">
-					<h2>▚ Proj.#2</h2>
-					<h3>▝ Name Gen</h3>
-					
-					<h4>3NPS</h4>
-					<h4>Js+HTML+CSS</h4>
-						
-					<button class="thedemo"><h3>DEMO</h3></button>
-					<button class="thecode"><h3>Code</h3></button>
-					
-				</div>
-			</div>
+		<div class="screen mywork2">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-	</div>
+
+	<!--redo modal html, css, js-->
+		<button data-open-modal2>View</button>
+		<br>
+
+	<dialog data-modal2 class="modal2">
+		<div class="portfolio-proj">
+			<div class="mywork2"></div>
+<br>
+			<p>NameGen PWA | Js+HTML+CSS</p>
+			<p><small>Designed frontend & built js logic to return a unique name from an array.</small></p>
+		<br>
+			<button><a href="https://editor-sly.github.io/lucrepublications/namegen">Website</a></button>
+			<button data-close-modal2>Esc</button>
+	
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
 
 
 		
@@ -348,49 +335,76 @@
 
 
 <!--project3-->
-	<div id="project3" class="portfolio-project3">
+<div>
+	<div>
+		<h1>▞ Proj. #3:</h1>
+		<p>WebDev (SPA): Editorial Srvc.</p>
 
-		<div class="mywork3">
-			<div class="screen">
-
-				<div class="code">
-					<h2>▞ Proj.#3</h2>
-					<h3>▝ MockUp:</h3>
-					
-					<h4>3NPS</h4>
-					<h4>Js+HTML+CSS</h4>
-						
-					<button class="thedemo"><h3>DEMO</h3></button>
-					<button class="thecode"><h3>Code</h3></button>
-				
-				</div>
-			</div>
+		<div class="screen mywork3">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-	</div>
+
+	<!--redo modal html, css, js-->
+		<button data-open-modal3>View</button>
+		<br>
+
+	<dialog data-modal3 class="modal3">
+		<div class="portfolio-proj">
+			<div class="mywork3"></div>
+<br>
+			<p>Editorial Svc. | HTML+CSS</p>
+			<p><small>Designed frontend for manuscript editing srvc.</small></p>
+		<br>
+			<button><a href="https://editor-sly.github.io/lucrepublications/#index">Website</a></button>
+			<button data-close-modal3>Esc</button>
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
 
 
 
 
 <!--project4-->
-	<div id="project4" class="portfolio-project4">
-
-		<div class="mywork4">
-			<div class="screen">
-
-				<div class="code">
-					<h2> ▞ Proj.#4</h2>
-					<h3>▝ 2D Ill</h3>
-					
-					<h4>3NPS</h4>
-					<h4>Js+HTML+CSS</h4>
-						
-					<button class="thedemo"><h3>DEMO</h3></button>
-					<button class="thecode"><h3>Code</h3></button>
-					
-				</div>
-			</div>
+<div>
+	<div>
+		<h1>▞ Proj. #4:</h1>
+		<p>WebDesign: Bora Lounge</p>
+	
+		<div class="screen mywork4">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-	</div>
+
+	<!--redo modal html, css, js-->
+		<div><button data-open-modal4>View</button></div>
+		<br>
+
+	<dialog data-modal4 class="modal4">
+		<div class="portfolio-proj">
+			<div class="mywork4"></div>
+<br>
+			<p>WebDesign: Bora Lounge | Photoshop PSD</p>
+			<p><small>Quick above the fold image concept layout</small></p>
+		<br>
+			<button data-close-modal4>Esc</button>
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
 
 
 
@@ -399,50 +413,77 @@
 
 
 <!--project5-->
-	<div id="project5" class="portfolio-project5">
-
-		<div class="mywork5">
-			<div class="screen">
-
-				<div class="code">
-					<h2> ▞ Proj.#5</h2>
-					<h3>▝ 2D Ill</h3>
-
-					<h4>3NPS</h4>
-					<h4>Js+HTML+CSS</h4>
-						
-					<button class="thedemo"><h3>DEMO</h3></button>
-					<button class="thecode"><h3>Code</h3></button>
-				
-				</div>
-			</div>
+<div>
+	<div>
+		<h1>▞ Proj. #5:</h1>
+		<p>WebDesign: Music Landing Pg.</p>
+	
+		<div class="screen mywork5">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-	</div>
+
+	<!--redo modal html, css, js-->
+		<button data-open-modal5>View</button>
+		<br>
+
+	<dialog data-modal5 class="modal modal5">
+		<div class="portfolio-proj">
+			<br><div class="mywork5"></div>
+<br>
+			<p>WebDesign | Photoshop PSD</p>
+			<p><small>Logo & music pg. promo</small></p>
+		<br>
+			<button data-close-modal5>Esc</button>
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
+
 
 
 
 
 
 <!--project6-->
-	<div id="project6" class="portfolio-project6">
-
-		<div class="mywork6">
-			<div class="screen">
-
-				<div class="code">
-					<h2> ▞ Proj.#6</h2>
-					<h3>▝ 2D Ill</h3>
-
-					<h4>3NPS</h4>
-					<h4>Js+HTML+CSS</h4>
-						
-					<button class="thedemo"><h3>DEMO</h3></button>
-					<button class="thecode"><h3>Code</h3></button>
-					</h4>
-				</div>
-			</div>
+<div>
+	<div>
+		<h1>▞ Proj. #6:</h1>
+		<p>MX Flash: Old~school Img. Viewer</p>
+			
+		<div class="screen mywork6">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-	</div>
+	
+	<!--redo modal html, css, js-->
+		<button data-open-modal6>View</button>
+		<br>
+
+	<dialog data-modal6 class="modal6">
+		<div class="portfolio-proj">
+			<div class="mywork6"></div>
+<br>
+			<p>Image Viewer | Flash</p>
+			<p><small>Flash actionScript interface/ image viewer.</small></p>
+		<br>
+			<button data-close-modal6>Esc</button>
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
 
 
 
@@ -451,25 +492,39 @@
 
 
 <!--project7-->
-	<div id="project7" class="portfolio-project6">
+<div>
+	<div>
+		<h1>▞ Proj. #7:</h1>
+		<p>WebStore: Indie Author Merch</p>
 
-		<div class="mywork7">
-			<div class="screen">
-
-				<div class="code">
-					<h2> ▞ Proj.#7</h2>
-					<h3>▝ 2D Ill</h3>
-
-					<h4>3NPS</h4>
-					<h4>Js+HTML+CSS</h4>
-						
-					<button class="thedemo"><h3>DEMO</h3></button>
-					<button class="thecode"><h3>Code</h3></button>
-				
-				</div>
-			</div>
+		<div class="screen mywork7">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-	</div>
+	
+	<!--redo modal html, css, js-->
+		<button data-open-modal7>View</button>
+		<br>
+
+	<dialog data-modal7 class="modal7">
+		<div class="portfolio-proj">
+			<div class="mywork7"></div>
+<br>				
+			<p>WebStore: Indie Author | WYSIWYG </p>
+			<p><small>Author book mrktng & Tee shop.</small></p>
+		<br>
+			<button><a href="https://selahkesh.bigcartel.com/">Website</a></button>
+			<button data-close-modal7>Esc</button>
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
 
 
 
@@ -478,27 +533,80 @@
 
 
 <!--project8-->
-	<div id="project8" class="portfolio-project8">
-
-		<div class="mywork8">
-			<div class="screen">
-
-				<div class="code">
-					<h2> ▞ Proj.#8</h2>
-					<h3>▝ 2D Ill</h3>
-
-					<h4>3NPS</h4>
-					<h4>Js+HTML+CSS</h4>
-						
-					<button class="thedemo"><h3>DEMO</h3></button>
-					<button class="thecode"><h3>Code</h3></button>
-				
-				</div>
-			</div>
+<div>
+	<div>
+		<h1>▞ Proj. #8:</h1>
+		<p>2D Dgtl. Illustration</p>
+	
+		<div class="screen mywork8">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-	</div>
+
+	<!--redo modal html, css, js-->
+		<button data-open-modal8>View</button>
+		<br>
+
+	<dialog data-modal8 class="modal modal8">
+		<div class="portfolio-proj">
+			<div class="mywork8"></div>
+<br>
+			<p>Dgtl. Ill. (Sketching) | ClipStudio</p>
+			<p><small>I love sketching & conceptualizing.</small></p>
+		<br>
+			<button data-close-modal8>Esc</button>
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
 
 
+
+
+
+<!--project8-->
+<div>
+	<div>
+		<h1>▞ Proj. #9:</h1>
+		<p>3D Dgtl. Illustration</p>
+	
+		<div class="screen mywork9">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+
+	<!--redo modal html, css, js-->
+		<button data-open-modal9>View</button>
+		<br>
+
+	<dialog data-modal9 class="modal modal9">
+		<div class="portfolio-proj">
+			<div class="mywork9"></div>
+<br>
+			<p>3D Polygon Modeling | Modo</p>
+			<p><small>Low poly: Rough image.</small></p>
+		<br>
+			<button data-close-modal9>Esc</button>
+		<br>
+		<br>
+		</div>
+	</dialog>
+</div>
+
+
+
+</thumb-box>
 </section>
 
 
@@ -520,7 +628,7 @@
 <br>	
 		<h4>
 			<span class="talk">
-				<em>Let's code some content.</em>
+				<em>Let's work together.</em>
 			</span>
 		</h4>
 	</div>
@@ -604,17 +712,19 @@
 <section id="slogan" class="slogan-section">
 		<span class="slogan-name">SYL🖖🏽ESTER</span>
 
-		<span style="color: darkgoldenrod"; class="slogan-job">Graphic Artist & FrontEnd_Dev</span>
+		<span style="color: darkgoldenrod"; class="slogan-job">Graphic Designer & FrontEnd_Dev</span>
 <!--end slogan-->
+
 
 <br>
 <br>
+
 <!--email-->
 		<div  class="slogan-section2">
-			<h6 class="mail">
+			<p class="mail">
 				<a  href="mailto:syl.slick@gmail.com"><span class="icon-mail">syl.slick@gmail.com</span>
 				</a>
-			</h6>
+			</p>
 		</div>
 </section>
 
@@ -653,16 +763,235 @@
 
 </main>
 
-<br>
-<center>
-	<div>&nbsp;Force~strong~this~one~with.</div></center>
+<div>
+<p></p>
+
+
+
 <!--Copyright Section-->
 			<h6>
-				<span class="copyright">
+				
+				<span class="copyright">Force~strong~this~one~with.
 				&copy2023 syl richards all rights reserved.
 				</span>
 			</h6>
-<br>
+
+<p></p>
+</div>
+
 		</wrapper>
+
+
+
+
+
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal1]");
+
+		const closeButton = document.querySelector("[data-close-modal1]");
+
+		const modal1 = document.querySelector("[data-modal1]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal1.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal1.close()
+		})
+</script>
+
+
+
+
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal2]");
+
+		const closeButton = document.querySelector("[data-close-modal2]");
+
+		const modal2 = document.querySelector("[data-modal2]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal2.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal2.close()
+		})
+</script>
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal3]");
+
+		const closeButton = document.querySelector("[data-close-modal3]");
+
+		const modal3 = document.querySelector("[data-modal3]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal3.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal3.close()
+		})
+</script>
+
+
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal4]");
+
+		const closeButton = document.querySelector("[data-close-modal4]");
+
+		const modal4 = document.querySelector("[data-modal4]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal4.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal4.close()
+		});
+</script>
+
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal5]");
+
+		const closeButton = document.querySelector("[data-close-modal5]");
+
+		const modal5 = document.querySelector("[data-modal5]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal5.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal5.close()
+		})
+</script>
+
+
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal6]");
+
+		const closeButton = document.querySelector("[data-close-modal6]");
+
+		const modal6 = document.querySelector("[data-modal6]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal6.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal6.close()
+		})
+</script>
+
+
+
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal7]");
+
+		const closeButton = document.querySelector("[data-close-modal7]");
+
+		const modal7 = document.querySelector("[data-modal7]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal7.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal7.close()
+		})
+</script>
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal8]");
+
+		const closeButton = document.querySelector("[data-close-modal8]");
+
+		const modal8 = document.querySelector("[data-modal8]");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal8.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal8.close()
+		});
+
+	</script>
+
+
+
+
+
+
+<script type="module" defer>
+		const openButton = document.querySelector("[data-open-modal9]");
+
+		const closeButton = document.querySelector("[data-close-modal9]");
+
+		const modal9 = document.querySelector("[data-modal9");
+
+
+		
+		openButton.addEventListener("click", () => {
+			modal9.showModal()
+		})
+
+		closeButton.addEventListener("click", () => {
+			modal9.close()
+		});
+
+	</script>
+
+
+
 	</body>
 </html>
