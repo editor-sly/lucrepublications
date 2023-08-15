@@ -5,8 +5,8 @@
 	box-sizing: border-box;
 	font-family: "Poppins", serif;
 	font-weight: 400;
-	font-size: 1.6vmin;
-	line-height: .9;
+	font-size: 1vmin;
+	line-height: 1.11;
 }
 
 * {
@@ -52,16 +52,15 @@ p {
 	font-weight: normal;
 	margin: 0;
 	margin-top: 3.24px;
-	margin-bottom: 0;
+	margin-bottom: 2px;
 	color: wheat;
 	text-indent: .25em;
 	padding-left: 0;
 	word-spacing: 1.24px;
-	letter-spacing: .004px;
+	letter-spacing: .003px;
 	line-height: .9;
-	font-size: 2.6vmin;
+	font-size: 2.8vmin;
 	display: block;
-	text-shadow: 0px 0px 1px #111;
 }
 
 
@@ -376,18 +375,17 @@ html {
 	background-color: black;
 	margin: 0 auto;	
 	height:auto;
- 	font-size: 2.6vmin;
- 	line-height: 1.5;
+ 	font-size: 2.6rem;
+ 	line-height: 1.11;
  	height: -webkit-fill-available; 
 	-ms-overflow-style: none;  /* IE and Edge */
- 	scrollbar-width: none;  /* Firefox */filter: sepia(.5);
+ 	scrollbar-width: none;  /* Firefox */
  	font-family: Merienda, Helvetica, Arial, sans-serif;
  	scroll-behavior: smooth;
 	white-space: wrap;
 	box-sizing: border-box;
-	filter: grayscale(60%);
-	overflow: hidden;
-
+	filter: grayscale(40%);
+	overflow: auto;
 }
 
 
@@ -564,7 +562,7 @@ dialog::backdrop {
 
 
 body {
-	scroll-padding-top: 4em;
+	scroll-padding-top: .5em;
 	top: 0;
 	background-image: linear-gradient(hsl(2, 30%,10%), #000);
 	word-spacing: 1.24px;
@@ -573,16 +571,15 @@ body {
 	background-color: #000;
 	margin: 0 auto;
 	margin-top: 0px;
-	margin-bottom: 2rem;
-	padding: 0px;
+	margin-bottom: 1rem;
 	padding-bottom: 6px;
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
 	border-style: none;
- 	border-radius: .25em;
-	font-size: 2.6vmin;
+ 	border-radius: 0pxm;
+	font-size: 2.8em;
 	max-width: 1440px;
-	width: 98.6vw;
+	width: 98.8vw;
 	height: 100vh;
 	display: block;
 	height: -webkit-fill-available;
@@ -605,7 +602,7 @@ body {
 main {
 	overflow: hidden;
 	margin: 0;
-	margin-bottom: 1em;
+	margin-bottom: .8em;
 	padding:0px;
 }
 
@@ -615,16 +612,17 @@ main {
 	display: block;
 	margin: auto;
 	display: block;
+	line-height: 1.5;
 	position: relative;
-	padding-bottom: 2em;
+	padding-bottom: 1.8em;
 }
 
 
 #skills {
 	display: block;
 	padding-top: 4px;
-	padding-bottom: 2em;
-	margin-bottom: 2em;
+	padding-bottom: 1.8em;
+	margin-bottom: 1.8em;
 	text-shadow: 0px 0px 3px #333333;
 }
 
@@ -632,8 +630,9 @@ main {
 #contact-me {
 	color: honeydew;
 	display: block;
-	padding-top: 2rem;
-	margin-top: 1rem;
+	line-height: 1.5;
+	padding-top: 1.5rem;
+	margin-top: .25rem;
 }
 
 
@@ -642,6 +641,7 @@ main {
 	color:  darkgoldenrod;
 	padding-left: -8px;
 	font-weight: bold;
+	line-height: 1.5;
 	font-size: 3vmin;
 	text-shadow: 0px 0px 3px #333333;
 }
@@ -650,8 +650,9 @@ main {
 .acc-color2 {
 	color: papayawhip;
 	padding: 0;
+	line-height: 1.5;
 	font-weight: bold;
-	font-size: 2.5vmin;
+	font-size: 3vmin;
 }
 
 
@@ -683,14 +684,14 @@ header {
 	margin-top: 0px;
 	margin-bottom: .25em;
 	padding: 0;
-	width: 80%;
+	width: 78%;
 	height: auto;
 	display: block;
 	background-color:rgb(25, 25, 25, 0.3);
 /*	background-color: hsl(2, 30%,10%);
 	*/
 	border-style: none;
-	border-radius: 8px;
+	border-radius: .5em;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -706,14 +707,14 @@ header {
 	background-repeat: no-repeat;
 	margin:0;
 	padding: 0;
-	padding-top: 3px;
-	padding-bottom: 30px;
+	padding-top: 0px;
+	padding-bottom: 22px;
 	width: 100vw;
-	height: 5px;
+	height: 4px;
 	display: block;
 	background-color: #111;
-	font-weight: bolder;
 	align-content: center;
+	border-radius: 0px;
 	justify-content: center;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -723,25 +724,24 @@ header {
 
 
 content {
-	margin: auto;
+	margin: 0 auto;
 	padding: 0px;
 	display: block;
-	margin-bottom: 0;
 }
 
 
 
 .separator {
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 0;
-	padding-bottom: .5rem;
+	padding-bottom: .25em;
 	color: lightyellow;
 	text-align: center;
 	position: block;
 	box-sizing: border-box;
 	align-content: center;
 	justify-content: center;
-	font-size: xx-large;
+	font-size: x-large;
 	text-shadow: 0px 0px 3px #333333;
 }
 
@@ -760,10 +760,10 @@ menu {
 
 .nav {
 	background-image: linear-gradient(hsl(2, 30%,10%), #222);
-	margin:0 auto;
+	margin: auto;
 	margin-top: 0px;
-	margin-bottom: 4rem;
-	padding:2% 9%;
+	margin-bottom: 3.5rem;
+	padding: 2% 8%;
 	width: 100%;
 	top: 0;
 	max-height: 5.25vh;
@@ -781,7 +781,7 @@ menu {
 	text-align: center;
 	justify-content: space-between;
 	box-sizing: border-box;
-	font-size: 2.6vmin;
+	font-size: 2.8em;
 	line-height: .9;
 	z-index: 9999;
 	opacity: .9;
@@ -800,14 +800,14 @@ menu {
 .nav-links li {
 	list-style: none;
 	display: inline-block;
-	padding: 3%;
+	padding: 2.8%;
 }
 
-.nav-links li:hover {
+.nav-links li: hover {
 	background-color: none;
-	font-size: 2.8vmin;
+	font-size: 2.8em;
 	text-transform: uppercase;
-	padding: .25rem;
+	padding: 1em;
 	display: block;
 	opacity: .5;
 	color: moccasin;
@@ -818,8 +818,8 @@ menu {
 
 
 ul {
-	font-size: 2.6vmin;
- 	line-height: 1.11;
+	font-size: 2.6em;
+ 	line-height: .9;
  }
 
 
@@ -830,7 +830,7 @@ ul {
 .nav ul {
 	margin: 0;
 	margin-bottom: 0px;
-	align-items: auto auto;
+	align-items: auto;
 	display: flex;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -844,7 +844,7 @@ ul {
 	padding: 0;
 	display: flex;
 	margin-bottom: 0;
-	padding: 4px 10px;
+	padding: 3px 9px;
 	text-transform: uppercase;
 	list-style: none;
 	float: left;
@@ -861,8 +861,8 @@ ul {
 a {
 	text-decoration: none;
 	background-color: none;
-	font-size: 1em;
-	padding-bottom: 2px;
+	font-size: 1.25em;
+	margin: auto;
 	line-height: .9;
 }
 
@@ -873,6 +873,7 @@ a {
 	display: inline-block;
 	text-decoration: none;
 }
+
 
 
 .footer-links li a {
@@ -902,8 +903,6 @@ span {
 	margin: 0;
 	display: absolute;
 	padding-left: 0px;
-	border-radius: .5em;
-	line-height: 1.11;
 }
 
 
@@ -915,7 +914,7 @@ span.first-name {
 	margin: -8px;
 	margin-top: 8px;
 	padding-left: 10px;
-	font-size: 6vmin;
+	font-size: 5vmin;
 	font-weight: bolder;
 	color: lightyellow;
 	text-shadow: 0px 0px 3px #333333;
@@ -925,9 +924,9 @@ span.first-name {
 
 
 span.slogan-name {
-	margin: -8px;
+	margin: -3px;
 	padding-left: 5px;
-	font-size: 2em;
+	font-size: 2.25em;
 	font-weight: bolder;
 	color: moccasin;
 	text-shadow: 0px 0px 3px #333333;
@@ -936,10 +935,9 @@ span.slogan-name {
 
 
 span.job-title {
-	margin: 0;
+	margin: 3px;
 	padding-left: 0px;
-	font-size: 1.32em;
-	font-weight: lighter;
+	font-size: 2em;
 	color: darkgoldenrod;
 	text-shadow: 1px 1px 1px #000;
 }
@@ -972,12 +970,6 @@ span.link-highlight {
 	
 }
 
-span.talk {
-	color: #777;
-	margin-left: -1em;
-	font-weight: bold;
-
-}
 
 
 
@@ -985,14 +977,14 @@ span.logo {
 	margin:  auto;
 	display: block;
 	justify-content: left;
-	font-size: 2.8vmin;
+	font-size: 3vmin;
 	max-width: 200px;
 	height: auto;
-	margin-top: 1.25em;
-	padding-top: 4px;
+	margin-top: 1.5em;
+	padding-top: 2px;
 	padding-left: 0px;
 	text-align: left;
-	margin-bottom: 1.25em;
+	margin-bottom: 1.8em;
 	font-weight: normal;
 	color: olive;
 	transition: 1s;
@@ -1002,7 +994,7 @@ span.logo {
 span.logo:hover {
 	transform: scale(1.1);
 	cursor: pointer;
-	opacity: .5;
+	opacity: .6;
 }
 
 
@@ -1010,7 +1002,8 @@ span.logo:hover {
 span.dev {
 	font-weight: bolder;
 	margin: auto;
-	font-size: larger;
+	font-size: x-large;
+	margin: auto auto;
 
 }
 
@@ -1018,12 +1011,12 @@ span.dev {
 
 span.corner-text {
 	margin-top: 1em;
-	font-size: 9pt;
-	display:inline-block;
+	font-size: 10pt;
+	display: inline-block;
 	float: right;
-	color: #333;
+	color: #444;
 	font-weight: bolder;
-	margin-right: 9%;
+	margin-right: 8%;
 }
 
 
@@ -1035,14 +1028,14 @@ span.emoji {
 	background-color: none;
 	padding-right: 0px;
 	text-shadow: 0px 0px 3px #333;
-	font-size: xx-larger;
+	font-size: x-large;
 }
 
 
 span.welcome {
 	margin: 0;
 	font-weight: bold;
-	font-size: 2.25em;
+	font-size: 2em;
 	padding-left: 0px;
 	color: papayawhip;
 	text-shadow: 0px 0px 3px #333333;
@@ -1055,25 +1048,12 @@ span.welcome {
 span.hire-me {
 	margin: 0;
 	padding-left: 8px;
-	margin-bottom: -30px;
+	margin-bottom: -28px;
 	font-size: 1em;
 	color: papayawhip;
-	font-weight: bolder;
+	font-weight: bold;
 	text-shadow: none;
 }
-
-
-
-
-
-span.scroll-down {
-	margin: 0;
-	padding-left: 6.5px;
-	font-size: 2.6vmin;
-	color: papayawhip;
-	text-shadow: none;
-}
-
 
 
 
@@ -1088,16 +1068,16 @@ span.scroll-down {
 
 
 .border-left {
+	margin-top: 4px;
 	padding-left: 14px;
 	height: auto;
 	border-style: solid;
 	border-color: darkgoldenrod;
 	border-width: 5px;
-	border-radius: 0;
+	border-radius: .25em;
 	border-top: none;
 	border-bottom: none;
 	border-right: none;
-
 }
 
 
@@ -1140,7 +1120,6 @@ span.scroll-down {
 	height: auto auto;
 	display: block;
 	border-style: solid;
-	color: #222;
 	border-radius: 8px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
@@ -1149,7 +1128,7 @@ span.scroll-down {
 	align-content: center;
 	align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
-  opacity: .2;
+  opacity: .5;
 
 }
 
@@ -1165,28 +1144,28 @@ span.scroll-down {
 
 .hero-section {
 	background-image: url("img/lukas-denier-f6jzzn2EMnQ-unsplash.jpg");
-	background-position: 100% 8%;
-	background-size: cover;
+	background-position: 50% 4%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: auto;
 	padding-top: 0px;
-	margin-bottom: .25em;
-	margin-top:  -5.25em;
+	margin-bottom: 1em;
+	margin-top:  -14em;
 	padding-left: 14%;
 	padding-right: 11%;
 	padding-bottom: 6px;
 	width: 100%;
 	max-height: 100vh;
 	display: block;
-	background-color: #111;
+	background-color: #000;
 	color: lightyellow;
 	border-style: none;
 	border-radius: 8px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	box-sizing: border-box;
-	font-size: smaller;
+	font-size: normal;
 	overflow: hidden;
 }
 
@@ -1227,21 +1206,21 @@ span.scroll-down {
 	padding-left: 11px;
 	padding-right: 20px;
 	padding-top: 4px;
-	padding-bottom: 1rem;
+	padding-bottom: 1em;
 	margin: 0 auto;
-	line-height: 1.11;
+	line-height: 3;
 	max-width: 60vmin;
 	max-height: 80vh;
 	height: auto;
 	display: block;
 	background-color: #141414;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: .5em;
 	box-sizing: border-box;
 	position: relative;
 	align-content: left;
 	text-align: left;
-	font-size: smaller;
+	font-size: 3vmin;
 	font-weight: normal;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .9;
@@ -1256,8 +1235,8 @@ span.scroll-down {
 	background-repeat: no-repeat;
 	padding-left: 11px;
 	padding-right: 20px;
-	padding-top: 4px;
-	padding-bottom: 1rem;
+	padding-top: 6px;
+	padding-bottom: 1em;
 	margin: 0 auto;
 	line-height: 1.11;
 	max-width: 60vmin;
@@ -1266,13 +1245,13 @@ span.scroll-down {
 	display: block;
 	background-color: none;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: .5em;
 	box-sizing: border-box;
 	position: relative;
-	align-content: left;
+	align-content: center;
 	text-align: left;
 	color: black;
-	font-size: smaller;
+	font-size: 1em;
 	font-weight: normal;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .9;
@@ -1280,65 +1259,15 @@ span.scroll-down {
 }
 
 
-/*
-.skills-section2 {
-	margin: 0 auto;
-	padding-bottom: 10px;
-	padding: 0;
-	display: block;
-	width: 80vmin;
-	height: auto;
-	display: block
-	line-height: .9;
-	background-color: none;
-	border-style: none;
-	box-sizing: border-box;
-	position: relative;
-	font-size: larger;
-	font-weight: lighter;
-	color: black;
-	align-content: left;
-	text-align: left;
-}
-*/
-
-
-
-
-
-
-/*
-#portfolio {
-	margin: 0 auto;
-	display: block;
-	position: relative;
-	width: 100vw;
-	height: auto;
-	padding-left: 0;
-	padding-top: .25em;
-	padding-bottom: .5em;
-	justify-content: center;
-	align-items: center;
-	box-sizing: border-box;
-	font-size: 2.6em;
-	font-weight: bolder;
-	color: papayawhip;
-	vertical-align: middle;
-	float: left;
-
-}
-*/
-
-
 
 
 .code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  font-size: 6em;
+  font-size: 8em;
   width: 100%;
   margin: auto auto;
-  padding: 1em;
+  padding: 1.25em;
   word-spacing: .003;
 	letter-spacing: .003px;
 	line-height: 1.11;
@@ -1349,13 +1278,13 @@ span.scroll-down {
 .code2 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  font-size: 6em;
+  font-size: 8em;
   width: 50%;
   margin: 0 auto;
   margin-left: 6px;
-  padding: .25em;
+  padding: 1.25em;
   word-spacing: .003;
-	letter-spacing: .003px;op
+	letter-spacing: .003px;
 	line-height: 1.11;
 	color: papayawhip;
 	font-weight: bolder;
@@ -1368,15 +1297,15 @@ span.scroll-down {
 
 .portfolio-proj {
 	margin: auto auto;
-	padding: 1.2%;
-	padding-bottom: 11px;
+	padding: 1%;
+	padding-bottom: 14px;
 	width: 98%;
 	height: 98%;
 	display: block;
 	position: relative;
 	background-color: #141414;
 	border-style: none;
-	border-radius: .25em;
+	border-radius: .5em;
 	box-sizing: border-box;
 	align-content: center;
 	align-items: auto;
@@ -1401,7 +1330,7 @@ span.scroll-down {
 	max-height: none;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1422,7 +1351,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1444,7 +1373,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1466,7 +1395,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1489,7 +1418,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1513,7 +1442,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1538,7 +1467,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1563,7 +1492,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1589,7 +1518,7 @@ span.scroll-down {
 	height: 80%;
 	background-color: #141414;
 	box-sizing: border-box;
-	color: #141414;
+	color: black;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
@@ -1613,7 +1542,7 @@ span.scroll-down {
 
 .contact-section {
 	margin: 0 auto;
-	margin-top: .5rem;
+	margin-top: .25rem;
 	padding-top: .5rem;
 	max-width: 50%;
 	height: auto;
@@ -1888,9 +1817,10 @@ input:focus-within {
 
 
 .copyright {
-	margin: auto;
+	margin: auto auto;
 	padding: 0;
-	padding-top: 3px;
+	padding-top: 2px;
+	padding-bottom: 6px;
 	position: relative;
 	width: 100%;
 	display: block;
