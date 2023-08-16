@@ -4,9 +4,6 @@
 *::after {
 	box-sizing: border-box;
 	font-family: "Poppins", serif;
-	font-weight: 400;
-	font-size: 1vmin;
-	line-height: 1.11;
 	padding: 0;
 	margin: 0;
 }
@@ -56,7 +53,7 @@ p {
 	padding-left: 0;
 	word-spacing: 1.24px;
 	letter-spacing: .003px;
-	line-height: 1.25;
+	line-height: 1.11;
 	font-size: 2.8vmin;
 	display: block;
 }
@@ -97,7 +94,7 @@ h1 {
 	color: silver;
 	font-weight: 600;
 	line-height: 1.11;
-	font-size: 2.6vmin;
+	font-size: 2.8vmin;
 	text-shadow: 0px 0px 2px #222;
 
 }
@@ -169,7 +166,7 @@ textarea {
   outline: none;
   resize: none;
   overflow-y: auto;
-  font-size: 1.6vmin;
+  font-size: 2.8vmin;
 } 
 
 
@@ -190,7 +187,7 @@ data {
 	color: honeydew;
 	text-shadow: 0px 0px 3px #333333;
 	text-transform: uppercase;
-	font-size: 1.6vmin;
+	font-size: 2.8vmin;
 	line-height: 1.11;
 	font-weight: lighter;
 	text-shadow: 0px 0px 3px #333;
@@ -309,31 +306,13 @@ wrapper {
 }
 
 
-
+/*
 .flex-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 
@@ -347,8 +326,7 @@ wrapper {
 html {
 	background-color: black;
 	margin: 0 auto;	
-	height:auto;
- 	font-size: 2.6rem;
+ 	font-size: 100%;
  	line-height: 1.11;
  	height: -webkit-fill-available; 
 	-ms-overflow-style: none;  /* IE and Edge */
@@ -357,7 +335,7 @@ html {
  	scroll-behavior: smooth;
 	white-space: wrap;
 	box-sizing: border-box;
-	filter: grayscale(40%);
+	filter: grayscale(38%);
 	overflow: auto;
 }
 
@@ -389,7 +367,7 @@ dialog::backdrop {
 	position: fixed;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -404,7 +382,7 @@ dialog::backdrop {
 	position: fixed;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -418,7 +396,7 @@ dialog::backdrop {
 	position: fixed;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -433,7 +411,7 @@ dialog::backdrop {
 	position: fixed;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -448,7 +426,7 @@ dialog::backdrop {
 	position: fixed;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -464,7 +442,7 @@ dialog::backdrop {
 	height: 90em;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -479,7 +457,7 @@ dialog::backdrop {
 	position: fixed;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -493,7 +471,7 @@ dialog::backdrop {
 	position: fixed;
 	width: 60%;
 	height: 90em;
-	padding: 3em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -507,8 +485,8 @@ dialog::backdrop {
 	border: none;
 	position: fixed;
 	width: 60%;
-	height: 90em;;
-	padding: 3em;
+	height: 90em;
+	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -531,7 +509,7 @@ dialog::backdrop {
 
 
 body {
-	scroll-padding-top: .5em;
+	scroll-padding-top: 3rem;
 	top: 0;
 	background-image: linear-gradient(hsl(2, 30%,10%), #000);
 	word-spacing: 1.24px;
@@ -546,7 +524,7 @@ body {
 	text-rendering: optimizeSpeed;
 	border-style: none;
  	border-radius: 0pxm;
-	font-size: 2.8em;
+	font-size: 2.8vmin;
 	max-width: 1440px;
 	width: 98.8vw;
 	height: 100vh;
@@ -581,7 +559,7 @@ main {
 	display: block;
 	margin: auto;
 	display: block;
-	line-height: 1.5;
+	line-height: 1.11;
 	position: relative;
 	padding-bottom: 1.8em;
 }
@@ -610,8 +588,8 @@ main {
 	color:  darkgoldenrod;
 	padding-left: -8px;
 	font-weight: bold;
-	line-height: 1.5;
-	font-size: 3vmin;
+	line-height: 1.11;
+	font-size: 2.8vmin;
 	text-shadow: 0px 0px 3px #333333;
 }
 
@@ -619,9 +597,9 @@ main {
 .acc-color2 {
 	color: papayawhip;
 	padding: 0;
-	line-height: 1.5;
+	line-height: 1.11;
 	font-weight: bold;
-	font-size: 3vmin;
+	font-size: 2.8vmin;
 }
 
 
@@ -629,15 +607,14 @@ main {
 
 
 header {
-	margin: auto;
-	width: 100%;
-	height: auto;
 	margin: 0 auto;
+	width: 100vw;
+	height: auto;
 	align-content: center;
 	box-sizing: border-box;
 	align-items: center;
 	position: relative;
-	background-color: #111;
+	background-color: #000;
 	justify-content: center;
 	border-style: none;
 	border-radius: 0px;
@@ -722,21 +699,16 @@ menu {
 	display: block;
 }
 
-
-
-
-
-
 .nav {
 	background-image: linear-gradient(hsl(2, 30%,10%), #222);
 	margin: auto;
 	margin-top: 0px;
-	margin-bottom: 3.5rem;
-	padding: 2% 8%;
-	width: 100%;
+	margin-bottom: 1rem;
+	padding: 1.8% 16%;
 	top: 0;
-	max-height: 5.25vh;
+	width: 100%;
 	height: auto;
+	max-height: 6.25vh;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
@@ -750,8 +722,8 @@ menu {
 	text-align: center;
 	justify-content: space-between;
 	box-sizing: border-box;
-	font-size: 2.8em;
-	line-height: .9;
+	font-size: 2.8vmin;
+	line-height: 1.11;
 	z-index: 9999;
 	opacity: .9;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -759,47 +731,56 @@ menu {
 }
 
 
+
+
+
+
 .nav-links {
 	display: flex;
+	flex: auto;
 	transition: all 0.2s ease 0s;
-	text-transform: uppercase;
 	justify-content: space-around;
 }
+
+
+
+
 
 .nav-links li {
 	list-style: none;
 	display: inline-block;
-	padding: 2.8%;
+	padding: 4%;
 }
 
-.nav-links li: hover {
-	background-color: none;
-	font-size: 2.8em;
-	text-transform: uppercase;
-	padding: 1em;
-	display: block;
-	opacity: .5;
-	color: moccasin;
-}
+	.nav-links li:hover{
+		background-color: none;
+		font-size: 3vmin;
+		text-transform: uppercase;
+		padding: .5em;
+		display: inline-block;
+		opacity: .5;
+		font-family: "Poppins";
+		color: papayawhip;
+	}
+
+
+
+
+
 
 
 
 
 
 ul {
-	font-size: 2.6em;
+	font-size: 2.2vmin;
  	line-height: .9;
  }
-
-
-
-
-
 
 .nav ul {
 	margin: 0;
 	margin-bottom: 0px;
-	align-items: auto;
+	align-items: auto auto;
 	display: flex;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -812,12 +793,12 @@ ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
+	flex: auto;
 	margin-bottom: 0;
-	padding: 3px 9px;
+	padding: 2% 2.25%;
 	text-transform: uppercase;
 	list-style: none;
-	float: left;
-	flex: auto;
+	float: right;
 	text-align: center;
 }
 
@@ -830,14 +811,14 @@ ul {
 a {
 	text-decoration: none;
 	background-color: none;
-	font-size: 1.25em;
+	font-size: 2.2vmin;
 	margin: auto;
-	line-height: .9;
+	line-height: 1.11;
 }
 
 
 .nav a {
-	color:  moccasin;
+	color: darksalmon;
 	font-weight: bolder;
 	display: inline-block;
 	text-decoration: none;
@@ -845,13 +826,25 @@ a {
 
 
 
+
+
+
+
+
+
+
 .footer-links li a {
-	text-decoration: none;
 	color: black;
 	background-color: none;
 	display: inline-block;
 	font-weight: 600;
 }
+
+
+.footer-links:hover{
+	color: red;
+}
+
 
 
 
@@ -876,26 +869,22 @@ span {
 
 
 
-
-
-
 span.first-name {
 	margin: -8px;
 	margin-top: 8px;
 	padding-left: 10px;
-	font-size: 5vmin;
-	font-weight: bolder;
+	font-size: 5.8vmin;
+	font-weight: bold;
 	color: lightyellow;
 	text-shadow: 0px 0px 3px #333333;
 }
 
 
 
-
 span.slogan-name {
 	margin: -3px;
 	padding-left: 5px;
-	font-size: 2.25em;
+	font-size: 5.8vmin;
 	font-weight: bolder;
 	color: moccasin;
 	text-shadow: 0px 0px 3px #333333;
@@ -906,7 +895,7 @@ span.slogan-name {
 span.job-title {
 	margin: 3px;
 	padding-left: 0px;
-	font-size: 2em;
+	font-size: 2.8vmin;
 	color: darkgoldenrod;
 	text-shadow: 1px 1px 1px #000;
 }
@@ -946,7 +935,7 @@ span.logo {
 	margin:  auto;
 	display: block;
 	justify-content: left;
-	font-size: 3vmin;
+	font-size: 2.8vmin;
 	max-width: 200px;
 	height: auto;
 	margin-top: 1.5em;
@@ -971,7 +960,7 @@ span.logo:hover {
 span.dev {
 	font-weight: bolder;
 	margin: auto;
-	font-size: x-large;
+	font-size: larger;
 	margin: auto auto;
 
 }
@@ -980,12 +969,12 @@ span.dev {
 
 span.corner-text {
 	margin-top: 1em;
-	font-size: 10pt;
+	font-size: 1vmin;
 	display: inline-block;
 	float: right;
 	color: #444;
 	font-weight: bolder;
-	margin-right: 8%;
+	margin-right: 6%;
 }
 
 
@@ -1004,7 +993,7 @@ span.emoji {
 span.welcome {
 	margin: 0;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 5.8vmin;
 	padding-left: 0px;
 	color: papayawhip;
 	text-shadow: 0px 0px 3px #333333;
@@ -1018,7 +1007,7 @@ span.hire-me {
 	margin: 0;
 	padding-left: 8px;
 	margin-bottom: -28px;
-	font-size: 1em;
+	font-size: 2.8vmin;
 	color: papayawhip;
 	font-weight: bold;
 	text-shadow: none;
@@ -1036,14 +1025,19 @@ span.hire-me {
 
 
 
+
+
+
+
 .border-left {
 	margin-top: 4px;
 	padding-left: 14px;
+	margin-left: 9px;
 	height: auto;
 	border-style: solid;
-	border-color: darkgoldenrod;
+	border-color: papayawhip;
 	border-width: 5px;
-	border-radius: .25em;
+	border-radius: .5em;
 	border-top: none;
 	border-bottom: none;
 	border-right: none;
@@ -1117,10 +1111,10 @@ span.hire-me {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	vertical-align: middle;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 0px;
 	margin-bottom: 1em;
-	margin-top:  -14em;
+	margin-top:  1em;
 	padding-left: 14%;
 	padding-right: 11%;
 	padding-bottom: 6px;
@@ -1134,7 +1128,7 @@ span.hire-me {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	box-sizing: border-box;
-	font-size: normal;
+	font-size: larger;
 	overflow: hidden;
 }
 
@@ -1189,7 +1183,7 @@ span.hire-me {
 	position: relative;
 	align-content: left;
 	text-align: left;
-	font-size: 3vmin;
+	font-size: 2.8vmin;
 	font-weight: normal;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .9;
@@ -1220,7 +1214,7 @@ span.hire-me {
 	align-content: center;
 	text-align: left;
 	color: black;
-	font-size: 1em;
+	font-size: 2.8vmin;
 	font-weight: normal;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .9;
@@ -1233,7 +1227,7 @@ span.hire-me {
 .code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  font-size: 8em;
+  font-size: 2.8vmin;
   width: 100%;
   margin: auto auto;
   padding: 1.25em;
@@ -1247,7 +1241,7 @@ span.hire-me {
 .code2 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  font-size: 8em;
+  font-size: 2.8vmin;
   width: 50%;
   margin: 0 auto;
   margin-left: 6px;
@@ -1515,7 +1509,7 @@ span.hire-me {
 	padding-top: .5rem;
 	max-width: 50%;
 	height: auto;
-	line-height: .9;
+	line-height: 1.11;
 	display: block;
 	position: relative;
 	border-style: none;
@@ -1536,18 +1530,20 @@ span.hire-me {
 	background-size: cover;
 	background-position: 70% 100%;
 	background-repeat: no-repeat;
-	line-height: .25;
-	padding-top: 2em;
+	line-height: .9;
+	padding-top: 1.25em;
 	padding-left: 12px;
-	padding-bottom: 8px;
-	max-width: 60vmin;
-	min-height: 50vmin;
-	margin-top: .25rem;
-	margin-bottom: 10%;
-	display: block;
+	padding-bottom: 1.25em;
+	max-width: 80vmin;
+	min-height: 40vmin;
+	max-height: 84vmin;
+	margin-top: 5em;
+	margin-bottom: 8%;
+	display: inline-block;
+	position: relative;
 	background-color: #222;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: .5em;
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-align: left;
@@ -1562,13 +1558,13 @@ span.hire-me {
 	box-sizing: border-box;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity: .99;
-	font-size: 1.6vmin;
+	font-size: 2.5vmin;
 }
 
 
 form: focus-within {
 	background: rgba(98, 98, 98, .2);
-	border-radius: 8px;
+	border-radius: .5em;
 	width: cover;
 	display: relative;
 	height: auto;
@@ -1584,16 +1580,15 @@ input{
 	border-style: none;
 	text-decoration: none;
 	border-style: none;
-	border-radius: 2px;
+	border-radius: .25em;
 	background-color: #222;
-	line-height: 1.2;
+	line-height: .9;
 	color: whitesmoke;
-	max-width: 45%;
+	max-width: 63%;
 	height: auto;
 	opacity: .8;
 	border-style: solid;
 	border-color: honeydew;
-	border-radius: 0px;
 	border-width: 1px;
 	border-left:  none;
 	border-top: none;
@@ -1601,7 +1596,7 @@ input{
 	font-weight: lighter;
 }
 
-input:focus-within {
+input: focus-within {
 	background-color: lightdarkgoldenrod;
 }
 
@@ -1613,21 +1608,20 @@ input:focus-within {
 	border-style: none;
 	text-decoration: none;
 	border-style: none;
-	border-radius: 3px;
-	background-color: #222;
+	border-radius: .25em;
+	background-color: #141414;
 	color: whitesmoke;
-	max-width: 45%;
+	max-width: 63%;
 	height: auto;
 	border-style: solid;
 	border-color: honeydew;
-	border-radius: 0px;
 	border-width: 1px;
 	border-top: none;
 	border-right: none;
 	border-left: none;
 }
 
-input:focus-within {
+email: focus-within {
 	background-color: lightdarkgoldenrod;
 	
 }
@@ -1642,14 +1636,14 @@ input:focus-within {
 	margin-left: 0;
 	margin-bottom: -3px;
 	text-decoration: none;
-	border-radius: 3px;
-	background-color: #555;
-	height: 94px;
+	border-radius: .25em;
+	height: auto;
+	background-color: #141414;
 	color: gainsboro;
-	max-width: 95%;
+	max-width: 90%;
 	border-style: solid;
 	border-color: papayawhip;
-	border-radius: none;
+	border-radius: .25em;
 	border-width: 1px;
 	text-shadow: 0px 0px 3px #333333;
 	font-weight: normal;
@@ -1657,9 +1651,20 @@ input:focus-within {
 
 }
 
-.message:focus-within {
+message: focus-within {
 	background-image: url("img/Chewbacca-head-shot_c.jpg");
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1667,13 +1672,13 @@ input:focus-within {
 .footer {
 	background-image: url("img/c-3po-main_417a2902.jpeg");
 	background-position: 40% 48%;
-	background-size:  100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	margin-bottom: 0px;
 	margin-top: 58px;
 	padding: 0px;
-	width: 100hw;
+	width: 100%;
 	position: relative;
 	max-height: 48vh;
 	min-height: auto;
@@ -1777,7 +1782,7 @@ input:focus-within {
 	transition: 2s;
 }
 
-.footer-links: hover {
+.footer-links:hover{
 	transform: scale(1.2);
 	cursor: pointer;
 }
@@ -1788,17 +1793,16 @@ input:focus-within {
 .copyright {
 	margin: auto auto;
 	padding: 0;
-	padding-top: 2px;
-	padding-bottom: 6px;
+	padding-top: 1px;
+	padding-bottom: 3px;
 	position: relative;
-	width: 100%;
+	width: fit-content;
 	display: block;
 	color: #555;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	align-self: center;
-	font-size: 1.6vmin;
 	font-weight: normal;
 	box-sizing: border-box;
 }
@@ -1807,15 +1811,18 @@ input:focus-within {
 
 button {
 	margin: 0 auto;
-	margin-left: 4px;
-	margin-top: .25em;
-	margin-bottom: 1.5em;
-	padding: .5em 1.25em;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: .5em;
+	margin-bottom: .25em;
+	padding: 2.5% 2.5%;
 	border-style: none;
-	border-radius: 5px;
+	border-radius: .25em;
 	display: block;
+	position: relative;
 	height: auto;
-	width: auto;
+	max-height: auto;
+	width: fit-content;
 	background-color: darkgoldenrod;
 	font-family: Helvetica;
 	color: floralwhite;
@@ -1826,11 +1833,12 @@ button {
 	transition: 200ms ease-in-out;
 	border-style: solid;
 	border-width: 1pt;
-	border-color: #141414;
+	border-width: 1;
+	border-color: #333;
 }
 
 button:hover {
-	background-color: black;
+	background-color: #111;
 	font-weight: bolder;
 	transform: scale(1.1);
 	cursor: pointer;
@@ -1851,13 +1859,26 @@ button.resume-btn {
 }
 
 
+button.chat {
+margin: 0 1px;
+width: 95%;
+display: block;
+align-items: auto auto;
+align-content: auto auto;
+}
+
+
+
+
+
+
+
 button.form-button {
 	margin-left: .0em;
 	max-width: 100%;
 	height: auto;
 	padding: 1.25em 1em;
 	text-transform: uppercase;
-
 }
 
 
