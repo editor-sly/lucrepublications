@@ -7,12 +7,10 @@
 	font-weight: 400;
 	font-size: 1vmin;
 	line-height: 1.11;
-}
-
-* {
 	padding: 0;
 	margin: 0;
 }
+
 
 
 
@@ -48,17 +46,17 @@ a:active {
 
 p {
 	font-family: Perpetua, Baskerville, Baskerville Old Face, serif;
-	padding-top: .25px;
+	padding-top: 2px;
 	font-weight: normal;
 	margin: 0;
-	margin-top: 3.24px;
-	margin-bottom: 2px;
-	color: wheat;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	color: salmon;
 	text-indent: .25em;
 	padding-left: 0;
 	word-spacing: 1.24px;
 	letter-spacing: .003px;
-	line-height: .9;
+	line-height: 1.25;
 	font-size: 2.8vmin;
 	display: block;
 }
@@ -85,7 +83,7 @@ dd {
 	 padding-left: 0px;
 	 word-spacing: 1.24px;
 	 letter-spacing: .003px;
-	 line-height: .9;
+	 line-height: 1.11;
 }
 
 
@@ -112,7 +110,6 @@ h2 {
 	padding-top: 3.5px;
 	padding-bottom: 4.5px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.6vmin;
 	font-weight: bolder;
 	text-shadow: 0px 0px 3px #222;
 
@@ -125,7 +122,6 @@ h3 {
 	padding-top: 2.8px;
 	padding-bottom: 3px;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.6vmin;
 	line-height: .9;
 	margin-top: 2.8px;
 	margin-bottom: 2px;
@@ -143,7 +139,6 @@ h5 {
 	padding-bottom: 4px;
 	margin-bottom: .75rem;
 	font-family: Georgia, 'Times New Roman', serif;
-	font-size: 2.8vmin;
 	font-weight: normal;
 	text-justify: auto;
 }
@@ -174,7 +169,7 @@ textarea {
   outline: none;
   resize: none;
   overflow-y: auto;
-  font-size: 2.6vmin;
+  font-size: 1.6vmin;
 } 
 
 
@@ -244,28 +239,6 @@ section {
 
 
 
-
-/*
-
-section {
-	margin: 0 auto;
-	margin-bottom: 3vmin;
-	max-width:80vmin;
-	display: flex;
-	flex-direction:row;
-	padding: auto;
-	gap: 10PX;
-	padding: 4em 3em;
-	box-sizing: border-box;
-	text-align: left;
-	align-content: center;
-	justify-content: space-between;
-	vertical-align: middle;
-
-}
-
-}
-*/
 
 
 
@@ -395,24 +368,18 @@ html::focus-within {
 
 
 
-//*
-.modal {	
-	z-index: 10;
-	margin: auto auto;
-	border: none;
-	border-radius:.5em;
-	width: 45%;
-	height: 63vmin;
-	padding: 2em;
-	background-color: #000;
-	border-radius: .25em;
 
-}
-*/
+
+
+
+
+
+
+
 
 dialog::backdrop {
 	background: linear-gradient( to bottom, lightcoral, #000);
-	opacity: .5;
+	opacity: .7;
 	}
 
 
@@ -420,8 +387,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -435,8 +402,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -449,8 +416,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -464,8 +431,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -479,8 +446,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -493,8 +460,10 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 60%;
+	width: 60%;
+	height: 90em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -508,8 +477,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -522,8 +491,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -537,8 +506,8 @@ dialog::backdrop {
 	margin: auto auto;
 	border: none;
 	position: fixed;
-	width: 50%;
-	height: 55em;
+	width: 60%;
+	height: 90em;;
 	padding: 3em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -549,7 +518,7 @@ dialog::backdrop {
 
 dialog::backdrop {
 	background: linear-gradient( to bottom, lightcoral, #000);
-	opacity: .5;
+	opacity: .7;
 	}
 
 
@@ -630,8 +599,8 @@ main {
 #contact-me {
 	color: honeydew;
 	display: block;
-	line-height: 1.5;
-	padding-top: 1.5rem;
+	line-height: 1.11;
+	padding-top: .25rem;
 	margin-top: .25rem;
 }
 
