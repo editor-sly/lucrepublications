@@ -363,10 +363,11 @@ dialog::backdrop {
 
 .modal1 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -378,10 +379,11 @@ dialog::backdrop {
 
 .modal2 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -392,10 +394,11 @@ dialog::backdrop {
 
 .modal3 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -407,10 +410,11 @@ dialog::backdrop {
 
 .modal4 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -422,10 +426,11 @@ dialog::backdrop {
 
 .modal5 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -436,12 +441,11 @@ dialog::backdrop {
 
 .modal6 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -453,10 +457,11 @@ dialog::backdrop {
 
 .modal7 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -467,10 +472,11 @@ dialog::backdrop {
 
 .modal8 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -482,10 +488,11 @@ dialog::backdrop {
 
 .modal9 {	
 	margin: auto auto;
+	margin-top: 1em;
 	border: none;
-	position: fixed;
-	width: 60%;
-	height: 90em;
+	position: relative;
+	width: 90em;
+	height: 75em;
 	padding: 1em;
 	background-color: #141414;
 	border-radius: .25em;
@@ -687,7 +694,7 @@ content {
 
 .separator {
 	margin: 0 auto;
-	padding-top: 0;
+	padding-top: 0px;
 	padding-bottom: .25em;
 	color: lightyellow;
 	text-align: center;
@@ -943,8 +950,8 @@ span.logo {
 	margin:  auto;
 	display: block;
 	justify-content: left;
-	font-size: 2.8vmin;
-	max-width: 200px;
+	font-size: 3.5vmin;
+	max-width: 180px;
 	height: auto;
 	margin-top: 1.5em;
 	padding-top: 2px;
@@ -1013,7 +1020,7 @@ span.welcome {
 
 span.hire-me {
 	margin: 0;
-	padding-left: 4px;
+	padding-left: 2px;
 	margin-bottom: 0px;
 	font-size: 2.8vmin;
 	color: papayawhip;
@@ -1293,7 +1300,7 @@ span.hire-me {
 .mywork1 {
 	background-image: url("img/1.png");
 	background-size: cover;
-	background-position: 48% 48%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width: 100%;
@@ -1315,7 +1322,7 @@ span.hire-me {
 .mywork2 {
 	background-image: url("img/2.png");
 	background-size: cover;
-	background-position: 48% 48%;
+	background-position:50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width: 100%;
@@ -1337,7 +1344,7 @@ span.hire-me {
 .mywork3 {
 	background-image: url("img/3.png");
 	background-size: cover;
-	background-position: 48% 48%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width: 100%;
@@ -1381,8 +1388,8 @@ span.hire-me {
 
 .mywork5 {
 	background-image: url("img/5.png");
-	background-size: 100%;
-	background-position: 48% 0%;
+	background-size: 95%;
+	background-position: 50% 0%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width:  100%;
@@ -1406,7 +1413,7 @@ span.hire-me {
 .mywork6 {
 	background-image: url("img/6.png");
 	background-size: cover;
-	background-position: 48% 48%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width: 100%;
@@ -1431,7 +1438,7 @@ span.hire-me {
 .mywork7 {
 	background-image: url("img/7.png");
 	background-size: cover;
-	background-position: 48% 48%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width: 100%;
@@ -1456,7 +1463,7 @@ span.hire-me {
 .mywork8 {
 	background-image: url("img/8.jpg");
 	background-size: cover;
-	background-position: 48% 48%;
+	background-position:50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width: 100%;
@@ -1482,7 +1489,7 @@ span.hire-me {
 .mywork9 {
 	background-image: url("img/9.png");
 	background-size: cover;
-	background-position: 48% 48%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	margin: auto;
 	width: 100%;
