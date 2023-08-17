@@ -625,6 +625,14 @@ header {
 
 
 
+.artbox {
+	background-image: url("img/1.png");
+	background-size: 100%;
+	background-position: 48% 48%;
+	background-repeat: no-repeat;
+}
+
+
 .container {
 	margin: auto auto;
 	margin-top: 0px;
@@ -633,7 +641,7 @@ header {
 	width: 78%;
 	height: auto;
 	display: block;
-	background-color:rgb(25, 25, 25, 0.3);
+	background-color:rgb(50, 50, 50, 0.3);
 /*	background-color: hsl(2, 30%,10%);
 	*/
 	border-style: none;
@@ -704,9 +712,9 @@ menu {
 	margin: auto;
 	margin-top: 0px;
 	margin-bottom: 1rem;
-	padding: 1.8% 16%;
+	padding: 2% 14%;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	max-height: 6.25vh;
 	display: flex;
@@ -759,7 +767,7 @@ menu {
 		padding: .5em;
 		display: inline-block;
 		opacity: .5;
-		font-family: "Poppins";
+		font-family: "Poppins" sans-serif;
 		color: papayawhip;
 	}
 
@@ -969,12 +977,12 @@ span.dev {
 
 span.corner-text {
 	margin-top: 1em;
-	font-size: 1vmin;
+	font-size: 2vmin;
 	display: inline-block;
 	float: right;
 	color: #444;
 	font-weight: bolder;
-	margin-right: 6%;
+	margin-right: 4.9%;
 }
 
 
@@ -1005,8 +1013,8 @@ span.welcome {
 
 span.hire-me {
 	margin: 0;
-	padding-left: 8px;
-	margin-bottom: -28px;
+	padding-left: 4px;
+	margin-bottom: 0px;
 	font-size: 2.8vmin;
 	color: papayawhip;
 	font-weight: bold;
@@ -1526,17 +1534,18 @@ span.hire-me {
 
 
 .form-section {
-	background-image: url("img/samuel-rios-IXYVzgwr2k0-unsplash.jpg");
+	background-image: url("img/85613d20394307.56f83a9e8c3e2.png");
 	background-size: cover;
-	background-position: 70% 100%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	line-height: .9;
-	padding-top: 1.25em;
+	padding-top: 1.5em;
 	padding-left: 12px;
 	padding-bottom: 1.25em;
+	width: 60vmin;
+	min-height: 63vmin;
 	max-width: 80vmin;
-	min-height: 40vmin;
-	max-height: 84vmin;
+	max-height: 96vmin;
 	margin-top: 5em;
 	margin-bottom: 8%;
 	display: inline-block;
@@ -1562,17 +1571,6 @@ span.hire-me {
 }
 
 
-form: focus-within {
-	background: rgba(98, 98, 98, .2);
-	border-radius: .5em;
-	width: cover;
-	display: relative;
-	height: auto;
-	margin-right: -1em;
-}
-
-
-
 
 input{
 	margin: auto;
@@ -1596,10 +1594,6 @@ input{
 	font-weight: lighter;
 }
 
-input: focus-within {
-	background-color: lightdarkgoldenrod;
-}
-
 
 
 .email {
@@ -1621,10 +1615,6 @@ input: focus-within {
 	border-left: none;
 }
 
-email: focus-within {
-	background-color: lightdarkgoldenrod;
-	
-}
 
 
 
@@ -1651,10 +1641,6 @@ email: focus-within {
 
 }
 
-message: focus-within {
-	background-image: url("img/Chewbacca-head-shot_c.jpg");
-}
-
 
 
 
@@ -1670,13 +1656,13 @@ message: focus-within {
 
 
 .footer {
-	background-image: url("img/c-3po-main_417a2902.jpeg");
-	background-position: 40% 48%;
+	background-image: url("img/9.png");
+	background-position: 0% 0%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
 	margin-bottom: 0px;
-	margin-top: 58px;
+	margin-top: 6rem;
 	padding: 0px;
 	width: 100%;
 	position: relative;
@@ -1889,7 +1875,7 @@ button.top-btn {
 	margin: auto auto;
 	display: block;
 	margin-right: .8em;
-	margin-top: -16em;
+	margin-top: -12em;
 	padding: 4.25px;
 	color: honeydew;
 	background-color: #111;
