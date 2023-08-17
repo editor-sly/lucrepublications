@@ -272,13 +272,6 @@ background: #000;
 
 
 
-
-
-
-
-
-
-
 hr {
 	margin-top: 2px;
 	margin-bottom: .25em;
@@ -313,44 +306,6 @@ wrapper {
 	justify-content: center;
 }
 */
-
-
-
-
-
-
-
-
-
-
-html {
-	background-color: black;
-	margin: 0 auto;	
- 	font-size: 100%;
- 	line-height: 1.11;
- 	height: -webkit-fill-available; 
-	-ms-overflow-style: none;  /* IE and Edge */
- 	scrollbar-width: none;  /* Firefox */
- 	font-family: Merienda, Helvetica, Arial, sans-serif;
- 	scroll-behavior: smooth;
-	white-space: wrap;
-	box-sizing: border-box;
-	filter: grayscale(38%);
-	overflow: auto;
-}
-
-
-html::focus-within {
-	 scroll-behavior: smooth;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -511,6 +466,27 @@ dialog::backdrop {
 
 
 
+html {
+	background-color: black;
+	margin: 0 auto;	
+ 	font-size: 100%;
+ 	line-height: 1.11;
+ 	height: -webkit-fill-available; 
+	-ms-overflow-style: none;  /* IE and Edge */
+ 	scrollbar-width: none;  /* Firefox */
+ 	font-family: Merienda, Helvetica, Arial, sans-serif;
+ 	scroll-behavior: smooth;
+	white-space: wrap;
+	box-sizing: border-box;
+	filter: grayscale(38%);
+	overflow: auto;
+}
+
+
+html::focus-within {
+	 scroll-behavior: smooth;
+}
+
 
 
 
@@ -533,7 +509,7 @@ body {
  	border-radius: 0pxm;
 	font-size: 2.8vmin;
 	max-width: 1440px;
-	width: 98.8vw;
+	width: 99.8vw;
 	height: 100vh;
 	display: block;
 	height: -webkit-fill-available;
@@ -552,6 +528,39 @@ body {
   overflow: auto;
 
 }
+
+
+
+
+/*
+.editor-pic {
+	margin: 0 auto;
+	background-image: url("img/Selah_Kesh_e.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: auto auto;
+	max-width: 14vmin;
+	height: 14vmin;
+	background-color:#111;
+	display:block;
+	position: relative;
+	margin-top: .25rem;
+	margin-bottom: 2px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 3.6px;
+	color: #111;
+	border-radius: 50%;
+}
+*/
+
+
+
+
 
 main {
 	overflow: hidden;
@@ -1008,7 +1017,7 @@ span.emoji {
 span.welcome {
 	margin: 0;
 	font-weight: bold;
-	font-size: 5.8vmin;
+	font-size: 5.3vmin;
 	padding-left: 0px;
 	color: papayawhip;
 	text-shadow: 0px 0px 3px #333333;
@@ -1123,12 +1132,12 @@ span.hire-me {
 
 .hero-section {
 	background-image: url("img/lukas-denier-f6jzzn2EMnQ-unsplash.jpg");
-	background-position: 70% 18%;
-	background-size: 100%;
+	background-position: 0% 8%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: 0 auto;
-	padding-top: 0px;
+	padding-top: 180px;
 	margin-bottom: 1em;
 	margin-top:  1em;
 	padding-left: 14%;
@@ -1148,9 +1157,37 @@ span.hire-me {
 	overflow: hidden;
 }
 
+
+
 .hero-section:hover {
-  transition: 0.3s;
+  transition: 0.1s;
   transform: scale(1.1);
+
+  margin: auto; auto;
+	margin-top: 1em;
+	margin-bottom: -2em;
+
+	background-image: url("img/Selah_Kesh_e.jpg");
+	background-size: fit-content;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	width: 300px;
+	height: 300px;
+	background-color:#111;
+
+	display:block;
+	position: inherit;
+
+	box-sizing: border-box;
+	vertical-align: middle;
+	justify-content: center;
+	align-items: auto auto;
+	align-content: center;
+
+	border-style: none;
+	border-width: 3.6px;
+	color: #111;
+	border-radius: 50%;
   }
 
 
@@ -1210,6 +1247,17 @@ span.hire-me {
 	opacity: .9;
 	overflow: hidden;
 }
+
+
+
+.about-section:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  }
+
+
+
+
 
 .skills-section {
 	scroll-margin-top: .25em;
