@@ -538,14 +538,14 @@ body {
 	background-image: url("img/Selah_Kesh_e.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: auto auto;
-	max-width: 14vmin;
-	height: 14vmin;
-	background-color:#111;
+	background-position: 50% 50%;
+	width: 250px;
+	height: 250px;
+	background-color:#000;
 	display:block;
 	position: relative;
 	margin-top: .25rem;
-	margin-bottom: 2px;
+	margin-bottom: .5em;
 	box-sizing: border-box;
 	vertical-align: middle;
 	justify-content: center;
@@ -553,7 +553,7 @@ body {
 	align-content: center;
 	border-style: solid;
 	border-width: 3.6px;
-	color: #111;
+	color: #141414;
 	border-radius: 50%;
 }
 */
@@ -657,8 +657,9 @@ header {
 	width: 78%;
 	height: auto;
 	display: block;
-	background-color:rgb(50, 50, 50, 0.3);
-/*	background-color: hsl(2, 30%,10%);
+	background-color: black;
+/*		background-color:rgb(50, 50, 50, 0.3);
+background-color: hsl(2, 30%,10%);
 	*/
 	border-style: none;
 	border-radius: .5em;
@@ -992,13 +993,13 @@ span.dev {
 
 
 span.corner-text {
-	margin-top: 1em;
-	font-size: 2vmin;
-	display: inline-block;
+	margin-top: -2.25em;
+	font-size: 2.5vmin;
+	display: block;
 	float: right;
-	color: #444;
+	color: #000;
 	font-weight: bolder;
-	margin-right: 4.9%;
+	margin-right: 5.25%;
 }
 
 
@@ -1138,18 +1139,18 @@ span.hire-me {
 	vertical-align: middle;
 	margin: 0 auto;
 	padding-top: 180px;
-	margin-bottom: 2em;
+	margin-bottom: .5em;
 	margin-top:  .25em;
 	padding-left: 14%;
 	padding-right: 11%;
 	padding-bottom: .5em;
 	width: 100%;
-	max-height: 100vh;
+	max-height: auto;
 	display: block;
 	background-color: #000;
 	color: lightyellow;
 	border-style: none;
-	border-radius: 8px;
+	border-radius: .25em;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	box-sizing: border-box;
@@ -1161,12 +1162,10 @@ span.hire-me {
 
 .hero-section:hover {
   transition: 0.1s;
-  transform: scale(1.1);
-
+  transform: scale(.96);
   margin: auto auto;
-	margin-top: 1em;
-	margin-bottom: -1.25em;
-
+	margin-top: .25em;
+	margin-bottom: 1em;
 	background-image: url("img/Selah_Kesh_e.jpg");
 	background-size: fit-content;
 	background-repeat: no-repeat;
@@ -1174,19 +1173,16 @@ span.hire-me {
 	width: 250px;
 	height: 250px;
 	background-color:#111;
-
 	display:block;
-	position: inherit;
-
+	position: relative;
 	box-sizing: border-box;
 	vertical-align: middle;
 	justify-content: center;
 	align-items: auto auto;
 	align-content: center;
-
 	border-style: none;
 	border-width: 3.6px;
-	color: #111;
+	color: #141414;
 	border-radius: 50%;
   }
 
@@ -1944,7 +1940,7 @@ button.top-btn {
 	margin-top: -12em;
 	padding: 4.25px;
 	color: honeydew;
-	background-color: #111;
+	background-color: darkgoldenrod;
 	float: right;
 	box-sizing: border-box;
 	vertical-align: middle;
