@@ -729,7 +729,7 @@ menu {
 	margin: auto;
 	margin-top: 0px;
 	margin-bottom: .5em;
-	padding: 2% 9%;
+	padding: 2% 11%;
 	top: 0;
 	width: 100vw;
 	height: auto;
@@ -981,7 +981,7 @@ span.dev {
 
 span.corner-text {
 	margin-top: -6.5em;
-	margin-right: .25%;
+	margin-right: -42px;
 	font-size: 2.5vmin;
 	display: block;
 	float: right;
@@ -1142,7 +1142,7 @@ span.hire-me {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	border-style: solid;
+	border-style: none;
 	border-width: 4.3px;
 	color: #000;
 	border-radius: 50%;
