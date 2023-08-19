@@ -1128,18 +1128,17 @@ span.hire-me {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
-	width: 50vmin;
-	height: 50vmin;
+	width: 48vmin;
+	height: 48vmin;
 	background-color:#000;
 
 	display:flex;
-	flex: noneauto;
+	flex: auto;
 	flex-wrap: wrap;
-	flex-direction: row;
+	flex-direction: row-reverse;
 
 	position: inherit;
 	box-sizing: border-box;
-	vertical-align: middle;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
