@@ -730,7 +730,7 @@ menu {
 	margin: auto;
 	margin-top: 0px;
 	margin-bottom: .5em;
-	padding: 2% 16%;
+	padding: 2% 9%;
 	top: 0;
 	width: 100vw;
 	height: auto;
@@ -1119,7 +1119,7 @@ span.hire-me {
 
 .hero-section:hover {
 	background-image: url("img/Sly_aka_Selah.jpg");
-  transition: 0.8s;
+  transition: 0.3s;
   transform: scale(.82);
   margin: auto auto;
 	margin-top: .25em;
@@ -1158,20 +1158,19 @@ span.hire-me {
 	display:block;
 	position: relative;
 	right: 5.8px;
-	margin-top: -4.3em;
+	margin-top: -4.5em;
 	margin-bottom: 2px;
 	box-sizing: border-box;
-	vertical-align: middle;
 	width: 14vmin;
 	height: auto;
 	justify-content: center;
-	align-items: center;
+	align-items: auto auto;
 	align-content: center;
 	border-style: solid;
-	border-width: 3px;
-	color: #000;
+	border-width: 3.6px;
+	color: #141414;
 	border-radius: 50%;
-	float: left;
+
 }
 
 
