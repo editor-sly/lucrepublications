@@ -538,8 +538,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	width: 48px;
-	height: 48px;
+	width: 40px;
+	height: 40px;
 	background-color:#000;
 	display:block;
 	position: relative;
@@ -551,7 +551,7 @@ body {
 	align-items: center;
 	align-content: center;
 	border-style: solid;
-	border-width: 3.6px;
+	border-width: 4.6px;
 	color: #141414;
 	border-radius: 50%;
 	visibility: hidden;
@@ -889,6 +889,7 @@ span.first-name {
 	font-size: 4.8vmin;
 	font-weight: bold;
 	color: lightyellow;
+	font-family: "Poppins" sans-serif;
 	text-shadow: 0px 0px 3px #333333;
 }
 
@@ -1820,16 +1821,15 @@ input{
 	margin-top: -.5em;
 	margin-bottom: -.5em;
 	font-size: large;
-	color:darkgoldenrod;
+	color: darkgoldenrod;
   text-shadow: 0px 0px 3px #333333;
 }
 
 .mail:hover{
 	transform: scale(1.1);
 	cursor: pointer;
-	color:#000;
-	font-size: larger;
-	text-shadow: 0px 0px 3px #333333;
+	color:#222;
+	font-size: large;
 }
 
 
