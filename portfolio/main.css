@@ -3,8 +3,8 @@
 *::before,
 *::after {
 	box-sizing: border-box;
-	font-family: "Poppins", serif;
 	padding: 0;
+	font-family: "Poppins" sans-serif;
 	margin: 0;
 }
 
@@ -33,7 +33,6 @@ a,
 a:visited,
 a:active {
 	text-decoration: none;
-	font-family: "Poppins";
 	color: wheat;
 }
 
@@ -501,7 +500,7 @@ body {
 	background-color: #000;
 	margin: 0 auto;
 	margin-top: 0px;
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 	padding-bottom: 6px;
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
@@ -532,19 +531,18 @@ body {
 
 
 
-/*
 .editor-pic {
 	margin: 0 auto;
-	background-image: url("img/Selah_Kesh_e.jpg");
+	background-image: url("img/Sly_aka_Selah.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	width: 250px;
-	height: 250px;
+	width: 48px;
+	height: 48px;
 	background-color:#000;
 	display:block;
 	position: relative;
-	margin-top: .25rem;
+	margin-top: -3rem;
 	margin-bottom: .5em;
 	box-sizing: border-box;
 	vertical-align: middle;
@@ -555,8 +553,8 @@ body {
 	border-width: 3.6px;
 	color: #141414;
 	border-radius: 50%;
+	visibility: hidden;
 }
-*/
 
 
 
@@ -651,16 +649,18 @@ header {
 
 .container {
 	margin: auto auto;
-	margin-top: 0px;
+	margin-top: .25em;
 	margin-bottom: .25em;
 	padding: 0;
 	width: 78%;
 	height: auto;
 	display: block;
 	background-color: black;
+
 /*		background-color:rgb(50, 50, 50, 0.3);
 background-color: hsl(2, 30%,10%);
 	*/
+
 	border-style: none;
 	border-radius: .5em;
 	box-sizing: border-box;
@@ -720,7 +720,7 @@ content {
 
 menu {
 	margin: auto;
-	padding: 0px;
+	padding: 2px;
 	display: block;
 }
 
@@ -728,12 +728,12 @@ menu {
 	background-image: linear-gradient(hsl(2, 30%,10%), #222);
 	margin: auto;
 	margin-top: 0px;
-	margin-bottom: 1rem;
-	padding: 2% 14%;
+	margin-bottom: .5em;
+	padding: 2% 16%;
 	top: 0;
 	width: 100vw;
 	height: auto;
-	max-height: 6.25vh;
+	max-height: 6vh;
 	display: flex;
 	flex: auto;
 	overflow: hidden;
@@ -747,7 +747,7 @@ menu {
 	text-align: center;
 	justify-content: space-between;
 	box-sizing: border-box;
-	font-size: 2.8vmin;
+	font-size: 3vmin;
 	line-height: 1.11;
 	z-index: 9999;
 	opacity: .9;
@@ -764,7 +764,7 @@ menu {
 	display: flex;
 	flex: auto;
 	transition: all 0.2s ease 0s;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 
@@ -774,18 +774,17 @@ menu {
 .nav-links li {
 	list-style: none;
 	display: inline-block;
-	padding: 4%;
+	padding: .42em;
 }
 
 	.nav-links li:hover{
 		background-color: none;
-		font-size: 3vmin;
-		text-transform: uppercase;
-		padding: .5em;
+		font-size: 2.8vmin;
+		text-transform:  uppercase;
+		padding: 3px;
 		display: inline-block;
-		opacity: .5;
+		opacity: .3;
 		font-family: "Poppins" sans-serif;
-		color: papayawhip;
 	}
 
 
@@ -798,7 +797,7 @@ menu {
 
 
 ul {
-	font-size: 2.2vmin;
+	font-size: 2.3vmin;
  	line-height: .9;
  }
 
@@ -812,6 +811,7 @@ ul {
 	border-style: none;
 	border-radius: none;
 	justify-content: space-around;
+
 }
 
 .nav ul li {
@@ -820,7 +820,7 @@ ul {
 	display: flex;
 	flex: auto;
 	margin-bottom: 0;
-	padding: 2% 2.25%;
+	padding: 0px 2.25%;
 	text-transform: uppercase;
 	list-style: none;
 	float: right;
@@ -836,9 +836,9 @@ ul {
 a {
 	text-decoration: none;
 	background-color: none;
-	font-size: 2.2vmin;
+	font-size: 2.3vmin;
 	margin: auto;
-	line-height: 1.11;
+	line-height: 1;
 }
 
 
@@ -856,19 +856,6 @@ a {
 
 
 
-
-
-.footer-links li a {
-	color: black;
-	background-color: none;
-	display: inline-block;
-	font-weight: 600;
-}
-
-
-.footer-links:hover{
-	color: red;
-}
 
 
 
@@ -898,7 +885,7 @@ span.first-name {
 	margin: -8px;
 	margin-top: 8px;
 	padding-left: 10px;
-	font-size: 5.8vmin;
+	font-size: 4.8vmin;
 	font-weight: bold;
 	color: lightyellow;
 	text-shadow: 0px 0px 3px #333333;
@@ -909,8 +896,9 @@ span.first-name {
 span.slogan-name {
 	margin: -3px;
 	padding-left: 5px;
-	font-size: 5.8vmin;
+	font-size: 5.6vmin;
 	font-weight: bolder;
+	font-family: "Poppins";
 	color: moccasin;
 	text-shadow: 0px 0px 3px #333333;
 }
@@ -929,9 +917,10 @@ span.job-title {
 
 span.highlight {
 	margin: 0;
-	background-color: moccasin;
-	padding: 4px;
+	background-color: #000;
+	padding: 2px;
 	height: auto;
+	line-height: 1.5;
 	margin-top: .25px .5px;
 	display: relative;
 	border-radius: 0px;
@@ -939,20 +928,18 @@ span.highlight {
 }
 
 
-span.link-highlight {
-	margin: 0;
-	background-color: #111;
-	padding: 0;
+span.highlight_ft {
+	margin: auto;
+	background-color: darkgoldenrod;
+	padding: 4px;
 	height: auto;
+	font-family: "serif";
+  line-height: .5;
+	margin-top: .25px .5px;
 	display: relative;
-	border-style: none;
-	border-radius: 5px;
-	padding-bottom: 3px;
+	border-radius: 0px;
 	box-sizing: border-box;
-	border-right-color: honeydew;
-	
 }
-
 
 
 
@@ -960,17 +947,18 @@ span.logo {
 	margin:  auto;
 	display: block;
 	justify-content: left;
-	font-size: 3.5vmin;
-	max-width: 180px;
+	font-size: 3.9vmin;
+	max-width: 200px;
 	height: auto;
 	margin-top: 1.5em;
 	padding-top: 2px;
-	padding-left: 0px;
+	padding-left: -9px;
+	align-items: auto auto;
 	text-align: left;
 	margin-bottom: 1.8em;
-	font-weight: normal;
+	font-weight: 600;
 	color: olive;
-	transition: 1s;
+	transition: 2s;
 	box-sizing: border-box;
 }
 
@@ -993,32 +981,23 @@ span.dev {
 
 
 span.corner-text {
-	margin-top: -2.25em;
+	margin-top: -3.25em;
 	font-size: 2.5vmin;
 	display: block;
 	float: right;
-	color: #000;
+	color: silver;
 	font-weight: bolder;
-	margin-right: 5.25%;
+	margin-right: 7.5%;
 }
 
 
 
-
-span.emoji {
-	margin: 0 auto;
-	color: papayawhip;
-	background-color: none;
-	padding-right: 0px;
-	text-shadow: 0px 0px 3px #333;
-	font-size: x-large;
-}
 
 
 span.welcome {
 	margin: 0;
 	font-weight: bold;
-	font-size: 5.3vmin;
+	font-size: 4.8vmin;
 	padding-left: 0px;
 	color: papayawhip;
 	text-shadow: 0px 0px 3px #333333;
@@ -1035,7 +1014,7 @@ span.hire-me {
 	margin-bottom: 0px;
 	font-size: 2.8vmin;
 	color: papayawhip;
-	font-weight: bold;
+	font-weight: lighter;
 	text-shadow: none;
 }
 
@@ -1075,28 +1054,6 @@ span.hire-me {
 
 
 
-/*
-.border-pipes {
-	padding: 6px;
-	height: auto;
-	border-style: solid;
-	border-color: darkseagreen;
-	border-width: 1px;
-	border-radius: 0;
-	border-top: none;
-	border-bottom: none;
-	border-right: none;
-}
-*/
-
-.border-empty {
-	padding: 6px;
-	height: auto;
-	border-style: none;
-
-}
-
-
 
 
 
@@ -1134,18 +1091,18 @@ span.hire-me {
 .hero-section {
 	background-image: url("img/lukas-denier-f6jzzn2EMnQ-unsplash.jpg");
 	background-position: 0% 8%;
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	margin: 0 auto;
-	padding-top: 180px;
+	padding-top: 100px;
 	margin-bottom: .5em;
 	margin-top:  .25em;
 	padding-left: 14%;
 	padding-right: 11%;
 	padding-bottom: .5em;
 	width: 100%;
-	max-height: auto;
+	height: auto;
 	display: block;
 	background-color: #000;
 	color: lightyellow;
@@ -1161,30 +1118,67 @@ span.hire-me {
 
 
 .hero-section:hover {
-  transition: 0.1s;
+	background-image: url("img/Sly_aka_Selah.jpg");
+  transition: 0.2s;
   transform: scale(.96);
   margin: auto auto;
 	margin-top: .25em;
-	margin-bottom: 1em;
-	background-image: url("img/Selah_Kesh_e.jpg");
-	background-size: fit-content;
+	margin-bottom: .5em;
+	padding-top: 1em;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
-	width: 250px;
-	height: 250px;
-	background-color:#111;
-	display:block;
-	position: relative;
+	width: 50vmin;
+	height: 50vmin;
+	background-color:#000;
+
+	display:flex;
+	flex: 1;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	position: inherit;
 	box-sizing: border-box;
 	vertical-align: middle;
 	justify-content: center;
-	align-items: auto auto;
+	align-items: center;
 	align-content: center;
-	border-style: none;
-	border-width: 3.6px;
-	color: #141414;
+	border-style: solid;
+	border-width: 4.3px;
+	color: #000;
 	border-radius: 50%;
+	opacity: .6;
+	overflow: hidden;
   }
+
+
+
+.frame {
+	background-color:#000;
+	display:block;
+	position: relative;
+	right: 6px;
+	margin-top: -6em;
+	margin-bottom: .25em;
+	box-sizing: border-box;
+	vertical-align: middle;
+	width: 16vmin;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	border-style: solid;
+	border-width: 3px;
+	color: #000;
+	border-radius: 50%;
+	float: left;
+}
+
+
+
+
+
+
 
 
 /*
@@ -1687,7 +1681,7 @@ input{
 	height: auto;
 	background-color: #141414;
 	color: gainsboro;
-	max-width: 90%;
+	max-width: 98%;
 	border-style: solid;
 	border-color: papayawhip;
 	border-radius: .25em;
@@ -1707,9 +1701,33 @@ input{
 
 
 
+.footer-links {
+	margin: auto;
+	padding: 0% 5%;
+	width: 20%;
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	color: black;
+	background-color: none;
+	font-weight: bolder;
+	font-size: normal;
+	transition: 2s;
+	float: left; 
+}
+
+.footer-links:hover{
+	transform: scale(1);
+	cursor: pointer;
+}
 
 
-
+.footer-links li a {
+	color: white;
+	background-color: none;
+	display: inline-block;
+	font-weight: 600;
+}
 
 
 .footer {
@@ -1718,12 +1736,12 @@ input{
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	margin-bottom: 0px;
-	margin-top: 6rem;
-	padding: 0px;
+	margin-bottom: .25rem;
+	margin-top: 4.5rem;
+	padding: 6vmin;
 	width: 100%;
 	position: relative;
-	max-height: 48vh;
+	max-height: 55em;
 	min-height: auto;
 	display: block;
 	position: relative;
@@ -1741,6 +1759,12 @@ input{
 	border-bottom-right-radius: 0px;
 	vertical-align: middle;
 }
+
+
+
+
+
+
 
 
 
@@ -1796,15 +1820,18 @@ input{
 
 
 .mail {
-	margin: auto;
-	margin-top: -1.25em;
-	margin-bottom: -5em;
-	transition: 2s;
+	margin: 0 auto;
+	margin-top: -.5em;
+	margin-bottom: -.5em;
+	font-size: large;
+  text-shadow: 0px 0px 3px #333333;
 }
 
-.mail: hover {
-	transform: scale(1.2);
+.mail:hover{
+	transform: scale(1.1);
 	cursor: pointer;
+	color: darkgoldenrod;
+	font-size: x-large;
 }
 
 
@@ -1812,23 +1839,10 @@ input{
 
 
 
-.footer-links {
-	margin: auto;
-	padding: 4% 50%;
-	max-width: 100%;
-	display: block;
-	position: static;
-	box-sizing: border-box;
-	color: wheat;
-	font-weight: bolder;
-	font-size: x-small;
-	transition: 2s;
-}
 
-.footer-links:hover{
-	transform: scale(1.2);
-	cursor: pointer;
-}
+
+
+
 
 
 
@@ -1898,8 +1912,10 @@ button:focus {
 button.resume-btn {
 	left: 4.8px;
 	margin: 0 auto;
-	padding: 2px 6px 18px;
-	font-size: 6vmin;
+	padding: 0;
+	padding-top: 12px;
+	padding-bottom: 16px;
+	font-size: xx-large;
 }
 
 
@@ -1937,7 +1953,7 @@ button.top-btn {
 	margin: auto auto;
 	display: block;
 	margin-right: .8em;
-	margin-top: -12em;
+	margin-top: -8em;
 	padding: 4.25px;
 	color: honeydew;
 	background-color: darkgoldenrod;
