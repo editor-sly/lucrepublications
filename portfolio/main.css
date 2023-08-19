@@ -929,15 +929,13 @@ span.highlight {
 
 
 span.highlight_ft {
-	margin: auto;
-	background-color: darkgoldenrod;
-	padding: 4px;
+	background-color: black;
+	padding: 1%;
 	height: auto;
-	font-family: "serif";
-  line-height: .5;
-	margin-top: .25px .5px;
-	display: relative;
-	border-radius: 0px;
+  line-height: 0;
+	font-size: x-large;
+	display: block;
+	border-radius: none;
 	box-sizing: border-box;
 }
 
@@ -1702,22 +1700,20 @@ input{
 
 
 .footer-links {
-	margin: auto;
-	padding: 0% 5%;
-	width: 20%;
-	display: inline-block;
+	margin: 0 auto;
+	padding: 2% 12%;
+	width: 5%;
+	display: block;
 	position: relative;
 	box-sizing: border-box;
-	color: black;
-	background-color: none;
+	background-color:#000;
 	font-weight: bolder;
-	font-size: normal;
 	transition: 2s;
-	float: left; 
+	float: left;
 }
 
 .footer-links:hover{
-	transform: scale(1);
+	transform: scale(1.1);
 	cursor: pointer;
 }
 
@@ -1736,15 +1732,14 @@ input{
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	margin-bottom: .25rem;
+	margin-bottom: .25em;
 	margin-top: 4.5rem;
 	padding: 6vmin;
 	width: 100%;
 	position: relative;
-	max-height: 55em;
+	max-height: 48em;
 	min-height: auto;
 	display: block;
-	position: relative;
 	background-color: #000;
 	border-style: solid;
 	border-bottom: none;
@@ -1753,7 +1748,7 @@ input{
 	border-right: none;
 	border-width: 5px;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	box-sizing: border-box;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
