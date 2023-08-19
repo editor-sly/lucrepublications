@@ -920,7 +920,7 @@ span.highlight {
 	background-color: #000;
 	padding: 2px;
 	height: auto;
-	line-height: 1.5;
+	line-height: 1.25;
 	margin-top: .25px .5px;
 	display: relative;
 	border-radius: 0px;
@@ -1117,11 +1117,11 @@ span.hire-me {
 
 .hero-section:hover {
 	background-image: url("img/Sly_aka_Selah.jpg");
-  transition: 0.2s;
-  transform: scale(.96);
+  transition: 0.8s;
+  transform: scale(.82);
   margin: auto auto;
 	margin-top: .25em;
-	margin-bottom: .5em;
+	margin-bottom: -1.25em;
 	padding-top: 1em;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1131,7 +1131,7 @@ span.hire-me {
 	background-color:#000;
 
 	display:flex;
-	flex: 1;
+	flex: noneauto;
 	flex-wrap: wrap;
 	flex-direction: row;
 
