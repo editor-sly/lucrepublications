@@ -705,6 +705,7 @@ content {
 
 .separator {
 	margin: 0 auto;
+	margin-top: 9rem;
 	padding-top: 0px;
 	padding-bottom: .25em;
 	color: lightyellow;
@@ -1211,14 +1212,15 @@ span.hire-me {
 */
 
 .about-section {
+	margin: 0 auto;
 	background-size: cover;
 	background-position: 10% 50%;
 	background-repeat: no-repeat;
+	top:3.5rem;
 	padding-left: 11px;
 	padding-right: 20px;
 	padding-top: 4px;
 	padding-bottom: 1em;
-	margin: 0 auto;
 	line-height: 3;
 	max-width: 60vmin;
 	max-height: 80vh;
@@ -1251,15 +1253,16 @@ span.hire-me {
 
 .skills-section {
 	scroll-margin-top: .25em;
+	margin: 0 auto;
 	background-image: url("img/sabri-tuzcu-wunVFNvqhfE-unsplash.jpg");
 	background-size: cover;
 	background-position: 10% 50%;
 	background-repeat: no-repeat;
+	top:6rem;
 	padding-left: 11px;
 	padding-right: 20px;
 	padding-top: 6px;
-	padding-bottom: 1em;
-	margin: 0 auto;
+	padding-bottom: .5em;
 	line-height: 1.11;
 	max-width: 60vmin;
 	max-height: 80vh;
