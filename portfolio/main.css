@@ -542,6 +542,7 @@ body {
   box-sizing: border-box;
   vertical-align: middle;
   overflow: auto;
+  opacity: .5;
 
 }
 
