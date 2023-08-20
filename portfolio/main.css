@@ -4,7 +4,7 @@
 *::after {
 	box-sizing: border-box;
 	padding: 0;
-	font-family: "Poppins" sans-serif;
+	font-family:"Poppins" sans-serif;
 	margin: 0;
 	line-height: 1.11;
 }
@@ -1107,13 +1107,13 @@ span.hire-me {
 
 .hero-section {
 	background-image: url("img/lukas-denier-f6jzzn2EMnQ-unsplash.jpg");
-	background-position: 0% 100%;
+	background-position: 0% 0%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment:fixed;
 	vertical-align: middle;
 	margin: 0 auto;
-	padding-top: 63px;
+	padding-top: 98px;
 	margin-bottom: .5em;
 	margin-top:  .25em;
 	padding-left: 14%;
@@ -1122,6 +1122,7 @@ span.hire-me {
 	width: 100%;
 	height: auto;
 	display: block;
+	position: relative;
 	background-color: #000;
 	color: lightyellow;
 	border-style: none;
