@@ -1016,7 +1016,7 @@ span.welcome {
 	font-weight: bold;
 	font-size: 4.8vmin;
 	padding-left: 0px;
-	color: salmon;
+	color: darksalmon;
 	text-shadow: 0px 0px 3px #333333;
 
 }
@@ -1110,6 +1110,7 @@ span.hire-me {
 	background-position: 0% 8%;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	vertical-align: middle;
 	margin: 0 auto;
 	padding-top: 100px;
