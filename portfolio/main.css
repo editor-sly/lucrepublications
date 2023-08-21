@@ -935,6 +935,7 @@ span.highlight {
 	display: relative;
 	border-radius: 0px;
 	box-sizing: border-box;
+	opacity: .8;
 	
 }
 
