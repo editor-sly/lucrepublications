@@ -1484,7 +1484,7 @@ span.hire-me {
 .mywork6 {
 	background-image: url("img/6.png");
 	background-size: cover;
-	background-position: center;
+	background-position:90% 0%;
 	background-repeat: no-repeat;
 	margin: 0;
 	max-width: 98%;
