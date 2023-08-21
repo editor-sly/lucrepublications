@@ -1902,10 +1902,10 @@ button {
 	padding-bottom: 2.25%;
 	align-items: auto auto;
 	border-style: none;
-	border-radius: .25em;
+	border-radius: 5px;
 	display: block;
 	position: relative;
-	height: auto;
+	height: 36px;
 	max-height: auto;
 	width: 98%;
 	background-color: darkgoldenrod;
