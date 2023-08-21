@@ -323,12 +323,11 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
 }
 
 
@@ -341,12 +340,12 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
+
 }
 
 
@@ -358,12 +357,12 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
+
 	
 }
 
@@ -376,12 +375,12 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
+
 	
 }
 
@@ -394,12 +393,11 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
 }
 
 
@@ -411,12 +409,12 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
+
 	
 }
 
@@ -429,12 +427,11 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
 }
 
 
@@ -446,12 +443,12 @@ dialog::backdrop {
 	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
-	height: 75em;
+	height: 80%;
 	background-color: #141414;
 	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	overflow: hidden;
+
 }
 
 
@@ -1371,8 +1368,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
@@ -1396,8 +1391,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
@@ -1420,8 +1413,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
@@ -1444,8 +1435,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
@@ -1458,7 +1447,7 @@ span.hire-me {
 	margin: 0;
 	max-width: 100%;
 	min-width: 60vmin;
-	max-height: 80%;
+	max-height: 80vmin;
 	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
@@ -1469,8 +1458,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
@@ -1495,8 +1482,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
@@ -1522,8 +1507,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
@@ -1549,8 +1532,6 @@ span.hire-me {
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
-	overflow-x:hidden;
-	overflow-y:auto;
 }
 
 
