@@ -262,11 +262,11 @@ section {
 }
 
 ::-webkit-scrollbar-button {
-background: #000;
+background: #111;
 }
 
 ::-webkit-scrollbar-corner {
-	background: #000;
+	background: #111;
 }
 
 
@@ -311,22 +311,22 @@ wrapper {
 
 
 dialog::backdrop {
-	background: linear-gradient( to bottom, lightcoral, #000);
+	background: linear-gradient( to bottom, lightcoral, #111);
 	opacity: .7;
 	}
 
 
 .modal1 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -336,15 +336,15 @@ dialog::backdrop {
 
 .modal2 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -353,15 +353,15 @@ dialog::backdrop {
 
 .modal3 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -371,15 +371,15 @@ dialog::backdrop {
 
 .modal4 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -389,15 +389,15 @@ dialog::backdrop {
 
 .modal5 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -406,15 +406,15 @@ dialog::backdrop {
 
 .modal6 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -424,15 +424,15 @@ dialog::backdrop {
 
 .modal7 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -441,15 +441,15 @@ dialog::backdrop {
 
 .modal8 {	
 	margin: auto auto;
-	margin-top: .8em;
-	margin-bottom: 2%;
-	border: none;
+	margin-top: .5em;
+	margin-bottom: 0px;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	position: relative;
 	width: 90em;
 	height: 75em;
-	padding: 1.25em;
-	padding-bottom: 1.5em;
 	background-color: #141414;
+	border: none;
 	border-radius: .25em;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	overflow: hidden;
@@ -473,7 +473,7 @@ dialog::backdrop {
 */
 
 dialog::backdrop {
-	background: linear-gradient( to bottom, lightcoral, #000);
+	background: linear-gradient( to bottom, lightcoral, #111);
 	opacity: .7;
 	}
 
@@ -510,11 +510,11 @@ html::focus-within {
 body {
 	scroll-padding-top: 3.6rem;
 	top: 0;
-	background-image: linear-gradient(hsl(2, 30%,10%), #000);
+	background-image: linear-gradient(hsl(2, 30%,10%), #111);
 	word-spacing: 1.24px;
 	letter-spacing: .003px;
 	line-height: 1.11;
-	background-color: #999;
+	background-color: #111;
 	margin: 0 auto;
 	margin-top: 0px;
 	margin-bottom: .5rem;
@@ -522,7 +522,7 @@ body {
 	color: papayawhip;
 	text-rendering: optimizeSpeed;
 	border-style: none;
- 	border-radius: 0pxm;
+ 	border-radius: 0px;
 	font-size: 2.8vmin;
 	max-width: 1440px;
 	width: 99.8vw;
@@ -542,7 +542,7 @@ body {
   box-sizing: border-box;
   vertical-align: middle;
   overflow: auto;
-  opacity: .5;
+  opacity: .7;
 
 }
 
@@ -1151,12 +1151,10 @@ span.hire-me {
 	width: 48vmin;
 	height: 48vmin;
 	background-color:#000;
-
 	display:flex;
 	flex: auto;
 	flex-wrap: wrap;
 	flex-direction: row-reverse;
-
 	position: inherit;
 	box-sizing: border-box;
 	justify-content: center;
@@ -1164,7 +1162,6 @@ span.hire-me {
 	align-content: center;
 	border-style: none;
 	border-width: 4.3px;
-	color: #000;
 	border-radius: 50%;
 	opacity: .6;
 	overflow: hidden;
@@ -1363,17 +1360,19 @@ span.hire-me {
 .mywork1 {
 	background-image: url("img/1.png");
 	background-size: cover;
-	background-position:50% 50%;
+	background-position: center;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 100%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
@@ -1386,17 +1385,19 @@ span.hire-me {
 .mywork2 {
 	background-image: url("img/2.png");
 	background-size: cover;
-	background-position:50% 50%;
+	background-position: center;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 100%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
@@ -1408,17 +1409,19 @@ span.hire-me {
 .mywork3 {
 	background-image: url("img/3.png");
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: center;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 100%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
@@ -1432,15 +1435,17 @@ span.hire-me {
 	background-size: cover;
 	background-position: 0% 0%;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 100%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
@@ -1452,23 +1457,25 @@ span.hire-me {
 
 .mywork5 {
 	background-image: url("img/5.png");
-	background-size: 100%;
-	background-position: 50% 0%;
+	background-size: cover;
+	background-position: 0% 0%;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 100%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
 	overflow-x:hidden;
-	overflow-y: auto;
+	overflow-y:auto;
 }
 
 
@@ -1477,17 +1484,19 @@ span.hire-me {
 .mywork6 {
 	background-image: url("img/6.png");
 	background-size: cover;
-	background-position: 100% 50%;
+	background-position: center;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 98%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
@@ -1502,17 +1511,19 @@ span.hire-me {
 .mywork7 {
 	background-image: url("img/7.png");
 	background-size: cover;
-	background-position: 12% 50%;
+	background-position: center;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 100%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
@@ -1527,17 +1538,19 @@ span.hire-me {
 .mywork8 {
 	background-image: url("img/8.jpg");
 	background-size: cover;
-	background-position:50% 50%;
+	background-position: center;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 0;
+	max-width: 100%;
 	min-width: 60vmin;
-	height: 72%;
+	max-height: 80%;
+	min-height: 65.5%;
 	background-color: #141414;
 	box-sizing: border-box;
 	color: black;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: auto auto;
 	text-align: left;
 	vertical-align: middle;
 	border-radius: .25em;
@@ -1883,19 +1896,18 @@ input{
 
 
 button {
-	margin: 0 auto;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: .25em;
-	margin-bottom: .2em;
-	padding: 2.2% 0%;
+	margin: auto auto;
+	margin-top: 3px;
+	margin-bottom: .5em;
+	padding-bottom: 2.25%;
+	align-items: auto auto;
 	border-style: none;
 	border-radius: .25em;
 	display: block;
 	position: relative;
 	height: auto;
 	max-height: auto;
-	width: 100%;
+	width: 98%;
 	background-color: darkgoldenrod;
 	font-family: Helvetica;
 	color: floralwhite;
@@ -1913,14 +1925,14 @@ button {
 button:hover {
 	background-color: #111;
 	font-weight: bolder;
-	transform: scale(.96);
+	transform: scale(.98);
 	cursor: pointer;
 }
 
 
 button:focus {
-	 outline: .25em solid; papayawhip;
-	 outline-offset: 2px;
+	 outline: 1px solid; #111;
+	 outline-offset: 1.25px;
 }
 
 
@@ -1928,9 +1940,9 @@ button:focus {
 button.resume-btn {
 	left: 4.8px;
 	margin: 0 auto;
-	padding: 0;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	font-size: xx-large;
 }
 
@@ -1939,6 +1951,7 @@ button.reset {
 margin-left: 0;
 margin:0;
 width: 23%;
+padding: 2%;
 display: block;
 	border-style: none;
 	justify-content: left;
@@ -1957,7 +1970,7 @@ button.form-button {
 	margin-left: .0em;
 	max-width: 100%;
 	height: auto;
-	padding: 1.25em 1em;
+	padding: 2%;
 	text-transform: uppercase;
 }
 
@@ -1980,7 +1993,7 @@ button.top-btn {
 }
 
 
-
+/*
 button.thedemo {
 	margin: auto;
 	margin-top: .25em;
@@ -2016,7 +2029,7 @@ button.thecode {
 	box-sizing: border-box;
 	background-color: #141414;
 }
-
+*/
 
 
 .icon-mail {
