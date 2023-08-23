@@ -1132,7 +1132,7 @@ span.hire-me {
 
 .hero-section:hover {
 	background-image: url("img/Sly_aka_Selah.jpg");
-  transition: 0.3s;
+  transition: 3s;
   transform: scale(.82);
   margin: auto auto;
 	margin-top: .25em;
@@ -1141,9 +1141,10 @@ span.hire-me {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
+	background-color:#999;
+	background-blend-mode: multiply;
 	width: 48vmin;
 	height: 48vmin;
-	background-color:#000;
 	display:flex;
 	flex: auto;
 	flex-wrap: wrap;
