@@ -1751,7 +1751,8 @@ input{
 	max-height: 48em;
 	min-height: auto;
 	display: block;
-	background-color: #000;
+	background-color: #777;
+	background-blend-mode: multiply;
 	border-style: solid;
 	border-bottom: none;
 	border-top: none;
