@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Poppins&display=swap');
+
 *,
 *::before,
 *::after {
@@ -6,6 +10,7 @@
 	margin: 0;
 	line-height: 1.11;
 	color: #777;
+	font-family: 'Cardo', serif;
 }
 
 
@@ -72,12 +77,9 @@ figure,
 blockquote,
 dl,
 dd {
-	 margin: 0px;
-	 padding: 0px;
 	 padding-left: 0px;
 	 word-spacing: 1.24px;
 	 letter-spacing: .003px;
-	 line-height: 1.11;
 }
 
 
@@ -796,7 +798,7 @@ menu {
 		padding: 3px;
 		display: inline-block;
 		opacity: .3;
-		font-family: "Poppins" sans-serif;
+		font-family: "Poppins", sans-serif;
 	}
 
 
@@ -900,7 +902,7 @@ span.first-name {
 	font-size: 5.4vmin;
 	font-weight: bold;
 	color: lightyellow;
-	font-family: "Poppins" san-serif;
+	font-family: "Poppins", san-serif;
 	text-shadow: 0px 0px 3px #333333;
 }
 
@@ -912,7 +914,7 @@ span.slogan-name {
 	font-size: x-large;
 	font-weight: bolder;
 	color: lightyellow;
-	font-family: 'Poppins';
+	font-family: 'Poppins', sans-serif;
 	text-shadow: 0px 0px 3px #111;
 }
 
@@ -1814,7 +1816,7 @@ input{
 	background-color: none;
 	border-style: none;
 	box-sizing: border-box;
-	font-family: 'Poppins' sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: large;
 	text-shadow: 1px 1px 1px #000;
 }
