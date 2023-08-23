@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -6,9 +5,8 @@
 	padding: 0;
 	margin: 0;
 	line-height: 1.11;
+	color: #777;
 }
-
-
 
 
 html {
@@ -686,6 +684,7 @@ background-color: hsl(2, 30%,10%);
 .header-container {
 	background-image: url("img/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg");
 	background-size: cover;
+	background-blend-mode: multiply;
 	background-position: 64% 58%;
 	background-repeat: no-repeat;
 	margin:0;
