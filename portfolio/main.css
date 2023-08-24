@@ -740,9 +740,9 @@ menu {
 .nav {
 	background-image: linear-gradient(hsl(2, 30%,10%), #222);
 	margin: auto;
-	margin-top: 6px;
+	margin-top: 0px;
 	margin-bottom: 8px;
-	padding: 1.8% 11.7%;
+	padding: 2% 11.7%;
 	top: 0;
 	width: 100vw;
 	height: auto;
@@ -752,8 +752,15 @@ menu {
 	overflow: hidden;
 	left: 0;
 	right: 0;
-	border-style: none;
+
+	border-style: solid;
+	border-color: black;
 	border-radius: 0px;
+	border-top: 2;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+
 	position: sticky;
 	align-items: center;
 	align-content: center;
@@ -790,14 +797,13 @@ menu {
 	padding: .42em;
 }
 
-	.nav-links li:hover{
+	.nav-links li:hover {
 		background-color: none;
 		font-size: 2.8vmin;
 		text-transform:  uppercase;
 		padding: 3px;
 		display: inline-block;
 		opacity: .3;
-		font-family: "Poppins", sans-serif;
 	}
 
 
@@ -824,7 +830,6 @@ ul {
 	border-style: none;
 	border-radius: none;
 	justify-content: space-around;
-
 }
 
 .nav ul li {
@@ -851,7 +856,8 @@ a {
 	background-color: none;
 	font-size: 2.3vmin;
 	margin: auto;
-	line-height: 1;
+	line-height: 1.11;
+	font-family: "Poppins", sans-serif;
 }
 
 
@@ -960,7 +966,7 @@ span.logo {
 	max-width: 180px;
 	height: auto;
 	margin-top: 1.5em;
-	padding-top: 2px;
+	padding-top: .5em;
 	padding-left: -6.5px;
 	align-items: auto auto;
 	text-align: left;
