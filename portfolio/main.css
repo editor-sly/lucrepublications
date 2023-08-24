@@ -8,7 +8,8 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	line-height: 1.11;
+	font-size: 1em;
+	line-height: 1.25;
 	color: #777;
 	font-family: 'Cardo', serif;
 }
@@ -1864,7 +1865,7 @@ input{
 .copyright {
 	margin: auto auto;
 	padding: 0;
-	padding-top: 1px;
+	padding-top: 6px;
 	padding-bottom: 3px;
 	position: relative;
 	width: fit-content;
@@ -1926,9 +1927,9 @@ button.resume-btn {
 	left: 4.8px;
 	margin: 0 auto;
 	padding: 0px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	font-size: xx-large;
+	align-items: center;
+	justify-content: center;
+	font-size: x-large;
 }
 
 
