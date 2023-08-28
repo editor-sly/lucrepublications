@@ -1123,7 +1123,6 @@ span.hire-me {
 	height: auto;
 	display: block;
 	position: relative;
-	background-color: #000;
 	color: lightyellow;
 	border-style: none;
 	border-radius: .25em;
@@ -1132,6 +1131,10 @@ span.hire-me {
 	box-sizing: border-box;
 	font-size: larger;
 	overflow: hidden;
+	background-color: darkgoldenrod;
+	backdrop-filter: blur(50px);
+	background-blend-mode: multiply;
+
 }
 
 
