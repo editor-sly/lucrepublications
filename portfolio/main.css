@@ -1131,7 +1131,7 @@ span.hire-me {
 	box-sizing: border-box;
 	font-size: larger;
 	overflow: hidden;
-	background-color: darkgoldenrod;
+	background-color: salmon;
 	backdrop-filter: blur(50px);
 	background-blend-mode: multiply;
 
