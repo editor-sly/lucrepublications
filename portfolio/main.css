@@ -11,6 +11,7 @@
 	font-size: 1em;
 	line-height: 1.25;
 	color: #777;
+	font-size: large;
 	font-family: 'Cardo', serif;
 }
 
@@ -1926,13 +1927,13 @@ button:focus {
 
 
 
+
+
+
 button.resume-btn {
 	left: 4.8px;
 	margin: 0 auto;
-	padding: 0px;
-	align-items: center;
-	justify-content: center;
-	font-size: x-large;
+	font-size: larger;
 }
 
 
